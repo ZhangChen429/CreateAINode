@@ -1,0 +1,110 @@
+classDiagram
+    %% Base classes and dependencies
+    class ConfigurableAICommandNode
+    class SignalStoppingNodeDefinition
+    class AICommandParams
+    class game_EntityReference
+    class NodeValidationContext
+    class SocketInfoArray
+    class NodeExecutionContext
+    class EventListenerWrapper
+    class OutputSocketArray
+    class String
+    class CName
+    class Bool
+    class rtti_Property
+    class rtti_Variant
+    class scn_ExecutionStream
+    class scn_ActiondefStore
+    class scn_IStimulationOracle
+    class scn_ActionSignature
+    class scn_Msec
+    class AI_CommandPtr
+    class AI_CommandQueuePS
+    class game_Object
+    class game_SpawnedObjectsGetter_Status
+
+    %% Core classes
+    class CombatNodeDefinition {
+        <<QUEST_API>>
+        <<RTTI_DECLARE_TYPE(CombatNodeDefinition)>>
+        <<RED_BASE_CLASS(ConfigurableAICommandNode)>>
+        +CombatNodeDefinition()
+        +~CombatNodeDefinition()
+        #GetSuccessSocketName() CName
+        #GetFunctionPropName() CName
+        #GetParamsPropName() CName
+        #GetFunction() CName
+        #SetFunction(name: CName) void
+        #SetParams(params: THandle~AICommandParams~) void
+        #GetCommandParams() const AICommandParams*
+        #GetEntityReference() const game_EntityReference&
+        -m_entityReference: game_EntityReference
+        -m_function: CName
+        -m_params: THandle~AICommandParams~
+    }
+
+    class AICommandNodeBase {
+        <<QUEST_API>>
+        <<RTTI_DECLARE_TYPE(AICommandNodeBase)>>
+        <<RED_BASE_CLASS(SignalStoppingNodeDefinition)>>
+        +static c_inSocketName: CName $
+        +static c_successSocketName: CName $
+        +static c_failureSocketName: CName $
+        +static c_cancelSocketName: CName $
+        +static c_interruptSocketName: CName $
+        +AICommandNodeBase()
+        +~AICommandNodeBase()
+        +OnValidate(validationContext: NodeValidationContext&) void
+        +OnCollectSockets(sockets: SocketInfoArray&) void
+        +CreateEventListener(executionContext: NodeExecutionContext&) EventListenerWrapper
+        +OnExecute(executionContext: NodeExecutionContext&, inputSocket: CName, outputSockets: OutputSocketArray&) NodeResult
+        +GetFriendlyName() String
+        +GetDescription() String
+        +GetSuccessSocketName() CName
+        +OnPropertyTypeMismatch(propertyName: CName, existingProperty: rtti_Property*, readValue: rtti_Variant&) Bool
+        +static ConvertEntityRefToUniversal(self: void*, prop: rtti_Property*, value: rtti_Variant&) Bool $
+        +DoStimulate(outStream: scn_ExecutionStream&, actiondefStore: scn_ActiondefStore&, combinationOffsetMsec: Uint32, oracle: scn_IStimulationOracle&, signature: scn_ActionSignature&) void
+        +DoEstimateDuration(oracle: scn_IStimulationOracle&) scn_Msec
+        +GetCommandParams() AICommandParams* *
+        +static GetEntityAIPS(context: NodeExecutionContext&, entityReference: game_EntityReference&, outStatus: game_SpawnedObjectsGetter_Status*) THandle~AI_CommandQueuePS~ $
+        #GetPuppet(executionContext: NodeExecutionContext&, reference: game_EntityReference&) THandle~game_Object~
+        +OnKillSignal(executionContext: NodeExecutionContext&, permanent: Bool, reason: SignalKillingReason) void
+        +OnLoadGame(executionContext: NodeExecutionContext&, finalNode: Bool) Bool
+         +CreateCommand(executionContext: NodeExecutionContext&) AI_CommandPtr
+        +InterruptCommand(executionContext: NodeExecutionContext&) void
+        +GetAICommandEventListener(executionContext: NodeExecutionContext&) EventListenerWrapper*
+        +GetEntityReference() game_EntityReference& *
+        +static GetPlayerReference(mainObject: Bool) game_EntityReference& $
+    }
+
+    %% Inheritance
+    CombatNodeDefinition --|> ConfigurableAICommandNode
+    AICommandNodeBase --|> SignalStoppingNodeDefinition
+    %% Relationships
+    CombatNodeDefinition --> AICommandParams : uses
+    CombatNodeDefinition --> game_EntityReference : contains
+    AICommandNodeBase --> NodeValidationContext
+    AICommandNodeBase --> SocketInfoArray
+    AICommandNodeBase --> NodeExecutionContext
+    AICommandNodeBase --> EventListenerWrapper
+    AICommandNodeBase --> OutputSocketArray
+    AICommandNodeBase --> String
+    AICommandNodeBase --> CName
+    AICommandNodeBase --> Bool
+    AICommandNodeBase --> rtti_Property
+    AICommandNodeBase --> rtti_Variant
+    AICommandNodeBase --> scn_ExecutionStream
+    AICommandNodeBase --> scn_ActiondefStore
+    AICommandNodeBase --> scn_IStimulationOracle
+    AICommandNodeBase --> scn_ActionSignature
+    AICommandNodeBase --> scn_Msec
+    AICommandNodeBase --> AI_CommandPtr
+    AICommandNodeBase --> AICommandParams
+    AICommandNodeBase --> AI_CommandQueuePS
+    AICommandNodeBase --> game_Object
+    AICommandNodeBase --> game_EntityReference
+    AICommandNodeBase --> game_SpawnedObjectsGetter_Status
+    %% Notation for abstract methods (with *)
+    %% GetCommandParams(), GetEntityReference() marked as abstract (*)
+

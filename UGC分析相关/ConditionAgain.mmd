@@ -1,0 +1,373 @@
+classDiagram
+    direction LR
+
+       
+    %% 外部依赖（新增QuestResave、补充枚举）
+    class ISerializable {
+        <<interface>>
+    }
+    class GraphNodeCondition {
+        <<interface>>
+    }
+
+
+    %% 新增：逻辑运算枚举
+    class quest_LogicalOperation {
+        <<enumeration>>
+        LogicalOperation_UNKNOWN
+        LogicalOperation_AND
+        LogicalOperation_OR
+        LogicalOperation_XOR
+
+    }
+
+    class game_EntityReference {
+
+        + [实体引用]
+    }
+
+
+
+    %% 2. 顶层基础条件类
+    class QuestIBaseCondition {
+        <<abstract>>
+        + GetFriendlyAcronym() const*: String 获取友好缩写
+        + GetDescription() const*: String
+        + CreateEventListener(NodeExecContext&) const*: SharedPtr_EventListenerWrapper 创建事件监听器
+        + OnIsFulfilledImmediately(NodeExecContext&) const*: Bool
+        + OnIsFulfilled(NodeExecContext&) const*: Bool
+        + IsImmediate() const*: Bool：即时条件
+        + IsFinal() const*: Bool
+        + IsDeprecated() const*: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGen&)*: void
+        + DebugGetFactName(red::DynArray~String~&) const*: void
+        + OnLeavingPhase(NodeExecContext&, SignalKillingReason)*: void
+        + OnValidate(NodeValidationContext&, NodeDefinition&) const*: void
+        + DoEstimateDuration(scn_IStimulationOracle&) const*: scn::SceneTime
+    }
+    GraphNodeCondition <|-- QuestIBaseCondition
+
+
+    %% 3. 常规条件基类
+    class QuestCondition {
+        - ExtendedNodeId m_extendedNodeId
+        + OnIsFulfilled(NodeExecContext&) const: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGen&): void
+        + GetFriendlyAcronym() const*: String
+        %% 继承IBaseCondition的其他未重写纯虚方法
+    }
+    QuestIBaseCondition <|-- QuestCondition
+
+
+
+
+    %% 4. Condition子类（继承自Quest_Condition）
+    class QuestLogicalCondition {
+        <<class>>
+        - quest_LogicalOperation m_operation
+        - red::DynArray~THandle_QuestIBaseCondition~ m_conditions
+        - static constexpr Uint32 LOGICAL_CONDITION_INITIAL_CONDITION_COUNT = 2
+        - static constexpr Uint32 LOGICAL_CONDITION_MAX_NESTED_CONDITION_COUNT = 32
+        + LogicalCondition()
+        + LogicalCondition(quest_LogicalOperation, red::DynArray~THandle_QuestIBaseCondition~)
+        + OnLeavingPhase(NodeExecContext&, SignalKillingReason) const override: void
+        + GetFriendlyAcronym() const override: String
+        + GetDescription() const override: String
+        + CreateEventListener(NodeExecContext&) const override: SharedPtr_EventListenerWrapper
+        + SetExtendedNodeId(NodeId, GenericIdGen&) override: void
+        + DebugGetFactName(red::DynArray~String~&) const override: void
+        + GetLogicalOperation() const: quest_LogicalOperation
+        + GetConditions() const: red::ArraySpan~const THandle_QuestIBaseCondition~
+        - ......()
+        %% 友元类
+        friend QuestResave
+    }
+    QuestCondition <|-- QuestLogicalCondition
+    QuestLogicalCondition ..> QuestIBaseCondition : 聚合（m_conditions包含多个IBaseCondition）
+    QuestLogicalCondition ..> quest_LogicalOperation : 使用（m_operation为枚举类型）
+
+    class QuestNodeLoadingCondition {
+        <<class>>
+        - world_NodeRef m_objectRef
+        - Bool m_inverted
+        + NodeLoadingCondition()
+        + CreateEventListener(NodeExecContext&) const override: SharedPtr_EventListenerWrapper
+        + GetFriendlyAcronym() const override: String
+        + GetDescription() const override: String
+    }
+    QuestCondition <|-- QuestNodeLoadingCondition
+    QuestNodeLoadingCondition ..> world_NodeRef : 使用（m_objectRef节点引用）
+
+    class QuestTriggerCondition {
+        <<class>>
+        - quest_TriggerConditionType m_type
+        - world_NodeRef m_triggerAreaRef
+        - game_EntityReference m_activatorRef
+        - Bool m_isPlayerActivator
+        + TriggerCondition()
+        + GetFriendlyAcronym() const override: String
+        + GetDescription() const override: String
+        + CreateEventListener(NodeExecContext&) const override: SharedPtr_EventListenerWrapper
+        + ftGetFulfillInfo(FulfillInfoArray&) const override: bool
+        + OnIsFulfilledImmediately(NodeExecutionContext&) const override: Bool
+        # GetCustomEditableProperties(rtti_EditableProperties&) const override: void
+    }
+    QuestCondition <|-- QuestTriggerCondition
+    QuestTriggerCondition ..> quest_TriggerConditionType : 使用（触发器类型）
+    QuestTriggerCondition ..> world_NodeRef : 使用（触发区域引用）
+
+    class QuestGatherTriggerCondition {
+        <<class>>
+
+        + TriggerCondition()
+        + GetTriggerAreaGlobalNodeIDAsNumber(const NodeExecutionContext&) const: IGatherAreaManager
+        + GetGatherAreaManager(const NodeExecutionContext&) const Uint64;
+        + GetFriendlyAcronym() const override: String
+        + GetDescription() const override: String
+        + CreateEventListener(NodeExecContext&) const override: SharedPtr_EventListenerWrapper
+        + OnIsFulfilledImmediately(FulfillInfoArray&) const override: bool
+        # GetCustomEditableProperties(rtti_EditableProperties&) const override: void
+    }  
+    QuestTriggerCondition <|-- QuestGatherTriggerCondition
+
+
+    %% 5. 类型化条件基类
+    class QuestTypedCondition {
+        <<abstract>>
+        + GetType() const*: THandle_QuestIConditionType  %% 纯虚方法（=0）
+        + GetFriendlyAcronym() const override: String
+        + GetDescription() const override: String
+        + CreateEventListener(NodeExecContext&) const override: SharedPtr_EventListenerWrapper
+        + OnIsFulfilledImmediately(NodeExecContext&) const override: Bool
+        + OnIsFulfilled(NodeExecContext&) const override: Bool
+        + IsImmediate() const override: Bool
+        + IsFinal() const override: Bool
+        + IsDeprecated() const override: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGen&) override: void
+        + OnValidate(NodeValidationContext&, NodeDefinition&) const override: void
+        - DoStimulate(...) const override: void
+        - DoEstimateDuration(scn_IStimulationOracle&) const override: scn::SceneTime
+    }
+    QuestIBaseCondition <|-- QuestTypedCondition
+    QuestTypedCondition ..|> QuestIConditionType : 必须通过GetType()返回实现
+    
+    class QuestICharacterConditionType {
+        <<interface>>
+    }
+    class THandle_QuestICharacterConditionType {
+        <<interface>>
+    }
+    %% 6. 具体类型化条件实现类
+    class QuestCharacterCondition {
+        - THandle_QuestICharacterConditionType m_type
+        + GetType() const override: THandle_QuestIConditionType  %% 实现纯虚方法
+    }
+    QuestTypedCondition <|-- QuestCharacterCondition
+    QuestCharacterCondition ..> QuestICharacterConditionType : 实现依赖
+   
+
+    class QuestContentCondition {
+        - THandle_QuestIContentConditionType m_type
+        + GetType() const override: THandle_QuestIConditionType  %% 实现纯虚方法
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestContentCondition
+    QuestContentCondition ..> QuestIContentConditionType : 实现依赖
+
+    class QuestDistanceCondition {
+        - THandle_QuestIDistanceConditionType m_type
+        + GetType() const override: THandle_QuestIConditionType  %% 实现纯虚方法
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestDistanceCondition
+    QuestDistanceCondition ..> QuestIDistanceConditionType : 实现依赖
+
+    class QuestEntityCondition {
+        - THandle_QuestIEntityConditionType_type
+        + GetType() const override: THandle_QuestIConditionType  %% 实现纯虚方法
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestEntityCondition
+    QuestEntityCondition ..> QuestIEntityConditionType : 实现依赖
+
+    class QuestFactsDBCondition {
+        - THandle_QuestIFactsDBConditionType_type
+        + GetType() const override: THandle_QuestIConditionType %% 实现纯虚方法
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestFactsDBCondition
+    QuestFactsDBCondition ..> QuestIFactsDBConditionType : 实现依赖
+    
+    class QuestJournalCondition {
+        - THandle_QuestIJournalConditionType_type
+        + GetType() const override: THandle_QuestIConditionType %% 实现纯虚方法
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestJournalCondition
+    QuestJournalCondition ..> QuestIJournalConditionType : 实现依赖
+
+        %% 1. 条件类型接口
+    class QuestIConditionType {
+        <<interface>>
+        + [条件判断核心方法]
+        +CreateEventListener：创建事件监听器，用于监听条件是否满足。
+        +GetFriendlyAcronym：获取友好缩写
+        +OnIsFulfilledImmediately：立即检查条件是否满足
+
+    }
+    %%ISerializable <|-- QuestIConditionType
+
+    QuestIConditionType <|-- QuestICharacterConditionType
+
+    class QuestIContentConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIContentConditionType
+
+    class QuestIDistanceConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIDistanceConditionType
+
+    class QuestIEntityConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIEntityConditionType
+
+    class QuestIFactsDBConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIFactsDBConditionType
+    
+    class QuestIJournalConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIJournalConditionType
+
+
+
+
+    class QuestIObjectConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIObjectConditionType
+
+    class QuestObjectCondition {
+        - THandle_QuestIObjectConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestObjectCondition
+    QuestObjectCondition ..> QuestIObjectConditionType : 实现依赖
+
+
+    class QuestIPaymentConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIPaymentConditionType
+
+    class QuestPaymentCondition {
+        - THandle_QuestIPaymentConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestPaymentCondition
+    QuestPaymentCondition ..> QuestIPaymentConditionType : 实现依赖
+
+
+    class QuestISceneConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestISceneConditionType
+
+    class QuestSceneCondition {
+        - THandle_QuestISceneConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestSceneCondition
+    QuestSceneCondition ..> QuestISceneConditionType : 实现依赖
+
+
+    class QuestISpawnerConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestISpawnerConditionType
+
+    class QuestSpawnerCondition {
+        - THandle_QuestISpawnerConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestSpawnerCondition
+    QuestSpawnerCondition ..> QuestISpawnerConditionType : 实现依赖
+
+
+    class QuestIStatsConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIStatsConditionType
+
+    class QuestStatsCondition {
+        - THandle_QuestIStatsConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestStatsCondition
+    QuestStatsCondition ..> QuestIStatsConditionType : 实现依赖
+
+
+    class QuestISystemConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestISystemConditionType
+
+    class QuestSystemCondition {
+        - THandle_QuestISystemConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestSystemCondition
+    QuestSystemCondition ..> QuestISystemConditionType : 实现依赖
+
+
+    class QuestITimeConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestITimeConditionType
+
+    class QuestTimeCondition {
+        - THandle_QuestITimeConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestTimeCondition
+    QuestTimeCondition ..> QuestITimeConditionType : 实现依赖
+
+
+    class QuestIUIConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIUIConditionType
+
+    class QuestUICondition {
+        - THandle_QuestIUIConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestUICondition
+    QuestUICondition ..> QuestIUIConditionType : 实现依赖
+
+
+    class QuestIVehicleConditionType {
+        <<interface>>
+    }
+    QuestIConditionType <|-- QuestIVehicleConditionType
+
+    class QuestVehicleCondition {
+        - THandle_QuestIVehicleConditionType _type
+        + GetType() const override: THandle_QuestIConditionType
+        + [其他重写方法]
+    }
+    QuestTypedCondition <|-- QuestVehicleCondition
+    QuestVehicleCondition ..> QuestIVehicleConditionType : 实现依赖

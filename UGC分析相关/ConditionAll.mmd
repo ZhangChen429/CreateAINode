@@ -1,0 +1,143 @@
+classDiagram
+    direction TB
+
+    %% 外部依赖（仅保留核心，用简单命名）
+    class ISerializable {
+        <<interface>>
+    }
+    class GraphNodeCondition {
+        <<interface>>
+    }
+    class NodeExecContext {
+        <<external>>
+    }
+    class EventListener {
+        <<external>>
+    }
+    class ExtendedNodeId {
+        <<external>>
+    }
+    class PostLoadContext {
+        <<external>>
+    }
+    class GenericIdGen {
+        <<external>>
+    }
+
+
+    %% 1. 基础条件类型接口
+    class QuestIConditionType {
+        <<abstract>>
+        - ExtendedNodeId m_extendedNodeId
+        + CreateEventListener(NodeExecContext) const*: SharedPtr_EventListener
+        + GetFriendlyAcronym() const*: String
+        + GetDescription() const*: String
+        + OnIsFulfilledImmediately(NodeExecContext) const*: Bool
+        + IsImmediate() const*: Bool
+        + IsFinal() const*: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGen): void
+    }
+    ISerializable <|-- QuestIConditionType
+
+
+    %% 子条件类型接口
+    class QuestICharacterConditionType {
+        <<abstract>>
+    }
+    QuestIConditionType <|-- QuestICharacterConditionType
+
+    class QuestIContentConditionType {
+        <<abstract>>
+    }
+    QuestIConditionType <|-- QuestIContentConditionType
+
+    class QuestIDistanceConditionType {
+        <<abstract>>
+    }
+    QuestIConditionType <|-- QuestIDistanceConditionType
+
+    class QuestIEntityConditionType {
+        <<abstract>>
+    }
+    QuestIConditionType <|-- QuestIEntityConditionType
+
+    %% 2. 条件顶层基础类
+    class QuestIBaseCondition {
+        <<abstract>>
+        + GetFriendlyAcronym() const*: String
+        + GetDescription() const*: String
+        + CreateEventListener(NodeExecContext) const*: SharedPtr_EventListener
+        + OnIsFulfilledImmediately(NodeExecContext) const*: Bool
+        + OnIsFulfilled(NodeExecContext) const*: Bool
+        + IsImmediate() const*: Bool
+        + IsFinal() const*: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGen)*: void
+    }
+    GraphNodeCondition <|-- QuestIBaseCondition
+
+
+    %% 3. 常规条件基类
+    class QuestCondition {
+        - ExtendedNodeId m_extendedNodeId
+        + OnIsFulfilled(NodeExecContext) const: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGen): void
+        + GetFriendlyAcronym() const*: String
+    }
+    QuestIBaseCondition <|-- QuestCondition
+
+
+    %% 4. 类型化条件基类
+    class QuestTypedCondition {
+        + GetType() const*: Handle_IConditionType
+        + GetFriendlyAcronym() const: String
+        + CreateEventListener(NodeExecContext) const: SharedPtr_EventListener
+        + SetExtendedNodeId(NodeId, GenericIdGen): void
+    }
+    QuestIBaseCondition <|-- QuestTypedCondition
+    QuestTypedCondition ..> QuestIConditionType : 依赖
+
+
+    %% 5. 具体条件类
+    class QuestCharacterCondition {
+        - Handle_ICharacterConditionType m_type
+        + GetType() const: Handle_IConditionType
+    }
+    QuestTypedCondition <|-- QuestCharacterCondition
+    QuestCharacterCondition ..> QuestICharacterConditionType : 依赖
+
+    class QuestContentCondition {
+        - Handle_IContentConditionType m_type
+        + GetType() const: Handle_IConditionType
+        + SetExtendedNodeId(NodeId, GenericIdGen): void
+        + OnPostLoad(PostLoadContext): void
+        + OnPropertyTypeMismatch(): Bool
+    }
+    QuestTypedCondition <|-- QuestContentCondition
+    QuestContentCondition ..> QuestIContentConditionType : 依赖
+
+    class DistanceCondition {
+        - Handle_IDistanceConditionType m_type
+        + GetType() const: Handle_IConditionType
+        + OnPropertyMissing(): Bool
+    }
+    QuestTypedCondition <|-- DistanceCondition
+    DistanceCondition ..> QuestIDistanceConditionType : 依赖
+
+    class EntityCondition {
+        - Handle_IEntityConditionType m_type
+        + GetType() const: Handle_IConditionType
+        + OnPropertyMissing(): Bool
+    }
+    QuestTypedCondition <|-- EntityCondition
+    EntityCondition ..> QuestIEntityConditionType : 依赖
+
+    %% 6. 废弃类
+    class QuestDeprecatedCondition {
+        <<deprecated>>
+    }
+    QuestCondition <|-- QuestDeprecatedCondition
+
+    class QuestDeprecatedTypedCondition {
+        <<deprecated>>
+    }
+    QuestTypedCondition <|-- QuestDeprecatedTypedCondition

@@ -1,0 +1,83 @@
+classDiagram
+    direction TB
+
+    %% 简化外部依赖（仅保留核心关联）
+    class ISerializable {
+        <<interface>>
+    }
+    class graph_IGraphNodeCondition {
+        <<interface>>
+    }
+    
+    %% 2. 条件类顶层基础
+    class quest_IBaseCondition {
+        <<abstract>>
+        + GetFriendlyAcronym() const*: String
+        + GetDescription() const*: String
+        + CreateEventListener(NodeExecutionContext&) const*: SharedPtr_EventListenerWrapper
+        + OnIsFulfilledImmediately(NodeExecutionContext&) const*: Bool
+        + OnIsFulfilled(NodeExecutionContext&) const*: Bool
+        + IsImmediate() const*: Bool
+        + IsFinal() const*: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGenerator&)*: void
+        + GetExtendedNodeId() const*: ExtendedNodeId
+    }
+    graph_IGraphNodeCondition <|-- quest_IBaseCondition
+
+
+    %% 1. 抽象条件类型接口
+    class quest_IConditionType {
+        <<abstract>>
+        - ExtendedNodeId m_extendedNodeId
+        + IConditionType()
+        + CreateEventListener(NodeExecutionContext&) const*: SharedPtr_EventListenerWrapper
+        + GetFriendlyAcronym() const*: String
+        + GetDescription() const*: String
+        + OnIsFulfilledImmediately(NodeExecutionContext&) const*: Bool
+        + IsImmediate() const*: Bool
+        + IsFinal() const*: Bool
+        + OnIsFulfilled(NodeExecutionContext&) const: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGenerator&): void
+        + GetExtendedNodeId() const: ExtendedNodeId
+    }
+    ISerializable <|-- quest_IConditionType
+
+
+
+    %% 3. 常规条件基类
+    class quest_Condition {
+        - ExtendedNodeId m_extendedNodeId
+        + Condition()
+        + OnIsFulfilled(NodeExecutionContext&) const: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGenerator&): void
+        + GetExtendedNodeId() const: ExtendedNodeId
+        %% 需派生类实现的纯虚函数
+        + GetFriendlyAcronym() const*: String
+        + CreateEventListener(NodeExecutionContext&) const*: SharedPtr_EventListenerWrapper
+        + OnIsFulfilledImmediately(NodeExecutionContext&) const*: Bool
+    }
+    quest_IBaseCondition <|-- quest_Condition
+
+
+    %% 4. 类型化条件基类（依赖IConditionType）
+    class quest_TypedCondition {
+        + GetType() const*: Handle_IConditionType
+        + GetFriendlyAcronym() const: String
+        + CreateEventListener(NodeExecutionContext&) const: SharedPtr_EventListenerWrapper
+        + OnIsFulfilledImmediately(NodeExecutionContext&) const: Bool
+        + SetExtendedNodeId(NodeId, GenericIdGenerator&): void
+    }
+    quest_IBaseCondition <|-- quest_TypedCondition
+    quest_TypedCondition ..> quest_IConditionType : 依赖（GetType()关联）
+
+
+    %% 5. 废弃类
+    class quest_DeprecatedCondition {
+        <<deprecated>>
+    }
+    quest_Condition <|-- quest_DeprecatedCondition
+
+    class quest_DeprecatedTypedCondition {
+        <<deprecated>>
+    }
+    quest_TypedCondition <|-- quest_DeprecatedTypedCondition

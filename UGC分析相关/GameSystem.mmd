@@ -1,0 +1,72 @@
+classDiagram
+    direction LR
+    
+    class Person {
+        - name: String
+        - age: u32
+        + new(name: String, age: u32) -> Person
+        + get_name() -> &str
+        + get_age() -> u32
+        + set_age(new_age: u32)
+    }
+    
+    class Student {
+        - id: u64
+        - major: String
+        + new(name: String, age: u32, id: u64, major: String) -> Student
+        + get_id() -> u64
+        + get_major() -> &str
+    }
+    
+    class Teacher {
+        - department: String
+        - salary: f64
+        + new(name: String, age: u32, department: String, salary: f64) -> Teacher
+        + get_department() -> &str
+        + get_salary() -> f64
+    }
+    
+    class Shape {
+        <<trait>>
+        + area(&self) -> f64
+        + perimeter(&self) -> f64
+    }
+    
+    class Circle {
+        - radius: f64
+        + new(radius: f64) -> Circle
+        + radius(&self) -> f64
+    }
+    
+    class Rectangle {
+        - width: f64
+        - height: f64
+        + new(width: f64, height: f64) -> Rectangle
+        + width(&self) -> f64
+        + height(&self) -> f64
+    }
+    
+    class Color {
+        <<enum>>
+        Red
+        Green
+        Blue
+        Custom(r: u8, g: u8, b: u8)
+        + rgb(&self) -> (u8, u8, u8)
+    }
+    
+    class Document {
+        - content: String
+        - author: Option<Person>
+        + new(content: String) -> Document
+        + set_author(&mut self, author: Person)
+        + get_author(&self) -> Option<&Person>
+    }
+    
+    Person <|-- Student : inherits (composition)
+    Person <|-- Teacher : inherits (composition)
+    Shape <|.. Circle : implements
+    Shape <|.. Rectangle : implements
+    Document *-- Person : has (optional)
+    Circle -- Color : has one
+    Rectangle -- Color : has one

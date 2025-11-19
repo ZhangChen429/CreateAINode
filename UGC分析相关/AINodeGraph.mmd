@@ -1,0 +1,35 @@
+classDiagram
+    SignalStoppingNodeDefinition <|-- AICommandNodeBase
+    SignalStoppingNodeDefinition : +int age
+    SignalStoppingNodeDefinition : +String gender
+
+
+    AICommandNodeBase <|-- ConfigurableAICommandNode
+    ConfigurableAICommandNode<|-- CombatNodeDefinition
+    ConfigurableAICommandNode<|-- MiscAICommandNode
+    ConfigurableAICommandNode<|-- MovePuppetNodeDefinition
+    
+    class ConfigurableAICommandNode{
+        +String beakColor
+        +static const CName c_inSocketName;
+	    +static const CName c_outSocketName;
+        +GetFunctionPropName() const = 0 CName
+        +GetParamsPropName() const = 0 CName
+        +GetFunction(CName ) const = 0 CName
+        +SetFunction(const THandle< AICommandParams>&  ) const = 0 CName
+        +SetParams() const = 0 CName
+    }
+
+    class CombatNodeDefinition{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class MiscAICommandNode{
+      -int sizeInFeet
+      -canEat()
+    }
+    class MovePuppetNodeDefinition{
+      +bool is_wild
+      +run()
+    }

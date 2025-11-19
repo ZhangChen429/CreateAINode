@@ -1,0 +1,12 @@
+# 大文件类型
+*.zip
+*.pdf
+*.xlsx
+*.xls
+
+# IDE
+.idea/
+
+# 临时文件
+~$*
+*.tmp
