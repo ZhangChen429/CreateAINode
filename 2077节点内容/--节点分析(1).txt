@@ -1,0 +1,45 @@
+节点分类	节点名称	核心功能描述	关键参数（类型 / 作用）	典型应用场景
+Leaf::Action	ActionDie	控制实体执行死亡动作，含动画播放、状态切换	Command（Serializable/Delegate，死亡逻辑核心指令）	游戏角色生命值清零后播放死亡动画、机器人故障 “停机”
+Leaf::Action	ActionDroneMove	控制无人机基础移动（直线、跟随等）	1. Move Type（Enum，选择移动模式）；2. Target（Object，移动目标对象）；3. Movement Target（Vector，目标坐标）；4. Tolerance Radius（Float，到达误差范围）	无人机游戏任务点移动、工业巡检坐标遍历
+Leaf::Action	ActionDroneMoveSpline	控制无人机沿预设样条曲线移动	1. Command（Serializable，移动指令标识）；2. Spline（NodeRef，样条曲线路径）	无人机固定航线巡逻、复杂轨迹飞行
+Leaf::Action	ActionDynamicMove	实体根据实时环境动态调整移动路径（避障、跟目标）	1. Move Type（Enum，移动模式）；2. Target Position（Vector，目标坐标）；3. Ignore Navigation（Bool，是否忽略导航）；4. Rotate Entity（Bool，移动时是否旋转朝向）	角色追逐移动敌人、机器人避开突发障碍物
+Leaf::Action	ActionMove	实体通用移动（指定位置、跟随对象）	1. Movement Target（Vector，目标坐标）；2. Movement Type（Enum，移动模式）；3. Tolerance（Float，到达误差）；4. Ignore Restricted Area（Bool，是否忽略限制区域）	角色前往任务点、机器人基础位置移动
+Leaf::Action	ActionMoveOnSpline	实体沿预设样条曲线移动（巡逻、赛道行驶）	1. Spline（NodeRef，样条曲线）；2. Reverse（Bool，是否反向移动）；3. Is Infinite（Bool，是否无限循环）；4. Snap To Terrain（Bool，是否贴地）	地面单位固定路线巡逻、赛车沿赛道行驶
+Leaf::Action	ActionMoveToSmartObject	实体移动到智能对象旁，为交互做准备	1. Smart Object Id（数值，智能对象唯一标识）；2. Forced Entry Animation（字符串，到达触发动画）；3. Tolerance（Float，到达误差）	角色移动到可交互门、宝箱旁准备操作
+Leaf::Action	ActionMoveToWorkspot	实体移动到指定工作点（椅子、工具台等）	1. Workspot Setup（对象，工作点配置）；2. Spot Reservation（Bool，是否预留点位）；3. Fast Forward After Teleport（Bool，传送后是否快进）	NPC 移动到工具台作业、角色前往椅子就坐
+Leaf::Action	ActionMoveWithPolicy	实体按预设策略移动（潜行、冲刺等）	1. Command（Serializable，策略指令标识）；2. Stop When Destination Reached（Bool，到达后是否停止）	角色潜行接近敌人、机器人节能模式移动
+Leaf::Action::ActionRotateBase	ActionRotateToObject	实体旋转朝向指定对象	1. Target（Object，目标对象）；2. Angle Offset（Float，角度偏移）；3. Speed（Float，旋转速度）；4. Angle Tolerance（Float，角度误差范围）	角色转向敌人、机器人朝向交互道具
+Leaf::Action::ActionRotateBase	ActionRotateToObjectHeading	实体转向与指定对象相同的朝向	1. Target（Object，目标对象）；2. Angle Offset（Float，角度偏移）；3. Speed（Float，旋转速度）；4. Angle Tolerance（Float，角度误差范围）	队友跟随主角前进方向、机器人模仿目标朝向
+Leaf::Action::ActionRotateBase	ActionRotateToPosition	实体旋转朝向指定世界坐标	1. Target（Vector，目标坐标）；2. Angle Offset（Float，角度偏移）；3. Speed（Float，旋转速度）；4. Angle Tolerance（Float，角度误差范围）	角色朝向警戒方向、机器人对准任务坐标点
+Leaf::Action	ActionRotateByAngle	实体按指定角度旋转（顺时针 / 逆时针）	1. Angle（Float，旋转角度）；2. Angle Tolerance（Float，角度误差范围）；3. Command（Serializable，旋转指令标识）	角色顺时针转 90 度、机器人调整姿态角度
+Leaf::Action::ActionSlide	ActionSlideToLocalPosition	实体相对于自身位置滑行到指定局部坐标	1. Local Offset（Vector，局部偏移量）；2. Duration（Float，滑行时长）；3. Ignore Navigation（Bool，是否忽略导航）；4. Rotate Towards Movement Direction（Bool，滑行时是否转向）	角色向前滑行 2 米、机器人局部微调位置
+Leaf::Action::ActionSlide	ActionSlideToObject	实体滑行到指定对象旁	1. Destination（Object，目标对象）；2. Offset（Vector，相对偏移量）；3. Duration（Float，滑行时长）；4. Ignore Navigation（Bool，是否忽略导航）	角色滑行到敌人身边攻击、机器人靠近交互对象
+Leaf::Action::ActionSlide	ToWorldPosition	实体滑行到指定世界坐标	1. World Position（Vector，全局坐标）；2. Duration（Float，滑行时长）；3. Use Move Planner（Bool，是否用移动规划器）；4. Ignore Navigation（Bool，是否忽略导航）	角色滑行到预设终点、机器人全局滑行移动
+Leaf::Action	ActionTeleport	实体瞬间移动到指定位置	1. Destination Point（Vector，目标坐标）；2. Do Nav Test（Bool，是否检测导航可行性）；3. Rotation（数值，传送后朝向角度）	角色传送回出生点、机器人跨区域瞬间移动
+Leaf::Action	ActionUseWorkspot	实体在当前工作点执行交互行为（使用工具台、就坐）	1. Event Data（对象，交互事件数据）；2. Play Start Animation Afterwards（Bool，是否播放开始动画）；3. Play Exit Automatically（Bool，是否自动播放退出动画）；4. Mark Uninterruptable（Bool，是否不可中断）	角色用工具台制作物品、NPC 在椅子上休息
+Leaf::Action	AnimationCurvePath	实体沿动画曲线路径运动并关联动画	1. Node Reference（对象，曲线路径节点）；2. Custom Start/Main/Stop Animation Name（字符串，分阶段动画名称）；3. Blend Time（Float，动画过渡时长）；4. Snap To Terrain（Bool，是否贴地）	角色执行舞蹈动作、机器人特技移动
+Leaf::Action	ControlledByQuestNode	实体行为由任务节点控制（任务触发才执行）	1. Command（Serializable，任务控制指令）；2. Destination（Object，目标对象）；3. Duration（Float，执行时长）；4. Offset（Vector，相对偏移量）	游戏剧情触发角色动作、任务绑定机器人行为
+Leaf::Action::Drive	DriveIdle	控制载具进入怠速状态（发动机空转、等待指令）	Command（Serializable，怠速控制指令）	车辆无指令时停车怠速、机器人待机低消耗状态
+Leaf::Action::Drive	DriveJoinTraffic	控制载具汇入车流，跟随车流行驶	Command（Serializable，汇入交通流指令）	车辆在城市道路汇入车流、自动驾驶载具跟随交通流
+Leaf::Action::Drive	DriveRacing	控制载具以竞速模式行驶（高速、避障、超车）	1. Spline（NodeRef，赛道样条曲线）；2. Forced Start Speed（Float，强制启动速度）；3. Keep Distance（Float，跟车距离）；4. Stop At Path End（Bool，终点是否停止）	赛车游戏竞速、自动驾驶载具高速测试
+Leaf::Action::Drive	DriveSummoning	控制载具召唤后立即驾驶	Command（Serializable，召唤驾驶指令）	角色召唤坐骑后骑乘、机器人召唤载具后执行任务
+Leaf::Action::Drive	DriveToFollowPosition	控制载具驾驶到指定跟随位置（保持相对距离）	Command（Serializable，跟随位置驾驶指令）	车辆跟随队友后方 10 米、护航载具保持队列位置
+Leaf::Action::Drive	DriveToFollowSlot	控制载具驾驶到预设跟随插槽（车队、护航队列）	Command（Serializable，跟随插槽驾驶指令）	车队中载具进入指定位置、护航载具匹配队列插槽
+Leaf::Action::Drive	DriveToFollowSpline	控制载具沿样条线跟随前方目标行驶	1. Spline（NodeRef，跟随样条曲线）；2. Keep Distance（Float，跟车距离）；3. Secure Time Out（Float，安全超时）；4. Stop At Path End（Bool，终点是否停止）	车队沿固定路线护航、载具跟随前方目标沿曲线行驶
+Leaf::Action::Drive	DriveStunned	控制载具处于眩晕状态（失控、减速停车）	Command（Serializable，眩晕驾驶指令）	车辆受击后失控、机器人故障停滞
+Leaf::Action::Drive	DriveToFollowTarget	控制载具持续跟随指定目标移动	1. Target（Object，跟随目标）；2. Distance Min/Max（Float，跟随距离范围）；3. Use Traffic（Bool，是否遵循交通规则）；4. Secure Time Out（Float，安全超时）	车辆追击敌人载具、自动驾驶载具跟随用户车辆
+Leaf::Action::Drive	DriveToNodeRel	控制载具驾驶到相对于某个节点的指定位置	1. Node Ref（对象，参考节点）；2. Use Traffic（Bool，是否遵循交通规则）；3. Force Green Lights（Bool，是否强制绿灯）；4. Secure Time Out（Float，安全超时）	车辆停在任务节点前方 5 米、载具靠近参考节点指定位置
+Leaf::Action::Drive	DriveToPoint	控制载具驾驶到指定世界坐标点	1. Target Position（Vector，目标坐标）；2. Use Traffic（Bool，是否遵循交通规则）；3. Speed In Traffic（Float，交通中速度）；4. Secure Time Out（Float，安全超时）	车辆前往地图任务点、自动驾驶载具到指定坐标
+Leaf::Action::Drive	DriveToSplineReverse	控制载具沿预设样条线反向行驶	1. Spline（NodeRef，样条曲线）；2. Command（Serializable，反向行驶指令）	车辆沿巡逻路线返程、载具反向沿曲线撤离
+Leaf::Action::ItemHandling	EquipSpecificItemToSlot	控制实体将指定物品装备到对应插槽	1. Slot Id（标识，目标槽位）；2. Item Id（标识，目标物品）；3. Duration（Float，装备时长）；4. Fail If Item Not Found（Bool，物品不存在是否失败）	角色将剑装备到主手、机器人将工具装到对应插槽
+Leaf::Action::ItemHandling	UnequipItemFromSlot	控制实体从对应插槽卸下物品	1. Slot Id（标识，目标槽位）；2. Duration（Float，卸下时长）；3. Command（Serializable，卸下指令标识）	角色卸下主手武器、机器人收起工具
+Leaf::Action::MountHandling	MountObject	控制实体挂载指定对象（骑乘、装备重型设备）	1. Mount Data（对象，挂载数据）；2. Command（Serializable，挂载指令标识）	角色骑上坐骑、机器人搭载重型武器
+Leaf::Action::MountHandling	Unmount	控制实体卸载当前挂载对象（下马、收起设备）	1. Mount Data（对象，卸载数据）；2. Command（Serializable，卸载指令标识）	角色下马、机器人收起重型设备
+Leaf::Action	Move Along Traffic Path	控制实体沿预设交通路径移动（人行道、车道）	1. Join Traffic Settings（对象，交通设置）；2. Use Crowd Animation Graph（Bool，是否用人群动画）；3. Ignore Traffic Spots（Bool，是否忽略交通点）；4. Traffic Lane 系列参数（车道方向控制）	行人沿城市人行道移动、车辆沿车道行驶
+Leaf::Action	Patrol	控制实体按预设路线巡逻（含路径切换、警戒）	1. Path（对象，巡逻路径）；2. Patrol Progress（对象，巡逻进度）；3. Start From Closest Point（Bool，是否从最近点开始）；4. Play Start Animation（Bool，是否播放起始动画）	NPC 守卫绕基地巡逻、机器人沿区域边界巡逻
+Leaf::Action	RotateToObjectConstTime	控制实体在指定时间内平稳转向目标对象	1. Target（Object，目标对象）；2. Time（Float，旋转时间）；3. Angle Offset（Float，角度偏移）；4. Keep Updating Target（Bool，是否持续更新目标）	角色 2 秒内转向玩家、机器人平稳朝向移动目标
+Leaf::Action	Scene Animation Motion	控制实体执行与场景绑定的动画动作	1. Params（对象，动画参数）；2. Mount Data（对象，挂载数据）；3. Command（Serializable，场景动画指令）	剧情触发角色特定动作、实体与场景道具交互动画
+Leaf::Action	UseCommunityWorkspot	控制实体使用公共工作点（支持多实体排队）	1. Workspot Data（对象，工作点数据）；2. Dependent Workspot Data（对象，依赖工作点数据）；3. Play Exit Automatically（Bool，是否自动退出）；4. Fast Forward After Teleport（Bool，传送后是否快进）	NPC 使用公共饮水机、多机器人排队用共享工具台
+Leaf::Failer	Failer	执行后直接返回 “失败” 状态	Debug log Command（调试日志指令）	模拟行为失败触发备用方案、强制分支逻辑跳转
+Leaf::Idle	Idle	控制实体执行空闲行为（站立、环顾），返回 “成功”	Debug log Command（调试日志指令）	角色无任务时站立 idle、NPC 无交互时环顾四周
+Leaf::Succeeder	Succeeder	执行后直接返回 “成功” 状态	Debug log Command（调试日志指令）	模拟行为成功跳过备用方案、强制分支逻辑推进

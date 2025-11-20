@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>图形资源.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h2 id="%E5%8A%A8%E7%94%BB%E8%B5%84%E6%BA%90">动画资源</h2>
+<p>总计: 5,162 个 .anims 文件</p>
+<p>📁 按类型详细分布</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>数量</th>
+<th>占比</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NPC</td>
+<td>2,462</td>
+<td>47.7%</td>
+<td>NPC角色动画（通用/原型/主要角色）</td>
+</tr>
+<tr>
+<td>Quest</td>
+<td>1,685</td>
+<td>32.6%</td>
+<td>任务专用动画</td>
+</tr>
+<tr>
+<td>Items</td>
+<td>230</td>
+<td>4.5%</td>
+<td>物品动画</td>
+</tr>
+<tr>
+<td>Weapon</td>
+<td>204</td>
+<td>4.0%</td>
+<td>武器动画</td>
+</tr>
+<tr>
+<td>Vehicle</td>
+<td>177</td>
+<td>3.4%</td>
+<td>载具动画</td>
+</tr>
+<tr>
+<td>Player</td>
+<td>113</td>
+<td>2.2%</td>
+<td>玩家角色动画</td>
+</tr>
+<tr>
+<td>Quest Custom</td>
+<td>93</td>
+<td>1.8%</td>
+<td>自定义任务动画</td>
+</tr>
+<tr>
+<td>Synced</td>
+<td>77</td>
+<td>1.5%</td>
+<td>同步动画（多角色互动）</td>
+</tr>
+<tr>
+<td>Facial</td>
+<td>55</td>
+<td>1.1%</td>
+<td>面部动画</td>
+</tr>
+<tr>
+<td>Cyberware</td>
+<td>45</td>
+<td>0.9%</td>
+<td>义体动画</td>
+</tr>
+<tr>
+<td>UI</td>
+<td>19</td>
+<td>0.4%</td>
+<td>UI界面动画</td>
+</tr>
+<tr>
+<td>E3_2018</td>
+<td>2</td>
+<td>0.0%</td>
+<td>E3展会演示动画</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>NPC动画占主导：近半数动画用于NPC，体现了夜之城的丰富NPC系统</li>
+<li>任务动画量巨大：1,685个任务专用动画，说明游戏有大量定制化的过场和任务场景</li>
+<li>玩家动画相对较少：仅113个，因为玩家动画更多通过系统化复用</li>
+<li>物品和武器动画丰富：430+个动画支撑游戏的装备和战斗系统</li>
+<li>同步动画系统：77个同步动画支持多角色互动场景（如暗杀、格斗等）</li>
+</ol>
+<p>📂 文件路径</p>
+<p>D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\animations<br>
+├── npc/           (2,462个)
+├── quest/         (1,685个)
+├── items/         (230个)
+├── weapon/        (204个)
+├── vehicle/       (177个)
+├── player/        (113个)
+├── quest_custom/  (93个)
+├── synced/        (77个)
+├── facial/        (55个)
+├── cyberware/     (45个)
+├── ui/            (19个)
+└── e3_2018/       (2个)</p>
+<h3 id="%E5%8A%A8%E7%94%BB%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99">动画命名规则</h3>
+<p>前缀标识：文件名开头的缩写或完整词，对应核心属性
+角色相关：pma（玩家 - 男）、pwa（玩家 - 女）、ma（男性普通 / 帮派 NPC）、mb（男性大块头 NPC）、wa（女性 NPC）、generic（通用 NPC）、corpo（企业 NPC）、dirtboy/dirtgirl（特定类型 NPC）
+功能相关：cw（赛博义体）、face（面部动作）、door（门相关）、finishers（终结技）、takedowns（击倒动作）
+场景相关：ow（开放世界）、interactive_scene（交互场景）、locomotion（移动相关）
+中间主体：描述核心动作、关联资产或场景
+动作：walk（行走）、stand（站立）、sit（坐姿）、kneel（跪姿）、combat（战斗）、transitions（过渡）、lean（倚靠）
+关联资产：mantisblade（螳螂刀）、monowire（单丝）、armshield（臂盾）、door（门）
+状态：drunk（醉酒）、drugged（受药物影响）、wounded（受伤）、relaxed（放松）</p>
+
+</body>
+</html>
