@@ -1,4 +1,4 @@
-# 2077游戏工作量统计
+# 2077游戏任务剧情系统统计
 
 
 ## 资产分类
@@ -69,7 +69,7 @@ graph
   这就是《赛博朋克2077》的完整数据资产蓝图！🎮
 
 ----
-## Quest、Scene系统统计
+## Quest、Scene统计
 
   一、Quest文件、Scene基础统计
 
@@ -98,7 +98,7 @@ graph
   - 支线任务组：18个任务文件夹
   - 小任务组：44个任务文件夹
   
-### 《赛博朋克2077》任务资产工作量统计
+### 《赛博朋克2077》任务资产内容量统计
 
 ![alt text](image-13.png)
 
@@ -156,7 +156,7 @@ graph
   | main_quests/epilogue/q202 | 主线任务  | 4           | 43              | 346             | 389            | 745         | 97.25                  | 186.25              | 11.05%       | ⭐⭐ 小型   |
   | main_quests/epilogue/q203 | 主线任务  | 10          | 130             | 401             | 531            | 1058        | 53.1                   | 105.8               | 24.48%       | ⭐⭐⭐ 中型 |
   | main_quests/epilogue/q204 | 主线任务  | 10          | 73              | 278             | 351            | 748         | 35.1                   | 74.8                | 20.80%       | ⭐⭐⭐ 中型 |
-  | 终章小计                  | 4         | 33          | 375             | 1679            | 2054           | 3853        |                        |                     |              |             |
+
 
 
   ---
@@ -524,20 +524,4 @@ graph
          └─ .workspot (工作点)
 
 
----  # 列出所有 questphase 中的所有节点
-  wcc.exe resourcesScan -questphases -mode=allNodes -output=D:\quest_all_nodes.json -pretty
-
-  # 只扫描特定目录
-  wcc.exe resourcesScan -questphases -mode=allNodes -scanBasePath=base\quest\side_quests\sq004 -output=D:\sq004_nodes.json -pretty
-
-
-
-  # 切换到目录
-  cd /d D:\AppSoft\Sy2077\2077\2077\CDPR2077\bin\x64_DLL.Release
-
-  # 扫描所有 questphase 文件，列出所有节点
-  cmdlet.exe resourcesScan -questphases -mode=allNodes -output=D:\quest_all_nodes.json -pretty
-
-  # 或者只扫描特定目录（更快）
-  cmdlet.exe resourcesScan -questphases -mode=allNodes -scanBasePath=base\quest\side_quests\sq004 -output=D:\sq004_nodes.json -pretty
-
+---

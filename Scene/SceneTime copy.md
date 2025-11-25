@@ -156,6 +156,54 @@ lie_ground_0__2h_on_head__01__shuffle__04......
 
 ![alt text](image-10.png)
 
+## RigAnimal
+
+base\quest\main_quests\part1\q103\scenes\q103_06b_nomad_camp.scenesolution
+将一些玩家不会造成较大影响的论述剧情的内容放到了一张大的场景动画中
+···
+base\\quest\\side_quests\\sq021\\scenes\\versions\\gold\\sq021_09_bd_school.scenesolution": {
+            "rid_animations": {
+                "base\\animations\\quest\\side_quests\\sq021\\sq021_09_bd_school\\synced\\sq021_09_sm_bd_school__01.scenerid": {
+                    "m_intermediateHost": "cdprs-id1850",
+                    "m_intermediatePath": "Z:\\r6.assets\\animations\\quest\\side_quests\\sq021\\sq021_09_bd_school\\synced\\sq021_09_sm_bd_school__01.re",
+                    "m_intermediateAuthor": "arkadiusz.firlit",
+                    "m_assetHost": "",
+                    "m_assetPath": "Z:\\r6.assets\\animations\\quest\\side_quests\\sq021\\sq021_09_bd_school\\synced\\sq021_09_sm_bd_school__01.ma",
+                    "m_assetVersionControlPath": "",
+                    "m_assetVersionControlRevision": 0
+                }
+
+        "base\quest\main_quests\prologue\q004\scenes\": {
+             "rid_animations": {
+                "base\\animations\\quest\\main_quests\\prologue\\q004\\q004_05_bd_yorinobu\\q004_05_bd_yorinobu.scenerid": {
+                    "m_intermediateHost": "cdprs-id1507",
+                    "m_intermediatePath": "Z:\\r6.assets\\animations\\quest\\main_quests\\prologue\\q004\\q004_05_bd_yorinobu\\q004_05_bd_yorinobu.re",
+                    "m_intermediateAuthor": "artur.bielenica",
+                    "m_assetHost": "",
+                    "m_assetPath": "Z:\\r6.assets\\animations\\quest\\main_quests\\prologue\\q004\\q004_05_bd_yorinobu\\anim\\rid\\q004_05_bd_yorinobu.ma",
+                    "m_assetVersionControlPath": "",
+                    "m_assetVersionControlRevision": 0
+                },
+             }
+             }
+             }
+             }
+
+             
+        "base\\quest\\main_quests\\prologue\\q003\\scenes\\q003_08_stout.scenesolution": {
+            "rid_animations": {
+                "base\\animations\\quest\\lore\\generic_sex\\intercourse\\sex_01_5s_f.scenerid": {
+                    "m_intermediateHost": "cdprs-id1507",
+                    "m_intermediatePath": "Z:\\r6.assets\\animations\\quest\\lore\\generic_sex\\intercourse\\sex_01_5s_f.re",
+                    "m_intermediateAuthor": "wojciech.pankowski",
+                    "m_assetHost": "",
+                    "m_assetPath": "Z:\\r6.assets\\animations\\quest\\lore\\generic_sex\\intercourse\\sex_01_5s_f.ma",
+                    "m_assetVersionControlPath": "",
+                    "m_assetVersionControlRevision": 0
+                },...}
+          
+···
+
 ## 对话设计师需要可以简单的操控场景的所有物体
 ![alt text](image-17.png)
 给对话设计师最大的权限

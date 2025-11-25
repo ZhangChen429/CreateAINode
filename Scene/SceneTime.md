@@ -1,6 +1,23 @@
-
-
 #  2077对话编辑器工具 
+
+## 目录
+1. [Timeline](#timeline)
+2. [SceneNodePreview 场景方案预览功能](#scenenodepreview-场景方案预览功能)
+   - [Preview Scenario](#preview-scenario)
+3. [快速增长的数据库进行状态的控制](#快速增长的数据库进行状态的控制)
+4. [Animation Tree Structure](#animation-tree-structure)
+5. [多标签数据匹配](#多标签数据匹配)
+   - [骨骼动画数据库](#骨骼动画数据库)
+6. [Props|Actor|Vehicle](#Props|Actor|Vehicle工具)
+   - [Props](#骨骼动画数据库)
+7. [Animal 的加权裁剪混合](#animal-的加权裁剪混合)
+8. [所有可添加的AnimationTrack](#所有可添加的animationtrack)
+     - [AnimationTrack](#animationtrack)
+9. [对话设计师需要可以简单的操控场景的所有物体](#对话设计师需要可以简单的操控场景的所有物体)
+10. [本地化语言膨胀时间线](#本地化语言膨胀时间线)
+     - [按比例膨胀时间](#按比例膨胀时间)
+11. [灯光根据场景基本配置调节](#灯光根据场景基本配置调节)
+12. [Light Const Value](#light-const-value)
 
 ## Timeline
 
@@ -22,14 +39,13 @@
 6. 创建了可按步骤预览的Timeline直观给设计师观察目前的剧情状态提供清晰的事件脉络
 
 ## 快速增长的数据库进行状态的控制
-![alt text](image-14.png)
+![alt text](image-15.png)
+**Fact数据库**
 
 ## Animation Tree Structure
-![alt text](image-15.png)
-
-
+![alt text](image-17.png)
 多标签数据匹配
-骨骼动画数据库
+骨骼动画数据匹配库
 1. 命名和标签规则:
 ![alt text](image-20.png)
 Generic_Arverage_Female_sit_Chair(bar)
@@ -41,15 +57,18 @@ lie_ground_0__2h_on_head__01__shuffle__04......
 
 
 ### Animal 的加权裁剪混合
-![alt text](image-13.png)
+**Timeline上的动画微调工具**
+![alt text](image-25.png)
 
-### 所有可添加的AnimationTrack
+***所有可添加的AnimationTrack***
+**动画微调工具**
 - 在动画中控制骨骼给设计师带来极大的自由度
-![alt text](image-16.png)
+- 对部份动画在Timeline上的胃痛工具可以使得动画资产不必每个都做定制化开发
 
+![alt text](image-23.png)
 
-##### AnimationTrack
-![alt text](image-9.png)
+**AnimationTrack**
+
 
 | AnimationTrack                                                           | 描述                             |
 | :----------------------------------------------------------------------- | :------------------------------- |
@@ -88,10 +107,74 @@ lie_ground_0__2h_on_head__01__shuffle__04......
 ![alt text](image-10.png)
 
 ## 对话设计师需要可以简单的操控场景的所有物体
-![alt text](image-17.png)
-给对话设计师最大的权限
 
-![alt text](image-21.png)
+**给Quest设计师最大的权限**
+![alt text](image-12.png)
+**Scene编辑器下设计师可以直接使用的工具和对象**
+1. Actor（角色）文件位置: scnbActor.h:46 用途：代表场景中的角色/演员（NPC或玩家）
+    - 定义角色的身份（Character Record ID）
+    - 指定外观（Appearance）
+    - 设置语音标签（VoiceTag）
+    - 控制角色获取方式（ActorAcquisitionPlan）：从Scene系统、生成集或从Contenx世界中查找角色
+
+2. Props（道具）文件位置: scnbProp.h:420 用途：场景中的道具物品对象
+    - 可以被角色持有（如武器、物品）
+    - 可以放置在场景中
+    - 安置到角色身上或从角色身上获取（FindPropInPerformer）
+    - 从世界节点获取（FindPropInNode/FindPropInWorld）
+    - 动态生成/销毁（SpawnDespawnProp）
+
+3. Vehicles（载具）文件位置: scnbVehicle.h:196 用途：场景中的载具对象（汽车、摩托车等）
+    - 定义载具的记录ID和外观
+    - 支持从社区系统、生成集中查找载具
+    - 管理载具的动画运动
+
+4. Effect（特效）文件位置: scnbEffect.h:23 用途：场景中的视觉特效
+    - 引用特效资源文件（world::Effect）
+    - 在场景的特定时刻播放视觉效果
+    - 可附加到角色、道具或特定位置
+
+5. Rids（RE导入数据）文件位置: scnsRid.h:4 用途：从Maya导出的.re文件导入的动画数据
+    - ActorRid：角色的身体、面部、义体动画
+    - CameraRid：摄像机动画
+    - 控制多个NPC同时的动作集合
+    - AnimationRid：动画数据，包含轨迹、偏移、音频事件
+    - 这是Scene Editor 和Maya之间的数据交换点
+
+6. Workspot（工作点）文件位置: scnbWorkspot.h:29 用途：定义角色需要执行的动作模板
+    - 代表角色需要做什么（WHAT）
+    - 例如：坐下、工作、交互等动作序列
+    - 可引用外部Workspot资源或嵌入式工作树
+    - 注意：WHERE（在哪里做）由SceneWorkspotInstance表示
+
+7. ReferencePoints（参考点）文件位置: scnbReferencePoint.h:13 用途：场景中的参考位置点
+    - 定义场景中的关键位置
+    - 可以相对于Marker（标记点）设置偏移
+    - 用于定位、导航和场景布局
+    - 注视点使用
+
+8. Preview（预览）文件位置: scnbEditablePreviewScenario.h:57用途：编辑器中预览场景执行的配置
+    - 定义预览场景的起始节点
+    - 配置预览中的实体和图节点
+    - 创建模拟场景用于测试
+    - 提供执行反馈，观察玩家的选择对整个故事线路的变化
+    - 帮助开发者在编辑器中测试场景流程
+
+9. Execution Tag（执行标签）文件位置: scnbEventExecutionTag.h:9 用途：控制事件执行的标签系统
+    - 用于标记和识别特定的事件执行
+    - 可以用于切换事件的启用/禁用状态
+    - 帮助管理复杂场景中的事件流
+
+  10. Interruption（中断）文件位置: scnbInterruptionScenario.h:17用途：定义场景可以被中断和恢复的规则
+    - 设置中断条件（IInterruptCondition）
+    - 设置返回条件（IReturnCondition）
+    - 控制中断时和返回时的对话行为
+    - 支持中断保护（防止频繁中断）
+    - 例如：对话被战斗中断，战斗结束后恢复对话
+***props***
+![alt text](image-13.png)
+***preview***
+![alt text](image-16.png)
 
 ## 本地化语言膨胀时间线
 
@@ -104,110 +187,6 @@ lie_ground_0__2h_on_head__01__shuffle__04......
 
 
 ## Light Const Value 
-
-
-
-  1. Actor（角色）
-
-  文件位置: scnbActor.h:46
-
-  用途：代表场景中的角色/演员（NPC或玩家）
-  - 定义角色的身份（Character Record ID）
-  - 指定外观（Appearance）
-  - 设置语音标签（VoiceTag）
-  - 控制角色获取方式（ActorAcquisitionPlan）：从社区系统、生成集或世界中查找角色
-
-  2. Props（道具）
-
-  文件位置: scnbProp.h:420
-
-  用途：场景中的道具物品对象
-  - 可以被角色持有（如武器、物品）
-  - 可以放置在场景中
-  - 支持多种获取方式：
-    - 从角色身上获取（FindPropInPerformer）
-    - 从世界节点获取（FindPropInNode/FindPropInWorld）
-    - 动态生成/销毁（SpawnDespawnProp）
-
-  3. Vehicles（载具）
-
-  文件位置: scnbVehicle.h:196
-
-  用途：场景中的载具对象（汽车、摩托车等）
-  - 定义载具的记录ID和外观
-  - 支持从社区系统、生成集中查找载具
-  - 管理载具的动画运动
-
-  4. Effect（特效）
-
-  文件位置: scnbEffect.h:23
-
-  用途：场景中的视觉特效
-  - 引用特效资源文件（world::Effect）
-  - 在场景的特定时刻播放视觉效果
-  - 可附加到角色、道具或特定位置
-
-  5. Rids（RE导入数据）
-
-  文件位置: scnsRid.h:4
-
-  注释: RID = ".re Import Data"（RED Engine导入数据）
-
-  用途：从Maya导出的.re文件导入的动画数据
-  - ActorRid：角色的身体、面部、义体动画
-  - CameraRid：摄像机动画
-  - AnimationRid：动画数据，包含轨迹、偏移、音频事件
-  - 这是Scene Editor和Maya之间的数据交换点
-
-  6. Workspot（工作点）
-
-  文件位置: scnbWorkspot.h:29
-
-  用途：定义角色需要执行的动作模板
-  - 代表角色需要做什么（WHAT）
-  - 例如：坐下、工作、交互等动作序列
-  - 可引用外部Workspot资源或嵌入式工作树
-  - 注意：WHERE（在哪里做）由SceneWorkspotInstance表示
-
-  7. ReferencePoints（参考点）
-
-  文件位置: scnbReferencePoint.h:13
-
-  用途：场景中的参考位置点
-  - 定义场景中的关键位置
-  - 可以相对于Marker（标记点）设置偏移
-  - 用于定位、导航和场景布局
-
-  8. Preview（预览）
-
-  文件位置: scnbEditablePreviewScenario.h:57
-
-  用途：编辑器中预览场景执行的配置
-  - 定义预览场景的起始节点
-  - 配置预览中的实体和图节点
-  - 创建模拟场景用于测试
-  - 提供执行反馈
-  - 帮助开发者在编辑器中测试场景流程
-
-  9. Execution Tag（执行标签）
-
-  文件位置: scnbEventExecutionTag.h:9
-
-  用途：控制事件执行的标签系统
-  - 用于标记和识别特定的事件执行
-  - 可以用于切换事件的启用/禁用状态
-  - 帮助管理复杂场景中的事件流
-
-  10. Interruption（中断）
-
-  文件位置: scnbInterruptionScenario.h:17
-
-  用途：定义场景可以被中断和恢复的规则
-  - 设置中断条件（IInterruptCondition）
-  - 设置返回条件（IReturnCondition）
-  - 控制中断时和返回时的对话行为
-  - 支持中断保护（防止频繁中断）
-  - 例如：对话被战斗中断，战斗结束后恢复对话
 
 
 
