@@ -244,6 +244,17 @@ EventExecutionTag控制SectionTrack是否运行
 ## 本地化语言膨胀时间线
 
 ![alt text](image-12.png)
+~~~
+  | 文件路径                                                                | 功能描述                                              |
+  |---------------------------------------------------------------------|---------------------------------------------------|
+  | src/common/gameSceneSystem/src/scnsScaling.cpp                      | 核心缩放算法实现                                          |
+  | src/common/gameSceneSystem/src/scnsScaling.h                        | Scaler/ScalingBlock/ScalingZone 定义                |
+  | src/backend/backendScenes/src/scnbScaling.cpp                       | 编辑器端缩放逻辑                                          |
+  | src/backend/backendScenes/include/scnScreenplayLine.h               | ScreenplayLine 定义（含 m_locstringLengthMatchOption） |
+  | src/common/generalEditorBackend/include/screenplayProxy.h           | LocalizedStringLengthMatch 枚举定义                   |
+  | src/backend/backendScenes/src/scnbEditorSceneLocalizationExport.cpp | 导出本地化数据（含长度匹配配置）                                  |
+
+~~~
 
 ### 按比例膨胀时间
 
