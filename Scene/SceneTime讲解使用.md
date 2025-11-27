@@ -1,5 +1,5 @@
-#  2077对话编辑器工具 
 
+# 2077对话编辑器工具
 ## 目录
 1. [Timeline](#1-timeline)
 2. [SceneNodePreview 场景方案预览功能](#2-scenenodepreview-场景方案预览功能)
@@ -187,7 +187,7 @@ lie_ground_0__2h_on_head__01__shuffle__04......
 
 ***props***
 ![alt text](image-13.png)
-
+![alt text](image-31.png)
 scnbProp ≠ 道具本身
 scnbProp = "如何获得道具的配置"
 
@@ -208,6 +208,12 @@ scnbProp = "如何获得道具的配置"
     - 复用现有世界资源
     - 自动同步道具状态
     - 灵活切换获取方式
+
+ 为什么这样设计？
+  1. 资源复用：避免在每个Scene中复制道具
+  2. 状态同步：道具状态与游戏世界保持一致
+  3. 灵活性：可以轻松切换道具来源
+  4. 性能：避免不必要的实体创建
 
 ***preview***
 ![alt text](image-16.png)
@@ -241,13 +247,19 @@ EventExecutionTag控制SectionTrack是否运行
         - ❌ 常规剧情分支（有更好的方案）
 
 
-## 本地化语言膨胀时间线
+## 灯光根据场景基本配置调节
+在剧情演绎时讲好一个故事在某个场景中，光亮会根据场景的配置而变化的需要
+![alt text](image-32.png)
+灯光参数根据一个场景的基本系数进行缩放
+![alt text](image-33.png)
 
-![alt text](image-12.png)
+
+## Light Const Value 
+
+## 本地化语言膨胀时间线
+![alt text](image-34.png)
 
 ### 按比例膨胀时间
-
-## 灯光根据场景基本配置调节
 
 ## 杂项
 
@@ -267,69 +279,8 @@ interrupt 概念
 
 
 
-## Scene设计理念
-![alt text](image-40.png)
 
-![alt text](image-41.png)
-展示叙事工具的背后的设计原则，对应原则是如何反应到引擎
-创造出设计师不会被工具受限制的工具
-
-### quest编辑工具
-
-**Logic Function & Executive Function**
-![alt text](image-44.png)
-**Logic**
-![alt text](image-42.png)
-Pause - 暂停节点暂停直到返回节点
-Condition - 直接返回真假
-Cut Control - 切断控制终止节点的执行
-And & XOR 
-
-**Execute**
-![alt text](image-45.png)
-
-
-
-### Scene编辑工具
-
-![alt text](image-46.png)
-![alt text](image-47.png)
-95%的任务功能也可以在场景编辑器中使用
-
-在场景编辑器中使用任务编辑器给项目带来很大的通用性，给场景设计提供了自由，用同样的操作扩大场景的复杂性
-在Scene中
-![alt text](image-58.png)
-
-### Journal编辑工具
-把任务编辑器已经存在的功能拓展到其他叙事工具中，创造清晰流畅愉悦的用户体验
-在赛博朋克中允许更广泛的文本种类
-![alt text](image-48.png)
-**与玩家本身立场相关的文本信息定制化**
-![alt text](image-49.png)
-
-### 编辑使用过程的优化
-![alt text](image-50.png)
-
-**快捷键系统的提升效果**
-![alt text](image-52.png)
-
-### paramFunction 的意义
-特殊函数共用功能的参数函数处理
-![alt text](image-53.png)
-构建诸多通用的方法合并到parameterFunction 中设计师的新每次新功能需要保留为公共的共有的方法
-![alt text](image-54.png)
-
-### 玩家使用其他角色
-为了很好的描述其他人的故事使用了
-![alt text](image-55.png)
-![alt text](image-56.png)
-![alt text](image-59.png)
-
-### 在没有潜水功能下完全通过动画师实现一个潜水剧情Quest
-
-![alt text](image-57.png)
-
-# scnbReferencePoint
+Fact捕获玩家的非直接选择，记录后对后续演绎出现不一样的变化
 
 
  基于我对代码实现的分析，我来详细解答 scnbReferencePoint 的意义、功能和解决的问题:
