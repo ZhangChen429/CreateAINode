@@ -1,0 +1,317 @@
+
+  @startuml FlowGraph Slate Class Diagram
+
+  skinparam classAttributeIconSize 0
+  skinparam linetype ortho
+  skinparam groupInheritance 2
+
+  ' ==================== Unreal Engine 基类 ====================
+  package "Unreal Engine Core" {
+      class SWidget {
+          +OnMouseButtonDown()
+          +OnMouseMove()
+          +OnDragEnter()
+          +OnDragOver()
+          +OnDrop()
+          +OnDragLeave()
+      }
+
+      class SGraphNode {
+          #GraphNode: UEdGraphNode
+          --
+          +UpdateGraphNode()
+          +CreateTitleWidget()
+          +CreateNodeContentArea()
+          +CreateBelowPinControls()
+          +GetComplexTooltip()
+          +AddPin(PinToAdd)
+          +GetNodeBodyBrush()
+          +SetOwner(OwnerPanel)
+      }
+
+      class SGraphPin {
+          #GraphPinObj: UEdGraphPin
+          --
+          +GetDefaultValueWidget()
+          +Construct(InPin)
+      }
+
+      class SGraphPalette {
+          +CollectAllActions(OutAllActions)
+          +OnCreateWidgetForAction(InCreateData)
+      }
+
+      class SBorder {
+      }
+
+      class UEdGraphNode {
+          +AllocateDefaultPins()
+          +ReconstructNode()
+          +GetNodeTitle()
+          +CreateVisualWidget()
+          +CanUserDeleteNode()
+      }
+
+      SWidget <|-- SGraphNode
+      SWidget <|-- SGraphPin
+      SWidget <|-- SGraphPalette
+      SWidget <|-- SBorder
+  }
+
+  ' ==================== FlowGraph 图形节点类 ====================
+  package "FlowGraph Slate Nodes" {
+
+      class SFlowGraphNode {
+          #FlowGraphNode: UFlowGraphNode
+          #DebuggerSubsystem: UFlowDebuggerSubsystem
+          #bDragMarkerVisible: bool
+          #SubNodes: TArray<TSharedPtr<SGraphNode>>
+          #SubNodeBox: TSharedPtr<SVerticalBox>
+          #ConfigTextBlock: TSharedPtr<STextBlock>
+          --
+          +Construct(InNode)
+          +UpdateGraphNode() <<override>>
+          +CreateTitleWidget() <<override>>
+          +CreateNodeContentArea() <<override>>
+          +CreateBelowPinControls() <<override>>
+          +GetComplexTooltip() <<override>>
+          --
+          +GetNodeInfoPopups(Context, Popups) <<override>>
+          +GetShadowBrush(bSelected) <<override>>
+          +GetOverlayBrushes(bSelected, WidgetSize, Brushes) <<override>>
+          +GetPinBrush(bLeftSide, WidgetWidth, PinIndex, Breakpoint, Brushes)
+          --
+          +GetTitle()
+          +GetDescription()
+          +GetDescriptionVisibility()
+          +GetPreviewCornerText()
+          +GetNameIcon()
+          +GetBorderBackgroundColor()
+          +GetConfigBoxBackgroundColor()
+          --
+          +AddSubNode(SubNodeWidget)
+          +OnDragEnter() <<override>>
+          +OnDragOver() <<override>>
+          +OnDrop() <<override>>
+          +OnDragLeave() <<override>>
+          +GetNodeUnderMouse() <<override>>
+          --
+          +CreateInputSideAddButton() <<override>>
+          +CreateOutputSideAddButton() <<override>>
+          +OnAddFlowPin(Direction)
+          --
+          +GetNodeTitleColor()
+          +GetNodeBodyColor()
+          +GetNodeTitleIconColor()
+          +GetNodeTitleTextColor()
+          --
+          -RemoveDraggedSubNodes(DraggedNodes, bReorderOperation)
+          -ShouldDropDraggedNodesAsSubNodes(DraggedNodes, DropTargetNode)
+          -GetSubNodeUnderCursor(WidgetGeometry, MouseEvent)
+          -GetDragOverMarkerVisibility()
+          -SetDragMarker(bEnabled)
+          -CreateOrRebuildSubNodeBox(MainBox)
+          -CreateConfigText(MainBox)
+          -GetNodeConfigText()
+      }
+
+      class SFlowGraphNode_Start {
+          ' 简单继承，无额外成员
+      }
+
+      class SFlowGraphNode_Finish {
+          ' 简单继承，无额外成员
+      }
+
+      class SFlowGraphNode_SubGraph {
+          +GetComplexTooltip() <<override>>
+      }
+
+      SGraphNode <|-- SFlowGraphNode
+      SFlowGraphNode <|-- SFlowGraphNode_Start
+      SFlowGraphNode <|-- SFlowGraphNode_Finish
+      SFlowGraphNode <|-- SFlowGraphNode_SubGraph
+  }
+
+  ' ==================== FlowGraph Pin 类 ====================
+  package "FlowGraph Slate Pins" {
+
+      class SGraphPinExec {
+      }
+
+      class SFlowGraphPinExec {
+          +Construct(InPin)
+      }
+
+      class SFlowPinHandle {
+          #Blueprint: UBlueprint
+          #PinNames: TArray<TSharedPtr<FName>>
+          #ComboBox: TSharedPtr<SNameComboBox>
+          #CurrentlySelectedName: TSharedPtr<FName>
+          --
+          +Construct(InPin, InBlueprint)
+          +GetDefaultValueWidget() <<override>>
+          --
+          #{abstract} RefreshNameList()
+          -ParseDefaultValueData()
+          -ComboBoxSelectionChanged(NameItem, SelectInfo)
+      }
+
+      class SFlowInputPinHandle {
+          +RefreshNameList() <<override>>
+      }
+
+      class SFlowOutputPinHandle {
+          +RefreshNameList() <<override>>
+      }
+
+      SGraphPinExec <|-- SFlowGraphPinExec
+      SGraphPin <|-- SFlowPinHandle
+      SFlowPinHandle <|-- SFlowInputPinHandle
+      SFlowPinHandle <|-- SFlowOutputPinHandle
+  }
+
+  ' ==================== Pin 工厂类 ====================
+  package "Pin Factories" {
+
+      class FGraphPanelPinFactory {
+          +{abstract} CreatePin(InPin): TSharedPtr<SGraphPin>
+      }
+
+      class FFlowInputPinHandleFactory {
+          +CreatePin(InPin) <<override>>
+      }
+
+      class FFlowOutputPinHandleFactory {
+          +CreatePin(InPin) <<override>>
+      }
+
+      FGraphPanelPinFactory <|-- FFlowInputPinHandleFactory
+      FGraphPanelPinFactory <|-- FFlowOutputPinHandleFactory
+
+      FFlowInputPinHandleFactory ..> SFlowInputPinHandle : creates >
+      FFlowOutputPinHandleFactory ..> SFlowOutputPinHandle : creates >
+  }
+
+  ' ==================== FlowGraph 编辑器节点 ====================
+  package "FlowGraph Editor Nodes" {
+
+      class UFlowGraphNode {
+          -NodeInstance: UFlowNodeBase
+          +InputPins: TArray<UEdGraphPin*>
+          +OutputPins: TArray<UEdGraphPin*>
+          +SubNodes: TArray<UFlowGraphNode*>
+          -ParentNode: UFlowGraphNode
+          +NodeInstanceClass: TSoftClassPtr<UFlowNodeBase>
+          --
+          +SetNodeTemplate(NodeInstance)
+          +GetFlowNodeBase(): UFlowNodeBase*
+          +CreateVisualWidget() <<override>>
+          --
+          +AllocateDefaultPins() <<override>>
+          +ReconstructNode() <<override>>
+          +CreateInputPin(FlowPin, Index)
+          +CreateOutputPin(FlowPin, Index)
+          --
+          +AddSubNode(SubNode, ParentGraph)
+          +RemoveSubNode(SubNode)
+          +RemoveAllSubNodes()
+          +IsSubNode(): bool
+          +GetParentNode(): UFlowGraphNode*
+          +SetParentNodeForSubNode(ParentNode)
+          --
+          +CanUserAddInput(): bool
+          +CanUserAddOutput(): bool
+          +AddUserInput()
+          +AddUserOutput()
+          +RemoveInstancePin(Pin)
+          --
+          +GetActivationState(): EFlowNodeState
+          +GetStatusString(): FString
+          +IsContentPreloaded(): bool
+          +SetSignalMode(Mode)
+          +GetSignalMode(): EFlowSignalMode
+      }
+
+      UEdGraphNode <|-- UFlowGraphNode
+
+      UFlowGraphNode "1" *-- "*" UFlowGraphNode : SubNodes >
+      SFlowGraphNode --> UFlowGraphNode : visualizes >
+      SFlowGraphNode "1" o-- "*" SGraphNode : SubNodes >
+  }
+
+  ' ==================== FlowGraph UI 组件 ====================
+  package "FlowGraph UI Components" {
+
+      class SFlowPaletteItem {
+          +Construct(InCreateData)
+          -CreateHotkeyDisplayWidget(NameFont, HotkeyChord)
+          +GetItemTooltip() <<override>>
+      }
+
+      class SFlowPalette {
+          #FlowAssetEditor: TWeakPtr<FFlowAssetEditor>
+          #CategoryNames: TArray<TSharedPtr<FString>>
+          #CategoryComboBox: TSharedPtr<STextComboBox>
+          --
+          +Construct(InFlowAssetEditor)
+          -Refresh()
+          -UpdateCategoryNames()
+          +OnCreateWidgetForAction() <<override>>
+          +CollectAllActions() <<override>>
+          -CategorySelectionChanged()
+          -OnActionSelected()
+          +ClearGraphActionMenuSelection()
+      }
+
+      class SGraphEditorActionMenuFlow {
+          #GraphObj: UEdGraph
+          #GraphNode: UEdGraphNode
+          #DraggedFromPins: TArray<UEdGraphPin*>
+          #NewNodePosition: FVector2f
+          #GraphActionMenu: TSharedPtr<SGraphActionMenu>
+          --
+          +Construct()
+          +GetFilterTextBox(): TSharedRef<SEditableTextBox>
+          -OnActionSelected()
+          -CollectAllActions()
+      }
+
+      SGraphPalette <|-- SFlowPalette
+      SGraphPalette <|-- SFlowPaletteItem
+      SBorder <|-- SGraphEditorActionMenuFlow
+
+      SFlowPalette ..> SFlowPaletteItem : creates >
+  }
+
+  ' ==================== 关联关系 ====================
+  UFlowGraphNode ..> SFlowGraphNode : CreateVisualWidget() >
+  SFlowGraphNode --> UFlowGraphNode : FlowGraphNode >
+  SFlowGraphPinExec --> UEdGraphPin : visualizes >
+  SFlowPinHandle --> UEdGraphPin : visualizes >
+
+  note right of SFlowGraphNode
+    **核心 Slate 节点**
+    - 可视化 UFlowGraphNode
+    - 支持子节点拖拽
+    - 显示调试信息
+    - 支持断点可视化
+    - 动态颜色和样式
+  end note
+
+  note right of UFlowGraphNode
+    **编辑器节点数据**
+    - 持有运行时 FlowNodeBase
+    - 管理 Pin 连接
+    - 支持子节点层级
+    - 可序列化到资产
+  end note
+
+  note right of SFlowPinHandle
+    **Pin 句柄组件**
+    - 提供下拉选择器
+    - 用于选择节点的 Pin
+    - 分为输入/输出两种
+  end note
+
+  @enduml
