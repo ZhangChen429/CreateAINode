@@ -1,0 +1,3534 @@
+1
+00:00:00,000 --> 00:00:03,320
+欢迎短暂休息后再次回来
+So welcome back again after a short break
+
+2
+00:00:03,320 --> 00:00:08,680
+呃，我们到了，让我介绍一下我们的下一位演讲者
+Uh , we are here and let me introduce our next speaker
+
+3
+00:00:08,680 --> 00:00:09,822
+一
+Um
+
+4
+00:00:09,822 --> 00:00:15,380
+我个人很荣幸地说，CD 项目的首席电影程序员
+i'm personally honored to say that lead cinematic programmer from cd project
+
+5
+00:00:15,380 --> 00:00:19,030
+菲利普·皮埃尔·钦斯基的红色是我们今天的客人
+Red at philip pierre chinski is our guest today
+
+6
+00:00:19,030 --> 00:00:20,930
+呃，欢迎睡觉
+Uh , welcome sleep
+
+7
+00:00:20,930 --> 00:00:22,625
+嘿，你好
+Hey , hello
+
+8
+00:00:22,625 --> 00:00:23,760
+呃，你怎么样
+Uh , how are you
+
+9
+00:00:23,760 --> 00:00:25,742
+你今天过得怎么样
+How is this your day today
+
+10
+00:00:25,742 --> 00:00:27,450
+那很好
+That's quite fine
+
+11
+00:00:27,450 --> 00:00:31,110
+呃，我正在大声地准备这个演讲
+Uh , i was preparing for this presentation quite loud
+
+12
+00:00:31,110 --> 00:00:32,569
+所以我希望
+So i hope that
+
+13
+00:00:32,569 --> 00:00:34,470
+呃，你会喜欢的
+Uh , you will like it
+
+14
+00:00:34,470 --> 00:00:35,150
+是的
+Yeah
+
+15
+00:00:35,150 --> 00:00:38,210
+那么让我，呃，开始你的演讲
+So let me , uh , start your presentation
+
+16
+00:00:38,210 --> 00:00:41,730
+我喜欢这种黄色的赛博朋克颜色
+I like this yellow cyberpunk color
+
+17
+00:00:41,730 --> 00:00:42,910
+哇，太棒了
+Wow , amazing
+
+18
+00:00:42,910 --> 00:00:43,815
+所以
+So
+
+19
+00:00:43,815 --> 00:00:46,770
+呃，话不多说，上演你的
+Uh , without further ado , stages yours
+
+20
+00:00:48,570 --> 00:00:49,715
+谢谢
+Thank you
+
+21
+00:00:49,715 --> 00:00:51,580
+嗯，你好
+Um , hello
+
+22
+00:00:51,580 --> 00:00:53,690
+欢迎来到我的演讲
+Welcome to my presentation
+
+23
+00:00:53,690 --> 00:00:58,450
+嗯，我要谈谈我们的方法，呃
+Um , i'm going to talk about our approach to , uh
+
+24
+00:00:58,450 --> 00:01:03,450
+我们相关游戏中的工具、管道和实现
+Tools , pipelines and implementations in our rellatest game
+
+25
+00:01:05,600 --> 00:01:11,900
+本次演讲中介绍的技术和工具在部门程序游戏中意义深远
+Technology and tools presented in this talk was profound within sectoral program gaming
+
+26
+00:01:11,900 --> 00:01:17,167
+国家研究开发中心提供
+Provided by national center for research and development
+
+27
+00:01:17,167 --> 00:01:20,140
+项目名称：电影领域
+The name of the project is cinematic field
+
+28
+00:01:20,140 --> 00:01:24,937
+综合技术使品质迈上新台阶
+Comprehensive technology enable a new level of quality
+
+29
+00:01:24,937 --> 00:01:28,490
+提供独特的电影体验
+in delivering unique cinematic experience
+
+30
+00:01:28,490 --> 00:01:31,715
+在高端开放病房猿游戏中
+In high end open ward apee games
+
+31
+00:01:31,715 --> 00:01:37,470
+包括创新的管道解决方案和定制工具包
+Including innovative pipeline solutions and custom toolkit
+
+32
+00:01:39,660 --> 00:01:44,780
+介绍一下我自己正在从事的常用项目
+Bit about myself useveral project that i was working on
+
+33
+00:01:44,780 --> 00:01:48,807
+嗯，从现实泵走向两个
+Um , towards two from the reality pump
+
+34
+00:01:48,807 --> 00:01:53,150
+呃，这是有两个扩展的狂猎
+Uh , which are wild hunt with two expansions
+
+35
+00:01:53,150 --> 00:01:56,445
+石心、血和w
+Hearts of stone and blood and w
+
+36
+00:01:56,445 --> 00:02:00,610
+最后是赛博朋克277
+And finally cyber punk two thousand and seventy seven
+
+37
+00:02:00,610 --> 00:02:04,490
+这支股票的重点是什么
+Which is the focus of this stock
+
+38
+00:02:06,100 --> 00:02:10,460
+网络PK互动场景话题
+Topic of interactive scenes in a cyber pk
+
+39
+00:02:10,460 --> 00:02:13,395
+两千七十七真是浩瀚
+Two thousand and seventy seven is really vast
+
+40
+00:02:13,395 --> 00:02:18,720
+很多人参与了设计的制定
+And a lot of people were involved in shaping up the design
+
+41
+00:02:18,720 --> 00:02:22,710
+然后再交出场景
+And later on delivering the scenes
+
+42
+00:02:22,710 --> 00:02:26,170
+我要感谢该项目的所有人
+I would like to thank all to the project
+
+43
+00:02:26,170 --> 00:02:30,102
+参与该过程的开发人员
+That the developers who participate in the process
+
+44
+00:02:30,102 --> 00:02:32,990
+电影设计师、商店编剧
+Cinematic designers , store writers
+
+45
+00:02:32,990 --> 00:02:36,740
+任务设计师、程序员、游戏玩法设计师
+Quest designers , programmers , gameplay designers
+
+46
+00:02:36,740 --> 00:02:43,542
+问a，所有的艺术家，制作人和其他人都相信我真的很难说出名字
+q a , all the artist , producers and others is believed me really hard to name
+
+47
+00:02:43,542 --> 00:02:44,810
+每个人
+Everyone
+
+48
+00:02:44,810 --> 00:02:45,850
+谢谢
+Thank you
+
+49
+00:02:48,000 --> 00:02:53,505
+关于该项目 um 网络银行是开放行动
+About the project um cyber bank is open word action
+
+50
+00:02:53,505 --> 00:02:56,835
+以夜之城为背景的冒险故事
+Adventure story set in night city
+
+51
+00:02:56,835 --> 00:03:03,355
+夜之城是一个痴迷于权力、魅力、身体改造的巨型警察
+Night city is a mega police obsessed with power , glamour , body modification
+
+52
+00:03:03,355 --> 00:03:05,705
+夜晚的城市生活很艰难
+In night city life is hard
+
+53
+00:03:05,705 --> 00:03:08,050
+并且没有什么好的选择
+And there is no good choices
+
+54
+00:03:08,050 --> 00:03:13,897
+每个决定都会产生后果，为了生存，你需要非常努力
+Every decision has consequence and to survive you need to be really hard
+
+55
+00:03:13,897 --> 00:03:15,090
+真强
+Really strong
+
+56
+00:03:16,290 --> 00:03:18,680
+所有那些极端的情绪
+All those extreme emotions
+
+57
+00:03:18,680 --> 00:03:26,417
+危险的关系和曲折都在电影中得到体现
+Dangerous , dangerous relationships and twists are reflected in the cinematics
+
+58
+00:03:26,417 --> 00:03:28,390
+而在故事里
+And in the story
+
+59
+00:03:28,390 --> 00:03:32,907
+让我们看看包含很多内容的预告片
+So let's see the trailer that contains many things
+
+60
+00:03:32,907 --> 00:03:33,770
+一
+Um
+
+61
+00:03:33,770 --> 00:03:39,150
+比文字更能捕捉到电影领域的精髓
+And captured the essence of the cinematic field better than than words
+
+62
+00:03:44,080 --> 00:03:46,480
+考验一个人的真实价值
+Test of a person's true value
+
+63
+00:03:47,540 --> 00:03:48,760
+死亡
+Death
+
+64
+00:03:48,760 --> 00:03:49,980
+面向
+Facing
+
+65
+00:03:49,980 --> 00:03:51,490
+低头凝视它
+Staring it down
+
+66
+00:03:51,490 --> 00:03:53,940
+约翰尼，我找到你了
+johnny i got you
+
+67
+00:03:58,840 --> 00:04:02,240
+珍贵的是它的神经源性休克
+Precious taking it's neurogenic shock
+
+68
+00:04:02,240 --> 00:04:03,320
+他快死了
+he's dying
+
+69
+00:04:05,600 --> 00:04:08,040
+你在那里
+V e you in there
+
+70
+00:04:08,040 --> 00:04:10,240
+啊我的头
+ah my head
+
+71
+00:04:12,700 --> 00:04:13,780
+那现在怎么办
+So what now
+
+72
+00:04:14,860 --> 00:04:15,540
+现在
+now
+
+73
+00:04:16,760 --> 00:04:23,257
+你会发现做一件美丽的事情需要什么
+You find out what it is you need to do a thing of beauty
+
+74
+00:04:23,257 --> 00:04:29,920
+我知道你一生中从未对任何事情退缩过
+I know you've never backed down from anything in your life
+
+75
+00:04:29,920 --> 00:04:35,650
+即使你可能应该让你穿过夜晚的城市
+Even when you may be should have you go through night city
+
+76
+00:04:35,650 --> 00:04:41,020
+驾驶出租车时知道一颗流弹可能会杀死你
+Knowing a stray bullet could end you while ailing a cab
+
+77
+00:04:41,020 --> 00:04:45,270
+但这从来没有阻止你采取行动
+But that's never stopped you from taking action
+
+78
+00:04:47,400 --> 00:04:50,180
+你相信你欺骗了死亡
+You believe you cheated death
+
+79
+00:04:50,180 --> 00:04:52,760
+是死亡欺骗了你
+It is death that has cheated you
+
+80
+00:04:54,340 --> 00:04:57,570
+如果你要杀，那就杀吧
+If you gotta kill , kill
+
+81
+00:04:57,570 --> 00:05:01,472
+如果你要把它全部烧毁
+If you gotta burn it all to the ground
+
+82
+00:05:01,472 --> 00:05:03,680
+然后让它燃烧
+Then let it burn
+
+83
+00:05:03,680 --> 00:05:08,965
+告诉我地面上是搬不出我家的
+Tell me on the ground is of no move out of my house
+
+84
+00:05:08,965 --> 00:05:12,050
+不，你永远不会消失
+No you'll never fade away
+
+85
+00:05:12,050 --> 00:05:15,090
+你对我做了什么
+What you did to me
+
+86
+00:05:15,090 --> 00:05:16,290
+我知道
+I know
+
+87
+00:05:18,100 --> 00:05:23,260
+所以我如何找到一种方法，但我想到了美
+so how i find a way but i think of beauty
+
+88
+00:05:26,800 --> 00:05:29,840
+无人先生，你宁愿生活成碎片吗
+Would you rather live in pieces mr nobody
+
+89
+00:05:29,840 --> 00:05:31,760
+或者一直下去
+Or go down for all times
+
+90
+00:05:31,760 --> 00:05:33,400
+在荣耀的火焰中
+In a blaze of glory
+
+91
+00:05:35,760 --> 00:05:37,920
+并且永远不会消失
+and will never fade away
+
+92
+00:05:44,440 --> 00:05:46,520
+我们永远不会消失
+we'll never fade away
+
+93
+00:05:55,720 --> 00:05:58,760
+喝我的话我想指导你
+Drink my talk i would like to guide you
+
+94
+00:05:58,760 --> 00:06:03,240
+通过交互式电影的关键方面
+Through the interactive cinematics key aspects
+
+95
+00:06:05,520 --> 00:06:10,160
+接下来我将向您展示我们的场景工具集
+Next i will show you our toolset for the scenes
+
+96
+00:06:10,160 --> 00:06:14,120
+它的外观、工作原理以及我将使用它
+How it looks , how it works and i will use it
+
+97
+00:06:16,840 --> 00:06:19,240
+最后，嗯
+And at the end , um
+
+98
+00:06:19,240 --> 00:06:21,350
+我的谈话，呃
+Of my talk , uh
+
+99
+00:06:21,350 --> 00:06:28,080
+我将展示我们在网络银行这样的大型游戏中的演出方法
+I will show our approach to the staging in such big game as cyber bank
+
+100
+00:06:28,080 --> 00:06:29,960
+2077
+two thousand and seventy seven
+
+101
+00:06:34,380 --> 00:06:38,947
+网络银行与冬季免费有很大不同
+Cyber bank is very different from the winter free
+
+102
+00:06:38,947 --> 00:06:42,940
+也就是说，我们必须采取新的方法
+And that's , we had to come with new approaches
+
+103
+00:06:42,940 --> 00:06:47,735
+那件事，呃，当然也不例外
+That things , uh , of course was not the exception
+
+104
+00:06:47,735 --> 00:06:50,870
+让我们来看看这些关键方面
+So let's go through those key aspects
+
+105
+00:06:50,870 --> 00:06:56,370
+这也说明了这两款游戏之间的差异
+Which illustrates also the differences between those two games
+
+106
+00:06:57,940 --> 00:07:02,685
+第一个方面，我们也很有发言权
+The first aspect , it was us also very vocal
+
+107
+00:07:02,685 --> 00:07:04,370
+这是视角
+It's perspective
+
+108
+00:07:04,370 --> 00:07:11,122
+第一人称视角是沉浸式故事的自然选择
+First person perspective view is natural choice for immersive story
+
+109
+00:07:11,122 --> 00:07:13,150
+展现沉浸式商店
+To showing immersive store
+
+110
+00:07:13,150 --> 00:07:17,767
+然而，这会导致某些复杂性
+However , it leads to certain complexities
+
+111
+00:07:17,767 --> 00:07:22,440
+fpp 中的相机很难制作动画
+The camera in fpp is difficult to animate
+
+112
+00:07:22,440 --> 00:07:25,595
+以及动画数据中的任何错误
+And any error in animation data
+
+113
+00:07:25,595 --> 00:07:29,940
+稍后对那些动画数据进行计算
+Later on calculation on those animation data data
+
+114
+00:07:29,940 --> 00:07:35,350
+之后动画图状态的变化对于玩家来说是非常明显的
+And later on animation graph state changes are very visible to the player
+
+115
+00:07:38,120 --> 00:07:40,800
+我想给你看一个例子
+I want to show you one example
+
+116
+00:07:40,800 --> 00:07:47,470
+嗯，首先打破 fpp 视图的沉浸感有多容易
+Um , how easy to break the immersion in fpp view first
+
+117
+00:07:47,470 --> 00:07:52,927
+嗯，请关注左侧动画
+Um please focus on the left hand side animation
+
+118
+00:07:52,927 --> 00:07:54,790
+观察几秒钟
+Watch it for a few seconds
+
+119
+00:07:54,790 --> 00:07:55,870
+慢慢来
+Take your time
+
+120
+00:08:00,600 --> 00:08:06,640
+可能注意到现在将注意力集中在右手动画上几秒钟
+probably notice that now focus on the right hand animation for a few seconds
+
+121
+00:08:15,660 --> 00:08:18,212
+非常光滑
+It's very smooth
+
+122
+00:08:18,212 --> 00:08:22,370
+你有没有注意到这个突然的动作有多么令人恼火
+Have you noticed how irritating was this sudden movement on
+
+123
+00:08:22,370 --> 00:08:25,080
+在左侧动画的相机上
+On the camera on the left animation
+
+124
+00:08:25,080 --> 00:08:29,470
+所以你可以理解那些相机后背有多痛苦
+So you can understand how painful those camera backs are
+
+125
+00:08:29,470 --> 00:08:32,457
+他们如何给我们带来问题
+How they was problematic for us
+
+126
+00:08:32,457 --> 00:08:35,000
+这就是问题所在
+And here what was the problem
+
+127
+00:08:35,000 --> 00:08:39,111
+被指控的错误，因为动画没有按时加载
+The error accused , because the animation didn't load on time
+
+128
+00:08:39,111 --> 00:08:43,560
+第一个唯一的第一帧没有按时加载
+The first only first frame did not load on on on time
+
+129
+00:08:43,560 --> 00:08:47,510
+并且动画混合计算不正确
+And animation blending was incorrectly calculated
+
+130
+00:08:47,510 --> 00:08:50,210
+一个非常明显的例子
+A very visible example
+
+131
+00:08:50,210 --> 00:08:54,670
+微小的问题可能会被破坏，而整个片段可能会被破坏
+Where the tiny problem can break and entiresegments
+
+132
+00:08:54,670 --> 00:08:56,430
+这真的不重要
+And it's really not important
+
+133
+00:08:56,430 --> 00:08:58,590
+其余部分有多流畅
+How fluent rest of the stuff is
+
+134
+00:08:58,590 --> 00:09:00,500
+动画怎么样，嗯
+How the animation , um
+
+135
+00:09:00,500 --> 00:09:02,560
+呃，演员们都很流利
+Uh , on actors are fluent
+
+136
+00:09:02,560 --> 00:09:04,680
+资产如何好
+How the assets are good
+
+137
+00:09:04,680 --> 00:09:07,120
+一切都坏掉了
+Everything is , uh , broken
+
+138
+00:09:08,530 --> 00:09:15,855
+第二个方面。对于我们所有的游戏来说，玩家也是非常重要的一个方面
+Second aspect . and it's also very important aspect for all our game is the player
+
+139
+00:09:15,855 --> 00:09:17,460
+这是一个演员
+It's an actor
+
+140
+00:09:17,460 --> 00:09:23,070
+您可以在此示例中看到如何从不同角度呈现一个团队
+You can see on this example how one team can be presented from different perspectives
+
+141
+00:09:23,070 --> 00:09:26,897
+玩家正在积极参与 stm
+Player is taking active part of the stm
+
+142
+00:09:26,897 --> 00:09:29,380
+正因为如此，在大多数情况下
+And because of these , in most cases
+
+143
+00:09:29,380 --> 00:09:33,140
+不可能使用很常见的
+It was impossible to use very common
+
+144
+00:09:33,140 --> 00:09:38,365
+烟镜技术降低生产成本
+Smoke and mirror technique to reduce production costs
+
+145
+00:09:38,365 --> 00:09:40,830
+网络朋克中的玩家可以看到
+Player in cyber pank can see
+
+146
+00:09:40,830 --> 00:09:45,290
+而且这里也比预览中要讨论的内容要多得多。游戏
+and also here much more than in previews to depate . the games
+
+147
+00:09:46,690 --> 00:09:51,920
+第三个方面是女主角还是男主角
+Third aspect is female or male protagonist
+
+148
+00:09:51,920 --> 00:09:53,330
+在赛博朋克中
+In cyber punk
+
+149
+00:09:53,330 --> 00:09:57,690
+百分之九十的场景有两种差异
+Ninety percent of the scenes came in two variance
+
+150
+00:09:57,690 --> 00:10:01,870
+1个4女v，1个男v
+One four female v and one for a male v
+
+151
+00:10:01,870 --> 00:10:04,840
+这增加了对话的复杂性
+This increased complexity of the dialogue
+
+152
+00:10:04,840 --> 00:10:09,540
+在很多情况下，每条 v 线都有两个版本
+Each v lines comes in two versions in many cases
+
+153
+00:10:09,540 --> 00:10:13,060
+响应也有两个版本
+Also there are two versions of response
+
+154
+00:10:13,060 --> 00:10:17,900
+嗯，对于女性 v 来说，samscenes 必须以不同的方式构建
+Um samscenes must be constructed differently for the female v
+
+155
+00:10:17,900 --> 00:10:20,855
+对于主 v 来说则不同
+And differently for the main v
+
+156
+00:10:20,855 --> 00:10:24,360
+最好的例子当然是任何浪漫的事物
+The best examples are of course any romance things
+
+157
+00:10:24,360 --> 00:10:28,700
+但这不仅是因为我们有更多这样的例子
+But it's not only that we had much more of those examples
+
+158
+00:10:31,140 --> 00:10:31,540
+好的
+Okay
+
+159
+00:10:31,540 --> 00:10:34,220
+所以我们已经知道了关键方面
+So we already know the key aspects
+
+160
+00:10:34,220 --> 00:10:37,690
+现在我想进入工具集
+Now i want to go to the tool set
+
+161
+00:10:37,690 --> 00:10:42,000
+我将描述我们的工具以及稍后的方法，呃
+And i will describe our tool and later how , uh
+
+162
+00:10:42,000 --> 00:10:45,880
+展示如何使用它来构建场景结构
+Show how to use it to build scene structure
+
+163
+00:10:47,080 --> 00:10:51,470
+嗯，我们管道的核心是 syeditor
+Um , the heart of our pipeline is syeditor
+
+164
+00:10:51,470 --> 00:10:58,750
+它由四个尖塔预览视图、端口时间线、剧本和，呃，图表组成
+It consists four minareias preview view , port timelines , screenplay and , uh , graph
+
+165
+00:11:01,320 --> 00:11:05,790
+第一个最引人注目的是，呃，预览视口
+First most noticeable is , uh , preview viewport
+
+166
+00:11:05,790 --> 00:11:12,650
+嗯，这就是设计师在之前的会议中组成并修改世界的地方
+um , that's where the designer consisting during the previous sessions and modify the world
+
+167
+00:11:14,890 --> 00:11:22,457
+第二个是时间轴面板，其中包含动画、视觉效果、效果、外观剪辑等事件
+Second is the timeline panel with the events like animations , vfx , fx , look cuts
+
+168
+00:11:22,457 --> 00:11:24,740
+对话活动等
+dialogue events and more
+
+169
+00:11:26,410 --> 00:11:28,840
+接下来，呃，是一张图表
+Next , uh , is a graph
+
+170
+00:11:28,840 --> 00:11:31,130
+我们已经看到了游戏逻辑
+We've seen and game logic
+
+171
+00:11:32,470 --> 00:11:36,170
+最后一个有趣的是屏幕播放
+And the last one for interesting is the screen play
+
+172
+00:11:36,170 --> 00:11:39,110
+带有对话台词和对话选项
+With the dialogue lines and dialogue options
+
+173
+00:11:43,140 --> 00:11:44,380
+一
+Um
+
+174
+00:11:44,380 --> 00:11:48,000
+我想向您展示该图的一些特征
+I want to show you a few characteristic of the graph
+
+175
+00:11:48,000 --> 00:11:50,350
+嗯，是方向
+Um , it's direction
+
+176
+00:11:50,350 --> 00:11:50,920
+现在
+Now
+
+177
+00:11:50,920 --> 00:11:53,670
+在实践中这意味着什么
+what it means that in practice
+
+178
+00:11:53,670 --> 00:11:58,270
+这意味着信号需要来自一个音符的输出
+It means that signal needs to go from the output of one note
+
+179
+00:11:58,270 --> 00:12:02,420
+并转到另一个音符的输入插座
+And go to the input socket to the another note
+
+180
+00:12:02,420 --> 00:12:08,490
+一般而言，节点左侧可以有多个输入和输出
+Nodes can have many inputs and outputs on left by general
+
+181
+00:12:08,490 --> 00:12:10,750
+在左侧我们有输入
+On left side we have inputs
+
+182
+00:12:10,750 --> 00:12:16,480
+在右侧，我们有输出和另一个重要的财产
+On the right side we have outputs and another important uproperty
+
+183
+00:12:16,480 --> 00:12:18,300
+这些套接字没有类型
+Those sockets do not have types
+
+184
+00:12:18,300 --> 00:12:23,907
+因此您可以以任何方式配置笔记并将它们连接到 中
+So you can configure the notes and connect them in , in any way
+
+185
+00:12:23,907 --> 00:12:26,410
+我们有循环的可能性
+We have possibility of cycles
+
+186
+00:12:26,410 --> 00:12:30,570
+这对于页游游戏来说非常重要
+And this is quite important in the games , a page game
+
+187
+00:12:30,570 --> 00:12:35,490
+所以你有很多选择来重复使用对话台词
+So you have many options to reuse dialogue lines
+
+188
+00:12:35,490 --> 00:12:39,590
+而且还可以重用整个任务路径
+But also to reuse whole quest paths
+
+189
+00:12:39,590 --> 00:12:42,585
+嗯，我们有两种类型的节点
+Um , we have two types of nodes
+
+190
+00:12:42,585 --> 00:12:45,030
+这是潜在的笔记和即时的笔记
+It's latent notes and immediate notes
+
+191
+00:12:45,030 --> 00:12:50,655
+只要立即执行操作，后面的注释就会保留信号
+Latternotes hold the signal as long as operation is executed immediate
+
+192
+00:12:50,655 --> 00:12:53,490
+我们的火燃烧而忘记
+Our fire fire and forgot
+
+193
+00:12:53,490 --> 00:12:59,762
+拉丁音符的附加属性是我们能够保存
+Additional properties for the latin notes is that we are able to save
+
+194
+00:12:59,762 --> 00:13:03,140
+呃，到，到，保存他们的进度
+Uh , to , to , to save progress of them
+
+195
+00:13:03,140 --> 00:13:05,560
+并且可以咨询
+And can be consult
+
+196
+00:13:07,610 --> 00:13:11,340
+我们有大量用于不同目的的各种节点
+We have plenty of various nodes for different purposes
+
+197
+00:13:11,340 --> 00:13:13,890
+嗯，但是然后的数量，呃
+Um , but amount of then , uh
+
+198
+00:13:13,890 --> 00:13:17,490
+我们有四个场景的独家注释
+We have four exclusive notes for the scenes
+
+199
+00:13:17,490 --> 00:13:20,830
+首先，重要的节点是节
+First , important node is a section
+
+200
+00:13:20,830 --> 00:13:24,047
+哪个是时间线持有者
+And which is timeline holder
+
+201
+00:13:24,047 --> 00:13:26,380
+第二个是一个选择
+Second one is a choice
+
+202
+00:13:26,380 --> 00:13:29,760
+用于对话分支
+Which is used to dialogue branching
+
+203
+00:13:29,760 --> 00:13:32,740
+我们还有两个额外的具体说明
+We have two additional specific notes
+
+204
+00:13:32,740 --> 00:13:34,990
+但我不会报道它们
+But i will be not covering them
+
+205
+00:13:34,990 --> 00:13:38,020
+嗯，深入了解这个演示
+Um , deep in this presentation
+
+206
+00:13:40,170 --> 00:13:43,450
+这个节点控制 stin 的行为方式
+And this node control how the stin should behave
+
+207
+00:13:43,450 --> 00:13:48,480
+如果出现不可接受的蒸汽进展条件
+In case of unaccepted conditions for steam progression
+
+208
+00:13:48,480 --> 00:13:54,220
+例如，玩家正在退出达里亚或蒸汽
+Like for example player is exiting the daria or the steam is
+
+209
+00:13:54,220 --> 00:13:56,840
+或者例如枪战开始
+Or for example the gun fight start
+
+210
+00:13:56,840 --> 00:14:02,620
+第二个是可重新执行部分，它是该部分的扩展版本
+And second one is reendable section it's extended version of the section
+
+211
+00:14:02,620 --> 00:14:06,292
+具有向后播放的能力
+With the ability to play backwards
+
+212
+00:14:06,292 --> 00:14:12,360
+嗯，还有一些额外的选项可以直接从播放器控制
+Um , also have some additional options to control directly from the player
+
+213
+00:14:12,360 --> 00:14:15,240
+我们在赛博朋克品牌中使用它
+We are using it in cyber punk brand ances
+
+214
+00:14:17,420 --> 00:14:22,280
+部分是专门说明嗯
+Section is a note specifically dedicate that um
+
+215
+00:14:22,280 --> 00:14:26,420
+在图表上创建时间同步序列
+To create time synchronized sequences on the graph
+
+216
+00:14:26,420 --> 00:14:28,860
+在这里你可以看到其中三个
+Here you can see three of them
+
+217
+00:14:28,860 --> 00:14:34,320
+正如您所看到的，它们以非常不同的配置连接
+They are , as you see connected in very different configuration
+
+218
+00:14:36,560 --> 00:14:38,080
+该部分还有哪些内容
+What else about the section
+
+219
+00:14:38,080 --> 00:14:41,800
+章节注释有自己的时间表
+Section note have their own timeline
+
+220
+00:14:41,800 --> 00:14:47,380
+这让设计在低层次上控制正在发生的事情
+Which give um design at low level control over what's happening
+
+221
+00:14:47,380 --> 00:14:53,815
+该团队嗯时间线包含时间地点事件
+This team um timeline contains time place events
+
+222
+00:14:53,815 --> 00:14:58,190
+其中一些有持续时间，例如动画或对话台词
+Some of which have duration like animation or dialogue lines
+
+223
+00:14:58,190 --> 00:15:02,310
+其他只是点事件，例如视觉特效是 lucuts
+Other are just point events like vfx is lucuts
+
+224
+00:15:05,660 --> 00:15:08,180
+时间轴将这些事件存储在轨道上
+Timeline stores those events on tracks
+
+225
+00:15:08,180 --> 00:15:13,380
+你可以在左边看到它突出显示了我们的足迹
+And here you see on the left it's highlighted our tracks
+
+226
+00:15:13,380 --> 00:15:16,380
+为了表明进展，我们有两件事
+And to indicate the progress we have two things
+
+227
+00:15:16,380 --> 00:15:17,320
+一个是播放头
+One is playhead
+
+228
+00:15:17,320 --> 00:15:21,260
+它被标记在轨道旁边
+it's marked next to the tracks
+
+229
+00:15:21,260 --> 00:15:26,540
+并在右上角的计时器处
+and on the right top corner at timer
+
+230
+00:15:26,540 --> 00:15:31,062
+您还可以在其中看到这方面的进展
+Where you also can see the the progression of this s
+
+231
+00:15:31,062 --> 00:15:34,670
+在最右边你可以看到屏幕播放
+On the far right you can see screen play
+
+232
+00:15:34,670 --> 00:15:41,637
+Po屏剧是对话视角的剖面图
+Po screen play is a section view for dialogue perspective
+
+233
+00:15:41,637 --> 00:15:43,150
+用户界面
+Ui
+
+234
+00:15:43,150 --> 00:15:50,060
+您也可以考虑作为作者的数据的欧盟视图
+Also you can consider in as eu view of the data for the writer
+
+235
+00:15:50,060 --> 00:15:54,512
+所以我们支持很多这样的事情，这取决于工作
+So we supporting many such things that depending on the job
+
+236
+00:15:54,512 --> 00:15:56,770
+数据时间的视图不同
+The view of data time is be different
+
+237
+00:16:00,020 --> 00:16:01,660
+现在我们知道了，嗯
+Now we know , um
+
+238
+00:16:01,660 --> 00:16:05,102
+syneitor是如何构建的
+How syneitor is constructed
+
+239
+00:16:05,102 --> 00:16:09,380
+我认为是时候看看它能做什么了
+I think that it's time to see what it can do
+
+240
+00:16:09,380 --> 00:16:14,780
+我们将完成创建蒸汽基本结构的过程
+We will go through the process of creating basic structure of the steam
+
+241
+00:16:14,780 --> 00:16:20,600
+而且，呃，我想重建数码公园现有场景的一部分
+And , uh , i want to reconstruct part of existing scene from cyber park
+
+242
+00:16:20,600 --> 00:16:23,500
+但别担心，呃
+But don't worry , uh
+
+243
+00:16:23,500 --> 00:16:26,850
+这不会是运动大剧透
+It will be not sport big spoiler
+
+244
+00:16:26,850 --> 00:16:28,870
+因为我，我从一开始就选择一个
+Because i , i choose one from the beginning
+
+245
+00:16:28,870 --> 00:16:33,510
+那么我们来看看，呃，游戏中这个场景的一部分
+So let's watch , uh , a part of this scene from the game
+
+246
+00:18:21,420 --> 00:18:27,120
+那么我们就从创建sandbunks环境开始吧，嗯
+So let's start from creating sandbunks environment to start , um
+
+247
+00:18:27,120 --> 00:18:31,170
+这与在红色引擎中创建游戏会话相同
+This same to create game session in a red engine
+
+248
+00:18:31,170 --> 00:18:34,355
+我们需要游戏定义
+We need to game definition
+
+249
+00:18:34,355 --> 00:18:37,990
+这是这个资源，呃
+And this is this resource with , uh
+
+250
+00:18:37,990 --> 00:18:41,050
+小游戏路径设置一下
+Small game path to set up it
+
+251
+00:18:41,050 --> 00:18:42,850
+它有两个参数
+It has two parameters
+
+252
+00:18:42,850 --> 00:18:44,730
+一是参照世界
+One is reference to the world
+
+253
+00:18:44,730 --> 00:18:47,350
+我认为他们不必解释这是什么
+I think that they don't have to explain what is it
+
+254
+00:18:47,350 --> 00:18:50,130
+其次是任务资源
+And second is the quest resource
+
+255
+00:18:50,130 --> 00:18:51,950
+嗯，任务
+Um , quest
+
+256
+00:18:55,240 --> 00:18:58,620
+呃，任务资源包含，嗯
+Uh , quest resource contains , um
+
+257
+00:18:58,620 --> 00:19:02,337
+以开始然后然后并注释的方式绘制图表
+Graph with the start and then and note
+
+258
+00:19:02,337 --> 00:19:06,570
+嗯，在上面的例子中
+Um , in a example above
+
+259
+00:19:06,570 --> 00:19:09,822
+你可以看到，呃，他们之间有一条薄纸条
+You can see , uh , thin note between them
+
+260
+00:19:09,822 --> 00:19:14,140
+还没确定如何开始呃唱姿
+It's still not define how to start , uh , singing stance
+
+261
+00:19:14,140 --> 00:19:18,840
+这是 sting 资源的运行时表示
+Which is a runtime representation of sting resource
+
+262
+00:19:25,220 --> 00:19:28,330
+乌姆斯坦资产
+Um stin assets
+
+263
+00:19:28,330 --> 00:19:29,300
+呃
+uh
+
+264
+00:19:31,120 --> 00:19:32,700
+这就是你所看到的
+This is what you see
+
+265
+00:19:32,700 --> 00:19:35,235
+这是我们的 Acid 浏览器
+Here is our acid browser
+
+266
+00:19:35,235 --> 00:19:41,005
+呃，看起来constance u的每件事都包含这些文件
+Uh , looks like every thing constance ucontains those files
+
+267
+00:19:41,005 --> 00:19:44,612
+首先，嗯，是在解决方案中
+First , um , is in solution
+
+268
+00:19:44,612 --> 00:19:52,017
+呃，是用于编辑目的的 scoptimized 的表格版本
+Uh , is ina a table version of scoptimized for editing purposes
+
+269
+00:19:52,017 --> 00:19:55,680
+而且，嗯，游戏没有加载它
+And , um , it's not loaded by the game
+
+270
+00:19:55,680 --> 00:19:57,360
+这只是为了，为了一个细节
+It's only for , for a detail
+
+271
+00:19:57,360 --> 00:20:01,402
+其次是场景是由加载的资源
+Second is a scene is a resource loaded by the
+
+272
+00:20:01,402 --> 00:20:04,090
+呃，游戏过程中的引擎
+Uh , engine during the game session
+
+273
+00:20:04,090 --> 00:20:08,252
+它针对尺寸和速度进行了优化
+And it's optimized for the size and the speed
+
+274
+00:20:08,252 --> 00:20:15,300
+在编译此 stin 解决方案文件的过程中会创建 Thin fes
+the thin fes are creating in the process of compilation of this stin solution file
+
+275
+00:20:15,300 --> 00:20:20,670
+流程编译由设计者手动启动
+Compilation for process is started manually by the designer
+
+276
+00:20:20,670 --> 00:20:24,110
+嗯，订购费是，呃，支持
+Um , order fes are , uh , support
+
+277
+00:20:24,110 --> 00:20:29,280
+Fes 预制件不是本次测试的专属文件
+Fes prefab is not exclusive file for this stin
+
+278
+00:20:29,280 --> 00:20:33,720
+它是关卡中某些幻灯片的容器
+It is container for certain slides of the level
+
+279
+00:20:33,720 --> 00:20:40,300
+它将包含最重要的元素，例如标记
+It will contain most important elements for the things such as a marker
+
+280
+00:20:40,300 --> 00:20:41,060
+呃
+Uh
+
+281
+00:20:41,060 --> 00:20:43,840
+代表着世界的起源
+Which represents in origin in the world
+
+282
+00:20:43,840 --> 00:20:49,280
+我们将其放在同一个文件旁边以便于文件管理
+We keep it next to the same file for easier file management
+
+283
+00:20:49,280 --> 00:20:55,637
+cn 日志 . json 文件是出于本地化目的导出文本源
+Cn log . json file is export of text sources for purpose of localization
+
+284
+00:20:55,637 --> 00:21:00,930
+而且这个文件也在创建环，呃，编译过程
+And this file is also creating to ring , uh , compilation process
+
+285
+00:21:03,920 --> 00:21:07,590
+在剧本中你可以看到对话台词
+In screenplay you can see dialogue lines
+
+286
+00:21:07,590 --> 00:21:12,465
+在这里你还可以看到我已经创建了，呃，一个部分
+And here also you see that i already created , uh , a section
+
+287
+00:21:12,465 --> 00:21:14,340
+所以一切都是相连的
+So everything is connected
+
+288
+00:21:14,340 --> 00:21:19,967
+，该部分在屏幕上有拨号线 日期和部分有时间线
+The , the section have dial lines in the screen day and section have a timeline
+
+289
+00:21:19,967 --> 00:21:21,410
+里面充满了
+Which is filled with
+
+290
+00:21:21,410 --> 00:21:26,220
+呃，对应于对话台词的对话事件
+Uh , dialogue events that corresponds to dialogue lines from
+
+291
+00:21:26,220 --> 00:21:27,830
+从画面播放
+From the screen play
+
+292
+00:21:29,940 --> 00:21:34,540
+屏幕上值得一提的部分是第九部分
+Worth mentioned parts of the screen place are section nine
+
+293
+00:21:34,540 --> 00:21:36,420
+而且非常有用
+And it's very useful
+
+294
+00:21:36,420 --> 00:21:39,410
+因为我给你看的这个场景很简单
+Because this scene which i showed you it's simple
+
+295
+00:21:39,410 --> 00:21:40,990
+所以它只有一节
+So it has only one section
+
+296
+00:21:40,990 --> 00:21:42,430
+但它可以有很多
+But it can be many
+
+297
+00:21:42,430 --> 00:21:47,350
+所以最好有它以便更快地搜索扬声器
+So it's it's better to have it for faster search speaker
+
+298
+00:21:47,350 --> 00:21:49,090
+这是 Jacky Addressy
+Which here is jacky addressy
+
+299
+00:21:49,090 --> 00:21:52,650
+这是玩家和对话台词
+Which here is player and dialogue lines
+
+300
+00:21:55,220 --> 00:21:58,700
+这部分充满了嗯对话
+The section thas is filled with um dialogues
+
+301
+00:21:58,700 --> 00:22:02,635
+与屏幕播放中的对话台词相对应的事件
+Events that correspond to dialogue lines from the screen play
+
+302
+00:22:02,635 --> 00:22:07,600
+修改屏幕日期自动更新时间轴视图
+Modification of screen day automatically update the timeline view
+
+303
+00:22:07,600 --> 00:22:12,762
+对话幻灯片长度逐步更新
+The length of dialogue slides are progressively updated
+
+304
+00:22:12,762 --> 00:22:16,877
+Fierce 和 pulin 长度
+Fierce and pulinary lengths
+
+305
+00:22:16,877 --> 00:22:20,410
+它是根据文本本身计算的
+It's calculated based on text itself
+
+306
+00:22:20,410 --> 00:22:25,760
+然后从自动生成的画外音中获取长度
+Then the length is taken from automatically generated voiceovers
+
+307
+00:22:25,760 --> 00:22:30,440
+最后是由专业演员录制的记录
+And finally from the records recorded but by professional actors
+
+308
+00:22:32,160 --> 00:22:36,570
+第二个注意点，对于 disets 来说很重要的是选择节点
+Second note , which is important for disets are choice nodes
+
+309
+00:22:36,570 --> 00:22:39,110
+选择笔记有对话选项
+Choice notes have dialogue options
+
+310
+00:22:39,110 --> 00:22:42,120
+就像各个地区都有不同的气候一样
+Just like sections have a dioc climes
+
+311
+00:22:42,120 --> 00:22:47,487
+对话选项，嗯，也在屏幕播放中创建
+Dialogue options , um , are also creating in the screen play
+
+312
+00:22:47,487 --> 00:22:49,760
+国王创建对话选项后
+After king creating dialogue option
+
+313
+00:22:49,760 --> 00:22:52,300
+并且新的套接字出现在选择上
+And new socket appears on the choice
+
+314
+00:22:52,300 --> 00:22:54,100
+在这里你可以看到
+Here you can see
+
+315
+00:22:54,100 --> 00:22:56,620
+我知道这不是很清楚
+I know that it's not not very clear
+
+316
+00:22:56,620 --> 00:22:58,240
+但有两个插座
+But there is two sockets
+
+317
+00:22:58,240 --> 00:23:01,322
+因为我们在这里有两个选择
+because we here we have two choice options
+
+318
+00:23:01,322 --> 00:23:05,750
+一个连接到一个并注意这个红色的
+And one is connected to the one and note to this red one
+
+319
+00:23:05,750 --> 00:23:08,850
+第二个是这个蓝色并注意
+And second one is to this blue and note
+
+320
+00:23:12,240 --> 00:23:17,370
+太好了，嗯，我们有了我们的蒸汽结构
+Great , um , we have structure of our steam
+
+321
+00:23:17,370 --> 00:23:21,910
+Leplay 在《本能》预览中的 stin
+Leplay in stin in instinct preview
+
+322
+00:23:21,910 --> 00:23:25,120
+你会看到它拥有所有元素
+And you will see that it has all elements
+
+323
+00:23:25,120 --> 00:23:27,190
+它有部分选择
+It has section choice
+
+324
+00:23:27,190 --> 00:23:31,890
+它只有演员、台词和对话选项
+It has actors , dialogue lines and dialogue options only
+
+325
+00:23:31,890 --> 00:23:36,960
+缺少的是小牛肉和嘴唇
+What is missing is veal and the lips sinu
+
+326
+00:23:36,960 --> 00:23:39,670
+分期稍后会添加饮料
+Staging will add later to drink
+
+327
+00:23:39,670 --> 00:23:44,430
+演示文稿视图可以使用 google wife 生成
+Presentation view can be generated using google wife
+
+328
+00:23:44,430 --> 00:23:50,520
+可以在生成的画外音之上生成 Net 和 liping
+Net and liping can be generated on top of those generated voiceovers
+
+329
+00:23:50,520 --> 00:23:52,830
+这两个进程都是离线的
+Both of those processes are offline
+
+330
+00:23:52,830 --> 00:23:57,910
+在我们的，嗯，基础设施服务的帮助下实现这一点
+Implement that with help of our , um , infrastructure services
+
+331
+00:24:03,740 --> 00:24:05,930
+所以在这个视频中，嗯
+So on this video , um
+
+332
+00:24:05,930 --> 00:24:09,050
+你会看到我正在开始预览
+And you'll see that i'm starting the preview
+
+333
+00:24:09,050 --> 00:24:12,090
+感人的戏剧和后果
+The play that is moving and consequence
+
+334
+00:24:12,090 --> 00:24:12,980
+一
+Um
+
+335
+00:24:12,980 --> 00:24:15,100
+对话活动围绕
+Dialogue events are around
+
+336
+00:24:15,100 --> 00:24:19,970
+你会看到对话线出现在部分之后
+And you see the dialogue lines appearing after section
+
+337
+00:24:19,970 --> 00:24:23,070
+信号将到达选择节点
+And the signal is going to the choice node
+
+338
+00:24:23,070 --> 00:24:26,210
+五秒后自动
+And after five seconds automatically
+
+339
+00:24:26,210 --> 00:24:29,010
+而选择就是说话
+And the choice is speak
+
+340
+00:24:29,010 --> 00:24:32,710
+信号向右并注意
+And the signal goes to the right and note
+
+341
+00:24:35,140 --> 00:24:37,880
+而且，呃，现在我们已经掌握了所有基础知识
+And , uh , now we have all basics
+
+342
+00:24:37,880 --> 00:24:40,180
+这样我就可以去，呃
+So i can go to , uh
+
+343
+00:24:40,180 --> 00:24:42,940
+实施的第一个描述和
+First description of implementation and
+
+344
+00:24:42,940 --> 00:24:46,250
+这将是信号分配机制
+And it will be signal distribution mechanism
+
+345
+00:24:46,250 --> 00:24:50,100
+我将在这些演示图中使用，呃
+I'll be using , uh , in these presentation diagrams
+
+346
+00:24:50,100 --> 00:24:55,650
+呃，有，而不是，呃，纯代码
+Uh , of there instead of , uh , pure code
+
+347
+00:24:55,650 --> 00:24:56,280
+一
+Um
+
+348
+00:24:56,280 --> 00:24:58,830
+所以这里的条件
+So here the condition
+
+349
+00:24:58,830 --> 00:25:03,690
+大部分煤炭都在这个由点组成的角中
+large part and large part of coals are in this raq angles made from dots
+
+350
+00:25:03,690 --> 00:25:07,350
+用作由破折号组成的三个缠结
+Function as three tangles made from the dashes
+
+351
+00:25:07,350 --> 00:25:12,250
+信号分配从看到状态开始
+Signal distribution is started from seeing state
+
+352
+00:25:12,250 --> 00:25:16,220
+在见过的实例中调用 run
+Called run in seen instances
+
+353
+00:25:16,220 --> 00:25:19,520
+一般来说有很多状态并且不断变化
+In general of have many states and changing
+
+354
+00:25:19,520 --> 00:25:22,777
+但这里将重点关注状态内存
+But here will be focused on on state ram
+
+355
+00:25:22,777 --> 00:25:25,670
+所以，呃，像其他国家一样管理国家
+So , uh , state run like others
+
+356
+00:25:25,670 --> 00:25:27,910
+呃，状态得到，嗯
+Uh , states gets , um
+
+357
+00:25:27,910 --> 00:25:31,530
+呃，来自引擎的浮点增量时间
+Uh , floating point delta time from the engine
+
+358
+00:25:31,530 --> 00:25:36,345
+增量时间用于增加我们的内部场景时钟
+Delta time is used to increment our internal scenclock
+
+359
+00:25:36,345 --> 00:25:40,170
+我们的内部蒸汽钟信誉不佳
+Our internal steam clock is discredit
+
+360
+00:25:40,170 --> 00:25:47,222
+用于简单比较和计算的固定点值（以毫秒为单位）
+Fixed point value in milliseconds for trivial comparation and calculations
+
+361
+00:25:47,222 --> 00:25:54,545
+然后 Sin 时钟转换为时间窗口并传递给处理 token 函数
+Sin clock then is convert to the time window and pass to process token function
+
+362
+00:25:54,545 --> 00:25:57,990
+嗯，执行信号分配的地方
+Um , where the signal distribution is perform
+
+363
+00:25:57,990 --> 00:26:01,520
+关于老年人的一些有趣的事实
+Some interesting facts about the senistances
+
+364
+00:26:01,520 --> 00:26:03,630
+在网络朋克中
+And in cyber pank
+
+365
+00:26:03,630 --> 00:26:09,202
+我们可以同时拥有多达 200 个活动皮肤实例
+We can have up to two hundred active skin instances at once
+
+366
+00:26:09,202 --> 00:26:15,400
+游戏中的 auston 实例最多可以消耗一毫秒
+Which can consume maximum one milliseconds for auston instances on the game
+
+367
+00:26:15,400 --> 00:26:18,050
+适用于任何平台的线程
+Thread for any platform
+
+368
+00:26:18,050 --> 00:26:20,990
+它包括，呃，所有的js
+It includes , uh , all the js
+
+369
+00:26:20,990 --> 00:26:26,130
+并且我们已经对待与外部系统的安全通信
+And we have treat safe communication with external systems
+
+370
+00:26:26,130 --> 00:26:29,030
+给我们一些灵活性也是如此
+So is giving us some flexibility
+
+371
+00:26:29,030 --> 00:26:32,920
+当我们想要时，运行我们的更新
+When we want to , to run our updates
+
+372
+00:26:35,020 --> 00:26:38,700
+基于代币概念的信号分配
+Signal distribution in based on token concept
+
+373
+00:26:38,700 --> 00:26:45,900
+嗯，我们使用令牌的主要假设是能够更新整个图
+Um , the main assumption we use tokens was to be able to update an entireon graph
+
+374
+00:26:47,480 --> 00:26:52,007
+但也有选择性地，嗯
+But selectively also to , um
+
+375
+00:26:52,007 --> 00:26:54,790
+能够传播时间预算
+Be able to propagate time budget
+
+376
+00:26:54,790 --> 00:26:57,510
+预算与信号一起
+Budgets together with the signal
+
+377
+00:26:57,510 --> 00:27:01,502
+拥有那个位置也非常重要
+And also very important to have that locality
+
+378
+00:27:01,502 --> 00:27:04,000
+在这里我们可以看到，嗯
+Here we can see the , um
+
+379
+00:27:04,000 --> 00:27:06,500
+简化的主循环，呃
+The simplifying main loop , uh
+
+380
+00:27:06,500 --> 00:27:12,040
+使用代币安装草的信号有哪些进展
+Which progress the signal instsing grass with using tokens
+
+381
+00:27:12,040 --> 00:27:14,470
+所以在运行之前
+So before it's run
+
+382
+00:27:14,470 --> 00:27:18,350
+立场场景如何开始，因为它已创建
+How the scene in stance can start because it's created
+
+383
+00:27:18,350 --> 00:27:22,870
+然后我们在纸条上放置信号令牌
+And then what we are putting signal token on the note
+
+384
+00:27:22,870 --> 00:27:26,090
+大多数情况下是开始，呃
+In most cases is start , uh
+
+385
+00:27:26,090 --> 00:27:27,975
+现场注意事项
+Note of the scene
+
+386
+00:27:27,975 --> 00:27:30,550
+在节点上放置信号意味着什么
+And what means put signal on the node
+
+387
+00:27:30,550 --> 00:27:34,397
+这意味着我们正在创建信号令牌对象
+It means that we are creating signal token object
+
+388
+00:27:34,397 --> 00:27:37,240
+分配给它的节点id
+Assigned to it node id
+
+389
+00:27:37,240 --> 00:27:40,380
+并将其添加到 ri 中，呃
+And add it to the ri , uh
+
+390
+00:27:40,380 --> 00:27:46,410
+过程中第一个操作就是我们是,嗯
+First operation during the the process is that we are , um
+
+391
+00:27:46,410 --> 00:27:49,790
+将非活动令牌更改为活动令牌
+Changing inactive tokento active
+
+392
+00:27:49,790 --> 00:27:55,450
+如果我们可以将这些不活动标记的目的放在帧之间
+If we can purpose of those inactive tokens is to leave between frames
+
+393
+00:27:55,450 --> 00:27:58,315
+并且能够控制时间预算
+And to be able to control time budgets
+
+394
+00:27:58,315 --> 00:27:59,090
+呃
+Uh
+
+395
+00:27:59,090 --> 00:28:02,790
+所以一个好的例子是
+So the good example would be that for example
+
+396
+00:28:02,790 --> 00:28:07,230
+你不想在这个特定的框架中执行一些节点
+You don't want in this particular frame , execute some node
+
+397
+00:28:07,230 --> 00:28:09,980
+但你想进入，呃，另一个框架
+But you want to in , uh , another frame
+
+398
+00:28:09,980 --> 00:28:13,722
+那么你就将不活动而不是活动
+So then you are putting inactive instead of active
+
+399
+00:28:13,722 --> 00:28:15,710
+状态令牌 信号令牌
+State token signal token
+
+400
+00:28:15,710 --> 00:28:16,360
+对不起
+Sorry
+
+401
+00:28:16,360 --> 00:28:19,867
+信号令牌注释的一部分，嗯
+A part of signal token notes , um
+
+402
+00:28:19,867 --> 00:28:23,752
+注意可以生成e
+Note can generate e
+
+403
+00:28:23,752 --> 00:28:26,050
+执行令牌，呃
+Execution token , uh
+
+404
+00:28:26,050 --> 00:28:31,445
+这允许注释在外部系统上执行
+Which gave permission for the note for execution on the external systems
+
+405
+00:28:31,445 --> 00:28:36,170
+并且不处理也可以生成状态令牌来感知笔记
+And also not processing can generate state token to perceive notes
+
+406
+00:28:36,170 --> 00:28:40,035
+帧之间或游戏会话之间的状态
+State between frames or between game sessions
+
+407
+00:28:40,035 --> 00:28:44,650
+所以token是在节点进程中生成的
+So tokens are generated during node process
+
+408
+00:28:46,180 --> 00:28:48,870
+嗯，我们正在循环，呃
+Um , we are looping , uh
+
+409
+00:28:48,870 --> 00:28:54,430
+执行信号分配循环，直到我们有活跃令牌为止
+The loop of signal distribution is executed until we have active tokens
+
+410
+00:28:54,430 --> 00:28:58,360
+所以直到我们的 ri 中有活跃代币
+So until we have in our ri active tokens
+
+411
+00:28:58,360 --> 00:28:59,990
+我们正在循环，循环
+We are looping , looping
+
+412
+00:28:59,990 --> 00:29:01,550
+循环播放。当它是空的时候
+Looping . when it's empty
+
+413
+00:29:01,550 --> 00:29:05,940
+我们可以拿另一件事为例并做同样的事情
+We can take another thing instance and do the same
+
+414
+00:29:05,940 --> 00:29:11,892
+或者说，它是我们所有系统和处理的结束
+Or the , its end of all of our system and processing
+
+415
+00:29:11,892 --> 00:29:16,070
+关于代币的有趣事实是我们使用，嗯
+Interesting facts about the tokens is that we use , um
+
+416
+00:29:16,070 --> 00:29:18,070
+令牌的一种尺寸
+One size for the tokens
+
+417
+00:29:18,070 --> 00:29:21,265
+所以我们可以将它们存储在ri中
+So we can store them in the ri
+
+418
+00:29:21,265 --> 00:29:24,460
+我非常擅长
+And i are very good for
+
+419
+00:29:24,460 --> 00:29:31,580
+嗯，因为内存局部性和图状态独立于
+Um , for memory locality and graph state is independent from the
+
+420
+00:29:31,580 --> 00:29:32,910
+呃，图表数据
+Uh , graph data
+
+421
+00:29:32,910 --> 00:29:36,340
+所以我们可以进行不同的优化
+So we can optimize differently
+
+422
+00:29:36,340 --> 00:29:38,250
+状态记忆
+The memory for the state
+
+423
+00:29:38,250 --> 00:29:41,530
+对于数据则不同
+And differently for , for the data
+
+424
+00:29:41,530 --> 00:29:43,740
+所以考虑到所有这些
+So taking all of that
+
+425
+00:29:43,740 --> 00:29:46,700
+我们可以减少运行时的内存池
+We could reduce the memory pool for the runtime
+
+426
+00:29:46,700 --> 00:29:49,460
+Sing data , um , to , 兆字节
+Sing data , um , to , for mega bytes
+
+427
+00:29:49,460 --> 00:29:52,300
+对于这么大的游戏来说这已经相当不错了
+Which is quite good for such a big game
+
+428
+00:29:54,560 --> 00:30:01,160
+我们已经有了，呃，基本结构，通常由任务设计师在制作中完成
+We already have , uh , basic structure which would be done by the quest designer normally in the production
+
+429
+00:30:01,160 --> 00:30:04,340
+现在我们去舞台吧，呃
+Now let's go to the staging , uh
+
+430
+00:30:04,340 --> 00:30:07,380
+这是由电影设计师完成的
+Which is done by the cinematic designer
+
+431
+00:30:08,690 --> 00:30:12,850
+我想要的前几个术语，你知道什么是分期
+First few terms which i want to , you know what is staging
+
+432
+00:30:12,850 --> 00:30:18,970
+这就是演员我们的舞台或放置在这个 stm 上来引导玩家的方式
+This is how actor our stage or placed at this stm to guide player
+
+433
+00:30:18,970 --> 00:30:22,250
+并获得最佳可能的图像质量
+And get the best possibility image quality
+
+434
+00:30:22,250 --> 00:30:26,420
+是啊，为了，为了拥有完美的构图
+Yeah , to , to have perfect composition
+
+435
+00:30:26,420 --> 00:30:27,985
+乙
+E
+
+436
+00:30:27,985 --> 00:30:33,490
+您可以将其视为关键职位的作品可以理解为动画
+Work you can considering as a key post can be understand as animation
+
+437
+00:30:33,490 --> 00:30:36,445
+其中不包含很多运动
+Which do not contains a lot of motion
+
+438
+00:30:36,445 --> 00:30:41,475
+呃，在舞台定义的某个位置上
+Uh , at its place in some position defined by the staging
+
+439
+00:30:41,475 --> 00:30:43,380
+呃，工作运动
+Uh , worksports
+
+440
+00:30:43,380 --> 00:30:46,310
+这是工作资源的简称
+This is short name for the work resource
+
+441
+00:30:46,310 --> 00:30:49,010
+呃，为了工作资源
+Uh , for the work resource
+
+442
+00:30:49,010 --> 00:30:50,870
+作品之间的动画
+Animation between works
+
+443
+00:30:50,870 --> 00:30:56,570
+我将称之为过渡和作品，过渡将是
+I will be calling transitions and works and transition will be
+
+444
+00:30:56,570 --> 00:31:00,162
+呃，把一些事件放在时间线上
+Uh , placing on timeline as some events
+
+445
+00:31:00,162 --> 00:31:03,810
+那么让我们开始构建吧
+So let's go and let's start building the
+
+446
+00:31:03,810 --> 00:31:06,770
+分期并完成分期过程
+The staging and go through the staging process
+
+447
+00:31:09,700 --> 00:31:12,220
+首先在我们需要打开的部分
+First in the section we need to turn on
+
+448
+00:31:12,220 --> 00:31:15,987
+将时间线轨道专用于夹克
+Dedicate the timeline track for a jacke
+
+449
+00:31:15,987 --> 00:31:21,830
+你还会看到不仅有一个轨道还有很多子轨道
+you will see also that there are not only one track but many subtracks
+
+450
+00:31:21,830 --> 00:31:26,660
+这是布局的默认行，可以扩展
+And this is default line of layout which can be extended
+
+451
+00:31:26,660 --> 00:31:32,960
+专用轨道，嗯用于组织活动和设置参考
+dedicated track , um is for organizing events and out to set references
+
+452
+00:31:36,500 --> 00:31:39,200
+我们有，嗯，专用轨道
+We have , um , dedicated track
+
+453
+00:31:39,200 --> 00:31:41,970
+现在我将添加更改工作事件
+And now i will add change work event
+
+454
+00:31:41,970 --> 00:31:45,860
+而这次活动专门设置了一个作品
+And this event is dedicated to set a work
+
+455
+00:31:45,860 --> 00:31:48,530
+设置的参数是目标
+Parameters to set are the target
+
+456
+00:31:48,530 --> 00:31:51,915
+所以在我们的例子中它将是 jackie mtt
+So in our case it will be jackie mtt
+
+457
+00:31:51,915 --> 00:31:55,620
+第二个参数是，呃，工作
+And second parameter is , uh , work
+
+458
+00:31:55,620 --> 00:31:58,820
+我会记录一下作品是动画
+I will record that work is an animation
+
+459
+00:31:58,820 --> 00:32:05,100
+或在团队中具有一定位置的简单帖子来选择单词
+or simple post with certain placement in a team to select word
+
+460
+00:32:05,100 --> 00:32:07,465
+我正在使用单词选择器
+I'm using word picker
+
+461
+00:32:07,465 --> 00:32:11,860
+我会把座位安排到需要工作的地方
+And i will set seat to hands on nees work
+
+462
+00:32:11,860 --> 00:32:15,975
+这这这就是这部作品的名字
+This , this will be the , the name of this work
+
+463
+00:32:15,975 --> 00:32:18,980
+正如你所看到的，我们可以有很好的背景
+And as you see what we can have nice context
+
+464
+00:32:18,980 --> 00:32:24,447
+搜索哪个过滤掉，呃，工作体育图书馆
+Search which filter out , uh , worksports library
+
+465
+00:32:24,447 --> 00:32:29,070
+我们对目标实体进行了使用寿命预览
+And we have useful life preview with target entity
+
+466
+00:32:31,920 --> 00:32:34,940
+关于workspuh work picer 本身
+About workspuh work picer itself
+
+467
+00:32:34,940 --> 00:32:36,960
+它正在使用工作簿库
+It's using workbook librari
+
+468
+00:32:36,960 --> 00:32:42,320
+哪一组工作导出按命名约定按类别排序
+Which is set of work exports sorted in categories with naming convention
+
+469
+00:32:42,320 --> 00:32:46,290
+允许快速搜索锻炼库
+Which allowing quick search workout library
+
+470
+00:32:46,290 --> 00:32:51,197
+您可以将其想象为包含工作资源的文件夹的地图视图
+You can imagine as map view of folders with work resources
+
+471
+00:32:51,197 --> 00:32:55,540
+呃，我在这里展示了两个通用配置的作品
+Uh , i'm showing here two works in common configuration
+
+472
+00:32:55,540 --> 00:33:01,690
+呃，除了闲置动画之外还添加了其他内容
+Uh , where additional were addition to the idle animation
+
+473
+00:33:01,690 --> 00:33:07,075
+具有附加动画以随机方式播放
+Has additive animation to played in sell the random manner
+
+474
+00:33:07,075 --> 00:33:13,382
+其目的是增加本能中看到的动画的多样性
+The purpose of it is to increase variety of animations seen in instincts
+
+475
+00:33:13,382 --> 00:33:19,350
+而且它也让游戏变得更加有趣，对于玩家来说
+And also it makes it led more interesting for , for the player
+
+476
+00:33:25,160 --> 00:33:25,660
+好的
+Okay
+
+477
+00:33:25,660 --> 00:33:28,170
+所以我们，呃，安排工作
+So we have , uh , set work
+
+478
+00:33:28,170 --> 00:33:30,707
+嗯，我要开始预览了
+Um , i will start the preview
+
+479
+00:33:30,707 --> 00:33:36,130
+可以看到jackie立马把默认的作品改了
+You can see that the jackie immediately changed the work from the default
+
+480
+00:33:36,130 --> 00:33:39,640
+从活动开始工作
+Work to work from the event
+
+481
+00:33:39,640 --> 00:33:41,470
+呃，这个大招有效
+Uh , and this ult work
+
+482
+00:33:41,470 --> 00:33:43,562
+我们去偶像摊
+We are going idol stand
+
+483
+00:33:43,562 --> 00:33:49,757
+呃，尽管事实上这是一个循环执行动画的点事件夹克
+Uh , despite the fact that it's a point event jacket performed animation in loop
+
+484
+00:33:49,757 --> 00:33:52,730
+作品不是单一的动画
+Work is not a single animation
+
+485
+00:33:52,730 --> 00:33:56,830
+它是实体的整个逻辑ai状态
+It is whole logical ai state of entity
+
+486
+00:34:03,700 --> 00:34:09,900
+现在是转场，呃，让我们看看进一步添加作品和转场的过程
+Now transitions , uh , so let's look at the further process of adding works and transitions
+
+487
+00:34:09,900 --> 00:34:12,489
+我添加另一个变更工作事件
+I add another change work event
+
+488
+00:34:12,489 --> 00:34:18,310
+这次我卖的是一只鹿自动转出
+And this time i'm selling transition a deer automatically deout
+
+489
+00:34:18,310 --> 00:34:21,459
+之前是什么姿势
+What pose was before
+
+490
+00:34:21,459 --> 00:34:22,239
+一
+Um
+
+491
+00:34:22,239 --> 00:34:27,040
+并在选择后建议匹配的转换，嗯
+And suggest the transition that matches , um , after selecting
+
+492
+00:34:27,040 --> 00:34:32,870
+还注意到工作也出来了选择这个能力来扣除
+also noted that work is also also out to selected this ability to deduct
+
+493
+00:34:32,870 --> 00:34:36,350
+演员在某个时刻之前的状态是什么
+What the state of the actor is before certain moment
+
+494
+00:34:36,350 --> 00:34:39,159
+结合适当的命名约定
+Combined with proper naming convention
+
+495
+00:34:39,159 --> 00:34:42,330
+这对设计师来说是一个很大的速度笑话
+It's a big speed gag for designer
+
+496
+00:34:42,330 --> 00:34:43,860
+等等 。最重要的是
+And so on . top of that
+
+497
+00:34:43,860 --> 00:34:47,980
+如果您可以从看到图表的任何时刻开始预览
+If you can start preview from any moment of seeing graph
+
+498
+00:34:47,980 --> 00:34:53,989
+然后你将拥有非常好的快速实现和迭代循环
+Then you will have really nice fast implementation and iteration loop
+
+499
+00:35:00,480 --> 00:35:03,000
+我们无力记录
+We cannot afford to record
+
+500
+00:35:03,000 --> 00:35:08,470
+作品之间所有过渡组合的所有动画
+All animations for all combination of transitions between works
+
+501
+00:35:08,470 --> 00:35:10,570
+这只是物理上不可能的
+It's just physically not possible
+
+502
+00:35:10,570 --> 00:35:14,972
+我们没有，我们没有这方面的预算
+And we don't have we didn't have budgets for for that
+
+503
+00:35:14,972 --> 00:35:17,100
+所以下一个三节课
+So next tris session
+
+504
+00:35:17,100 --> 00:35:19,480
+我需要选择手动盟友
+I need to select manual ally
+
+505
+00:35:19,480 --> 00:35:22,840
+我在工作中关掉过滤器
+I turn off the filter in work
+
+506
+00:35:22,840 --> 00:35:29,555
+呃，选择器和，呃，设置为最适合我的场景的过渡
+Uh , picker and , uh , set for the best fitting transition to my scene
+
+507
+00:35:29,555 --> 00:35:36,680
+预记录转换和一般记录之间的平衡处于我们正在飙升的位置
+These balance between pre records transitions and general ones is placed where we are surging
+
+508
+00:35:36,680 --> 00:35:38,760
+削减生产成本
+Cut of production costs
+
+509
+00:35:43,740 --> 00:35:46,290
+好的，我们已经有了所有的姿势
+Okay , so we have all poses
+
+510
+00:35:46,290 --> 00:35:48,910
+让我们看看皮肤是什么样子的
+Let's see how the skin looks like
+
+511
+00:35:48,910 --> 00:35:55,430
+与上一届会议的结构工作和过渡
+With the structure works and transitions in previous session
+
+512
+00:36:00,040 --> 00:36:00,500
+再次
+Again
+
+513
+00:36:00,500 --> 00:36:02,400
+我们开始预览
+We starting the preview
+
+514
+00:36:03,750 --> 00:36:05,350
+你会看到类似的
+You will see that similar
+
+515
+00:36:05,350 --> 00:36:07,610
+我喜欢上一个视频
+I like on the previous video
+
+516
+00:36:07,610 --> 00:36:12,480
+呃，我们正在移动播放头，对话台词出现了
+Uh , we are moving the the playhead and the dialogue lines appeared
+
+517
+00:36:12,480 --> 00:36:16,760
+但也运行相应的转换
+But also the corresponding transitions are run
+
+518
+00:36:16,760 --> 00:36:22,060
+杰基也在改变中间的姿势
+And jackie is changing also the the poses in between
+
+519
+00:36:22,060 --> 00:36:27,690
+因此，放置在该场景中或该场景的一部分的可能性非常重要
+So this is very important that this possibility to place in or part of this scene
+
+520
+00:36:27,690 --> 00:36:30,015
+刚换完后
+Just after changing
+
+521
+00:36:30,015 --> 00:36:34,550
+对场景进行更改极大地缩短了实施时间
+Make the changes to the scene is extreme boost in implementation time
+
+522
+00:36:35,590 --> 00:36:40,420
+现在我们准备进行第二次实现
+So now we are ready to go to the second implementation
+
+523
+00:36:40,420 --> 00:36:45,382
+我想展示的是事件处理和执行
+Which i want to show is events processing and execution
+
+524
+00:36:45,382 --> 00:36:48,330
+我们已经知道发生了什么
+We already know what are the events
+
+525
+00:36:48,330 --> 00:36:51,200
+以及它们在编辑器中的位置
+And where they are in editor
+
+526
+00:36:51,200 --> 00:36:54,390
+在内部，时间线轨道不存在
+Internally , timeline track do not exist
+
+527
+00:36:54,390 --> 00:36:57,660
+但我把它们放在这里是为了更方便
+But i keep them here for easier
+
+528
+00:36:57,660 --> 00:37:02,870
+了解活动的概念和实施
+Understanding of the concept and implementation of the events
+
+529
+00:37:02,870 --> 00:37:05,110
+包含 id 、开始时间
+Contains id , start time
+
+530
+00:37:05,110 --> 00:37:08,950
+水龙头类型和 partype 专用参数
+Tap type and partype dedicated parameters
+
+531
+00:37:10,140 --> 00:37:17,835
+呃，在过程部分中，像任何其他部分一样获得时间预算
+During uh , section process section gets time budget like any and out
+
+532
+00:37:17,835 --> 00:37:22,390
+而这个预算就转化为时间窗口
+And this budget is transformed into time window
+
+533
+00:37:22,390 --> 00:37:28,290
+哪一个和这里左边的两个重要属性是包容性的
+Which and here two important properties on left is inclusive
+
+534
+00:37:28,290 --> 00:37:31,895
+右侧不包含在内
+On the right side is not inclusive
+
+535
+00:37:31,895 --> 00:37:36,700
+时间窗口之外的内容是执行的
+What is outside of the time window was execute that
+
+536
+00:37:36,700 --> 00:37:39,702
+或将在未来被处决
+Or will be executed in the future
+
+537
+00:37:39,702 --> 00:37:45,540
+但是我们对包容性和包容性网站的理解是，嗯
+But what we understand by inclusive and ninclusive sites of the , um
+
+538
+00:37:45,540 --> 00:37:47,170
+时间窗口在这里
+Time window here
+
+539
+00:37:47,170 --> 00:37:50,880
+你可以在幻灯片上看到，呃，这一事件
+You can see , uh , on the slide that one event
+
+540
+00:37:50,880 --> 00:37:57,290
+开始时间到了。它等于时间窗口的开始时间
+It start time . it's equal to the start time of the time window
+
+541
+00:37:57,290 --> 00:38:03,142
+在这个框架中我们将执行这个 um 事件
+And in this frame we will execute this um event
+
+542
+00:38:03,142 --> 00:38:06,500
+但我们还有第二个活动
+but we have also second an event
+
+543
+00:38:06,500 --> 00:38:09,050
+本次活动具体开始时间
+Which start time of this event
+
+544
+00:38:09,050 --> 00:38:15,200
+在这些人中，点事件等于时间窗口的结束事件
+Point event is equal to end event of time window in such guys
+
+545
+00:38:15,200 --> 00:38:17,700
+该帧中的该事件不会被执行
+This event in this frame will be not executed
+
+546
+00:38:17,700 --> 00:38:20,060
+并且会在下一帧执行
+And it will be executed in the next frame
+
+547
+00:38:21,690 --> 00:38:26,240
+偶数处理从确定偶数的位置开始
+The even processing begins with determining the position of the
+
+548
+00:38:26,240 --> 00:38:29,930
+呃，呃，当然事件过程，呃
+Uh , uh , course event course of , uh
+
+549
+00:38:29,930 --> 00:38:31,550
+基于时间窗口
+Based on time window
+
+550
+00:38:31,550 --> 00:38:35,570
+然后我们迭代事件直到到达事件
+And then we iterate through events until we get to the event
+
+551
+00:38:35,570 --> 00:38:38,750
+哪个不包含在时间窗口内
+Which is not contained by the time window
+
+552
+00:38:38,750 --> 00:38:40,650
+这不是重叠
+It's not overlap
+
+553
+00:38:40,650 --> 00:38:42,030
+一
+Um
+
+554
+00:38:42,030 --> 00:38:44,967
+我们创建动作部分
+We creating action parts
+
+555
+00:38:44,967 --> 00:38:50,137
+在处理当前有关动作部分的事件期间
+During this processing of events about action parts in the moment
+
+556
+00:38:50,137 --> 00:38:53,250
+现在，让我们集中精力，呃
+For now , let's focus that , uh
+
+557
+00:38:53,250 --> 00:38:59,062
+我们可以根据事件的活动生成不同的动作部分
+We can generate different action parts depending on activity of the event
+
+558
+00:38:59,062 --> 00:39:02,020
+而且，那就是，嗯
+And , and that's , um
+
+559
+00:39:02,020 --> 00:39:04,880
+该活动的活动，呃，是
+Activity , uh , of the event is
+
+560
+00:39:04,880 --> 00:39:09,840
+确定时间窗口如何与事件重叠
+Determine how , uh , time window overlap the event
+
+561
+00:39:09,840 --> 00:39:14,530
+如果时间窗口包含事件的开始，则开始活动
+And if the time window contains the beginning of the event , it start activity
+
+562
+00:39:14,530 --> 00:39:18,390
+如果窗口与事件的中间部分重叠
+If the window overlap the middle part of the event
+
+563
+00:39:18,390 --> 00:39:20,350
+然后是常规活动
+Then its regular activity
+
+564
+00:39:20,350 --> 00:39:25,070
+如果末端被覆盖，它的和活动
+And if the end is covered , its and activity
+
+565
+00:39:27,440 --> 00:39:32,560
+evin的各个动作部分按动作键排列
+the evin individual action parts are arranged by action key
+
+566
+00:39:32,560 --> 00:39:39,280
+排序后，动作部分将按类型分组
+in such a way that after sorting the action parts will be grouped by the type
+
+567
+00:39:40,300 --> 00:39:43,940
+并且将执行具有最高属性的动作部分
+And action part with the highest perty will be performed
+
+568
+00:39:43,940 --> 00:39:50,780
+第一个组合器是用于对类型中的操作部分进行排序的附加参数
+First combiner is additional parameter to sort action part within a type
+
+569
+00:39:50,780 --> 00:39:56,390
+因此，组合错误可以例如将执行的目标 id
+so combine error can for example target id on which will perform
+
+570
+00:39:59,050 --> 00:40:04,730
+所以我们可以，例如，首先为第一个mtt做动作部分
+So we can , for example , first do action part for first mtt
+
+571
+00:40:04,730 --> 00:40:06,410
+然后是第二个和第三个
+Then for the second and the thir
+
+572
+00:40:07,960 --> 00:40:09,960
+我认为现在是扩展的好时机
+i think that is a good moment to expand
+
+573
+00:40:09,960 --> 00:40:13,280
+为什么我们要创建这些动作和动作部分
+Why we are creating those actions and action parts
+
+574
+00:40:13,280 --> 00:40:17,437
+并且不直接对事件执行
+And not executing directly on the from the events
+
+575
+00:40:17,437 --> 00:40:22,790
+应考虑速度来优化执行过程
+Execution process should be optimized with taking into into account speed
+
+576
+00:40:22,790 --> 00:40:23,950
+依赖性
+Dependency
+
+577
+00:40:23,950 --> 00:40:28,057
+解析和外部系统特性
+Resolving and external system characteristics
+
+578
+00:40:28,057 --> 00:40:29,870
+为了满足这些要求
+To meet those requirements
+
+579
+00:40:29,870 --> 00:40:32,010
+我们使用，嗯，动作
+We use , um , actions
+
+580
+00:40:32,010 --> 00:40:36,157
+这给了我们独立的分离和灵活性
+Which give us separate separation and flexibility
+
+581
+00:40:36,157 --> 00:40:40,930
+与事件相反，动作和动作部分是在 rin time 中创建的
+Action and action parts , in contrast to events are created in rin time
+
+582
+00:40:40,930 --> 00:40:42,950
+具有良好的分拣能力
+Have good sorting capabilities
+
+583
+00:40:42,950 --> 00:40:45,390
+因为他们是在运行时创建的
+And because they are creating in runtime
+
+584
+00:40:45,390 --> 00:40:49,760
+我们关于 stm 实例内的依赖关系吗
+Are our about dependences within stm instances
+
+585
+00:40:49,760 --> 00:40:50,410
+好的
+Okay
+
+586
+00:40:50,410 --> 00:40:53,650
+所以我们通过处理部分
+So we pass the the part with the processing
+
+587
+00:40:53,650 --> 00:40:57,630
+现在执行并执行操作
+Now execution and the execution of the operation
+
+588
+00:40:57,630 --> 00:41:02,310
+首先根据操作键对操作路径进行排序
+Begin with the sorting of action paths based on action keys
+
+589
+00:41:02,310 --> 00:41:05,720
+我们在上一张幻灯片中讨论的内容
+Those which we are talking about on the previous slide
+
+590
+00:41:05,720 --> 00:41:08,990
+然后将动作部分添加到动作中
+Then the action parts are added to the action
+
+591
+00:41:08,990 --> 00:41:15,950
+动作和动作部分之间的关​​系是动作包含执行代码
+A rela relationship between action and action part is that action contains execution code
+
+592
+00:41:15,950 --> 00:41:19,905
+使用动作部分作为参数
+Which use action parts as a parameters
+
+593
+00:41:19,905 --> 00:41:24,040
+最后，呃，动作被执行了
+Finally , the actions , uh , are performed
+
+594
+00:41:24,040 --> 00:41:26,535
+执行时可能会导致
+Which may result as execution
+
+595
+00:41:26,535 --> 00:41:29,440
+嗯，外部系统或作曲家
+Um , external system or composer
+
+596
+00:41:29,440 --> 00:41:32,190
+作曲家是，嗯，模特
+Composer is , um , model
+
+597
+00:41:32,190 --> 00:41:39,257
+负责同一目标上不同tm实例之间的分发操作
+Responsible for distributing operation between different tm instances on the same target
+
+598
+00:41:39,257 --> 00:41:40,920
+例如，一个
+For example , um
+
+599
+00:41:40,920 --> 00:41:41,660
+如果你想
+If you want
+
+600
+00:41:41,660 --> 00:41:45,420
+如果同时运行几个场景
+If you have few scenes running at the same time
+
+601
+00:41:45,420 --> 00:41:48,540
+他们正在访问玩家
+And they are accessing player
+
+602
+00:41:48,540 --> 00:41:54,667
+所以我们需要一些层来检测冲突或
+So we need some layer which will be detecting the conflicts or
+
+603
+00:41:54,667 --> 00:41:57,030
+或者决定应该先做什么
+Or deciding what should be first
+
+604
+00:41:57,030 --> 00:41:58,880
+其次应该是什么
+And what should be second
+
+605
+00:42:00,750 --> 00:42:04,420
+最后，我想向您展示预览会话是如何进行的
+At the end , i want to show you how the preview session
+
+606
+00:42:04,420 --> 00:42:06,470
+呃，按比例工作
+Uh , works in the scale
+
+607
+00:42:06,470 --> 00:42:07,140
+一
+Um
+
+608
+00:42:07,140 --> 00:42:09,400
+我将运行
+And i will run the
+
+609
+00:42:09,400 --> 00:42:15,782
+前一届最终版场景加载了夜城视频
+The previous session of the final version of the scene with night city loaded videos
+
+610
+00:42:15,782 --> 00:42:18,490
+口型同步和后期处理
+Lip sync and post processes
+
+611
+00:42:19,670 --> 00:42:24,670
+嗯，我知道也许你不在这里溜冰场
+Um , i know that maybe you are not here rink
+
+612
+00:42:25,690 --> 00:42:27,950
+声音，嗯
+The voice , um
+
+613
+00:42:27,950 --> 00:42:31,010
+但抱歉，我现在不会修复
+But sorry that i , i will not fix right now
+
+614
+00:42:31,010 --> 00:42:34,250
+但您会看到比预览更多的内容
+But you will see much more than on the preview
+
+615
+00:42:34,250 --> 00:42:36,210
+预览，预览会议肯定
+Preview , preview session for sure
+
+616
+00:42:59,100 --> 00:43:04,700
+所以它看起来与你在游戏中看到的非常相似
+so it looks pretty identical to what you see in game
+
+617
+00:43:26,200 --> 00:43:30,120
+是的，所以你可以改变相机的姿势
+Yeah , so you can pose change the camera
+
+618
+00:43:30,120 --> 00:43:31,020
+是的
+Yeah
+
+619
+00:43:31,020 --> 00:43:34,480
+玩家没有经历过这很有趣
+player do not have had it's pretty funny
+
+620
+00:43:46,400 --> 00:43:49,360
+是的，我们可以回到fpp来吧
+yeah ， we can go back to fpp come around
+
+621
+00:43:56,280 --> 00:43:56,800
+好的
+Okay
+
+622
+00:43:56,800 --> 00:43:58,600
+我们来总结一下
+Let's go to summary
+
+623
+00:43:58,600 --> 00:44:00,620
+所以在我的演讲之后
+So after my presentation
+
+624
+00:44:00,620 --> 00:44:04,330
+你知道第一人称视角是，呃
+And you know that first person perspective was , uh
+
+625
+00:44:04,330 --> 00:44:11,247
+当我们设计和实现工具集中的许多东西时，这是一个重要的部分
+Important part when we are designing and implementation and implementing many things in the toolset
+
+626
+00:44:11,247 --> 00:44:19,050
+而且你知道，男女主角不仅仅是游戏设置统计中的参数
+And you know that female and male protagonist is not just parameter in the game setting statistics
+
+627
+00:44:19,050 --> 00:44:24,380
+这是创建呃场景系统时的重要特征
+It's important characteristic when creating , uh , scene system
+
+628
+00:44:24,380 --> 00:44:26,857
+我给你看了 sca itor
+I showed you sca itor
+
+629
+00:44:26,857 --> 00:44:32,610
+我在实践中使用场景结构和场景分期
+And i did for use scene structure with the scenes staging in practice
+
+630
+00:44:32,610 --> 00:44:34,970
+我们完成了信号分配
+We went through the signal distribution
+
+631
+00:44:34,970 --> 00:44:40,297
+其中使用了代币并了解其工作原理以及是什么
+Which used tokens and learn how it works and what is
+
+632
+00:44:40,297 --> 00:44:43,260
+这是相当简单的实现
+And that is quite light implementation
+
+633
+00:44:43,260 --> 00:44:44,240
+在最后
+At the end
+
+634
+00:44:44,240 --> 00:44:50,390
+我们使用动作来分解执行过程
+We decompose even execution process with use of actions
+
+635
+00:44:52,150 --> 00:44:53,940
+谢谢你和我在一起
+Thank you for being with me
+
+636
+00:44:53,940 --> 00:44:58,650
+我希望您在我的演讲中发现一些有趣的内容
+i hope that you found something interesting for you in my presentation
+
+637
+00:44:58,650 --> 00:45:02,307
+您未来的游戏可以从中受益
+And your future games can benefit from it
+
+638
+00:45:02,307 --> 00:45:04,560
+并且有这个机会
+And having this opportunity
+
+639
+00:45:04,560 --> 00:45:07,330
+我不会说我们正在招聘
+I won't say that we are hiring
+
+640
+00:45:07,330 --> 00:45:11,177
+所以如果您有兴趣与我们合作
+So if you are interested in working with us
+
+641
+00:45:11,177 --> 00:45:14,890
+例如，在这样的交互式合成技术上
+For example , on such interactive syntech
+
+642
+00:45:14,890 --> 00:45:17,120
+请联系我们
+Please reach out us
+
+643
+00:45:17,120 --> 00:45:19,800
+保持健康，保持安全
+Stay healthy , stay safe
+
+644
+00:45:19,800 --> 00:45:20,790
+谢谢
+Thank you
+
+645
+00:45:23,260 --> 00:45:24,240
+呃，谢谢你
+Uh , thank you
+
+646
+00:45:24,240 --> 00:45:25,120
+谢谢你，菲利普
+Thank you , philip
+
+647
+00:45:25,120 --> 00:45:25,800
+呃
+Uh
+
+648
+00:45:25,800 --> 00:45:28,702
+那真是一次了不起的，呃，会议
+That was an amazing , uh , session
+
+649
+00:45:28,702 --> 00:45:32,190
+呃，呃，正在看这些视频
+Uh , was , uh , looking at these videos
+
+650
+00:45:32,190 --> 00:45:35,270
+这个例子我们使用
+And this example we use
+
+651
+00:45:35,270 --> 00:45:41,490
+右手真是鼓舞人心。因为，呃
+The right hand was really inspiring . because , uh
+
+652
+00:45:41,490 --> 00:45:44,230
+我一直在看屏幕的右侧
+I was looking on the right side of the screen
+
+653
+00:45:44,230 --> 00:45:47,130
+光滑的手经过的地方
+Where the smooth hand passing by
+
+654
+00:45:47,130 --> 00:45:51,310
+屏幕左侧还有这个噗哈哈快手
+And the left side the screen with this po ha ha quick hand
+
+655
+00:45:51,310 --> 00:45:54,090
+哇，你做的真是太棒了
+And wow , that's an amazing job you doing
+
+656
+00:45:54,090 --> 00:45:58,630
+我可以看到那些小细节，呃，那个
+I can see those small details , uh , that
+
+657
+00:45:58,630 --> 00:45:59,700
+呃
+Uh
+
+658
+00:45:59,700 --> 00:46:03,217
+提高游戏的最终质量
+Increase the final quality of the game
+
+659
+00:46:03,217 --> 00:46:03,920
+是的
+Yeah
+
+660
+00:46:03,920 --> 00:46:04,320
+它是
+It's
+
+661
+00:46:04,320 --> 00:46:06,490
+我的意思是，经常
+I mean , it's often
+
+662
+00:46:06,490 --> 00:46:08,110
+你知道，我睡不着
+You know , i couldn't sleep
+
+663
+00:46:08,110 --> 00:46:10,330
+因为，呃，那些包
+Because , uh , of the , those bags
+
+664
+00:46:10,330 --> 00:46:12,550
+而且他们压力真的很大
+And they are really stressful
+
+665
+00:46:12,550 --> 00:46:15,630
+我的意思是，是的，我想你可以比较一下
+I mean , it is , i think that you can compare it
+
+666
+00:46:15,630 --> 00:46:16,810
+可能有
+And probably there is
+
+667
+00:46:16,810 --> 00:46:19,430
+呃，一些，一些从事VR工作的人
+Uh , some , some people who was working on vr
+
+668
+00:46:19,430 --> 00:46:22,430
+还有这个fpp也很重要
+And there is also very important this fpp
+
+669
+00:46:22,430 --> 00:46:25,180
+并且不要，你知道，做
+And do not , you know , doing
+
+670
+00:46:26,360 --> 00:46:28,490
+相机带来如此不同的东西
+Such different things with the camera
+
+671
+00:46:28,490 --> 00:46:30,590
+因为你可以获得运动的乐趣
+Because you can get motion snice
+
+672
+00:46:30,590 --> 00:46:33,180
+当我修复这些问题时
+And i literally when i was fixing those
+
+673
+00:46:33,180 --> 00:46:35,660
+那些袋子和抛光这些东西
+Those bags and polishing this stuff
+
+674
+00:46:35,660 --> 00:46:38,600
+我真的，呃，压力很大
+I really , uh , it , it was very stressful
+
+675
+00:46:38,600 --> 00:46:38,980
+是的
+Yeah
+
+676
+00:46:38,980 --> 00:46:41,740
+而且，你知道，你不能拒绝
+And , and you couldn't , you know , say no
+
+677
+00:46:41,740 --> 00:46:43,060
+它是 。已经足够好了
+It's . it's good enough
+
+678
+00:46:43,060 --> 00:46:44,860
+不，它需要平滑
+No , it's need to be smooth it
+
+679
+00:46:44,860 --> 00:46:46,660
+如果不顺利的话
+If it will be not smooth
+
+680
+00:46:46,660 --> 00:46:48,860
+整个顺序被打破了
+The whole sequence is , is broken
+
+681
+00:46:48,860 --> 00:46:49,850
+和 , 和
+And , and
+
+682
+00:46:49,850 --> 00:46:50,900
+是的
+And yeah
+
+683
+00:46:50,900 --> 00:46:52,420
+是、非常重要
+It's , it's very important
+
+684
+00:46:53,890 --> 00:46:54,290
+是的
+Yeah
+
+685
+00:46:54,290 --> 00:46:55,930
+我可以，我，我可以联系
+I can , i , i can relate
+
+686
+00:46:55,930 --> 00:46:57,190
+你知道
+You know
+
+687
+00:46:57,190 --> 00:47:00,170
+当有一个小 , 嗯
+When there's a small , um
+
+688
+00:47:00,170 --> 00:47:04,030
+不顺畅，你知道，它就在那里
+Unsmoothness that , you know , that there it is
+
+689
+00:47:04,030 --> 00:47:10,240
+而且，你知道你可以处理它，但你不能只是，呃
+And , you know that you can deal with it and you can't just , uh
+
+690
+00:47:11,270 --> 00:47:12,490
+忘记它吧
+Just forget about it
+
+691
+00:47:12,490 --> 00:47:12,830
+是的
+Yeah
+
+692
+00:47:12,830 --> 00:47:15,050
+我，我完全明白
+I , i totally understand that
+
+693
+00:47:15,050 --> 00:47:18,210
+感谢你所做的一切
+And thank you for what you are doing
+
+694
+00:47:18,210 --> 00:47:22,850
+因为，呃，我相信这一点，而完美就是，呃
+Because , uh , i believe that and perfection is , uh
+
+695
+00:47:22,850 --> 00:47:28,070
+就像您为我们的产品增添了巨大的价值一样
+Like you add significant value to our products
+
+696
+00:47:28,070 --> 00:47:29,040
+谢谢
+Thank you
+
+697
+00:47:29,040 --> 00:47:30,800
+非常感谢
+Thank you very much
+
+698
+00:47:30,800 --> 00:47:33,460
+呃，谢谢你今天加入我们
+Uh , so thank you for joining us today
+
+699
+00:47:33,460 --> 00:47:34,400
+呃
+Uh
+
+700
+00:47:34,400 --> 00:47:37,100
+感谢您精彩的演讲
+Thank you for your amazing presentation
+
+701
+00:47:37,100 --> 00:47:38,367
+呃
+Uh
+
+702
+00:47:38,367 --> 00:47:43,252
+所以各位，请阅读这个松木版的演示文稿，嗯
+So guys , please read this presentation in pine , um
+
+703
+00:47:43,252 --> 00:47:47,520
+如果您在 YouTube 上观看此内容，请按 YouTube 上的“赞”按钮
+Press the like buttons on youtube if you are watching this on youtube
+
+704
+00:47:47,520 --> 00:47:49,380
+感谢您今天加入我们
+And thanks for joining us today
+
+705
+00:47:49,380 --> 00:47:52,282
+感谢翻转，希望下次再见
+Thank flip and hope to see you next time
+
+706
+00:47:52,282 --> 00:47:53,330
+非常感谢
+Thank you very much
+
+707
+00:47:53,330 --> 00:47:54,990
+西姆再见
+Sium bye
