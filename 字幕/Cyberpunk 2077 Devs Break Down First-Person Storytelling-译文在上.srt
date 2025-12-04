@@ -1,0 +1,9164 @@
+1
+00:00:00,000 --> 00:00:03,880
+我会记得人们常说我们转向第一人称
+I will remember people often often said that we move to first person
+
+2
+00:00:03,880 --> 00:00:06,750
+因为这更容易，因为我们看不到玩家角色
+Because it's easier because we don't see player characters
+
+3
+00:00:06,750 --> 00:00:10,540
+只是说你是否会看到我们在《巫师》中的图表
+just say if you would see the graphs that we had in witcher
+
+4
+00:00:10,540 --> 00:00:12,280
+以及赛博朋克中的图表
+And the graphs that we have in cyberpunk
+
+5
+00:00:12,280 --> 00:00:14,120
+没有十倍大的
+There are no ten times bigger
+
+6
+00:00:18,240 --> 00:00:21,680
+嗨，我是。迈克尔，欢迎来到频道故事模式
+Hi i'm . michael and welcome to story mode the channel
+
+7
+00:00:21,680 --> 00:00:24,870
+我们探索视频游戏讲故事的力量
+We explore the storytelling power of video games
+
+8
+00:00:24,870 --> 00:00:29,440
+今天我们正在玩《赛博朋克二十七十七》的几个早期任务
+today we are playing through a couple early missions of cyber punk twenty seventy seven
+
+9
+00:00:29,440 --> 00:00:36,390
+并讨论以完全第一人称视角制作游戏所带来的独特的讲故事挑战
+And discussing the unique storytelling challenges that come with doing a game in a entirely first person perspective
+
+10
+00:00:36,390 --> 00:00:41,120
+我加入了故事模式团队的一部分 alex coyotes 你好
+I am joined by part of the story mode team alex coyotes hello
+
+11
+00:00:42,160 --> 00:00:44,780
+控制器上的压力就是它的原因
+And on the controller is why it's strain
+
+12
+00:00:44,780 --> 00:00:45,520
+你好
+hello
+
+13
+00:00:46,780 --> 00:00:51,500
+我们很高兴拥有资深电影设计师 pavl ohazski
+And we're excited to have senior cinematic designer pavl ohazski
+
+14
+00:00:51,500 --> 00:00:54,720
+叙事导演伊戈·沙辛斯基
+And narrative director ego shazinski
+
+15
+00:00:54,720 --> 00:00:56,400
+欢迎小伙伴们来到节目
+Guys welcome to the show
+
+16
+00:00:56,400 --> 00:00:58,260
+你好你好
+Hello hello
+
+17
+00:00:58,260 --> 00:01:00,420
+名字怎么样，还好吗
+How how was the names were they okay
+
+18
+00:01:00,420 --> 00:01:01,780
+还不错
+it wasn't too too bad
+
+19
+00:01:03,280 --> 00:01:04,040
+真的很好
+Really good
+
+20
+00:01:04,040 --> 00:01:04,800
+就像，是的
+Like , yeah
+
+21
+00:01:04,800 --> 00:01:06,530
+哈哈哈哈
+Ha ha ha h
+
+22
+00:01:06,530 --> 00:01:08,870
+你知道，所以是五百七。太棒了
+You know , so it's five hundred of seven . is it's great
+
+23
+00:01:08,870 --> 00:01:09,330
+好的
+Okay
+
+24
+00:01:09,330 --> 00:01:10,170
+我会接受的
+I will take that
+
+25
+00:01:10,170 --> 00:01:11,870
+我肯定会接受的
+I will take that for sure
+
+26
+00:01:11,870 --> 00:01:12,450
+一
+Um
+
+27
+00:01:12,450 --> 00:01:12,710
+好的
+Okay
+
+28
+00:01:12,710 --> 00:01:15,300
+所以我真的很高兴能和你们谈论，呃
+So i'm really excited to talk to you guys about , uh
+
+29
+00:01:15,300 --> 00:01:17,750
+我们要涉及的所有事情因为我
+All the things we're gonna get into because i
+
+30
+00:01:17,750 --> 00:01:19,850
+你知道，我记得启动赛博朋克
+You know , i remember booting up cyberpunk
+
+31
+00:01:19,850 --> 00:01:20,950
+我清理了我的日程安排
+I cleared my schedule
+
+32
+00:01:20,950 --> 00:01:23,782
+整个故事我读得很开心
+I had so much fun going through the whole story
+
+33
+00:01:23,782 --> 00:01:26,400
+并进入游戏
+And going into the game
+
+34
+00:01:26,400 --> 00:01:27,510
+我当时有点
+I was a little
+
+35
+00:01:27,510 --> 00:01:31,620
+呃，担心是因为我没玩过那么多第一人称RPG
+Uh , concern because i hadn't played that many first person rpg
+
+36
+00:01:31,620 --> 00:01:33,540
+大部分都是像第三人称那样做的
+Had mostly done like the third person thing
+
+37
+00:01:33,540 --> 00:01:35,290
+所以我很好奇如何
+So i was very curious about how
+
+38
+00:01:35,290 --> 00:01:37,610
+那次经历会是什么样子
+What that experience was going to look like
+
+39
+00:01:37,610 --> 00:01:40,790
+以及所有这些讲故事的时刻将如何完成
+And how all those storytelling moments were going to be done
+
+40
+00:01:40,790 --> 00:01:45,060
+我对第一人称的承诺感到非常震惊
+And i was just super blown away by the commitment to the first person
+
+41
+00:01:45,060 --> 00:01:46,720
+以及所有不同的技术
+and all the different techniques
+
+42
+00:01:46,720 --> 00:01:50,350
+你们过去常常用电影的方式讲故事
+You guys used to tell a story in a cinematic way
+
+43
+00:01:50,350 --> 00:01:54,370
+你知道，不使用传统的电影语言
+Without using , you know , conventional cinematic language
+
+44
+00:01:54,370 --> 00:01:56,410
+而且，你知道，相机可以剪辑以及诸如此类的东西
+And , you know , the camera can cut and all that stuff
+
+45
+00:01:56,410 --> 00:01:56,900
+所以
+So
+
+46
+00:01:56,900 --> 00:01:59,200
+一会儿我们要去看《巫师三》
+And a moment we're gonna go to the witcher three
+
+47
+00:01:59,200 --> 00:02:02,340
+看看其中的一个场景来识别
+and kind of look at a scene from that to identify
+
+48
+00:02:02,340 --> 00:02:04,060
+其中一些常规的
+What some of those conventional
+
+49
+00:02:04,060 --> 00:02:06,180
+呃，讲故事的语言是这样的
+Uh , storytelling language things are
+
+50
+00:02:06,180 --> 00:02:08,199
+但我只是想听听你们的消息
+But i kind of just want to hear from you guys for
+
+51
+00:02:08,199 --> 00:02:10,102
+对于那些可能不知道什么的人
+For people that might not know what
+
+52
+00:02:10,102 --> 00:02:11,930
+你的工作包括什么
+What does your job entail
+
+53
+00:02:11,930 --> 00:02:14,930
+你在赛博朋克中负责什么
+What are you responsible for in cyberpunk
+
+54
+00:02:16,840 --> 00:02:17,340
+好的
+Okay
+
+55
+00:02:17,340 --> 00:02:17,940
+一
+Um
+
+56
+00:02:17,940 --> 00:02:20,880
+嗯，这是一个，你知道这是一个很好的问题
+Well , that's a that's , you know that's that's a great question
+
+57
+00:02:20,880 --> 00:02:21,580
+呃
+Uh
+
+58
+00:02:21,580 --> 00:02:24,880
+因为我们有这个问题需要正确解释
+Because we have that problem to explain properly
+
+59
+00:02:24,880 --> 00:02:27,320
+我们很多时间都在做什么
+What we do a lot of time
+
+60
+00:02:27,320 --> 00:02:31,370
+呃，在我们部门，我们经常这样问自己
+Uh , often we ask ourselves that , uh , in our department
+
+61
+00:02:31,370 --> 00:02:32,650
+还有像最近这样的
+And of like recently
+
+62
+00:02:32,650 --> 00:02:34,920
+我们做了完整的演示
+And we made our full blown presentation
+
+63
+00:02:34,920 --> 00:02:36,920
+如何向奶奶解释
+How to explain to a grandmother
+
+64
+00:02:36,920 --> 00:02:38,860
+电影设计师是做什么的，对吧
+What does cinematic designer does , right
+
+65
+00:02:38,860 --> 00:02:40,600
+这是一个问题，呃
+This is a problem , uh
+
+66
+00:02:40,600 --> 00:02:42,230
+我觉得大部分都是这些
+I think most of these
+
+67
+00:02:42,230 --> 00:02:46,580
+我们正在指导游戏中的叙事内容
+We are directing the narratic content in our games
+
+68
+00:02:46,580 --> 00:02:48,930
+所以我们对它的外观负责
+So we are responsible for how it looks
+
+69
+00:02:48,930 --> 00:02:50,450
+感觉如何。最后
+How it feels . and in the end
+
+70
+00:02:50,450 --> 00:02:55,300
+当玩家实际浏览我们创建的内容时它是如何播放的
+How it plays when player actually goes through the content that we created
+
+71
+00:02:55,300 --> 00:02:56,670
+呃，从我的角度来看
+Uh , from my perspective
+
+72
+00:02:56,670 --> 00:02:59,380
+通常只是将东西放在一起
+It's often about just putting stuff together
+
+73
+00:02:59,380 --> 00:03:04,300
+所以基本上导演在电影中所做的除了这里的例外
+so basically what the director does in the movies with this exception that here
+
+74
+00:03:04,300 --> 00:03:09,150
+您还实现了游戏元素并考虑了交互性
+You also implemented and take the interactivity into account the gameplay elements
+
+75
+00:03:09,150 --> 00:03:10,210
+等等
+And so on
+
+76
+00:03:10,210 --> 00:03:10,930
+一
+Um
+
+77
+00:03:10,930 --> 00:03:14,320
+所以这就像你有不同的部门一起工作
+So it's about like you have different departments working together
+
+78
+00:03:14,320 --> 00:03:17,400
+任务故事的环境视觉特效
+Environment vfx out the quest story
+
+79
+00:03:17,400 --> 00:03:20,510
+等等 。因为电影设计师就处于其中
+And so on . as the cinematic designer are kind of in the middle of it
+
+80
+00:03:20,510 --> 00:03:23,800
+并尝试使所有元素相互契合
+And try to make all elements fit into each other
+
+81
+00:03:23,800 --> 00:03:25,800
+所以就像，你知道，场景很悲伤
+So like , you know , the scene is sad
+
+82
+00:03:25,800 --> 00:03:28,480
+突然之间你就没有播放愉快的音乐了
+And suddenly you don't have a happy music playing or something
+
+83
+00:03:28,480 --> 00:03:31,230
+仍然是，呃，这是一个简单的例子
+It's still , uh , it's a simple example
+
+84
+00:03:31,230 --> 00:03:34,440
+但大多数时候只是将事物连接在一起
+But most of the time is just about connecting things together
+
+85
+00:03:34,440 --> 00:03:35,270
+是的
+Yeah
+
+86
+00:03:35,270 --> 00:03:36,010
+惊人的
+Awesome
+
+87
+00:03:36,010 --> 00:03:36,410
+凉爽的
+Cool
+
+88
+00:03:36,410 --> 00:03:36,790
+好的
+Okay
+
+89
+00:03:36,790 --> 00:03:37,110
+出色地
+Well
+
+90
+00:03:37,110 --> 00:03:37,370
+是的
+Yeah
+
+91
+00:03:37,370 --> 00:03:40,090
+所以我们要看看《巫师三》中的场景
+So we're gonna look at it scene from the witcher three
+
+92
+00:03:40,090 --> 00:03:41,250
+你能不能
+And can you kind of
+
+93
+00:03:41,250 --> 00:03:43,092
+呃，当我们正在看的时候
+Uh , as we're watching it
+
+94
+00:03:43,092 --> 00:03:47,080
+列出一些用于该类型的工具的名称
+Name some of the tools that are used in that kind of
+
+95
+00:03:47,080 --> 00:03:51,040
+你知道，电影式的讲故事必须是，呃
+You know , cinematic storytelling that had to be , uh
+
+96
+00:03:51,040 --> 00:03:53,610
+为赛博朋克而改变或重新思考
+Changed or rethought for a cyber punk
+
+97
+00:03:53,610 --> 00:03:56,230
+但是你为什么要启动呢，这三个
+But so why do you want to startup , which were three
+
+98
+00:03:56,230 --> 00:03:57,030
+是的
+And yeah
+
+99
+00:03:57,030 --> 00:03:58,767
+你们解释一下
+You guys sort of explain
+
+100
+00:03:58,767 --> 00:04:02,730
+这个场景中讲故事的方式是怎样的
+What's going on storytelling wise in this scene
+
+101
+00:04:02,730 --> 00:04:03,740
+呵呵，酷
+Hh , cool
+
+102
+00:04:03,740 --> 00:04:05,880
+其实这就是我拍的场景，我记得
+Actually it's the scene i did , i remember
+
+103
+00:04:05,880 --> 00:04:07,065
+一
+Um
+
+104
+00:04:07,065 --> 00:04:07,560
+是的
+Yeah
+
+105
+00:04:07,560 --> 00:04:09,500
+所以，嗯，与猎魔人
+So , um , with the witcher
+
+106
+00:04:09,500 --> 00:04:14,160
+我想，嗯，也是因为这是我们类似公式中的第三款游戏
+I think , um , also because it's our third game in the similar formula
+
+107
+00:04:14,160 --> 00:04:19,109
+而且，嗯，基于当时制作的许多类似游戏的文件
+And , um , based les on many similar games done at the time
+
+108
+00:04:19,109 --> 00:04:23,290
+嗯，游戏玩法之间的区别非常明显
+Um , you have a pretty clear distinction between gameplay
+
+109
+00:04:23,290 --> 00:04:25,030
+就像故事的节拍一样
+And like the story beats
+
+110
+00:04:25,030 --> 00:04:27,270
+当然，我们假设它不像零一
+Let's say it's not like zero one , of course
+
+111
+00:04:27,270 --> 00:04:29,960
+就像它融合在不同的杠杆中一样
+And like it blends in different levers
+
+112
+00:04:29,960 --> 00:04:32,080
+但基本上你会探索你的跑步
+But basically you explore your run
+
+113
+00:04:32,080 --> 00:04:33,320
+你需要努力点击一些东西
+You fight to click some things
+
+114
+00:04:33,320 --> 00:04:35,600
+然后当你想告诉你一个故事时
+And then when you we want to tell you a story
+
+115
+00:04:35,600 --> 00:04:38,480
+然后我们进入电影级电影模式
+Then we go into the cinematic ucinematic mode
+
+116
+00:04:38,480 --> 00:04:40,110
+而且，嗯，这样
+And , um , in this way
+
+117
+00:04:40,110 --> 00:04:42,730
+这是一个非常经典的主题故事
+It's a pretty classical thematic storytelling
+
+118
+00:04:42,730 --> 00:04:46,300
+所以你的相机镜头只显示你
+So you have the camera shots that show you only
+
+119
+00:04:46,300 --> 00:04:48,580
+我们想在任何特定时刻向您展示什么
+What we want to show you at any given moment
+
+120
+00:04:48,580 --> 00:04:49,860
+就像相机放在这里一样
+So like camera goes here
+
+121
+00:04:49,860 --> 00:04:51,620
+镜头转到这里，镜头切回来
+Camera goes here , camera cuts back
+
+122
+00:04:51,620 --> 00:04:53,260
+依此类推，有一个编辑
+And so on there's an edit
+
+123
+00:04:53,260 --> 00:04:54,062
+当然
+Of course
+
+124
+00:04:54,062 --> 00:04:57,370
+我们在场景中安排角色，嗯
+We stage characters around the scene , um
+
+125
+00:04:57,370 --> 00:05:00,600
+但就像与编辑一起，我们可以传送它们
+But like together with the edits , we can teleport them
+
+126
+00:05:00,600 --> 00:05:05,570
+事实上，如果你用静态外部摄像头在冬天观看这些场景中的任何一个
+And actually , if you look at any of those scenes in the winter from like static external camera
+
+127
+00:05:05,570 --> 00:05:08,010
+您只会看到像在之间弹出的字符
+You would see just characters like popping between
+
+128
+00:05:08,010 --> 00:05:10,380
+一直喜欢场景中的不同地方
+Like different places in the scene all the time
+
+129
+00:05:10,380 --> 00:05:12,190
+但从玩家角度来看
+But from the player perspective
+
+130
+00:05:12,190 --> 00:05:14,510
+它们无法在相机本身中接收
+They cannot receiit in the camera itself
+
+131
+00:05:14,510 --> 00:05:18,450
+因为它就像，你知道，一些模糊的背景，例如，或者其他什么
+Because it's just like , you know , some blurried background , for example , or something
+
+132
+00:05:18,450 --> 00:05:21,110
+对于我们来说，它给了我们创作的自由
+And for us , it gives us like the creative freedom
+
+133
+00:05:21,110 --> 00:05:24,910
+比如说与背景形成完美的构图。等等
+Let's say to make a perfect composition with the background . and so on
+
+134
+00:05:24,910 --> 00:05:29,250
+玩家通常不会看到角色移动了两米夏天
+Players usually don't see that the characters moved like by two meters summer
+
+135
+00:05:29,250 --> 00:05:32,600
+因为有时也没有直接的参考点
+Because also sometimes there are no direct points of reference
+
+136
+00:05:32,600 --> 00:05:33,600
+一
+Um
+
+137
+00:05:33,600 --> 00:05:36,470
+所以，呃，演技方面就是这样
+So , uh , that was it in terms of acting
+
+138
+00:05:36,470 --> 00:05:38,580
+我们主要是在混合，嗯
+We were mostly mixing , um
+
+139
+00:05:38,580 --> 00:05:43,550
+呃，自定义独特的资产，比如最大的过场动画和你只看到一次的东西
+Uh , custom unique assets for like the biggest cut scenes and stuff that you see only once
+
+140
+00:05:43,550 --> 00:05:45,700
+这正是故事的时刻
+And it's exactly for the story moment
+
+141
+00:05:45,700 --> 00:05:51,930
+实际上有一个巨大的动画库，我们可以以多种不同的创意方式重用它们
+With actually a huge library of animations that we could reuse in many different creative ways
+
+142
+00:05:51,930 --> 00:05:53,390
+就像拉伸动画一样
+Like stretch animations
+
+143
+00:05:53,390 --> 00:05:55,430
+剪切它们，与其他动画混合
+Cut them , blend with other animations
+
+144
+00:05:55,430 --> 00:05:57,640
+与更多动画等混合
+Blend with more animations and so on
+
+145
+00:05:57,640 --> 00:06:01,620
+你会惊讶于游戏中的某些时刻
+And you would be surprised like there are moments in the game where
+
+146
+00:06:01,620 --> 00:06:03,770
+哪些就像伸手去拿东西
+Which are is like reaching for something
+
+147
+00:06:03,770 --> 00:06:05,940
+握住它并传递给某人
+And holding it and passing into someone
+
+148
+00:06:05,940 --> 00:06:10,140
+但实际上我们从只用一只手演奏的喝酒动画拼凑而成
+But actually we put together from the animation of drinking played only on a hand
+
+149
+00:06:10,140 --> 00:06:13,610
+还有上半身打开的动画什么的
+And the animation of turning on the upper body and something
+
+150
+00:06:13,610 --> 00:06:15,210
+最后在相机里
+And in the end in the camera
+
+151
+00:06:15,210 --> 00:06:17,330
+看起来他真的在做这件事
+Kind of looks like he's really doing this
+
+152
+00:06:17,330 --> 00:06:20,840
+但对我们来说，这确实是一个好方法
+But for us it was a really like a good way of for
+
+153
+00:06:20,840 --> 00:06:23,930
+就像节省录制所有自定义内容的时间一样
+So like saving time on recording everything custom
+
+154
+00:06:23,930 --> 00:06:27,770
+就像能够在许多不同的级别上操纵动画一样
+Just like being able to manipulate animations in many different levels
+
+155
+00:06:27,770 --> 00:06:28,720
+一
+Um
+
+156
+00:06:28,720 --> 00:06:29,930
+呃，得到什么
+Uh , get or something
+
+157
+00:06:29,930 --> 00:06:30,390
+是的
+Yeah
+
+158
+00:06:30,390 --> 00:06:31,890
+我不是，也许我没有忘记
+I'm not , not forget maybe
+
+159
+00:06:31,890 --> 00:06:33,670
+但我认为是这样
+But i think it's it's
+
+160
+00:06:33,670 --> 00:06:40,220
+重要的是要记住我们实际上使用了普通电影所做的一切，对吧
+It's very important to remember that we actually use everything that normal movies do , right
+
+161
+00:06:40,220 --> 00:06:42,380
+所以我们将编辑，我们使用摄像机
+So we will edit , we use cam camera
+
+162
+00:06:42,380 --> 00:06:45,480
+我们使用，呃，角色移动，呃
+We use , uh , character movement , uh
+
+163
+00:06:45,480 --> 00:06:49,660
+甚至从伊戈尔所说的各种简单的事情来看，非常简单的动画
+And even from the various simple things like igor said , very simple animations
+
+164
+00:06:49,660 --> 00:06:51,960
+你可以得到玩家的这种情绪反应
+You can get this emotional response for the player
+
+165
+00:06:51,960 --> 00:06:55,900
+因为玩家会观察动作并且能够对动作产生共鸣，对吗？
+Because the player observes the action and can empathize with the action , right
+
+166
+00:06:55,900 --> 00:06:59,900
+这样他们就能理解角色内心深处的感受
+So they can understand what the characters are feeling deep inside
+
+167
+00:06:59,900 --> 00:07:05,225
+我们用所有这些来讲述最好、最感人的故事
+And we use all of that to tell the best , most moving stories possible
+
+168
+00:07:05,225 --> 00:07:07,800
+尽管我们使用的是非常基本的，呃
+Even though we are using very basic , uh
+
+169
+00:07:07,800 --> 00:07:14,370
+你知道，就像制作工具的一百年一样，顶部还点缀着互动功能，对吧？
+You know , like one hundred year in the making tools with the sprinkled interactivity on the top , right
+
+170
+00:07:14,370 --> 00:07:18,430
+所以在选择的时刻会玩centipeak并选择
+So during the choice moments will play centipeak and choose
+
+171
+00:07:18,430 --> 00:07:20,872
+他们想要故事的哪个分支
+Which branch of the story they want to take
+
+172
+00:07:20,872 --> 00:07:21,540
+嗯嗯
+Uh huh
+
+173
+00:07:21,540 --> 00:07:21,780
+呃
+Uh
+
+174
+00:07:21,780 --> 00:07:22,020
+是的
+Yeah
+
+175
+00:07:22,020 --> 00:07:23,740
+这里实际上是你刚刚关闭的场景
+Here actually the scenes you just shut
+
+176
+00:07:23,740 --> 00:07:25,820
+这正是与巴罗诺斯的场景
+This was exactly does the scene with baronos
+
+177
+00:07:25,820 --> 00:07:28,820
+主要是在像库动画一样的起床上完成的
+Mostly done on like library animations is getting up
+
+178
+00:07:28,820 --> 00:07:30,040
+转动一个简单的东西
+Turning a simple stuff
+
+179
+00:07:30,040 --> 00:07:32,420
+然后一个是 sii Siri 穿过森林
+And then one is sii siri running through the forest
+
+180
+00:07:32,420 --> 00:07:34,190
+现在她需要，嗯
+And now she needs , um
+
+181
+00:07:34,190 --> 00:07:36,230
+呃，在树枝下什么的
+Uh , under the , under the branch or something
+
+182
+00:07:36,230 --> 00:07:37,990
+这完全就像一个定制的时刻
+It's totally like a custom moment
+
+183
+00:07:37,990 --> 00:07:41,170
+就，就一次，就你，呃，就这个
+Just , just once , just u , uh , just this
+
+184
+00:07:41,170 --> 00:07:42,630
+是的
+Yeah
+
+185
+00:07:42,630 --> 00:07:43,210
+是的
+Yeah
+
+186
+00:07:43,210 --> 00:07:44,750
+所以是的
+And so yeah
+
+187
+00:07:44,750 --> 00:07:46,310
+我完全喜欢你所说的
+I like exactly what you said
+
+188
+00:07:46,310 --> 00:07:52,030
+他们的目的是，总结一下，你正在使用大约四百年来电影中的所有工具
+They're pol to , to kind of summarize that you're using all the tools from film that have been around four hundred years
+
+189
+00:07:52,030 --> 00:07:53,150
+就像你说的自我
+Like you were saying ego
+
+190
+00:07:53,150 --> 00:07:55,920
+您可以让摄像机准确地显示玩家
+You can have the camera show the player exactly
+
+191
+00:07:55,920 --> 00:07:58,160
+您希望他们在任何特定时刻看到的内容
+What you want them to see at any given moment
+
+192
+00:07:58,160 --> 00:08:00,400
+你知道，你可以剪两个特写
+You know , you can cut two closeups
+
+193
+00:08:00,400 --> 00:08:03,730
+你可以移动镜头来强调，嗯
+You can do camera moves to accentuate , um
+
+194
+00:08:03,730 --> 00:08:05,870
+你知道，情感和压缩的时间
+You know , emotion and compressed time
+
+195
+00:08:05,870 --> 00:08:09,150
+你知道，就像你说的，你就像在幕后一样
+And you know , like you were saying you go like behind the scenes
+
+196
+00:08:09,150 --> 00:08:10,710
+角色们到处跳来跳去
+The characters are jumping around and all
+
+197
+00:08:10,710 --> 00:08:12,850
+电影场景中发生的所有事情
+All the stuff that's what's happening on a movie set
+
+198
+00:08:12,850 --> 00:08:13,270
+是的
+Yeah
+
+199
+00:08:13,270 --> 00:08:13,790
+正确的
+Right
+
+200
+00:08:13,790 --> 00:08:14,710
+都是假的
+It's all fake
+
+201
+00:08:14,710 --> 00:08:15,450
+是的
+Yeah
+
+202
+00:08:15,450 --> 00:08:16,397
+是的
+Yeah
+
+203
+00:08:16,397 --> 00:08:17,020
+呃
+Uh
+
+204
+00:08:17,020 --> 00:08:17,400
+所以是的
+So yeah
+
+205
+00:08:17,400 --> 00:08:19,900
+所以你在《巫师三》中拥有所有这些工具
+So you have all those tools in the witcher three
+
+206
+00:08:19,900 --> 00:08:22,920
+这就是传统的电影叙事方式
+And that's kind of conventional cinematic storytelling
+
+207
+00:08:22,920 --> 00:08:25,680
+那么为什么，为什么我们不跳进去，呃
+So why , why don't we jump into , uh
+
+208
+00:08:25,680 --> 00:08:28,600
+网络朋克和想谈谈基本上
+Cyber punk and wanna talk about basically
+
+209
+00:08:28,600 --> 00:08:31,745
+你们如何获得同样的情感
+How you guys achieve the same kind of emotions
+
+210
+00:08:31,745 --> 00:08:35,520
+呃，没有那些工具或者类似的修改所有这些东西
+Uh , without those tools or like by modifying all those things
+
+211
+00:08:35,520 --> 00:08:37,689
+但也许让我们从类似开始
+But maybe let's start with just like
+
+212
+00:08:37,689 --> 00:08:41,310
+背后是什么样的决策
+What was the kind of decision making behind
+
+213
+00:08:41,310 --> 00:08:46,010
+首先以第一人称视角进行赛博朋克
+Doing cyber punk in first person perspective to begin with
+
+214
+00:08:46,010 --> 00:08:47,060
+啊，当然
+Ah , sure
+
+215
+00:08:47,060 --> 00:08:49,830
+所以对我来说，这就像两个
+So for me , these were like two
+
+216
+00:08:49,830 --> 00:08:53,190
+我们从以下角度来说一下这个决定的方向
+Let's say directions for this decision from the point of view
+
+217
+00:08:53,190 --> 00:08:55,680
+让我们以某种方式说创造者和创造
+Let's say creator and creation in a way
+
+218
+00:08:55,680 --> 00:08:58,350
+所以从创作者的角度来看，就像这样
+So from the creator point of view , like this
+
+219
+00:08:58,350 --> 00:09:00,830
+这是公式，经典的电影公式
+Which are formula , the classic cinematic formula
+
+220
+00:09:00,830 --> 00:09:02,750
+我我感觉我们
+I i felt like we
+
+221
+00:09:02,750 --> 00:09:05,100
+我们在某种程度上将这个公式推向了极限
+We have pushed this formula to the limit in a way
+
+222
+00:09:05,100 --> 00:09:07,400
+就像我们可以让它变得更好一样
+Like we could make it may be better
+
+223
+00:09:07,400 --> 00:09:08,560
+但不会有所不同
+But it won't be different
+
+224
+00:09:08,560 --> 00:09:10,800
+这就像一个定量的
+It would be just like a quantative
+
+225
+00:09:10,800 --> 00:09:14,280
+不是真正的定性，就像某种意义上的变化
+Not really qualitative , like change in a way
+
+226
+00:09:14,280 --> 00:09:16,280
+所以我想在工作室
+So i think at the studio
+
+227
+00:09:16,280 --> 00:09:17,420
+这对我们有好处
+It was good for us
+
+228
+00:09:17,420 --> 00:09:17,830
+呃
+Uh
+
+229
+00:09:17,830 --> 00:09:19,460
+所以就像现在尝试一些东西
+So just like now try something
+
+230
+00:09:19,460 --> 00:09:21,980
+你知道，做点别的事，比如开发，呃
+You know , do something else , like develop , uh
+
+231
+00:09:21,980 --> 00:09:23,672
+你知道，尝试一下
+You know , try to
+
+232
+00:09:23,672 --> 00:09:24,210
+是的
+Yeah
+
+233
+00:09:24,210 --> 00:09:25,510
+第一次做某事
+Do something for the first time
+
+234
+00:09:25,510 --> 00:09:28,050
+而不是停留在同一个公式中，呃
+Instead of staying in the same formula , uh
+
+235
+00:09:28,050 --> 00:09:29,310
+但其实没那么重要
+But it's actually less important
+
+236
+00:09:29,310 --> 00:09:31,530
+我认为更重要的永远是
+I think the more important is always like
+
+237
+00:09:31,530 --> 00:09:34,480
+您尝试将形式与功能相匹配
+You try to match the form with the function
+
+238
+00:09:34,480 --> 00:09:35,620
+嗯，在某种程度上
+Um , in a way
+
+239
+00:09:35,620 --> 00:09:37,260
+还有，嗯，赛博朋克
+And , um , cyber punk
+
+240
+00:09:37,260 --> 00:09:40,640
+实际上我们可以像我一样破坏一下游戏吗
+And actually can we spoil the game a little bit like i
+
+241
+00:09:40,640 --> 00:09:41,940
+我们不会玩任务
+We won't be playing quest
+
+242
+00:09:41,940 --> 00:09:44,160
+但只有一点点剧透
+But just a little bit of spoilers
+
+243
+00:09:44,160 --> 00:09:45,020
+没关系
+It's fine
+
+244
+00:09:45,020 --> 00:09:46,060
+我正值那个时候
+I'm time of that
+
+245
+00:09:46,060 --> 00:09:46,440
+是的
+Yeah
+
+246
+00:09:46,440 --> 00:09:46,740
+是的
+Yeah
+
+247
+00:09:46,740 --> 00:09:47,720
+嗯，对吧
+Um , right
+
+248
+00:09:47,720 --> 00:09:51,440
+所以在比赛的第一个大转折点
+So at the first big turning point of the game
+
+249
+00:09:51,440 --> 00:09:55,440
+事实证明，你不仅快要死了，而且很快就会死
+Like it turns out that not only you are dying and you will die soon
+
+250
+00:09:55,440 --> 00:09:58,320
+但你脑子里也有另一个人
+But also you have this other person in your head
+
+251
+00:09:58,320 --> 00:10:00,500
+而这两种经历
+And both of those experiences
+
+252
+00:10:00,500 --> 00:10:04,160
+让我们说一下，呃，类似的经历，呃
+Let's say the , uh , experience of like , uh
+
+253
+00:10:04,160 --> 00:10:06,520
+你的身体有些腐烂
+Your body decaying somewhat
+
+254
+00:10:06,520 --> 00:10:11,020
+就像，你知道，你被困在身体里的死亡，呃
+And like , you know , the mortality of the body you are trapped inside , uh
+
+255
+00:10:11,020 --> 00:10:13,360
+还有超主观的
+As well as the super subjective
+
+256
+00:10:13,360 --> 00:10:15,360
+想象一下看到你身边的另一个人
+Think of like seeing that other person in your
+
+257
+00:10:15,360 --> 00:10:16,500
+呃，在你的脑海里
+Uh , in your head
+
+258
+00:10:16,500 --> 00:10:23,590
+这是一个非常主观的事情，fbp 觉得讲述一个非常主观的事情是正确的选择
+It's something that is so subjective that fbp felt like the right choice to tell a very
+
+259
+00:10:23,590 --> 00:10:25,170
+非常主观的故事
+Very subjective story
+
+260
+00:10:25,170 --> 00:10:27,290
+另外，呃
+And in addition , uh
+
+261
+00:10:27,290 --> 00:10:30,690
+我认为有类似的比喻，嗯，嗯，嗯
+I think there's like trope , um , of , um
+
+262
+00:10:30,690 --> 00:10:37,100
+这与像这个凡人监狱一样的身体和技术的网络朋克一起工作，作为一种喜欢的方式
+That works with cyber punk of like body as this smortal prison and technology as a way to like
+
+263
+00:10:37,100 --> 00:10:42,300
+你知道，释放你自己或者以某种方式同意，你知道，这个，这个，这个身体
+You know , free yourself or somehow assent from , you know , this , this , this body
+
+264
+00:10:42,300 --> 00:10:44,760
+这也适用于 , 对于游戏
+And this also works like for , for the game
+
+265
+00:10:44,760 --> 00:10:47,460
+现在如果你有 fbp
+And now if you would have fbp
+
+266
+00:10:47,460 --> 00:10:50,980
+这将与第三人称场景混合在一起
+That would be mixed with third person scenes
+
+267
+00:10:50,980 --> 00:10:52,770
+它并没有真正给你
+It kind of doesn't really give you
+
+268
+00:10:52,770 --> 00:10:56,880
+这种感觉就像被囚禁一样，你无法真正摆脱它
+This feeling of like imprisonment in a way that you cannot really get out of it
+
+269
+00:10:56,880 --> 00:10:57,700
+就好像是的
+It's like yeah
+
+270
+00:10:57,700 --> 00:10:58,820
+你被困在他的身体里
+You are trapped in his body
+
+271
+00:10:58,820 --> 00:10:59,560
+死亡等
+Dying and so on
+
+272
+00:10:59,560 --> 00:11:03,200
+但这实际上就像是别人的外部观点
+But here is like an external point of view actually of someone else
+
+273
+00:11:03,200 --> 00:11:04,900
+喜欢第三人称场景
+Like the third person scene
+
+274
+00:11:04,900 --> 00:11:05,860
+它会像这样工作
+It would work like this
+
+275
+00:11:05,860 --> 00:11:06,580
+它是
+It's
+
+276
+00:11:06,580 --> 00:11:07,080
+是的
+Yeah
+
+277
+00:11:07,080 --> 00:11:08,340
+外面还有
+There's the outside
+
+278
+00:11:08,340 --> 00:11:09,980
+也许她看到了更悲伤的角色
+And maybe she sees the sader character
+
+279
+00:11:09,980 --> 00:11:11,860
+但作为相机我是谁
+But who am i done as a camera
+
+280
+00:11:11,860 --> 00:11:13,380
+喜欢从什么角度看
+like from what perspective
+
+281
+00:11:13,380 --> 00:11:15,680
+我正在看这个。等等
+I am watching this . and so on
+
+282
+00:11:15,680 --> 00:11:20,960
+所以对于这个故事来说，这感觉是一个非常正确的选择
+So it felt like a really right choice for this exact story
+
+283
+00:11:22,000 --> 00:11:22,822
+嗯
+嗯
+
+284
+00:11:22,822 --> 00:11:23,230
+是的
+Yeah
+
+285
+00:11:23,230 --> 00:11:25,760
+我想，呃，这就是我的解释
+That would be , i think , uh , my explanation
+
+286
+00:11:25,760 --> 00:11:26,990
+因为到最后
+Because at the end of the day
+
+287
+00:11:26,990 --> 00:11:28,890
+我们想讲最好的故事，对吗？
+We want to tell the best stories , right
+
+288
+00:11:28,890 --> 00:11:33,470
+我们通常会根据想要讲述的故事来选择工具
+And often we pick the tools based on the stories want to tell
+
+289
+00:11:33,470 --> 00:11:34,700
+就像你的设定一样
+So like in your set
+
+290
+00:11:34,700 --> 00:11:37,540
+我们非常想告诉这个，呃
+We want to tell this very , uh
+
+291
+00:11:37,540 --> 00:11:42,240
+关于我们扮演的人是谁的主观故事。到底
+Subjective story about who the person that we are playing is . in the end
+
+292
+00:11:42,240 --> 00:11:45,530
+我们可以在游戏一开始就定义它们
+We can define , define them at the very beginning of the game somewhat
+
+293
+00:11:45,530 --> 00:11:48,130
+但我们有一个非常特别的故事要讲
+But we have a very particular story to tell
+
+294
+00:11:48,130 --> 00:11:51,610
+我们认为这是真正实现这一目标的最佳方式，对吗？
+And we felt that this is the best way to actually approach it , right
+
+295
+00:11:51,610 --> 00:11:53,480
+拥有如此多的互动性
+To have this amount of interactivity
+
+296
+00:11:53,480 --> 00:11:54,420
+不仅在世界上
+Not only in the world
+
+297
+00:11:54,420 --> 00:11:56,700
+但也从演示的角度来看
+But also from the presentation standpoint
+
+298
+00:11:56,700 --> 00:11:58,375
+因为到最后
+Because at the end of the day
+
+299
+00:11:58,375 --> 00:12:01,220
+当你确实有一些东西离相机很近时，你就可以
+When you actually have something very close to the camera , you well
+
+300
+00:12:01,220 --> 00:12:02,680
+你可以看到最好的
+You can see the best you can
+
+301
+00:12:02,680 --> 00:12:08,160
+你可以，你可以体验这个亲密小故事的最好版本
+You can , you can experience the best possible version of this small intimate story
+
+302
+00:12:08,160 --> 00:12:08,710
+呃
+Uh
+
+303
+00:12:08,710 --> 00:12:09,910
+所以我想注意
+So i would like to note
+
+304
+00:12:09,910 --> 00:12:11,350
+注意一些狂野的，呃
+Note some the wild , uh
+
+305
+00:12:11,350 --> 00:12:13,900
+第二次前实际上是在和詹金斯交谈
+Second ago was actually talking with jenkins
+
+306
+00:12:13,900 --> 00:12:17,340
+我想指出的是，jenki 的头部是按照 eager 建模的
+And i would like to note that jenki's head was modeled after eager
+
+307
+00:12:17,340 --> 00:12:20,030
+所以你实际上有正确的 h
+So you actually have the correct h
+
+308
+00:12:20,030 --> 00:12:23,100
+不不不，那是，正在通话中
+No , no , that was , that was on the call
+
+309
+00:12:23,100 --> 00:12:23,760
+正在通话中
+It was on the call
+
+310
+00:12:23,760 --> 00:12:26,350
+为什么你会在一分钟后在现实生活中与你交谈
+Why it you're you're gonna talk to in real life in a minute
+
+311
+00:12:26,350 --> 00:12:26,800
+是的
+Yeah
+
+312
+00:12:26,800 --> 00:12:28,240
+因为他和你有过一次全息手术
+Because he had a holocaular with with you
+
+313
+00:12:28,240 --> 00:12:29,320
+哦，这
+Oh thris
+
+314
+00:12:29,320 --> 00:12:29,560
+是的
+Yeah
+
+315
+00:12:29,560 --> 00:12:29,840
+是的
+Yeah
+
+316
+00:12:29,840 --> 00:12:30,120
+是的
+Yeah
+
+317
+00:12:30,120 --> 00:12:31,160
+是的
+Yeah
+
+318
+00:12:31,160 --> 00:12:31,800
+一
+Um
+
+319
+00:12:31,800 --> 00:12:33,410
+所以，你知道，网络故事
+So , you know , internet story
+
+320
+00:12:33,410 --> 00:12:35,230
+正如你所看到的，就像
+And as you can see , like the
+
+321
+00:12:35,230 --> 00:12:37,270
+，视角的接近性在这里有帮助
+The , the closeness of the perspective helps here
+
+322
+00:12:37,270 --> 00:12:37,760
+正确的
+Right
+
+323
+00:12:37,760 --> 00:12:38,850
+嗯嗯
+Uh huh
+
+324
+00:12:38,850 --> 00:12:39,280
+出色地
+Well
+
+325
+00:12:39,280 --> 00:12:41,530
+你知道，我在想我们正在看哪三个
+You know , i was thinking about we were watching which are three
+
+326
+00:12:41,530 --> 00:12:44,360
+你知道，迈克尔对所有这些技术都很熟悉
+You know , i all those technies are so familiar to michael
+
+327
+00:12:44,360 --> 00:12:46,360
+而我作为有电影背景的人
+And i as people with a film background
+
+328
+00:12:46,360 --> 00:12:50,467
+你知道这个，哦，这是一个移动镜头，这是一个从肩膀上反向拍摄的镜头
+You know this , oh , it's a dolly shot here's this shot reverse shot over the shoulder
+
+329
+00:12:50,467 --> 00:12:54,930
+这让我觉得这是虚拟现实的语言
+And this strikes me as the language of virtual reality
+
+330
+00:12:54,930 --> 00:12:57,730
+这是，这是你们几乎要致力于一件事
+This is , this is you guys are committing almost to a thing
+
+331
+00:12:57,730 --> 00:13:01,020
+这只有在虚拟中才有可能，嗯
+That is only possible in that virtual , um
+
+332
+00:13:01,020 --> 00:13:03,180
+第一人称视角空间
+First person perspective space
+
+333
+00:13:03,180 --> 00:13:06,920
+所以你在某种程度上做出了可能喜欢的贡献
+so you're kind of contributing in a way to like potentially
+
+334
+00:13:06,920 --> 00:13:12,460
+随着虚拟现实变得越来越多，我们将探索一种未来的电影语言
+A future cinematic language that we're gonna be exploring as virtual reality becomes more and more
+
+335
+00:13:12,460 --> 00:13:13,060
+呃
+Uh
+
+336
+00:13:13,060 --> 00:13:18,012
+你知道，这是一种通用的讲故事方式
+You know , a universal kind of way to tell stories
+
+337
+00:13:18,012 --> 00:13:21,070
+嗯，你确实触及了一个巨大的话题
+Well , you touched upon gigantic subject that's for sure
+
+338
+00:13:21,070 --> 00:13:23,350
+我们可能只能谈论一个小时
+We could probably talk about an hour only about this
+
+339
+00:13:23,350 --> 00:13:24,790
+因为我同意你的观点
+Because i agree with you
+
+340
+00:13:24,790 --> 00:13:26,890
+我们正处于这中间的某个地方
+We are somewhere in the middle of this
+
+341
+00:13:26,890 --> 00:13:29,010
+你知道，完全虚拟现实体验
+You know , fully vr experience
+
+342
+00:13:29,010 --> 00:13:32,370
+还有这种经典的电影体验，对吧
+And this classical cinematic experience , right
+
+343
+00:13:32,370 --> 00:13:35,120
+因为我们实际上只是介于两者之间
+Because we actually are but kind of in the between of them
+
+344
+00:13:35,120 --> 00:13:35,790
+一
+Um
+
+345
+00:13:35,790 --> 00:13:37,990
+当我们开始研究弗兰克说时
+And when we started working on sayer frank
+
+346
+00:13:37,990 --> 00:13:42,200
+我们分析了过去二十年的第一人称游戏体验
+We analyzed the last twenty years of first person experiences in games
+
+347
+00:13:42,200 --> 00:13:45,780
+我们知道，我们研究了一些有效的方法和一些无效的方法
+And we know we , we looked at some things that worked and someone that didn't
+
+348
+00:13:45,780 --> 00:13:47,880
+我们最终得出了这个独特的结论
+And we ended up in this unique take
+
+349
+00:13:47,880 --> 00:13:51,970
+我觉得这实际上同时推动了多个方向的界限
+I feel that actually pushes the boundaries in multiple directions at once
+
+350
+00:13:51,970 --> 00:13:54,070
+因为但最终
+Because but at the end of the day
+
+351
+00:13:54,070 --> 00:13:56,990
+我们在这里以前所未有的方式命名未知领域
+We are naming uncharted territors here , like no one
+
+352
+00:13:56,990 --> 00:14:00,745
+我我我不知道其他设计实际上采用了这个
+I , i , i don't know other design actually took this
+
+353
+00:14:00,745 --> 00:14:05,930
+整个故事的这种处理方式就像完整的故事结束了，你知道，二十，四十
+This approach to the whole like full blown story over , you know , twenty , forty
+
+354
+00:14:05,930 --> 00:14:08,142
+在这里可以实际体验的五十个小时
+Fifty hours that you can actually experience here
+
+355
+00:14:08,142 --> 00:14:11,240
+这实际上具有极高的分支保真度
+That actually has branching extremely high fidelity
+
+356
+00:14:11,240 --> 00:14:13,257
+可定制的角色
+Customizable characters
+
+357
+00:14:13,257 --> 00:14:17,230
+啊，这是，这是一个非常复杂的想法
+Ah , it's , it's a very complex idea
+
+358
+00:14:17,230 --> 00:14:18,730
+但最后我觉得是的
+But in the end , i feel that yeah
+
+359
+00:14:18,730 --> 00:14:21,690
+我们实际上在这里做了一些非常特别的事情
+We actually done something very special here
+
+360
+00:14:21,690 --> 00:14:22,690
+一
+Um
+
+361
+00:14:22,690 --> 00:14:23,050
+是的
+Yeah
+
+362
+00:14:23,050 --> 00:14:24,370
+我喜欢看比赛
+I like i'm looking at the game
+
+363
+00:14:24,370 --> 00:14:26,250
+因为我真的很想开始谈论游戏了
+Because i really want to start talking about the game already
+
+364
+00:14:26,250 --> 00:14:29,130
+就像很多事情一样，比如过去的事情
+Like so many things like when went past , for example
+
+365
+00:14:29,130 --> 00:14:31,080
+我们如何从特写镜头开始
+How we start with a close up shot
+
+366
+00:14:31,080 --> 00:14:31,550
+呃
+Uh
+
+367
+00:14:31,550 --> 00:14:33,490
+感觉真的很像
+Which felt was really like
+
+368
+00:14:33,490 --> 00:14:34,570
+呃，对我们有感觉
+Uh , felt for us
+
+369
+00:14:34,570 --> 00:14:37,590
+与你的角色建立这种个人联系非常重要
+Was really important to set up this personal connection with your character
+
+370
+00:14:37,590 --> 00:14:39,570
+在游戏中更是如此
+Even more so in a game that's about
+
+371
+00:14:39,570 --> 00:14:41,870
+就像你定制你的角色一样
+Like you customize your character
+
+372
+00:14:41,870 --> 00:14:45,650
+然后你就可以在游戏中真正看到这个角色并说
+And then you can really see this character during the game and say
+
+373
+00:14:45,650 --> 00:14:47,450
+来吧，就像我们说的那样
+Come on , like let's say remark
+
+374
+00:14:47,450 --> 00:14:49,850
+我们上网
+We get on the , on the internet
+
+375
+00:14:49,850 --> 00:14:53,510
+所以至少在一开始就以某种方式将你与这个，呃，角色联系起来
+So at least at the beginning to tie you somehow with this , uh , character
+
+376
+00:14:53,510 --> 00:14:56,370
+而且它的工作原理就像是在相对括号中说的
+And also it works is like it let's say in a rative bracket
+
+377
+00:14:56,370 --> 00:14:58,310
+因为游戏是从穿上衣服开始的
+Because the game starts with the clothes up
+
+378
+00:14:58,310 --> 00:15:00,270
+最后把衣服穿好，呃，还有
+And ends with the clothes up , uh , as well
+
+379
+00:15:00,270 --> 00:15:02,690
+就像一种类似的封闭
+Just as a kind of like closure to the
+
+380
+00:15:02,690 --> 00:15:04,890
+嗯，讲故事吧，嗯
+Um , to the story , um
+
+381
+00:15:04,890 --> 00:15:07,190
+无论如何，嗯，就喜欢而言
+Anyway , um , in terms of like
+
+382
+00:15:07,190 --> 00:15:10,680
+也许让我们更详细地了解我们如何处理这个问题
+Maybe let's go into more details about how we approach this
+
+383
+00:15:10,680 --> 00:15:11,980
+例如，一件事
+so for example , one thing
+
+384
+00:15:11,980 --> 00:15:15,280
+我想我希望场景中已经能感受到这一点
+and i think i hope it can be already felt in the scene
+
+385
+00:15:15,280 --> 00:15:16,570
+现在玩的时候
+While playing right now
+
+386
+00:15:16,570 --> 00:15:22,700
+我们的基本假设之一是我们希望玩家成为场景中的演员
+Is one of our base assumptions was that we want the player to be an actor in a scene
+
+387
+00:15:22,700 --> 00:15:26,160
+实际上并不喜欢重播其他角色
+And not actually like replaying other character
+
+388
+00:15:26,160 --> 00:15:28,220
+尽管 。当然你总是有限制的
+Though . of course you always have limits of
+
+389
+00:15:28,220 --> 00:15:31,060
+您可以允许玩家做什么
+What you can like allow player to do of
+
+390
+00:15:31,060 --> 00:15:32,180
+因为很多原因
+Because of many reasons
+
+391
+00:15:32,180 --> 00:15:35,080
+就像，你知道，制作以及我们想要如何推动故事一样
+Just like , you know , production and how we want to drive the story
+
+392
+00:15:35,080 --> 00:15:35,960
+一
+Um
+
+393
+00:15:35,960 --> 00:15:38,150
+但我们一直想要，呃
+But we always wanted to the , uh
+
+394
+00:15:38,150 --> 00:15:41,070
+扮演场景中呃，呃，演员的玩家
+The player to be the u , uh , actor in the scene
+
+395
+00:15:41,070 --> 00:15:45,340
+所以让玩家在场景中实际做事而不是观看它们
+So for the player to actually do things in the scene instead of watching them
+
+396
+00:15:45,340 --> 00:15:47,660
+所以我们是故意的，例如这里
+So we on purpose , for example here
+
+397
+00:15:47,660 --> 00:15:51,250
+就像詹金斯从办公桌上站起来走到另一个地方时一样
+Like when jenkins gets up from his desk and walks to another place
+
+398
+00:15:51,250 --> 00:15:54,350
+我们想向您展示，在此期间苏也移动
+We want to show you that during this su also move
+
+399
+00:15:54,350 --> 00:15:56,190
+你实际上可以进行这样的对话
+and you could actually have this conversation
+
+400
+00:15:56,190 --> 00:16:00,022
+而依然坐在书桌旁的椅子上。这是你的选择
+While still sitting on the chair by the desk . it's your choice
+
+401
+00:16:00,022 --> 00:16:02,100
+就像你可以这样表达自己
+Like you can express yourself be this
+
+402
+00:16:02,100 --> 00:16:05,400
+你知道，就像听话的人对某件事有联系一样
+You know , like obedient persons being connectary as about something
+
+403
+00:16:05,400 --> 00:16:09,210
+一些事情，或者像和他一起散步并尝试成为更多的合作伙伴等等
+Something , or like walk with him and try to maybe be more of a partner and so on
+
+404
+00:16:09,210 --> 00:16:10,930
+当然，大家始终与他同行
+Of course , everybody always walks with him
+
+405
+00:16:10,930 --> 00:16:12,810
+因为这是最吸引人的内容
+Because it's the most attractive content
+
+406
+00:16:12,810 --> 00:16:14,662
+比方说，嗯
+Let's say , um
+
+407
+00:16:14,662 --> 00:16:15,820
+所以这是一回事
+So this was one thing
+
+408
+00:16:15,820 --> 00:16:18,950
+其次，我们一直想为玩家提供
+And second , we always wanted to give players
+
+409
+00:16:18,950 --> 00:16:22,370
+在任何特定时刻都有尽可能多的自由
+As much freedom as possible at any given moment
+
+410
+00:16:22,370 --> 00:16:23,830
+就像我们总是问我们一些事情
+Like we're always asking us stuff
+
+411
+00:16:23,830 --> 00:16:24,200
+好的
+Okay
+
+412
+00:16:24,200 --> 00:16:28,330
+我们现在能给玩家更多的自由吗？
+Can we give player more freedom in this moment that we are giving him right now
+
+413
+00:16:28,330 --> 00:16:30,530
+当然你不能总是这样做
+And of course you cannot always do this
+
+414
+00:16:30,530 --> 00:16:36,805
+因为有时你有一个非常精确的信息需要吸引玩家的注意力
+Because sometimes you have a very precise information that you need to focus player's attention on
+
+415
+00:16:36,805 --> 00:16:40,790
+嗯，为了让他不要让他们分心
+Um , for him not to get for them to not get distracted
+
+416
+00:16:40,790 --> 00:16:42,370
+如果玩家途中分心
+If the player gets distracted by the way
+
+417
+00:16:42,370 --> 00:16:45,720
+他指责比赛不给他机会
+He blames the game for like not giving him
+
+418
+00:16:45,720 --> 00:16:49,100
+这些信息足够好，而不是像存在，哦耶
+The information well enough instead of like being , oh yeah
+
+419
+00:16:49,100 --> 00:16:51,310
+也许应该，也许我应该更多
+Should maybe , maybe i should have be more
+
+420
+00:16:51,310 --> 00:16:52,770
+你知道，以后要小心
+You know , careful the back then
+
+421
+00:16:52,770 --> 00:16:54,240
+现在这样不行了
+Now it doesn't work this way
+
+422
+00:16:54,240 --> 00:16:54,890
+一
+Um
+
+423
+00:16:54,890 --> 00:16:56,290
+所以有时候是故意的
+So sometimes on purpose
+
+424
+00:16:56,290 --> 00:16:58,290
+我们像某处所说的那样培养收藏家
+We make collectors like said somewhere
+
+425
+00:16:58,290 --> 00:17:03,400
+或者，你知道，就像靠在某个东西上，让你的注意力集中在与你交谈的其他角色上
+Or , you know , like lean on something to just focus you on other character talking to you
+
+426
+00:17:03,400 --> 00:17:06,040
+但即便如此，我们仍然想给你
+But even then we want to like give you still the
+
+427
+00:17:06,040 --> 00:17:09,609
+呃，相机自由度，呃，运动
+Uh , camera of the freedom of camera , uh , movement
+
+428
+00:17:09,609 --> 00:17:12,280
+但那里，呃，甚至像这里这样的场景
+But there , uh , even the scenes like here
+
+429
+00:17:12,280 --> 00:17:14,900
+比如说，和你喜欢的这个助手一起去
+For example , with this assistant that you just like went
+
+430
+00:17:14,900 --> 00:17:16,480
+例如，从他身边经过
+Went past him , for example
+
+431
+00:17:16,480 --> 00:17:19,599
+从我们的角度来看这不是一个超级重要的场景
+It's not a super important scene from our perspective
+
+432
+00:17:19,599 --> 00:17:20,619
+就像是一团绒毛
+Like it's a fluff
+
+433
+00:17:20,619 --> 00:17:23,109
+所以基本上我们可以在这里为您提供更多的自由
+So basically we can provide you more freedom here
+
+434
+00:17:23,109 --> 00:17:24,730
+这取决于你想不想和他说话
+It's up to you want to talk with him
+
+435
+00:17:24,730 --> 00:17:27,270
+你想要旋转并站在他身后
+you want to like rotate and stand behind him
+
+436
+00:17:27,270 --> 00:17:28,930
+然后他就会轮流转向你
+And he rotates to you
+
+437
+00:17:28,930 --> 00:17:31,470
+他是否轮换并不重要
+It doesn't really matter if he's rotated or not
+
+438
+00:17:31,470 --> 00:17:33,700
+因为后台启动那件事很重要
+Because the background is started that thing important
+
+439
+00:17:33,700 --> 00:17:36,040
+如果这是一个主线故事的话
+If though it would be a main story
+
+440
+00:17:36,040 --> 00:17:38,680
+告诉你，电脑是非常非常重要的东西
+And pc was something really , really important to tell you
+
+441
+00:17:38,680 --> 00:17:41,120
+例如，我们可能不知道他会抓住你
+We would probably i don't know he would catch you for example
+
+442
+00:17:41,120 --> 00:17:42,600
+或者他会说，来吧
+Or he would be like , come on
+
+443
+00:17:42,600 --> 00:17:44,400
+让我们在这里停留一会儿
+Let's stay here for a little moment
+
+444
+00:17:44,400 --> 00:17:45,700
+我需要告诉你更多的事情
+I need to tell you something more
+
+445
+00:17:45,700 --> 00:17:46,360
+等等
+And so on
+
+446
+00:17:46,360 --> 00:17:49,440
+所以我们知道他所关注的球员就像
+So just the player we know that he's focused on like
+
+447
+00:17:49,440 --> 00:17:51,877
+我们在 daan 特定时刻呈现的内容
+What we are presenting at daan given moment
+
+448
+00:17:51,877 --> 00:17:54,240
+所以我们经常谈论
+So we are often talking about
+
+449
+00:17:54,240 --> 00:17:59,530
+关于噪声和信号关于我们需要始终理解的这个想法
+about noise and signal about this idea that we need to always understand
+
+450
+00:17:59,530 --> 00:18:02,810
+最重要的信息想传达给玩家什么
+What the most important information want to convey to the player
+
+451
+00:18:02,810 --> 00:18:03,110
+正确的
+Right
+
+452
+00:18:03,110 --> 00:18:06,660
+是我们希望玩家体验的实际内容
+Was the actual thing that we want the player to experience
+
+453
+00:18:06,660 --> 00:18:08,160
+去感受、去理解
+To feel , to to understand
+
+454
+00:18:08,160 --> 00:18:10,030
+当这一幕真实发生后
+After the scene actually happened
+
+455
+00:18:10,030 --> 00:18:10,620
+呃
+Uh
+
+456
+00:18:10,620 --> 00:18:14,460
+我们有多种方式引导玩家放弃这种体验
+And we have multiple ways to guide the player drop this experience
+
+457
+00:18:14,460 --> 00:18:15,600
+呃，就像你那套里的一样
+Uh , like in your set
+
+458
+00:18:15,600 --> 00:18:18,337
+人们坐下，人们走开
+People sitting down , people walking away
+
+459
+00:18:18,337 --> 00:18:20,670
+玩家处于封闭空间
+Player being in a closed space
+
+460
+00:18:20,670 --> 00:18:23,930
+玩家输入av ，就像在这个例子中一样，对吧
+Player entering av , like in this case , right
+
+461
+00:18:23,930 --> 00:18:28,740
+呃，这些其实都是我们整个游戏过程中可以用到的工具
+Uh , all of those are actually the tools that we can use during the whole game
+
+462
+00:18:28,740 --> 00:18:33,650
+这以一种希望无缝的方式融合了旁白和游戏玩法
+And that blend the narration and gameplay in a way that's hopefully seamless
+
+463
+00:18:33,650 --> 00:18:36,210
+我，我认为在大多数情况下都是这样
+And i , i think in this case for most of the time
+
+464
+00:18:36,210 --> 00:18:38,240
+我们实际上成功了，呃
+We actually succeeded in that , uh
+
+465
+00:18:38,240 --> 00:18:40,570
+而你享受
+And you enjoy
+
+466
+00:18:40,570 --> 00:18:44,090
+而且，你知道，你，你，你在整个体验过程中都在玩
+And , you know , and you , you , you play throughout the experience
+
+467
+00:18:44,090 --> 00:18:46,020
+但实际上从来没有，呃
+But there's never actually , uh
+
+468
+00:18:46,020 --> 00:18:49,390
+在旁白部分和游戏部分之间切换
+Cut between the narration part and the gameplay part
+
+469
+00:18:49,390 --> 00:18:55,420
+就像我们看到的，就像我们在猎魔人，呃，片段中看到的那样
+Like we watched , like we saw in the , in the witcher , uh , fragment
+
+470
+00:18:55,420 --> 00:18:58,980
+两者之间有明显的区别，对吗？
+There is a clear separation between one and the other , right
+
+471
+00:18:58,980 --> 00:19:02,200
+在这个游戏中，在这个非常特别的游戏中
+And in this game , in this very particular game
+
+472
+00:19:02,200 --> 00:19:03,140
+没有
+There is none
+
+473
+00:19:03,140 --> 00:19:06,520
+我们想要推动这种程度的自由
+We wanted to push this amount of freedom
+
+474
+00:19:06,520 --> 00:19:08,870
+我们可以给玩家尽可能多的
+We can give the player as much as possible
+
+475
+00:19:08,870 --> 00:19:12,590
+当它仍在交付时，重视一个想要讲述的非常特别的故事
+While it's still deliving , valuvering a very particular story that want to tell
+
+476
+00:19:12,590 --> 00:19:14,465
+因为在一天结束时
+Because at the very end of the day
+
+477
+00:19:14,465 --> 00:19:15,890
+我们是学习者，对吧
+We are study tters , right
+
+478
+00:19:15,890 --> 00:19:17,610
+我们，我们想讲述这个故事
+We , we want to deliver this story
+
+479
+00:19:17,610 --> 00:19:21,390
+我们想要创造的这种激动人心的东西
+This emotional gut punching thing that we want to create
+
+480
+00:19:21,390 --> 00:19:24,430
+并想让玩家体验火爆
+And want to player to experience hot
+
+481
+00:19:24,430 --> 00:19:24,930
+是的
+Yeah
+
+482
+00:19:24,930 --> 00:19:25,990
+一，一
+Um , um
+
+483
+00:19:25,990 --> 00:19:26,320
+是的
+Yeah
+
+484
+00:19:26,320 --> 00:19:26,640
+是的
+Yeah
+
+485
+00:19:26,640 --> 00:19:27,180
+是的
+Yeah
+
+486
+00:19:27,180 --> 00:19:27,600
+我会
+I will
+
+487
+00:19:27,600 --> 00:19:28,200
+所以是的
+So yeah
+
+488
+00:19:28,200 --> 00:19:29,800
+我感觉里面有很多东西
+I feel like there's so much in , in there
+
+489
+00:19:29,800 --> 00:19:31,360
+所以，听起来你们很像
+And so it , it sounds like you guys
+
+490
+00:19:31,360 --> 00:19:34,020
+你是在谈论一个，呃
+Are you're kind of talking about a , uh
+
+491
+00:19:34,020 --> 00:19:36,080
+一种控制方式
+A way of controlling
+
+492
+00:19:36,080 --> 00:19:36,930
+一
+Um
+
+493
+00:19:36,930 --> 00:19:39,430
+或者建议喜欢玩家关注
+Or suggesting like player attention
+
+494
+00:19:39,430 --> 00:19:42,950
+或者就像在某些不那么重要的时刻
+Or like in some moments where it's less critical
+
+495
+00:19:42,950 --> 00:19:44,190
+他们有更多的自由
+They have more freedom
+
+496
+00:19:44,190 --> 00:19:46,150
+所以如果他们错过了也没关系
+So if they miss it , it's fine
+
+497
+00:19:46,150 --> 00:19:48,570
+但在类似故事的关键时刻
+But in like story critical moments
+
+498
+00:19:48,570 --> 00:19:53,370
+您可以掌控一切以确保人们不会错过它
+You are able to like take control to make sure people don't miss it
+
+499
+00:19:53,370 --> 00:19:55,590
+而且，就像你说的，你知道
+And , and also like you're saying , you know
+
+500
+00:19:55,590 --> 00:20:00,290
+从游戏玩法到电影的无缝过渡
+The seamlessness of moving from gameplay to cinematics
+
+501
+00:20:00,290 --> 00:20:02,627
+你知道，我，我想我很早就记得了
+You know , i , i think i remember early on
+
+502
+00:20:02,627 --> 00:20:05,140
+呃，保罗，你和我就像在推特上聊天一样
+Uh , paul , you and i were like chatting on twitter
+
+503
+00:20:05,140 --> 00:20:07,420
+还有一场关于电影艺术的对话
+And there was a conversation about cinematics
+
+504
+00:20:07,420 --> 00:20:08,340
+我当时想，等等
+And i was like , wait
+
+505
+00:20:08,340 --> 00:20:09,960
+这游戏有动画吗
+Are there cinematics in this game
+
+506
+00:20:09,960 --> 00:20:15,380
+因为它，感觉不像传统的电影理念
+Because it , it doesn't feel like the conventional like idea of cinematics
+
+507
+00:20:15,380 --> 00:20:17,900
+所以我想，我认为你们一定能实现这一点
+And so i think , i think you guys definitely achieve that
+
+508
+00:20:17,900 --> 00:20:21,240
+因为我的大脑必须喜欢处理类似的事情，好吧
+Because it my brain had to like process that of like , all right
+
+509
+00:20:21,240 --> 00:20:24,880
+就像这些算作电影，因为它是讲故事的
+Like these count as cinematics because it's storytelling
+
+510
+00:20:24,880 --> 00:20:28,230
+但在第一人称视角下却是如此无缝
+But it is so seamless in that first person perspective
+
+511
+00:20:28,230 --> 00:20:30,510
+你可以在办公室里跑来跑去
+Where you can be running around the office
+
+512
+00:20:30,510 --> 00:20:32,510
+现在你在这辆车里
+And now you're in this car
+
+513
+00:20:32,510 --> 00:20:35,510
+呃，你知道，飞行汽车avv，对吧
+Uh , you know , the the flying car avv , right
+
+514
+00:20:35,510 --> 00:20:35,730
+是的
+Yeah
+
+515
+00:20:35,730 --> 00:20:38,150
+AV，呃，啊，参加这个很棒的巡演
+Av , uh , ah , getting this awesome tour
+
+516
+00:20:38,150 --> 00:20:39,922
+而且是如此天衣无缝
+And it is so seamless
+
+517
+00:20:39,922 --> 00:20:40,560
+一
+Um
+
+518
+00:20:40,560 --> 00:20:42,340
+我只是觉得这是一件非常令人印象深刻的事情
+I just think that's a really impressive thing
+
+519
+00:20:42,340 --> 00:20:43,370
+我觉得
+And i feel like the
+
+520
+00:20:43,370 --> 00:20:45,860
+汽车修理工是对我来说最突出的事情之一
+the car mechanics is one of the things that stood out to me
+
+521
+00:20:45,860 --> 00:20:48,860
+作为，作为有时的例子，呃
+As , as an example of sometimes when , uh
+
+522
+00:20:48,860 --> 00:20:50,580
+你就像接到某人的任务
+You're like getting a mission from someone
+
+523
+00:20:50,580 --> 00:20:52,040
+你走，你坐在车里
+You go and you sit in the car
+
+524
+00:20:52,040 --> 00:20:53,380
+然后你就不能走动了
+And then you can't move around
+
+525
+00:20:53,380 --> 00:20:55,680
+所以你有点被迫，呃
+So you're sort of forced to , uh
+
+526
+00:20:55,680 --> 00:20:57,420
+以某种方式聆听该玩家的声音
+Listen to that player in a way
+
+527
+00:20:57,420 --> 00:21:00,252
+这仍然让人感觉身临其境且真实
+That still feels immersive and true to the world
+
+528
+00:21:00,252 --> 00:21:01,050
+所以，是的
+So , yeah
+
+529
+00:21:01,050 --> 00:21:04,090
+你们还用过其他一些技巧吗？
+Where there's some other techniques you guys used to , uh
+
+530
+00:21:04,090 --> 00:21:06,722
+在需要时吸引玩家的注意力
+Draw player attention when you needed to
+
+531
+00:21:06,722 --> 00:21:08,600
+嗯，有很多这样的
+Well , there are like so many
+
+532
+00:21:08,600 --> 00:21:10,920
+我们甚至可以停下来，呃
+And we could like even stop , uh
+
+533
+00:21:10,920 --> 00:21:12,520
+不知道下一个场景
+I don't know at the next scene
+
+534
+00:21:12,520 --> 00:21:13,960
+我们可以谈谈这个
+And we can talk about this
+
+535
+00:21:13,960 --> 00:21:16,140
+我的意思是，有些比较复杂，有些则比较简单
+I mean , some of them are more complex , sometimes less
+
+536
+00:21:16,140 --> 00:21:19,310
+但是，嗯，呃，有人可能会在这一点上发表评论
+But , um , uh , one may remark at this point
+
+537
+00:21:19,310 --> 00:21:23,830
+我，我认为这是游戏制作过程中的一个有趣的发现
+Which i , i think was like an interesting discovery during the making of the game
+
+538
+00:21:23,830 --> 00:21:28,560
+就像一开始一样，这整个就像我喜欢太阳能fpp的想法
+Like at the beginning , this whole like i like solar fpp idea
+
+539
+00:21:28,560 --> 00:21:29,740
+或者在整个游戏过程中
+Or throughout the game
+
+540
+00:21:29,740 --> 00:21:32,160
+就像工作室里很多人并不买账一样
+Like many people at the studio didn't really buy it
+
+541
+00:21:32,160 --> 00:21:34,200
+或者你没有真正明白或喜欢
+Or didn't you they really get it or like
+
+542
+00:21:34,200 --> 00:21:37,220
+但你要如何讲述此时此刻
+But how are you going to tell this moment or this moment
+
+543
+00:21:37,220 --> 00:21:38,160
+就像这怎么可能
+Like how's it possible
+
+544
+00:21:38,160 --> 00:21:40,220
+当然你需要喜欢做特写
+Of course you need to like do a close up
+
+545
+00:21:40,220 --> 00:21:42,127
+你知道，插话什么的
+You know , cut in or something
+
+546
+00:21:42,127 --> 00:21:42,930
+一
+Um
+
+547
+00:21:42,930 --> 00:21:45,810
+而且，呃，实际上我们非常关心，好吧
+And , uh , actually we were pretty concerned with like , okay
+
+548
+00:21:45,810 --> 00:21:46,880
+我们给予玩家自由
+We give players freedom
+
+549
+00:21:46,880 --> 00:21:49,280
+所以他们会喜欢在我们重要的场景中
+So they will just like in the middle of our important scene
+
+550
+00:21:49,280 --> 00:21:50,800
+他们会转身走开
+They will turn around and walk away
+
+551
+00:21:50,800 --> 00:21:52,800
+就像我的故事等等
+And like what with my story and so on
+
+552
+00:21:52,800 --> 00:21:53,760
+而实际上
+And actually
+
+553
+00:21:53,760 --> 00:21:57,820
+事实证明，对于 98% 的玩家来说
+And it turns out that for ninety eight percent of players
+
+554
+00:21:57,820 --> 00:21:59,540
+人们只是想玩游戏
+People just want to play the game
+
+555
+00:21:59,540 --> 00:22:02,040
+这很像一个简单的想法
+It's a very like a simple maybe thought
+
+556
+00:22:02,040 --> 00:22:03,360
+但这对我们来说至关重要
+But it's a crucial for us
+
+557
+00:22:03,360 --> 00:22:08,060
+因此，人们通常希望您能够为他们提供最具吸引力的内容
+So people usually they want the most attractive content you can provide them with
+
+558
+00:22:08,060 --> 00:22:10,800
+如果他们有像超有吸引力的NPC
+If they have like the super attractive npc
+
+559
+00:22:10,800 --> 00:22:14,250
+同样很酷的东西和移动可以令人印象深刻并且喜欢尝试
+Same cool stuff and moving can immating and like trying to
+
+560
+00:22:14,250 --> 00:22:15,870
+你知道，与他们有联系等等
+You know , relate to them and so on
+
+561
+00:22:15,870 --> 00:22:18,410
+就像他们为什么会选择看人行道一样
+Like why would they choose looking at the sidewalk
+
+562
+00:22:18,410 --> 00:22:20,400
+或者就像在这个特定的时刻走开
+Or like walking away at this given moment
+
+563
+00:22:20,400 --> 00:22:22,720
+就像一开始我们在想
+And like at the beginning we were thinking
+
+564
+00:22:22,720 --> 00:22:26,640
+哦，我们需要确保所有员工的安全，需要所有这些围栏系统等等
+Oh , we'll need to secure all the staff would like all those fence systems and so on
+
+565
+00:22:26,640 --> 00:22:30,530
+然后当你喜欢在youtube上观看《rust》时，人们就会准确地玩
+And then when you like watch play rust on youtube , people play exactly
+
+566
+00:22:30,530 --> 00:22:32,890
+他们希望他们像我们希望他们那样打球
+They want they like the way we want them to play
+
+567
+00:22:32,890 --> 00:22:35,030
+即使他们可以打破比赛
+Even though they could break the game
+
+568
+00:22:35,030 --> 00:22:38,350
+就像在很多不同的场合走开一样
+Just by like walking away at so many different occasions
+
+569
+00:22:38,350 --> 00:22:39,297
+一
+Um
+
+570
+00:22:39,297 --> 00:22:42,620
+例如，也许实际上不在此处的产品中，或者为什么在此处
+Maybe not in the product actually here or why at this , for example
+
+571
+00:22:42,620 --> 00:22:44,180
+这是游戏的开头
+This is opening of of of the game
+
+572
+00:22:44,180 --> 00:22:47,900
+我们不想让玩家离开去参观整个城市
+We didn't want the players to leave to like visit the whole city
+
+573
+00:22:47,900 --> 00:22:51,190
+所以在你的一系列类似的有限香料中
+So here in your in a series of like limited spices
+
+574
+00:22:51,190 --> 00:22:53,090
+但是当你到达你的时候
+But when you get to the u
+
+575
+00:22:53,090 --> 00:22:56,510
+主要主线剧情，你有这个，我不认识npc
+Main main story , you have this , i don't know npc
+
+576
+00:22:56,510 --> 00:22:58,620
+你知道，你在某个地方遇见了巴拿马
+You meet , you know , panam somewhere
+
+577
+00:22:58,620 --> 00:23:00,480
+就像在他们的谈话中
+And like in the middle of their conversation
+
+578
+00:23:00,480 --> 00:23:03,960
+你可以转身走开，两个月后再回去
+You could just like turn around and walk away and go back after two months
+
+579
+00:23:03,960 --> 00:23:06,865
+就像接听谈话一样
+And just like pick up on the conversation
+
+580
+00:23:06,865 --> 00:23:09,740
+事实证明几乎没有人这样做过
+Turns out almost no one does it ever
+
+581
+00:23:09,740 --> 00:23:13,810
+所以实际上我们可以允许自己提供更多的自由
+So actually we could allow ourselves to like provide more freedom
+
+582
+00:23:13,810 --> 00:23:15,810
+明知道无论如何人们都不会接受
+Knowing that people won't take it anyway
+
+583
+00:23:15,810 --> 00:23:17,070
+但就像感觉会存在一样
+But like the feeling will be there
+
+584
+00:23:17,070 --> 00:23:17,990
+哦，我可以做到这一点
+Oh , i could do this
+
+585
+00:23:17,990 --> 00:23:19,090
+这太酷了
+This is so cool
+
+586
+00:23:19,090 --> 00:23:21,292
+但就像，但你不会对
+But like , but you won't right
+
+587
+00:23:21,292 --> 00:23:24,980
+因为这是你知道的、迷人的幻想在跟你说话
+Because here's the you know , attractive fantasy talking to you
+
+588
+00:23:24,980 --> 00:23:30,850
+我认为迈克尔之前所说的关于整个体验的无缝性很重要
+I think it's important what you michael said before about the seamlessness of the whole experience
+
+589
+00:23:30,850 --> 00:23:35,840
+因为对我来说，就像电影中好的剪辑基本上是玩家看不见的一样
+Because for me , just like a good edit in a movie is basically invisible to the player
+
+590
+00:23:35,840 --> 00:23:38,880
+我感觉到我们传递这些重要内容的方式
+i feel the way that we deliver those important
+
+591
+00:23:38,880 --> 00:23:43,530
+不太重要的故事节拍也应该以同样的方式对玩家不可见
+And less important story beats should be invisible to the player in the same way
+
+592
+00:23:43,530 --> 00:23:45,210
+他们甚至不应该明白
+They should not even understand that
+
+593
+00:23:45,210 --> 00:23:46,850
+哦，这个有点多了
+Oh , this is something a bit more
+
+594
+00:23:46,850 --> 00:23:48,960
+你知道，最好知道
+You know , be better to know
+
+595
+00:23:48,960 --> 00:23:50,740
+内部保真度更高，对吧
+Have more fidelity inside , right
+
+596
+00:23:50,740 --> 00:23:52,720
+而这部分其实不太重要
+And this part is actually less important
+
+597
+00:23:52,720 --> 00:23:56,980
+但是，对于玩家来说，最终的体验应该还是非常相似的
+But the , the the experience should still be very much the same for the player in the end
+
+598
+00:23:56,980 --> 00:24:00,440
+我再次觉得网络PK做得很好
+And i feel again that it it's something that cyber pk does pretty well
+
+599
+00:24:00,440 --> 00:24:03,300
+所以我不知道你现在是否想谈论这个
+So i know not if you want to talk about this right now
+
+600
+00:24:03,300 --> 00:24:08,760
+但是，呃，我们基本上把整个叙述分成了非常具体的部分
+But , uh , we basically divided the whole narration into very specific parts
+
+601
+00:24:08,760 --> 00:24:09,700
+我们决定的地方
+Where we decide
+
+602
+00:24:09,700 --> 00:24:09,920
+好的
+Okay
+
+603
+00:24:09,920 --> 00:24:12,960
+这是祈祷需要有很大自由的部分
+This is the part where the prayer needs to have a lot of freedom
+
+604
+00:24:12,960 --> 00:24:17,780
+这实际上是我们最想提供的自由的部分
+And this is the part where actually the freedom that that we want to deliver the most
+
+605
+00:24:17,780 --> 00:24:21,080
+这是最有力的叙述，对吧
+That the most punchy amount of narration possible , right
+
+606
+00:24:21,080 --> 00:24:22,350
+所以我们称它们为眼泪
+So we call them tears
+
+607
+00:24:22,350 --> 00:24:24,730
+所以我们从一到五
+So we have teers through one to five
+
+608
+00:24:24,730 --> 00:24:26,810
+第一个是完全游戏
+And the first one is fully game play
+
+609
+00:24:26,810 --> 00:24:28,930
+第五部基本都是过场动画
+The fifth is basically fully cutscene
+
+610
+00:24:28,930 --> 00:24:31,180
+现在我们就在中间
+And right now we are straight in the middle
+
+611
+00:24:31,180 --> 00:24:34,620
+所以这是第三层，玩家实际上坐下来
+So this is the third tier where players actually sitting down
+
+612
+00:24:34,620 --> 00:24:37,460
+而且它对相机的控制非常有限
+And it has very limited control of the camera
+
+613
+00:24:37,460 --> 00:24:41,420
+但这使我们能够提供特定的内容
+But this allows us to deliver specific content
+
+614
+00:24:41,420 --> 00:24:45,420
+这使得我们可以拥有内部没有摄像头的相机，对吧
+This allows us to have camera without cameras inside , right
+
+615
+00:24:45,420 --> 00:24:48,470
+我们，我们，我们也许有相同的工具
+We , we do , we have the same tools maybe
+
+616
+00:24:48,470 --> 00:24:51,620
+但我们仍然没有这样的削减
+But still we don't have the cut that would
+
+617
+00:24:51,620 --> 00:24:53,760
+这在电影中是找不到的
+That would not about be found in a movie
+
+618
+00:24:53,760 --> 00:24:56,390
+实际上你可以在这里看到，嗯
+And actually you can see here , um
+
+619
+00:24:56,390 --> 00:25:00,290
+基本上这对杰基来说是一个中景，对吧
+Basically what's this a medium shot towards to jackie , right
+
+620
+00:25:00,290 --> 00:25:01,790
+如果他真的对我们有意
+And if he actually means towards us
+
+621
+00:25:01,790 --> 00:25:02,990
+我们突然把衣服脱光了
+We have clothes up suddenly
+
+622
+00:25:02,990 --> 00:25:04,710
+如果他站起来并真的走开
+If he gets up and actually walk away
+
+623
+00:25:04,710 --> 00:25:05,710
+我们还有更多东西
+We have something more
+
+624
+00:25:05,710 --> 00:25:09,320
+这样我们就可以充分利用现有的内容
+So we can play a lot with the content that we have
+
+625
+00:25:09,320 --> 00:25:11,960
+即使玩家可能根本不明白发生了什么
+Even though the player might not even understand what's happened
+
+626
+00:25:11,960 --> 00:25:14,020
+因为他想坐下来
+Because he wanted to sit down
+
+627
+00:25:14,020 --> 00:25:15,520
+因为游戏，你知道，收获
+Because the game , you know , the gain
+
+628
+00:25:15,520 --> 00:25:20,560
+游戏提供了坐下的选项，这是这次转换对话中最吸引人的部分，对吗？
+The game presented the options to sit down as the most attractive part of this convert conversation , right
+
+629
+00:25:20,560 --> 00:25:23,330
+因为他邀请我们参与对话
+Because he invites us towards the conversation
+
+630
+00:25:23,330 --> 00:25:25,240
+有人玩家，玩家认为，好吧
+And somebody player , player thinks , okay
+
+631
+00:25:25,240 --> 00:25:25,500
+是的
+Yeah
+
+632
+00:25:25,500 --> 00:25:25,680
+是的
+Yeah
+
+633
+00:25:25,680 --> 00:25:25,920
+当然
+Sure
+
+634
+00:25:25,920 --> 00:25:26,500
+绝对地
+Absolutely
+
+635
+00:25:26,500 --> 00:25:27,390
+我会加入你
+I will join you
+
+636
+00:25:27,390 --> 00:25:28,330
+呃，坐下
+Uh , and sit down
+
+637
+00:25:28,330 --> 00:25:29,850
+我们会一起喝一杯
+And we'll have a drink together
+
+638
+00:25:29,850 --> 00:25:32,310
+尽管这正是我们希望他们做的
+Even though this is exactly what we wanted them to
+
+639
+00:25:32,310 --> 00:25:33,970
+去感受你
+To , to feel you
+
+640
+00:25:33,970 --> 00:25:37,730
+玩这款游戏时真正让我印象深刻的一件事是，你知道，我自己也是一名电影制片人
+One thing that really struck me playing the game was , you know , as a filmmaker myself
+
+641
+00:25:37,730 --> 00:25:40,390
+我不再只是世界上的一名演员
+I was getting to be not just an actor in the world
+
+642
+00:25:40,390 --> 00:25:41,650
+但作为一名电影摄影师
+But a cinematographer
+
+643
+00:25:41,650 --> 00:25:45,730
+你知道，我，我被赋予了创建自己的框架的自由
+you know , i , i was given the freedom to create my own frames
+
+644
+00:25:45,730 --> 00:25:49,820
+并选择我想要的框架在任何特定时刻的样子
+And to choose what i wanted my frame to be in any given moment
+
+645
+00:25:49,820 --> 00:25:52,010
+这是一次非常有趣的经历，是的
+And it was a really interesting experience where , yeah
+
+646
+00:25:52,010 --> 00:25:55,970
+有时我会使用该按钮稍微放大一点，使其更近一些
+Sometimes i would use that button to kind of zoom in a bit to just make it a little bit more close up
+
+647
+00:25:55,970 --> 00:25:56,510
+是的
+Yeah
+
+648
+00:25:56,510 --> 00:25:58,250
+或者，或者，或者，或者有时候我会的，你知道的
+Or , or , or , or sometimes i would , you know
+
+649
+00:25:58,250 --> 00:26:01,040
+我希望你能移动，这样，你知道，这个角色
+I would you move so that , you know , the character
+
+650
+00:26:01,040 --> 00:26:03,320
+我说话的对象就在画面的一角
+I was talking to was like just on the corner of the frame
+
+651
+00:26:03,320 --> 00:26:04,940
+但你知道，这主要是一个
+But it was mostly , you know , a
+
+652
+00:26:04,940 --> 00:26:06,690
+他们身后的风景
+A landscape behind them
+
+653
+00:26:06,690 --> 00:26:08,630
+这真是一次全新的体验
+And that was just a really new experience
+
+654
+00:26:08,630 --> 00:26:11,100
+就像我几乎被邀请去的地方
+Where like i was invited almost to
+
+655
+00:26:11,100 --> 00:26:14,180
+为了帮助以大多数游戏的方式拍摄这部电影
+To help shoot this movie in a way that most games
+
+656
+00:26:14,180 --> 00:26:18,202
+你知道，你们完全可以控制每一帧的样子
+You know , you guys are completely in control of , of what each frame looks like
+
+657
+00:26:18,202 --> 00:26:19,050
+呃，我是说
+Uh , i mean
+
+658
+00:26:19,050 --> 00:26:19,960
+是的
+Yeah
+
+659
+00:26:19,960 --> 00:26:20,970
+嗯，呃
+Um , uh
+
+660
+00:26:20,970 --> 00:26:21,170
+是的
+Yeah
+
+661
+00:26:21,170 --> 00:26:21,470
+当然
+Sure
+
+662
+00:26:21,470 --> 00:26:21,850
+呃
+Uh
+
+663
+00:26:21,850 --> 00:26:24,610
+并且，呃，例如，在那些没有鹿的场景中
+And , uh , for example , in those like deer free scenes
+
+664
+00:26:24,610 --> 00:26:26,680
+我们现在在哪里
+Where were where we are u right now
+
+665
+00:26:26,680 --> 00:26:28,360
+就像相机的旋转一样
+It's just like the rotation of the camera
+
+666
+00:26:28,360 --> 00:26:30,960
+但有很多对一和二，两个场景
+But there are like many to one and two , two scenes
+
+667
+00:26:30,960 --> 00:26:33,080
+您可以在场景中自由移动
+Where you can just move freely around the scene
+
+668
+00:26:33,080 --> 00:26:37,560
+尽管你几乎可以在每个场景中飞来飞去
+And even though you can move fly around for almost each scene
+
+669
+00:26:37,560 --> 00:26:40,260
+我们试图创造一种我们称之为“最佳点”的东西
+We tried to create something that we call the sweet spot
+
+670
+00:26:40,260 --> 00:26:46,180
+就像这样将人物、元素和生活在画面中上演
+Which is like this kind of like staging of characters and elements and life in the frame
+
+671
+00:26:46,180 --> 00:26:50,590
+那种喜欢潜意识里让你站在一个特定的点上
+That kind of like subconsciously makes you stand in a specific point
+
+672
+00:26:50,590 --> 00:26:52,580
+就像你那样做
+And like you kind of just do it
+
+673
+00:26:52,580 --> 00:26:53,940
+对我们来说，这正是重点
+And for us , this is the exact point
+
+674
+00:26:53,940 --> 00:26:55,340
+我们希望你站在哪里
+Where we want want you to stand
+
+675
+00:26:55,340 --> 00:26:57,060
+因为例如这里的背景
+Because for example here the background
+
+676
+00:26:57,060 --> 00:26:59,080
+它的作用就像更好的构图
+It works for like a better composition
+
+677
+00:26:59,080 --> 00:27:01,690
+或者喜欢它以某种方式增加了民主党呃
+Or like it somehow adds to the dem uh
+
+678
+00:27:01,690 --> 00:27:04,170
+或者像增强故事联系一样。等等
+Or like enhances the story tying . and so on
+
+679
+00:27:04,170 --> 00:27:08,950
+通常它就像将角色放置在哪里一样简单
+And usually it's as simple as just like placing the character like where
+
+680
+00:27:08,950 --> 00:27:10,770
+npc的正面在哪里
+Where is the front of the npc
+
+681
+00:27:10,770 --> 00:27:14,090
+通常人们会站在npc的正前方
+Usually people will stand right in front of the npc
+
+682
+00:27:14,090 --> 00:27:15,110
+所以在这里我们知道
+So here we know
+
+683
+00:27:15,110 --> 00:27:16,890
+但我们也可以尝试限制空间
+But we can also try to limit the space
+
+684
+00:27:16,890 --> 00:27:19,950
+身体上有一些资产，比如夏天等等
+Physically with some like assets , summer and so on
+
+685
+00:27:19,950 --> 00:27:21,910
+所以就像，是的，这是npc的正面
+So like , yeah , here's the front of npc
+
+686
+00:27:21,910 --> 00:27:22,930
+但我们被封锁在这里
+But we are blocked here
+
+687
+00:27:22,930 --> 00:27:24,990
+所以实际上你会站到左边一点
+So actually you will stand a little bit to the left
+
+688
+00:27:24,990 --> 00:27:26,710
+呵呵，然后就会有不喜欢的酷
+Oh , and then there will be dislike cool
+
+689
+00:27:26,710 --> 00:27:28,977
+你知道，画面的深度什么的
+You know , depth in the frame or something
+
+690
+00:27:28,977 --> 00:27:31,140
+你可以，嗯，使用，呃
+You can , um , use , uh
+
+691
+00:27:31,140 --> 00:27:32,760
+也喜欢小细节
+Also like small details
+
+692
+00:27:32,760 --> 00:27:33,960
+例如，在地面上
+For example , on the ground
+
+693
+00:27:33,960 --> 00:27:35,280
+有时我知道你有电缆
+Sometimes i know you have cables
+
+694
+00:27:35,280 --> 00:27:36,980
+他们有点像这样
+And they kind of make like this
+
+695
+00:27:36,980 --> 00:27:39,000
+我在某种程度上不了解这个地区
+I don't know this area in a way
+
+696
+00:27:39,000 --> 00:27:41,500
+潜意识里你就站在这个区域内
+And subconsciously you stand inside this area
+
+697
+00:27:41,500 --> 00:27:43,200
+如果有闪电
+If there's a lightning
+
+698
+00:27:43,200 --> 00:27:45,600
+在黑暗的地方你不会明白。等等
+You don't understand in the dark places . and so on
+
+699
+00:27:45,600 --> 00:27:50,170
+所以你可以结合很多不同的元素来以某种方式让玩家
+So you can combine a lot of those different elements to somehow make the player
+
+700
+00:27:50,170 --> 00:27:51,510
+你想让他在哪里
+Where you want him to be
+
+701
+00:27:51,510 --> 00:27:54,050
+我们为此拥有的最后一个工具就像
+And the last tool we have for this it's like
+
+702
+00:27:54,050 --> 00:27:56,550
+假设游戏的金属级别是，呃
+Let's say on the metal level of the game is , uh
+
+703
+00:27:56,550 --> 00:28:00,670
+只是设计交互如何呈现给玩家以及会发生什么
+Just the design of how the interactions appear to the player and what happens
+
+704
+00:28:00,670 --> 00:28:02,240
+所以你可以，例如
+So you could , for example
+
+705
+00:28:02,240 --> 00:28:05,200
+尝试测试一下你什么时候看到对话选项出现
+Try to test when do you see the dialogue choices appearing
+
+706
+00:28:05,200 --> 00:28:08,390
+你离一个角色有多远
+How far you are away from a character
+
+707
+00:28:08,390 --> 00:28:10,440
+因此您无法单击以下选项
+So you cannot click the choices from
+
+708
+00:28:10,440 --> 00:28:11,920
+你知道，有很多摊位
+You know , a lot of the stands
+
+709
+00:28:11,920 --> 00:28:14,530
+因为那时就像这样的电脑
+Because then like then pcs like this
+
+710
+00:28:14,530 --> 00:28:16,110
+有一个，你知道，一个巨大的镜头
+There's a , you know , a huge shot
+
+711
+00:28:16,110 --> 00:28:18,270
+我们不想告诉你一个故事内容
+And we don't want to tell you a story content
+
+712
+00:28:18,270 --> 00:28:20,590
+那里的npc超级超级小
+Where like the npc is super , super tiny
+
+713
+00:28:20,590 --> 00:28:24,420
+所以我们限制了，嗯
+So we limited like the the , um
+
+714
+00:28:24,420 --> 00:28:30,650
+对话选择的范围如何迫使你更加接近
+The range of how of where the dialogue choices appear to force you in a way to be closer
+
+715
+00:28:30,650 --> 00:28:31,930
+但话又说回来，正如pao所说
+But again , as pao said
+
+716
+00:28:31,930 --> 00:28:33,250
+这一切都应该是看不见的
+It all should feel invisible
+
+717
+00:28:33,250 --> 00:28:35,370
+它应该感觉自然并且突出
+It should just feel natural and project o
+
+718
+00:28:35,370 --> 00:28:36,210
+现在我可以说话了
+And now i can talk
+
+719
+00:28:36,210 --> 00:28:37,890
+而且感觉应该是公正的，你知道的
+And it should feel just , you know
+
+720
+00:28:37,890 --> 00:28:39,010
+在某种程度上是正确的
+Correct in a way
+
+721
+00:28:39,010 --> 00:28:41,110
+或者举个例子，明白了，呃
+Or for example , understand , uh
+
+722
+00:28:41,110 --> 00:28:43,030
+每当你选择对话选项时
+Whenever you pick a dialogue choice
+
+723
+00:28:43,030 --> 00:28:44,510
+不看npc
+Not looking at the npc
+
+724
+00:28:44,510 --> 00:28:47,890
+我们会自动将你轮换到npc
+We will automatically rotate you to the npc
+
+725
+00:28:47,890 --> 00:28:52,390
+只是为了确保你不只是像流动员工并在这里的某个地方做出选择
+Just to make sure that you are not just like loating staff and taking choices somewhere here
+
+726
+00:28:52,390 --> 00:28:54,130
+就像忘记这一切一样
+And like forgetting about all of this
+
+727
+00:28:54,130 --> 00:28:55,830
+但实际上在选择的时候
+But actually when picking choice
+
+728
+00:28:55,830 --> 00:28:59,150
+它提醒你，你知道，这是关于故事的
+It reminds you , you know , to that it's about story
+
+729
+00:28:59,150 --> 00:29:03,050
+但同样，大多数时候人们在选择选择时已经在看npc了
+But again , most of the time people pick choices while already looking at npc
+
+730
+00:29:03,050 --> 00:29:06,630
+所以他们并没有真正意识到这个，嗯，效果是一样的
+So they don't really perceive this , um , effect that same
+
+731
+00:29:06,630 --> 00:29:09,350
+这是我们和约翰，呃，还有杰基斯
+And here the uswith john , uh , with jackie si
+
+732
+00:29:09,350 --> 00:29:10,890
+就像想要完成一样
+Just like want to finish
+
+733
+00:29:10,890 --> 00:29:13,610
+我喜欢这个场景，就像舞台的运作方式一样
+I like the scene in terms of like how staging works
+
+734
+00:29:13,610 --> 00:29:16,260
+你走近他，作为欢迎的特写镜头
+You approach him as a close up for welcome
+
+735
+00:29:16,260 --> 00:29:17,420
+然后是中景
+Then it's a medium shot
+
+736
+00:29:17,420 --> 00:29:19,380
+然后你说的话与你相冲突
+Then you are saying something that conflicts you
+
+737
+00:29:19,380 --> 00:29:20,687
+于是他走开了
+So he walks away
+
+738
+00:29:20,687 --> 00:29:22,490
+其他人，请进来
+Other guys , guys come in
+
+739
+00:29:22,490 --> 00:29:24,030
+他们喜欢围绕着你
+They like kind of surround you
+
+740
+00:29:24,030 --> 00:29:25,470
+其中一个人靠得更近了
+One of them leans closers
+
+741
+00:29:25,470 --> 00:29:26,450
+所以这就像是，你知道
+So it's like , you know
+
+742
+00:29:26,450 --> 00:29:29,710
+给你更大的压力然后杰基节省为零
+More pressure on your then jackie saves zero
+
+743
+00:29:29,710 --> 00:29:31,150
+所以有点像再次
+So it kind of like again
+
+744
+00:29:31,150 --> 00:29:32,530
+舞台表演有点倒退
+The staging goes a little bit back
+
+745
+00:29:32,530 --> 00:29:33,210
+最后
+And in the end
+
+746
+00:29:33,210 --> 00:29:37,370
+他再次和你一起在最后为这就像法国前线的时刻换上衣服
+He joins you again for a clothes up for this like front to french moment at the very end
+
+747
+00:29:37,370 --> 00:29:39,680
+所以我们拍摄了一系列的照片
+So we had the whole array of shots
+
+748
+00:29:39,680 --> 00:29:42,890
+虽然实际上几乎没有在镜头前移动
+While actually not moving at the camera almost at all
+
+749
+00:29:42,890 --> 00:29:45,862
+就像以某种方式围绕场景旋转一样
+Just like rotating it , you know , around the scene in a way
+
+750
+00:29:45,862 --> 00:29:46,620
+对不起
+Sorry
+
+751
+00:29:46,620 --> 00:29:47,580
+不
+No
+
+752
+00:29:47,580 --> 00:29:54,050
+我真的很喜欢有这样一种疯狂的内容，我们可以在什么时候谈论
+I seriously like there is such an insane breath of content that we can talk about when
+
+753
+00:29:54,050 --> 00:29:55,730
+每当我们真正看这个游戏时
+Whenever we actually look at this game
+
+754
+00:29:55,730 --> 00:29:56,070
+正确的
+Right
+
+755
+00:29:56,070 --> 00:29:57,930
+这我，我喜欢，我喜欢这个场景
+This i , i like , i love this scene
+
+756
+00:29:57,930 --> 00:30:00,410
+呃，什么，什么急于营救杰基
+Uh , what , what eager set about jackie rescue
+
+757
+00:30:00,410 --> 00:30:01,530
+并猜测此时此刻
+And guess in this moment
+
+758
+00:30:01,530 --> 00:30:03,270
+这一刻我爱他们
+I love them this moment
+
+759
+00:30:03,270 --> 00:30:06,940
+因为当他这样做的时候，声音就会传到你的耳中
+Because when he does that , the , the sound comes back to you
+
+760
+00:30:06,940 --> 00:30:09,820
+突然间，基地实际上受到了更大的打击
+Suddenly the , the base actually hits even harder
+
+761
+00:30:09,820 --> 00:30:10,180
+正确的
+Right
+
+762
+00:30:10,180 --> 00:30:14,350
+而这一切的发生只是因为我们是电影设计师
+And this all happens only because we are cinematic designers
+
+763
+00:30:14,350 --> 00:30:16,380
+呃，一直在和其他团队合作
+Uh , are constantly working with other teams
+
+764
+00:30:16,380 --> 00:30:17,760
+因此，例如，在这种情况下
+So , for example , in this case
+
+765
+00:30:17,760 --> 00:30:19,740
+音频和音乐，呃
+The audio and music , uh
+
+766
+00:30:19,740 --> 00:30:22,475
+你知道，实际上是设计师和创作者
+You know , designers and composes actually
+
+767
+00:30:22,475 --> 00:30:24,400
+我们正在与我们合作，以交付
+We're working with us to , to , to deliver
+
+768
+00:30:24,400 --> 00:30:28,710
+这一刻对玩家来说最好的版本，对吧
+The best possible version of this moment to , to , to the player , right
+
+769
+00:30:28,710 --> 00:30:30,760
+因为这不会在真空中发生
+Because this does not happen in a vacuum
+
+770
+00:30:30,760 --> 00:30:32,202
+就像这一切一样
+Like all of this
+
+771
+00:30:32,202 --> 00:30:36,950
+另外，所有的内容基本上都存在于整个游戏中
+In other , all the contents basically exist within the whole game
+
+772
+00:30:36,950 --> 00:30:39,110
+整个游戏是由很多人创造的
+And the whole game is created by a lot of people
+
+773
+00:30:39,110 --> 00:30:39,790
+呃
+Uh
+
+774
+00:30:39,790 --> 00:30:40,760
+和
+And
+
+775
+00:30:40,760 --> 00:30:41,830
+一方面
+And on one hand
+
+776
+00:30:41,830 --> 00:30:47,430
+你可以说电影设计师实际上正在创造我们可以在这些场景中使用的两个场景
+You can say cinematic designers are actually creating that the two sets that we can use in those scenes
+
+777
+00:30:47,430 --> 00:30:48,470
+但另一方面
+But on the other hand
+
+778
+00:30:48,470 --> 00:30:50,620
+我们都与其他人一起工作
+We all work with other people
+
+779
+00:30:50,620 --> 00:30:53,640
+我们交付，你知道，一些非常非常有趣的东西
+And we delivery , you know , some something very , very fun
+
+780
+00:30:53,640 --> 00:30:55,480
+呃呃，最后
+Uh , uh , at the end of it
+
+781
+00:30:55,480 --> 00:30:56,120
+好的
+All , right
+
+782
+00:30:56,120 --> 00:30:57,700
+进入半年蒙太奇
+Onto the half year montage
+
+783
+00:30:57,700 --> 00:31:01,820
+之后我认为我们进入了最具争议的时刻之一
+After which i think we go to at one of the most controversial moments
+
+784
+00:31:01,820 --> 00:31:02,940
+嗯，在游戏中
+Um , in the game
+
+785
+00:31:02,940 --> 00:31:07,020
+比如说，呃，互联网上有很多人担心它应该可以玩
+Let's say , uh , a lot of concerns on the internet that it should have been playable
+
+786
+00:31:07,020 --> 00:31:07,800
+等等
+And so on
+
+787
+00:31:07,800 --> 00:31:10,950
+我们总是这样思考序列
+And we always thought about the sequence as such
+
+788
+00:31:10,950 --> 00:31:13,090
+我们一直想加快故事的进度
+And we always wanted to speed up the story
+
+789
+00:31:13,090 --> 00:31:15,820
+让我们来谈谈真正重要的是什么
+Let's say a little bit to what's really crucial for it
+
+790
+00:31:15,820 --> 00:31:17,560
+例如，从我的角度来看
+And for example , from my perspective
+
+791
+00:31:17,560 --> 00:31:21,760
+如果我们真的和杰基一起度过这六个月的话，就像结构上的那样
+If we really spend those six months here with jackie , like from the structure
+
+792
+00:31:21,760 --> 00:31:23,480
+屏幕位置结构观点
+Screen place structure point of view
+
+793
+00:31:23,480 --> 00:31:26,380
+假设你就像第一幕一样
+Let's say you are in like the first act
+
+794
+00:31:26,380 --> 00:31:29,500
+事实上甚至在之前，你知道，转折点等等
+And actually before even like , you know , the turning point and so on
+
+795
+00:31:29,500 --> 00:31:32,430
+所以这就像拉伸超长时间一样
+So it would be just like stretching it for super long
+
+796
+00:31:32,430 --> 00:31:33,950
+实际行动从这里开始
+And here the actual action starts
+
+797
+00:31:33,950 --> 00:31:36,870
+它开始一次就像在最高的末尾
+And it starts once like at the end of the highest
+
+798
+00:31:36,870 --> 00:31:39,850
+你知道，当你拿到筹码时，约翰尼·银的手就在你的脑海里
+You know , when you get the chip with johny silver hand in your head
+
+799
+00:31:39,850 --> 00:31:42,070
+就像在这部分扩展游戏一样
+So like expanding the game on this part
+
+800
+00:31:42,070 --> 00:31:46,320
+这对于我们稍后要告诉你的事情来说并不起作用
+It doesn't really work for what we want to tell you later
+
+801
+00:31:46,320 --> 00:31:49,960
+这是关于与约翰尼·尤的个人关系的故事
+And it's the story about this personal relationship with johnny yoo
+
+802
+00:31:49,960 --> 00:31:51,720
+那些其他角色等等
+Those other characters and so on
+
+803
+00:31:51,720 --> 00:31:54,660
+就像和杰基一起在城市里做演出一样
+And just like doing gigs with jackie around the city
+
+804
+00:31:54,660 --> 00:31:55,510
+当然很酷
+Sure it's cool
+
+805
+00:31:55,510 --> 00:31:58,050
+但这非常像开放世界的公式
+But it's a very like open world formula
+
+806
+00:31:58,050 --> 00:32:01,940
+没有特定的角色目标或特定的冲突
+Without particular like goal for the character or particular conflict
+
+807
+00:32:01,940 --> 00:32:04,720
+我就像这个想知道赚钱的人
+I'm just like this guy trying to know to earn some money
+
+808
+00:32:04,720 --> 00:32:07,960
+但一旦我们开始死亡，就不再真正关注它
+But there's no real tention to it once we start dying
+
+809
+00:32:07,960 --> 00:32:09,920
+还有过去的网络恐怖分子
+And the cyber terrorists from the past
+
+810
+00:32:09,920 --> 00:32:11,310
+如你所知，就像在你的脑海里一样
+As you know , like in your head
+
+811
+00:32:11,310 --> 00:32:13,930
+但这就是，你知道，紧张局势产生的地方
+But this is where the , you know , the tension arises
+
+812
+00:32:13,930 --> 00:32:15,190
+我想，对吧
+I think , right
+
+813
+00:32:15,190 --> 00:32:15,940
+一
+Um
+
+814
+00:32:15,940 --> 00:32:18,070
+然而对我来说，这就是，这就是旧世界
+Yet to me , this is , this is the old world
+
+815
+00:32:18,070 --> 00:32:21,100
+你知道，在一个经典的英雄之旅三幕结构中
+You know , in a , in a classic hero's journey three act structure
+
+816
+00:32:21,100 --> 00:32:23,340
+这只是确定旧世界是什么
+This is just establishing what the old world is
+
+817
+00:32:23,340 --> 00:32:26,500
+当你离开旧世界时，故事才真正开始
+And the story really gets going when you leave the old worlds
+
+818
+00:32:26,500 --> 00:32:27,940
+这就是约翰尼银手
+And that's the johny silver hand
+
+819
+00:32:27,940 --> 00:32:29,520
+你知道，遗迹，对吧
+You know , relic , right
+
+820
+00:32:29,520 --> 00:32:34,220
+所以，在这一切之前你确实可以和杰基一起执行一些任务并建立这种关系
+So , and you do get to play some missions with jackie before all that and build up that relationship
+
+821
+00:32:34,220 --> 00:32:35,260
+还有，所以，是的
+And , and so , yeah
+
+822
+00:32:35,260 --> 00:32:39,050
+所以，我们已经完成了公司简介，呃
+So , so we've finished the kind of the corpo intro , uh
+
+823
+00:32:39,050 --> 00:32:41,550
+现在我们要开始抢劫了，呃
+And now we are gonna jump to the heist , uh
+
+824
+00:32:41,550 --> 00:32:45,530
+所以这有点像这种序言介绍的结尾，呃
+So this is sort of like at the end of this kind of prologue intro , uh
+
+825
+00:32:45,530 --> 00:32:48,440
+这一切都是为了这次抢劫任务
+It's all building up to this heist mission
+
+826
+00:32:48,440 --> 00:32:49,720
+超级有趣
+Which was super fun
+
+827
+00:32:49,720 --> 00:32:50,520
+我爱抢劫
+I love heists
+
+828
+00:32:50,520 --> 00:32:54,230
+所以我真的很喜欢玩抢劫，呃
+And so i really enjoyed getting to play through a heist , uh
+
+829
+00:32:54,230 --> 00:32:55,950
+还有所有这些 eb 和流向它
+And there's all these ebs and flows to it
+
+830
+00:32:55,950 --> 00:32:58,140
+而且，我们会看看，嗯
+And , and we'll take a look at that , um
+
+831
+00:32:58,140 --> 00:33:00,020
+但有些事情你们我们是
+But kind of some one of the things you guys we're
+
+832
+00:33:00,020 --> 00:33:02,220
+我们只是说我认为真正有趣的是
+We're just saying that i think is really interesting is
+
+833
+00:33:02,220 --> 00:33:06,100
+你知道你本质上是如何使用字符阻塞的，对吧
+You know how you're using essentially character blocking , right
+
+834
+00:33:06,100 --> 00:33:11,800
+就像场景中演员的移动来创造不同的镜头
+Like the movement of the actors in a scene to create different camera
+
+835
+00:33:11,800 --> 00:33:14,020
+你知道，你知道，特写镜头还是中景镜头
+You know , you know , a closeup or a medium shot
+
+836
+00:33:14,020 --> 00:33:15,020
+那么那些效果
+So those effects
+
+837
+00:33:15,020 --> 00:33:17,770
+但也是剧院的方式
+But also the way in theater
+
+838
+00:33:17,770 --> 00:33:21,890
+当你去看电影或戏剧时，你会使用阻塞
+You use blocking where , you know , you go to see a movie or a , a play
+
+839
+00:33:21,890 --> 00:33:26,270
+以及角色彼此远离或靠近时的动作
+And the movement of the characters when they walk away from each other or towards each other
+
+840
+00:33:26,270 --> 00:33:27,790
+背对着观众
+Face the audience face away
+
+841
+00:33:27,790 --> 00:33:30,600
+就像所有的一切都带有情感
+Like all of that has an emotional
+
+842
+00:33:30,600 --> 00:33:32,270
+呃，意义重大
+Uh , significance to it
+
+843
+00:33:32,270 --> 00:33:39,180
+所以这是一种像戏剧表演阻塞的奇怪混合体
+And so it's this kind of weird hybrid of like theatrical play blocking
+
+844
+00:33:39,180 --> 00:33:42,460
+但仍然需要与相机进行交互
+But with a camera that still has to be interacted with
+
+845
+00:33:42,460 --> 00:33:43,400
+是的
+And yeah
+
+846
+00:33:43,400 --> 00:33:45,060
+我只是好奇，就像那是什么
+I'm just curious , like what was that
+
+847
+00:33:45,060 --> 00:33:48,280
+怎么样，你是怎么想到这个的？
+How was , how was it getting your minds around that
+
+848
+00:33:48,280 --> 00:33:54,920
+就像发现使用角色移动来引导玩家的技术一样
+And like discovering those techniques of using character movement to guide a player
+
+849
+00:33:54,920 --> 00:33:57,310
+这就是情感体验
+That's emotional experience at
+
+850
+00:33:57,310 --> 00:33:58,370
+在某种程度上
+At some level
+
+851
+00:33:58,370 --> 00:34:02,020
+我认为这和经典电影制作是一样的
+I think it's the same as in classic film making
+
+852
+00:34:02,020 --> 00:34:05,640
+这么说吧。所以基本上，就像，如果你减少它
+Let's say . so basically , like , if you reduce it
+
+853
+00:34:05,640 --> 00:34:07,870
+很多都在指导，呃
+A lot is guiding , uh
+
+854
+00:34:07,870 --> 00:34:10,330
+观众的目光扫视屏幕，呃
+Viewers eye around the screen , uh
+
+855
+00:34:10,330 --> 00:34:12,429
+同时向他提供不同的信息
+While providing him with different information
+
+856
+00:34:12,429 --> 00:34:14,760
+并给出了类似的时间跨度，呃，呃
+And given like span of time , uh , uh
+
+857
+00:34:14,760 --> 00:34:18,489
+所以基本上是随着时间的推移构建信息流
+So basically a structuring the flow of information through time
+
+858
+00:34:18,489 --> 00:34:21,690
+呃，就像用冰所感知的那样
+Uh , by like perceived with ice moustly
+
+859
+00:34:21,690 --> 00:34:22,830
+当然，就像，呃
+Of course , like , uh
+
+860
+00:34:22,830 --> 00:34:23,896
+外面也有
+Out there as well
+
+861
+00:34:23,896 --> 00:34:24,900
+一
+Um
+
+862
+00:34:24,900 --> 00:34:26,659
+而且，嗯，这样
+And , um , in this way
+
+863
+00:34:26,659 --> 00:34:28,300
+在某种程度上有点相似
+It's kind of similar in a way
+
+864
+00:34:28,300 --> 00:34:32,159
+所以基本上我们从不希望角色喜欢
+So like basically we never , you know , want characters to like
+
+865
+00:34:32,159 --> 00:34:35,199
+我们不希望屏幕上同时出现太多噪音
+We don't want to have too much noise on the screen at the same time
+
+866
+00:34:35,199 --> 00:34:35,880
+例如
+So for example
+
+867
+00:34:35,880 --> 00:34:38,989
+如果有重要的NPC跟你说话
+If you have important npc talking to you
+
+868
+00:34:38,989 --> 00:34:41,060
+例如，我们会尝试以某种方式
+We will try to somehow , for example
+
+869
+00:34:41,060 --> 00:34:44,639
+降低此时背景传来的噪音，嗯
+Reduce the noise coming from the background at this moment , um
+
+870
+00:34:44,639 --> 00:34:47,860
+只是为了让某人能够，呃，能够专注于，呃，这件事
+Just so that someone can , uh , can focus , uh , on this
+
+871
+00:34:47,860 --> 00:34:50,760
+所有这一切都像测试一样降临到我们身上
+And all of this came to us like troud the tests
+
+872
+00:34:50,760 --> 00:34:52,980
+我想当他们只是在演戏的时候
+I think when they were just like playing the scene
+
+873
+00:34:52,980 --> 00:34:55,600
+我当时，我真的无法集中注意力，好吧
+And i was , i cannot focus really like , okay
+
+874
+00:34:55,600 --> 00:34:56,320
+所以让我们停下来
+So let's stop
+
+875
+00:34:56,320 --> 00:34:58,960
+让我们想想哪里出了问题，背景中的鼻子太多了
+Let's think what's wrong there's just too much nose in the background
+
+876
+00:34:58,960 --> 00:35:01,320
+而我的目光却不断地远离
+And my eye constantly keeps getting away from
+
+877
+00:35:01,320 --> 00:35:03,870
+你知道，就像那里正在发生的事情的面孔
+You know , like the face to something that's happening there
+
+878
+00:35:03,870 --> 00:35:05,910
+所以也许我们可以关闭交通
+So maybe let's turn off the traffic
+
+879
+00:35:05,910 --> 00:35:07,710
+也许我们可以改变光链接的比例
+Maybe let's change the ratio of light link
+
+880
+00:35:07,710 --> 00:35:09,750
+也许让我们稍微旋转一下这个场景
+Maybe let's rotate this scene a little bit
+
+881
+00:35:09,750 --> 00:35:11,830
+就像旋转那些椅子一样。等等
+And like rotate those chairs . and so on
+
+882
+00:35:11,830 --> 00:35:13,110
+所以就像是玛丽一样
+So that like it's mari
+
+883
+00:35:13,110 --> 00:35:15,300
+现在被抑制了，等等
+And now subdued and , and so on
+
+884
+00:35:15,300 --> 00:35:19,350
+所以基本上就是不断地判断，比如你是否分心了
+So basically just constantly judging , like are you distracted
+
+885
+00:35:19,350 --> 00:35:22,450
+或者你正在感知你应该感知的东西
+Or are you perceiving what you should be perceiving
+
+886
+00:35:22,450 --> 00:35:25,470
+当然，就像我们是自己最糟糕的评判者一样
+And of course , like we are our own worst judges
+
+887
+00:35:25,470 --> 00:35:27,770
+我想，也喜欢看别人打球
+I think , but also like watching other people play
+
+888
+00:35:27,770 --> 00:35:30,530
+从工作室周围获取反馈，嗯
+Getting feedback from around the studio , um
+
+889
+00:35:30,530 --> 00:35:31,650
+等等，例如
+And so on here , for example
+
+890
+00:35:31,650 --> 00:35:32,850
+有这样的分期案例
+Have this case of staging
+
+891
+00:35:32,850 --> 00:35:33,330
+确切地
+Exactly
+
+892
+00:35:33,330 --> 00:35:36,390
+所以我们有杰基，他就像一只手
+So we have jackie , he's like on one hand
+
+893
+00:35:36,390 --> 00:35:37,870
+面向你
+Facing towards you
+
+894
+00:35:37,870 --> 00:35:41,610
+而且，嗯，就像九十度一样，以，呃
+And , um , like with ninety degrees , staging with the , uh
+
+895
+00:35:41,610 --> 00:35:43,790
+接待处就像是，你还能站在哪里？
+Reception is like , where else could you stand
+
+896
+00:35:43,790 --> 00:35:44,370
+可能
+Possibly
+
+897
+00:35:44,370 --> 00:35:46,700
+非常确定。你有行动自由
+So sure . you have freedom of movement
+
+898
+00:35:46,700 --> 00:35:49,760
+而且你还可以在这里与一只发光的大手进行互动
+And also you have interaction right here with a huge glowing hand
+
+899
+00:35:49,760 --> 00:35:51,800
+这样你就可以站在杰基后面
+So you could stand behind the jackie
+
+900
+00:35:51,800 --> 00:35:55,080
+但这样的内容吸引力会降低
+But like this would be the less attractive content
+
+901
+00:35:55,080 --> 00:35:56,440
+所以人们想看到面孔
+So people want to see faces
+
+902
+00:35:56,440 --> 00:35:58,230
+他们想看到情感。等等
+They want to see emotions . and so on
+
+903
+00:35:58,230 --> 00:36:00,200
+几乎所有人都站在这里
+And almost everyone stands here
+
+904
+00:36:00,200 --> 00:36:01,750
+然后我们可以强迫你
+And then we can force you
+
+905
+00:36:01,750 --> 00:36:03,570
+就像以某种方式强迫你
+Like in a way force you
+
+906
+00:36:03,570 --> 00:36:04,990
+你，你不会知道的
+You , you won't know it
+
+907
+00:36:04,990 --> 00:36:07,760
+但我们会强迫你，例如
+But we will force you just by , for example
+
+908
+00:36:07,760 --> 00:36:12,020
+将这种推动任务进展的互动放在一个非常特别的聚光灯下
+Putting this interaction that progresses the quest in a very particular spotlight here
+
+909
+00:36:12,020 --> 00:36:13,960
+只有在这里你才能最终压缩手
+And only here you compress the hand in the end
+
+910
+00:36:13,960 --> 00:36:15,890
+你必须在此时结束
+You have to end up at this point
+
+911
+00:36:15,890 --> 00:36:17,150
+你知道，呃
+You know , uh
+
+912
+00:36:17,150 --> 00:36:20,740
+我的意思是，我们生来就具有同理心，对吗？
+I mean , we are hard wired towards empathy , right
+
+913
+00:36:20,740 --> 00:36:23,040
+我们希望人与人之间建立联系
+We want the connection between people
+
+914
+00:36:23,040 --> 00:36:25,047
+我们想要他们之间的互动
+We want the interaction between them
+
+915
+00:36:25,047 --> 00:36:31,170
+所以我们的很多工作都是关于角色，关于那些微小的互动和反应
+So a lot of our work is about characters , is about those tiny interactions , reactions
+
+916
+00:36:31,170 --> 00:36:35,060
+并且，以及人与人之间对话中涉及的一切
+And , and everything that goes into conversation between people
+
+917
+00:36:35,060 --> 00:36:39,460
+我觉得我们从 reer 那里获得了大量的经验
+And i feel that we have insane amount of experience from reer
+
+918
+00:36:39,460 --> 00:36:44,120
+因此，接近这个项目变得容易一些
+So approaching this project was a tiny bit easier because of that
+
+919
+00:36:44,120 --> 00:36:46,840
+因为我们至少知道那部分经历
+Because we knew at least that part of the experience
+
+920
+00:36:46,840 --> 00:36:51,480
+尽管一切都承认它实际上是完全不同的，对吧
+Even though everything accept that it was actually completely different , right
+
+921
+00:36:51,480 --> 00:36:53,800
+而且非常复杂
+And it was extremely complicated
+
+922
+00:36:53,800 --> 00:36:54,350
+呃
+Uh
+
+923
+00:36:54,350 --> 00:36:56,150
+所以我觉得这很有趣
+So i think it's interesting
+
+924
+00:36:56,150 --> 00:37:01,880
+因为我记得人们经常说我们转向第一人称
+Because people of i remember people often often said that we move to first person
+
+925
+00:37:01,880 --> 00:37:04,740
+因为它更容易。因为我们看不到玩家角色
+Because it's easier . because we don't see player character
+
+926
+00:37:04,740 --> 00:37:06,035
+只是那件事
+Just the thing
+
+927
+00:37:06,035 --> 00:37:09,160
+就像你是否会看到复杂性一样
+Like if if you would see the amount of complexity
+
+928
+00:37:09,160 --> 00:37:12,300
+第一人称、交互性和实时性
+That first person and interactivity and real time
+
+929
+00:37:12,300 --> 00:37:16,060
+因为，你知道，你知道，你甚至没有这种奇怪的停顿
+Because , you know , you know , you don't even even even have this kind of weird pause
+
+930
+00:37:16,060 --> 00:37:18,540
+当你选择“不在这里”这样的选择时，对吗？
+When you pick choices like not really here , right
+
+931
+00:37:18,540 --> 00:37:21,930
+就像你周围的世界仍然在做事情一样，呃
+Like the the world around you does stuff still , uh
+
+932
+00:37:21,930 --> 00:37:24,290
+如果你看到我们在《巫师》中的图表
+If you would see the graphs that we had in witcher
+
+933
+00:37:24,290 --> 00:37:26,330
+以及我们在赛博朋克中看到的图表
+And the graphs that we have in cyber punk there
+
+934
+00:37:26,330 --> 00:37:28,150
+不会大十倍吧
+No ten times bigger , right
+
+935
+00:37:28,150 --> 00:37:29,600
+这太疯狂了
+And it's it's insane
+
+936
+00:37:29,600 --> 00:37:31,280
+如果你想想有多少工作
+If you think about how much work
+
+937
+00:37:31,280 --> 00:37:32,980
+你真的需要做吗
+Do you need to actually to , to do
+
+938
+00:37:32,980 --> 00:37:35,200
+为了，为了让这一幕变得简单
+To , to make this one simple scene
+
+939
+00:37:35,200 --> 00:37:37,810
+以让玩家满意的方式工作
+Work in a way that satisfying towards the player
+
+940
+00:37:37,810 --> 00:37:38,150
+是的
+Yeah
+
+941
+00:37:38,150 --> 00:37:39,990
+有些东西是看不见的
+And some of the stuff is tinvisible
+
+942
+00:37:39,990 --> 00:37:43,050
+例如，这里的这个例子，这是一个超级简单的事情
+For example , this case right here , it's a super simple thing
+
+943
+00:37:43,050 --> 00:37:44,560
+你和杰基一起去
+You go with jackie
+
+944
+00:37:44,560 --> 00:37:46,760
+还有一个选项可以进入餐厅
+And there's like an option to go into the restaurant
+
+945
+00:37:46,760 --> 00:37:48,840
+也许和外面的一些人谈谈
+And maybe talk with some and pis out there
+
+946
+00:37:48,840 --> 00:37:49,840
+但就是这样，所以杰基
+But there's so , so jackie
+
+947
+00:37:49,840 --> 00:37:52,080
+你有最高的权利这样做
+And you have the highest to do so right
+
+948
+00:37:52,080 --> 00:37:54,020
+突然间有一个超级简单的事情
+Suddenly there's like the super simple bit
+
+949
+00:37:54,020 --> 00:37:55,020
+我们需要思考，好吧
+And we need to think , okay
+
+950
+00:37:55,020 --> 00:37:58,090
+如果玩家决定留在餐厅怎么办
+So what if the player decides to stay in the restaurant
+
+951
+00:37:58,090 --> 00:37:58,910
+杰基做什么的
+What does jackie do
+
+952
+00:37:58,910 --> 00:38:00,850
+如果玩家决定去电梯怎么办
+What if the player decides to go to delevator
+
+953
+00:38:00,850 --> 00:38:03,200
+立即无视jackie等
+Immediately and ignores jackie and so on
+
+954
+00:38:03,200 --> 00:38:03,650
+好的
+Okay
+
+955
+00:38:03,650 --> 00:38:06,030
+因此，如果玩家站起来与接待处交谈
+So if the player stands and talks with the reception is
+
+956
+00:38:06,030 --> 00:38:09,150
+所以杰基走开或者在餐厅旁边等候
+So jackie walk away or like waied by the restaurant
+
+957
+00:38:09,150 --> 00:38:09,600
+好的
+Okay
+
+958
+00:38:09,600 --> 00:38:10,410
+更简单
+It's simpler
+
+959
+00:38:10,410 --> 00:38:13,130
+所以让他在餐厅等着我们就尝试了一下
+So let's leave him waiting by the restaurant and we tried it
+
+960
+00:38:13,130 --> 00:38:16,270
+玩家走进餐厅，杰基拿着手提箱站在那里
+And player goes into restaurant and jackie is just standing there with the suitcase
+
+961
+00:38:16,270 --> 00:38:18,000
+这让他在某种程度上看起来很傻
+And it makes him look silly in a way
+
+962
+00:38:18,000 --> 00:38:19,380
+就像他有他的呃
+Like he has his uh
+
+963
+00:38:19,380 --> 00:38:21,180
+他没有自己的生活
+He doesn't have life on his own
+
+964
+00:38:21,180 --> 00:38:24,660
+他只是在那里等待玩家等等
+He's just like there just for to wait for the player and so on
+
+965
+00:38:24,660 --> 00:38:26,820
+我们总是希望角色可信
+And we always want the characters to be believable
+
+966
+00:38:26,820 --> 00:38:28,160
+所以在这种情况下杰克就像
+So in this case jack is like
+
+967
+00:38:28,160 --> 00:38:29,260
+我不会等你
+I'm not gonna wait for you
+
+968
+00:38:29,260 --> 00:38:30,620
+我就上楼去，你知道的
+I'll just go upstairs and you know
+
+969
+00:38:30,620 --> 00:38:33,740
+就像当你需要的时候来加入我
+Like come join me when you when you have to
+
+970
+00:38:33,740 --> 00:38:38,067
+然后他就走了，但是一个球员在最后一刻跳进了电梯
+And then he goes , but what a player jumps into delevator at the very last moment
+
+971
+00:38:38,067 --> 00:38:41,370
+因为游戏已经让玩家玷污了餐厅
+Because the game already things the player stain the restaurant
+
+972
+00:38:41,370 --> 00:38:45,000
+所以你需要保护所有这些情况
+So you need to like secure all those situations
+
+973
+00:38:45,000 --> 00:38:46,840
+而从玩家的角度来看
+And from the player perspective
+
+974
+00:38:46,840 --> 00:38:50,190
+每个变体都必须可信
+Each of those variants needs to be believable
+
+975
+00:38:50,190 --> 00:38:51,220
+节奏很好
+Well paced
+
+976
+00:38:51,220 --> 00:38:54,180
+表演得好，需要有道理。等等
+Well acted , needs to make sense . and so on
+
+977
+00:38:54,180 --> 00:38:56,500
+还有一千个时刻
+And there's a thousand moments
+
+978
+00:38:56,500 --> 00:38:58,160
+从玩家的角度来看
+Which like from the player perspective
+
+979
+00:38:58,160 --> 00:39:00,390
+噢，在这个空间里感觉很对劲
+Oh , it just felt right in this space
+
+980
+00:39:00,390 --> 00:39:05,230
+但就像你决定与南方精神病患者交谈五分钟一样
+But like if you would decide to talk with the southern psy for five minutes
+
+981
+00:39:05,230 --> 00:39:07,490
+再多五秒钟，就会发生其他事情
+Five seconds longer , something else would happen
+
+982
+00:39:07,490 --> 00:39:09,270
+这对你来说也是很自然的事
+And that was also good natural for you
+
+983
+00:39:09,270 --> 00:39:11,770
+但你实际上从未看到分支
+But you never see the branching actually
+
+984
+00:39:12,820 --> 00:39:15,100
+所以是的，那些走进餐厅的人
+So yeah , people who go into the restaurant
+
+985
+00:39:15,100 --> 00:39:16,720
+杰基就上楼去了
+Jackie just goes upstairs there
+
+986
+00:39:16,720 --> 00:39:18,900
+立即走向电梯的人
+People who go immediately to the elevator
+
+987
+00:39:18,900 --> 00:39:21,040
+杰基和他们一起去，没有说什么
+Jackie goes with them and doesn't say some things
+
+988
+00:39:21,040 --> 00:39:25,135
+因为这就像，你知道，不同的流程穿过，嗯，穿过场景
+Because this is like , you know , different flow through the , um , through the scene
+
+989
+00:39:25,135 --> 00:39:28,710
+我认为这很重要。急切地说了什么，呃
+I think it's in , in , in it's important . what eager said , uh
+
+990
+00:39:28,710 --> 00:39:32,960
+我之前考虑过迭代的数量
+i think before about the amount of iterations that
+
+991
+00:39:32,960 --> 00:39:36,732
+我们必须在非常基本的系统级别上做
+We had to do on the very basic system level
+
+992
+00:39:36,732 --> 00:39:37,870
+例如
+So for example
+
+993
+00:39:37,870 --> 00:39:41,860
+您渴望设置的距离，以进行交互，对吧
+The what you eager set about the distance to , to , for interactions , right
+
+994
+00:39:41,860 --> 00:39:42,610
+例如
+So for example
+
+995
+00:39:42,610 --> 00:39:48,700
+有时，交互实际上与其他地方的人相距很远，例如
+Sometimes the interaction is actually pretty far away from the person in other places is actually very closed by for example
+
+996
+00:39:48,700 --> 00:39:53,210
+我记得有一天晚上，我们花了几个小时只迭代
+I remember one evening when , when we spent hours iterating only on
+
+997
+00:39:53,210 --> 00:39:55,810
+到农作物需要多远的距离
+How much distance do we need to have to crops
+
+998
+00:39:55,810 --> 00:39:59,260
+所以，你知道，做一些事情，例如，在桌子上，呃
+So , you know , to do things , for example , on the table , uh
+
+999
+00:39:59,260 --> 00:40:04,725
+您需要以什么角度与他们进行互动
+And what exact angle do you need to have to make the interactions with them
+
+1000
+00:40:04,725 --> 00:40:07,980
+恰到好处，你知道，感觉很好，对吧
+Just right , you know , feel properly , right
+
+1001
+00:40:07,980 --> 00:40:09,230
+喜欢，喜欢，喜欢应该有的感觉
+Like , like , like it should feel
+
+1002
+00:40:09,230 --> 00:40:09,790
+是的
+Yeah
+
+1003
+00:40:09,790 --> 00:40:13,530
+因为如果玩家从极端距离和极端角度点击它
+Because if player clicks it from the extreme distance and extreme angles
+
+1004
+00:40:13,530 --> 00:40:15,970
+你就像这片森林一样非常奇怪的混合
+And you have like this woods really weird blending
+
+1005
+00:40:15,970 --> 00:40:18,870
+突然感觉它不再是一个身体了
+And suddenly it doesn't feel like it's a body anymore
+
+1006
+00:40:18,870 --> 00:40:21,010
+我们之前讨论过的事情
+The thing that we talked about before
+
+1007
+00:40:21,010 --> 00:40:26,310
+对我们来说创造你始终在身体内的东西是多么重要啊
+How important it was for us to create this thing that you are inside the body at all times , uh
+
+1008
+00:40:26,310 --> 00:40:27,810
+突然感觉很机械化
+And suddenly it feels very mechanning
+
+1009
+00:40:27,810 --> 00:40:28,250
+所以是的
+So yeah
+
+1010
+00:40:28,250 --> 00:40:30,650
+我们还需要调整很多不同的
+We need to like also adjust a lot of different
+
+1011
+00:40:30,650 --> 00:40:34,080
+Like 参数，表示事物在什么情况下如何被触发
+Like parameters of how like things get triggered when
+
+1012
+00:40:34,080 --> 00:40:37,830
+所以，呃，一旦你看到某样东西，很多事情就会被触发
+So , uh , a lot of things get trigger once you look at something
+
+1013
+00:40:37,830 --> 00:40:40,970
+或者当你进入某个空间或者某个触发器时
+Or when you enter a certain space or a certain trigger
+
+1014
+00:40:40,970 --> 00:40:42,610
+再说一遍，这是关于思考的
+So again , it's about thinking like
+
+1015
+00:40:42,610 --> 00:40:42,900
+好的
+Okay
+
+1016
+00:40:42,900 --> 00:40:45,340
+如果玩家正好处于这个位置
+If the player will be in this exact spot
+
+1017
+00:40:45,340 --> 00:40:47,500
+还有什么在争夺他的注意力
+What else is fighting for his attention
+
+1018
+00:40:47,500 --> 00:40:47,900
+好的
+Okay
+
+1019
+00:40:47,900 --> 00:40:48,420
+不多
+Not much
+
+1020
+00:40:48,420 --> 00:40:50,700
+所以也许我们应该从 npc 触发这条线
+So maybe we should trigger this line from npc
+
+1021
+00:40:50,700 --> 00:40:51,200
+嘿
+Hey
+
+1022
+00:40:51,200 --> 00:40:51,780
+任何
+Whatever
+
+1023
+00:40:51,780 --> 00:40:53,330
+此刻来到这里
+Come here at this moment
+
+1024
+00:40:53,330 --> 00:40:56,450
+如果还是有太多来自不同方面的刺激
+If there's still like too much stimuli coming from different sides
+
+1025
+00:40:56,450 --> 00:40:58,410
+也许你应该稍后触发这个时间
+Maybe you should trigger this time a little bit later
+
+1026
+00:40:58,410 --> 00:41:00,110
+当你深入房间时
+When you are deeper in the room
+
+1027
+00:41:00,110 --> 00:41:04,357
+周围的噪音又减少了，嗯
+And there's like again , less noise around , um
+
+1028
+00:41:04,357 --> 00:41:05,600
+呃，这里，嗯
+Uh , here , um
+
+1029
+00:41:05,600 --> 00:41:06,800
+我我我愿意
+I , i , i would like to
+
+1030
+00:41:06,800 --> 00:41:10,980
+也许是因为至少要谈论一下同时进行的游戏
+Maybe because also to talk at least a little bit about the game that's being played at the same time
+
+1031
+00:41:10,980 --> 00:41:12,440
+而且不仅仅是将军
+And not just generals
+
+1032
+00:41:12,440 --> 00:41:15,130
+两者，嗯，与身体不同
+Both , um , distinct with body
+
+1033
+00:41:15,130 --> 00:41:17,320
+嗯，这对我们来说也是一个大话题
+Um , it was also a big topic for us
+
+1034
+00:41:17,320 --> 00:41:20,600
+所以我设置了关于 fdp 方法的事情
+So this thing i set about fdp approach
+
+1035
+00:41:20,600 --> 00:41:25,620
+但我们所说的身体存在对我们来说也非常重要
+But also the thing we called body presence in general was super important for us
+
+1036
+00:41:25,620 --> 00:41:28,480
+不仅仅是从讲故事的角度来看,嗯
+Not only from storytelling point of view , um
+
+1037
+00:41:28,480 --> 00:41:33,880
+但它也对这种身处世界的感觉产生了很大的束缚
+But also it tighed a lot to this kind of feeling of being inside the world
+
+1038
+00:41:33,880 --> 00:41:40,020
+所以你可以在很多很多不同的场合看到v的身影
+So you can see at many , many different occasions that you will see glimpses of body of v
+
+1039
+00:41:40,020 --> 00:41:40,840
+例如
+So for example
+
+1040
+00:41:40,840 --> 00:41:42,740
+你坐过的每部动画
+Every animation you sit on
+
+1041
+00:41:42,740 --> 00:41:45,060
+你在场景中的某个地方被挡住了
+And you get blocked somewhere in the scene
+
+1042
+00:41:45,060 --> 00:41:47,650
+你总是看到相机有点下降
+You always see like the camera goes a little bit down
+
+1043
+00:41:47,650 --> 00:41:48,630
+你看到腿了
+You see the legs
+
+1044
+00:41:48,630 --> 00:41:50,010
+你知道，就像坐下来
+You know , like sitting down
+
+1045
+00:41:50,010 --> 00:41:51,530
+然后它又恢复了
+And then it goes back up again
+
+1046
+00:41:51,530 --> 00:41:53,220
+所以你总是有上下文
+So you always have context
+
+1047
+00:41:53,220 --> 00:41:55,000
+你的身体发生了什么
+What is happening with your body
+
+1048
+00:41:55,000 --> 00:41:58,410
+实际上，例如，所有亲爱的免费场景
+Actually , for example , all the dear free scenes
+
+1049
+00:41:58,410 --> 00:42:01,850
+当你靠在某物上并且可以自由拍摄时
+The one when you sert or lean on something and you have freedom of camera
+
+1050
+00:42:01,850 --> 00:42:04,120
+我们总是离开相机的自由
+We always left the freedom of cameras
+
+1051
+00:42:04,120 --> 00:42:06,860
+所以只要你能看到你的身体发生了什么就足够了
+So it's enough that you can see what's happening with your body
+
+1052
+00:42:06,860 --> 00:42:10,340
+因为我们在某些迭代中有类似的东西，但我们没有
+Because we had like at some iterations , we didn't have it
+
+1053
+00:42:10,340 --> 00:42:11,970
+感觉超级奇怪
+And it was super weird feeling like
+
+1054
+00:42:11,970 --> 00:42:13,250
+但我这是怎么了
+But what's happening with me
+
+1055
+00:42:13,250 --> 00:42:14,530
+为什么我不能动
+Why cannot i move
+
+1056
+00:42:14,530 --> 00:42:15,250
+哦，我不能
+Oh , i cannot
+
+1057
+00:42:15,250 --> 00:42:16,410
+所以，呃，好吧
+So , uh , okay
+
+1058
+00:42:16,410 --> 00:42:17,490
+因为我坐着。好的
+Because i'm sitting . okay
+
+1059
+00:42:17,490 --> 00:42:18,410
+现在有道理了
+Now it makes sense
+
+1060
+00:42:18,410 --> 00:42:21,620
+突然间你就进入了角色，嗯
+And suddenly you're in the character , um
+
+1061
+00:42:21,620 --> 00:42:25,760
+但一直待在体内也需要我们
+But staying all the time inside the body also required us
+
+1062
+00:42:25,760 --> 00:42:29,100
+有时尝试想出创造性的解决方案
+Sometimes to do like try to think of creative solutions
+
+1063
+00:42:29,100 --> 00:42:30,590
+如何逃离这个身体
+How to escape this body
+
+1064
+00:42:30,590 --> 00:42:32,167
+但总是
+But always
+
+1065
+00:42:32,167 --> 00:42:34,470
+呃，就像逻辑这个词一样
+Uh , like within the word logic
+
+1066
+00:42:34,470 --> 00:42:37,560
+然后就呆在里面
+And staying like , well , um , in inside
+
+1067
+00:42:37,560 --> 00:42:39,160
+你知道，网络朋克的世界
+You know , the world of cyber pank
+
+1068
+00:42:39,160 --> 00:42:40,520
+以及技术的运作方式
+And the way the technology works
+
+1069
+00:42:40,520 --> 00:42:43,512
+等等，例如，这是其中一个案例
+And so on here , here is , for example , one of those cases
+
+1070
+00:42:43,512 --> 00:42:47,770
+呃，就像你在不同的房间里移动蜘蛛机器人一样
+Uh , where like you move the spider bot around like different rooms
+
+1071
+00:42:47,770 --> 00:42:49,540
+而且你用相机
+And you use cameras
+
+1072
+00:42:49,540 --> 00:42:51,040
+所以实际上你并不在你的身体里
+So actually you're not inside your body
+
+1073
+00:42:51,040 --> 00:42:52,580
+现在你有不同的观点
+Right now you have different perspective
+
+1074
+00:42:52,580 --> 00:42:55,710
+突然我们在某种程度上添加了，呃
+Suddenly we added , uh , in a way
+
+1075
+00:42:55,710 --> 00:42:57,210
+但还是有道理的
+But still it makes sense
+
+1076
+00:42:57,210 --> 00:43:00,530
+这不是创作者级别的任意元选择
+It's not an arbitrary meta choice from the level of creator
+
+1077
+00:43:00,530 --> 00:43:04,130
+这一切都是按照这个世界的方式来合理的，呃
+It's all justified by the way the world does , uh
+
+1078
+00:43:04,130 --> 00:43:06,410
+大脑是，呃，同样的东西
+The brain ances is the , uh , the same thing
+
+1079
+00:43:06,410 --> 00:43:10,410
+我们有这样的序列，你扮演约翰，呃
+We have this sequences where you play as john , uh
+
+1080
+00:43:10,410 --> 00:43:12,430
+但同样，它发生在
+But again , it kind of happens in
+
+1081
+00:43:12,430 --> 00:43:15,390
+这个头实际上就像我们生活在回忆中
+And this head actually it's like we're living the memories
+
+1082
+00:43:15,390 --> 00:43:20,250
+部分原因是它实际上是基于像在记忆中潦草地写的那样
+And part of it is actually it's really based in like the like scrawling through the memories
+
+1083
+00:43:20,250 --> 00:43:21,690
+这么说吧，好吧
+Let's say so , okay
+
+1084
+00:43:21,690 --> 00:43:22,490
+你改变你的身体
+You change your body
+
+1085
+00:43:22,490 --> 00:43:23,690
+现在是不同的视角了
+It's a different perspective now
+
+1086
+00:43:23,690 --> 00:43:25,210
+但还是有道理的
+But still it makes sense
+
+1087
+00:43:25,210 --> 00:43:28,490
+我认为重要的是要注意
+I think it's important to note that
+
+1088
+00:43:28,490 --> 00:43:32,590
+在游戏中拥有身体并不是一个显而易见的选择
+Having a body inside a game is not really an obvious choice
+
+1089
+00:43:32,590 --> 00:43:37,090
+因为它增加了疯狂的复杂性和直接问题
+Because it adds insane amount of complexity and straight up problems
+
+1090
+00:43:37,090 --> 00:43:38,400
+当你想到这一点时
+When you think about this
+
+1091
+00:43:38,400 --> 00:43:40,070
+因为到最后
+Because at the end of the day
+
+1092
+00:43:40,070 --> 00:43:43,130
+你不是恰好在某个地方的漂浮相机
+You are not the floating camera that just happens to be somewhere
+
+1093
+00:43:43,130 --> 00:43:46,860
+你知道，你的身体实际上必须适应这个空间
+You actually have the body that has to , you know , fit in the space
+
+1094
+00:43:46,860 --> 00:43:49,740
+必须真正穿过空间
+Have to actually move toward through through the space
+
+1095
+00:43:49,740 --> 00:43:50,190
+正确的
+Right
+
+1096
+00:43:50,190 --> 00:43:53,530
+我认为我们使用的令人惊奇的调整之一
+I think one of the amazing tweaks that we use
+
+1097
+00:43:53,530 --> 00:43:55,390
+也许这是非常罕见的事情
+Maybe it's something that's pretty rare
+
+1098
+00:43:55,390 --> 00:43:57,470
+所以基本上我们在相机上有一个视差
+So basically we have a parallex on the camera
+
+1099
+00:43:57,470 --> 00:44:00,240
+所以当你真正坐下并旋转相机时
+So when you actually sit that and you rotate the camera
+
+1100
+00:44:00,240 --> 00:44:04,580
+这不像愚蠢的 T 部分，只从同一位置旋转相机
+This is not like the stupid t section that only rotates the camera from the same spot
+
+1101
+00:44:04,580 --> 00:44:07,940
+你实际上在太空中移动相机
+You actually move the the camera in space
+
+1102
+00:44:07,940 --> 00:44:10,580
+所以如果你愿意的话，如果你看看它
+So if you will , if you look at it
+
+1103
+00:44:10,580 --> 00:44:14,690
+你会发现事物的位置实际上发生了移动
+You will see that the the position of of things actually kind of move
+
+1104
+00:44:14,690 --> 00:44:16,970
+当你轮换时，不同的植物会发生变化
+When you rotate the different plants change
+
+1105
+00:44:16,970 --> 00:44:18,550
+因为你还有翻译
+Because you have also translation
+
+1106
+00:44:18,550 --> 00:44:19,570
+就像我们的眼睛一样
+Just as our eyes
+
+1107
+00:44:19,570 --> 00:44:23,610
+它们的头部并不完全是数学上的零
+They are not where the head is exactly such a mathematical zero
+
+1108
+00:44:23,610 --> 00:44:25,960
+你知道，在之前的大部分比赛中
+And you know , in most of the previous games
+
+1109
+00:44:25,960 --> 00:44:27,220
+事实上，当你看它的时候
+Actually , when you look at it
+
+1110
+00:44:27,220 --> 00:44:30,220
+当你旋转时，你旋转了这个精确的数学点
+When you rotate , you rotating this exact mathematical spot
+
+1111
+00:44:30,220 --> 00:44:33,700
+所以背景给人的感觉是，呃，感觉很平坦
+So the background it feels , uh , it feels flat
+
+1112
+00:44:33,700 --> 00:44:36,600
+因为在我们的游戏中元素不会在视差中移动
+Because the elements don't move in the parallax in our game
+
+1113
+00:44:36,600 --> 00:44:38,880
+当你旋转头部时，即使坐在原位
+When you rotate the head even sitting in place
+
+1114
+00:44:38,880 --> 00:44:42,220
+不同的植物会改变它们之间的关系
+The different plants will change their like own relationships
+
+1115
+00:44:42,220 --> 00:44:42,910
+因为是的
+Because yeah
+
+1116
+00:44:42,910 --> 00:44:46,800
+我们有这样的，甚至这样的设置，u um
+We had this and even setting like this , u , um
+
+1117
+00:44:46,800 --> 00:44:48,740
+呃，这个视差弧
+Uh , this arc for the parallex
+
+1118
+00:44:48,740 --> 00:44:50,300
+那么相机是如何移动的
+So how does the camera move
+
+1119
+00:44:50,300 --> 00:44:51,630
+那么它是这样移动的吗
+So does it move like this
+
+1120
+00:44:51,630 --> 00:44:52,870
+还是像这样移动
+Or does it move like this
+
+1121
+00:44:52,870 --> 00:44:54,150
+还是像这样移动
+Or does it move like this
+
+1122
+00:44:54,150 --> 00:44:56,830
+等等本身就像一个挑战
+And so on was like a challenge on its own
+
+1123
+00:44:56,830 --> 00:45:02,110
+当感觉就像超级乌戈一样正确时
+When it felt right in a way that's like super ugo
+
+1124
+00:45:02,110 --> 00:45:02,580
+是的
+Yeah
+
+1125
+00:45:02,580 --> 00:45:03,820
+听到这真是太有根据了
+It's so basing to hear about
+
+1126
+00:45:03,820 --> 00:45:06,020
+因为当你玩的时候你会感受到这一切
+Because you feel all this when you're playing it
+
+1127
+00:45:06,020 --> 00:45:08,070
+但你不自觉地明白
+But you don't consciously understand
+
+1128
+00:45:08,070 --> 00:45:09,580
+为什么你有这样的感觉
+Why you feel that way
+
+1129
+00:45:09,580 --> 00:45:10,140
+是的
+Yeah
+
+1130
+00:45:10,140 --> 00:45:14,410
+视觉效果很棒，呃，就像《巫师》一样
+Great visible , uh , and like just the same way as with witcher
+
+1131
+00:45:14,410 --> 00:45:17,610
+基本上所有的内容和郊区都是完全定制的
+Basically all the content and suburbank is completely custom made
+
+1132
+00:45:17,610 --> 00:45:19,250
+它的手手工创建，正确的
+Its hand hand created , right
+
+1133
+00:45:19,250 --> 00:45:23,540
+所以哪一年我们有四到五个 Cyber​​pank 设计师
+So in which year we had like four to five designers for cyberpank
+
+1134
+00:45:23,540 --> 00:45:25,260
+现在我们有十八个
+Right now we have eighteen
+
+1135
+00:45:25,260 --> 00:45:27,540
+以及复杂性和工作量
+And the amount of complexity and , and the work
+
+1136
+00:45:27,540 --> 00:45:31,220
+你必须真正做到让这项工作变得疯狂
+You have to actually make to make this work is just crazy
+
+1137
+00:45:31,220 --> 00:45:32,580
+但我认为我们是，你知道的
+But i think we are , you know
+
+1138
+00:45:32,580 --> 00:45:34,780
+我们正在穿孔，需要几个小时
+We are piercing it'll take a couple hours
+
+1139
+00:45:34,780 --> 00:45:37,310
+这里很小，很小，有点疯狂，呃
+Tiny , tiny , tiny bit crazy here , uh
+
+1140
+00:45:37,310 --> 00:45:39,010
+因为他们正在做这样的事情，对吧
+Because they're doing something like this , right
+
+1141
+00:45:39,010 --> 00:45:43,080
+所以食物长期伴随着身体呈现
+So the food long be all the way with body presents with
+
+1142
+00:45:43,080 --> 00:45:45,400
+有阴影，有万物互动
+With shadows , with interactions on everything
+
+1143
+00:45:45,400 --> 00:45:50,540
+所以你永远不会真正传送到某个动作之间具有疯狂连续性的地方
+So you never actually teleport somewhere with crazy amount of continuity between the action
+
+1144
+00:45:50,540 --> 00:45:54,320
+因为如果我们确实在故事中非常特定的地方进行了编辑
+Because if we do have edits there in very particular places in the story
+
+1145
+00:45:54,320 --> 00:45:57,370
+但通常你有这个线性，呃
+But normally you have this linear , uh
+
+1146
+00:45:57,370 --> 00:45:59,920
+超高保真解说
+Super high fidelity narration
+
+1147
+00:45:59,920 --> 00:46:01,110
+同时
+And at the same time
+
+1148
+00:46:01,110 --> 00:46:03,230
+例如，您可以跳过场景之类的事情
+You have things like , for example , skipping scenes
+
+1149
+00:46:03,230 --> 00:46:06,080
+哪个存在于世间且不会消失
+Which is in the world and does not fade out
+
+1150
+00:46:06,080 --> 00:46:07,980
+淡入故事中的其他地方
+Fade into some other place in the story
+
+1151
+00:46:07,980 --> 00:46:11,060
+您基本上只是观看相同赛事的加速版本
+You just basically watch a speed up version of the same events
+
+1152
+00:46:11,060 --> 00:46:13,980
+这本身实际上是一项成熟的技术
+Which which in itself is actually a full born technology that
+
+1153
+00:46:13,980 --> 00:46:16,500
+你知道，我们必须设计、发明、原型
+You know , we have to design , invent , prototype
+
+1154
+00:46:16,500 --> 00:46:19,040
+人们必须这样做，这太疯狂了
+People had to make this it's it's it's crazy
+
+1155
+00:46:19,040 --> 00:46:19,820
+我我喜欢它
+I i love it
+
+1156
+00:46:19,820 --> 00:46:20,520
+别误会我的意思
+Don't get me wrong
+
+1157
+00:46:20,520 --> 00:46:20,920
+我喜欢它
+I love it
+
+1158
+00:46:20,920 --> 00:46:22,590
+但是是的
+But yeah
+
+1159
+00:46:22,590 --> 00:46:24,500
+你没有让自己变得容易
+You did not make it easy for yourselves
+
+1160
+00:46:24,500 --> 00:46:25,000
+是的
+Yeah
+
+1161
+00:46:25,000 --> 00:46:27,560
+不 。不，你知道我知道发生了什么事
+No . don't , you know that i know what what's going on
+
+1162
+00:46:27,560 --> 00:46:30,660
+但我们总是尽力让这变得更加
+But we always though always try to make this the more
+
+1163
+00:46:30,660 --> 00:46:33,760
+你知道，我们最后可以加入疯狂有趣的东西，对吧
+You know , crazy fun stuff that we can in at the end , right
+
+1164
+00:46:33,760 --> 00:46:34,200
+呃
+Uh
+
+1165
+00:46:34,200 --> 00:46:34,360
+是的
+Yeah
+
+1166
+00:46:34,360 --> 00:46:36,900
+然后，呃，就像人们之前提到过的那样
+And then , uh , like people mentioned this before
+
+1167
+00:46:36,900 --> 00:46:40,780
+就像这是一次疯狂的努力
+Like it was a crazy more effort
+
+1168
+00:46:40,780 --> 00:46:44,300
+事实上你有这个连续体实际上还在继续
+And the fact that you have this continuit actually continue
+
+1169
+00:46:44,300 --> 00:46:46,760
+这是你拥有的最昂贵的东西
+It is the most expensive thing you have
+
+1170
+00:46:46,760 --> 00:46:49,740
+所以当你用这种经典的电影语言
+So when you in this classic cinematic language
+
+1171
+00:46:49,740 --> 00:46:51,260
+你跳到特写
+You jump to a close up
+
+1172
+00:46:51,260 --> 00:46:53,100
+所以此时此刻，唯一的事情
+So in this moment , the only thing
+
+1173
+00:46:53,100 --> 00:46:55,260
+你必须为这个特写而感动和哭泣
+You have to animate and cry about is this close up
+
+1174
+00:46:55,260 --> 00:46:56,860
+而这个角色就在这里
+And this one character right here
+
+1175
+00:46:56,860 --> 00:46:59,110
+如果你有这样的没有完整
+If you have like this no full
+
+1176
+00:46:59,110 --> 00:47:02,380
+比如说广角镜头中的相机控制
+Let's say like camera control in a wide shot as well
+
+1177
+00:47:02,380 --> 00:47:04,320
+有时现在只有杰基
+And sometimes right now it's only jackie
+
+1178
+00:47:04,320 --> 00:47:05,640
+但我们也有类似的场景，你知道
+But we have scenes with like , you know
+
+1179
+00:47:05,640 --> 00:47:07,680
+免费四五个字符等等
+Free four or five characters and so on
+
+1180
+00:47:07,680 --> 00:47:09,370
+你需要管理这一切
+And you need to manage all that
+
+1181
+00:47:09,370 --> 00:47:11,640
+你不能只是想把某人从现场赶走
+You cannot just like dispt someone from the scene
+
+1182
+00:47:11,640 --> 00:47:13,660
+你知道，当玩家向左看时
+You know , when the player is looking to the left
+
+1183
+00:47:13,660 --> 00:47:14,780
+事实上我们和约翰尼一起做
+Actually we do it with johnny
+
+1184
+00:47:14,780 --> 00:47:17,560
+但假设他有一个特殊的地方纽约猫
+But let's say he has like a special place new york cat
+
+1185
+00:47:17,560 --> 00:47:20,440
+所以我们会看到，当你不再看约翰尼时，他总是消失
+So we'll see that johnny always disappears when you stop looking at him
+
+1186
+00:47:20,440 --> 00:47:21,760
+就像你转身一样
+Like you turn around
+
+1187
+00:47:21,760 --> 00:47:23,440
+你把他的枪转回来
+You turn back his gun
+
+1188
+00:47:24,510 --> 00:47:25,630
+但是为了，呃
+But for , uh
+
+1189
+00:47:25,630 --> 00:47:28,310
+我可以继续说一些离题的话，比如我们如何介绍
+I could go on tangents about like how we introduce
+
+1190
+00:47:28,310 --> 00:47:30,230
+就像乔纳斯一样，精疲力尽
+And like sponning and spent out jonas
+
+1191
+00:47:30,230 --> 00:47:32,340
+单独设计的自我，嗯
+The separate design self , um
+
+1192
+00:47:32,340 --> 00:47:34,440
+但还是喜欢制作
+But still like making
+
+1193
+00:47:34,440 --> 00:47:38,160
+你知道，当你想让npc出现在场景中时，要确保这种情况
+You know , securing the situation that when you want npc in in the scene
+
+1194
+00:47:38,160 --> 00:47:40,780
+他其实需要从夏天一路过来
+He actually needs to come from summer all the way
+
+1195
+00:47:40,780 --> 00:47:41,660
+坐下
+Sit down
+
+1196
+00:47:41,660 --> 00:47:43,570
+和你说话，搬进衣服上去
+Talk with you , move into the clothes up
+
+1197
+00:47:43,570 --> 00:47:44,770
+你知道，emt与脸有关
+You know , emt with the face
+
+1198
+00:47:44,770 --> 00:47:47,050
+然后站起来一路走到外面
+And then get up and walk all the way out there
+
+1199
+00:47:47,050 --> 00:47:48,830
+而你就让他消失了
+And you just kind of disappear him
+
+1200
+00:47:48,830 --> 00:47:52,090
+而且这个时候也不像切割啊,呃
+And at this time it's also not like cutting , uh
+
+1201
+00:47:52,090 --> 00:47:54,330
+npc和玩家之间来回
+Between npc and player back and forth
+
+1202
+00:47:54,330 --> 00:47:59,950
+因此，就像您只有有限数量的动画和信息可供出售一样
+So at the same like you have just a limited amount of like animation and information to sell
+
+1203
+00:47:59,950 --> 00:48:01,850
+如果你的镜头中有NPC
+If you have npc that's in your shot
+
+1204
+00:48:01,850 --> 00:48:04,550
+你知道，你不能只是坐着，一动不动
+You cannot be just like sitting , you know , static
+
+1205
+00:48:04,550 --> 00:48:07,470
+他有时需要移动，这样做
+He needs to move sometimes do this
+
+1206
+00:48:07,470 --> 00:48:09,500
+回去吧，你知道的
+Go back like , you know
+
+1207
+00:48:09,500 --> 00:48:10,420
+他做了一些东西
+And he makes something
+
+1208
+00:48:10,420 --> 00:48:12,300
+他基本上需要生活
+He needs to live basically
+
+1209
+00:48:12,300 --> 00:48:15,920
+不仅喜欢动画的连续性
+And like also doing it not only like continuity of animation
+
+1210
+00:48:15,920 --> 00:48:18,640
+但实时完成这一切也是一个问题
+But also doing it all in a real time is an issue
+
+1211
+00:48:18,640 --> 00:48:21,770
+因为话又说回来，当你想要场景时，例如
+Because then again , when you want the scene , for example
+
+1212
+00:48:21,770 --> 00:48:22,970
+我们演奏了分数现场
+We played the score poscene
+
+1213
+00:48:22,970 --> 00:48:27,130
+例如，你和杰基以及对饮料发表评论的女孩坐下来
+And you sit down with jackie and the girl with the drinks comment , for example
+
+1214
+00:48:27,130 --> 00:48:28,690
+或者稍后暴徒进来
+Or later the goons come in
+
+1215
+00:48:28,690 --> 00:48:30,380
+他们需要从像
+And they need to go from like
+
+1216
+00:48:30,380 --> 00:48:33,080
+从这个遥远的地方来到你身边
+Come to you from this like distant part of location
+
+1217
+00:48:33,080 --> 00:48:35,820
+你实际上可以在 lizzi 中看到远处的门
+And you can actually see how the door far away in lizzi
+
+1218
+00:48:35,820 --> 00:48:38,120
+但他们敞开心扉，一路走来
+But they open , they walk all the way
+
+1219
+00:48:38,120 --> 00:48:39,680
+但从我们的电影来看
+But from our cinematic
+
+1220
+00:48:39,680 --> 00:48:43,580
+假设过去需要完美的时机和节奏来实现这一切
+Let's say perspective used to need the perfect timing and pacing for all of this
+
+1221
+00:48:43,580 --> 00:48:46,310
+所以我们需要喜欢，你知道，适应它
+So we need to like , you know , adjust for it
+
+1222
+00:48:46,310 --> 00:48:46,530
+好的
+Okay
+
+1223
+00:48:46,530 --> 00:48:50,050
+因此，例如，他们需要大约三十五秒才能到达这里
+So it will take them like thirty five seconds to get here , for example
+
+1224
+00:48:50,050 --> 00:48:53,140
+当杰基喜欢的时候他们就会来
+And they will come exactly when jackie is like
+
+1225
+00:48:53,140 --> 00:48:55,540
+哦，现在他们打断了我等等
+Oh , now they're interrupted me and so on
+
+1226
+00:48:55,540 --> 00:48:58,420
+但你知道，你不只是按照镜头剪辑那样做
+But you didn't just do it like , you know , along the camera edit
+
+1227
+00:48:58,420 --> 00:49:01,450
+哦，他们在这里，这非常简单。所以是的
+Oh they're here it's super simple . so yeah
+
+1228
+00:49:01,450 --> 00:49:07,590
+像这样连续拍摄是一件很难做到的事情
+This like this continuous camera shot is it was such a difficult thing to do
+
+1229
+00:49:07,590 --> 00:49:10,470
+所以你有点抱歉
+So you something i oh sorry
+
+1230
+00:49:10,470 --> 00:49:11,400
+对不起
+Sorry
+
+1231
+00:49:11,400 --> 00:49:12,130
+哦不
+Oh no
+
+1232
+00:49:12,130 --> 00:49:12,410
+是的
+Yeah
+
+1233
+00:49:12,410 --> 00:49:13,957
+呃，继续
+Uh , continue
+
+1234
+00:49:13,957 --> 00:49:16,100
+呃，以公寓为例
+Uh , here the apartment , for example
+
+1235
+00:49:16,100 --> 00:49:16,680
+另一个案例
+Another case
+
+1236
+00:49:16,680 --> 00:49:17,850
+我不知道，呃，呃
+I don't know , uh , uh
+
+1237
+00:49:17,850 --> 00:49:20,770
+在这种情况下，哪些生命部件在正常情况下做出反应
+Which life parts are replying in this case in norma
+
+1238
+00:49:20,770 --> 00:49:22,330
+我认为你有一个很好的，呃
+You have a good one , i think , uh
+
+1239
+00:49:22,330 --> 00:49:23,990
+你也可以评论它
+And you can comment on it as well
+
+1240
+00:49:23,990 --> 00:49:24,680
+没关系
+Never mind
+
+1241
+00:49:24,680 --> 00:49:26,500
+所以英雄去公寓
+So hero going to the apartment
+
+1242
+00:49:26,500 --> 00:49:27,930
+你应该去保险箱
+And you should go to the safe
+
+1243
+00:49:27,930 --> 00:49:29,390
+呃，杰基所在的地方
+Uh , place where jackie
+
+1244
+00:49:29,390 --> 00:49:32,390
+所以当然那里有一个任务标记。杰基·兰斯在那里
+So of course there's like a quest marker there . jackie lans there
+
+1245
+00:49:32,390 --> 00:49:34,100
+去那里感觉有点明显
+It feels kind of obvious to go there
+
+1246
+00:49:34,100 --> 00:49:36,300
+但你也可以对 guana 发表评论
+But you can comment on the guana as well
+
+1247
+00:49:36,300 --> 00:49:37,890
+你可以去找你的无能者，呃
+You can go to your inables , uh
+
+1248
+00:49:37,890 --> 00:49:39,690
+床并从那里拿枪
+The bed and take a gun from there
+
+1249
+00:49:39,690 --> 00:49:41,150
+后面还有评论
+And there's a comment back there
+
+1250
+00:49:41,150 --> 00:49:42,860
+如果你这么做了又怎样
+So what if you do it
+
+1251
+00:49:42,860 --> 00:49:45,280
+就在杰基说另一句话的时候
+Exactly when jackie is saying a different line
+
+1252
+00:49:45,280 --> 00:49:46,280
+是否应该中断
+Should it interrupt
+
+1253
+00:49:46,280 --> 00:49:47,700
+你应该让他完成吗
+Should you should he finished
+
+1254
+00:49:47,700 --> 00:49:51,860
+但如果你说完然后你说的话听起来不像是一个正确的对话
+But if you finishes and then you say it like it doesn't sound like a correct dialogue
+
+1255
+00:49:51,860 --> 00:49:54,800
+所以也许中间应该有一条连接线之类的
+So maybe there should be like a connection line in the middle and so on
+
+1256
+00:49:54,800 --> 00:49:56,520
+但大多数人都看不到
+But most of the pairs won't see it
+
+1257
+00:49:56,520 --> 00:49:57,940
+因为他们只会做其他事情
+Because they will just do something else
+
+1258
+00:49:57,940 --> 00:50:01,180
+否则他们不会到达这个确切的位置
+Or they will not hit this exact spot
+
+1259
+00:50:01,180 --> 00:50:02,140
+当你击中它时
+Where when you hit it
+
+1260
+00:50:02,140 --> 00:50:03,700
+然后就像发生了不同的事情
+Then like different things happen
+
+1261
+00:50:03,700 --> 00:50:07,240
+从付款人的角度来看，这又是不可察觉的
+And again it's imperceivable from the payer perspective
+
+1262
+00:50:07,240 --> 00:50:12,500
+对于玩家来说应该永远都是这样完美、流畅、易懂的体验
+For players should always be just like this perfect , fluent , understandable experience
+
+1263
+00:50:14,040 --> 00:50:14,520
+是的
+Yeah
+
+1264
+00:50:14,520 --> 00:50:16,230
+哇
+Wow
+
+1265
+00:50:16,230 --> 00:50:16,860
+一
+Um
+
+1266
+00:50:16,860 --> 00:50:17,160
+是的
+Yeah
+
+1267
+00:50:17,160 --> 00:50:19,780
+我这这位老人最近特别重播
+I this , this seniin particular replaying it recently
+
+1268
+00:50:19,780 --> 00:50:24,610
+你知道，这让我震惊，因为它完成了我认为在电影中的事情
+This struck me as , you know , accomplishing something that i think in cinema
+
+1269
+00:50:24,610 --> 00:50:28,500
+您经常通过长镜头或不间断的单镜头来完成
+You often accomplished with a long take or an unbroken single take
+
+1270
+00:50:28,500 --> 00:50:30,630
+哪一个是紧张和悬念
+Which is tension and suspense
+
+1271
+00:50:30,630 --> 00:50:33,470
+而且，你知道，我想到了一部类似《人类之子》的电影
+And , you know , i think about a movie like children of men
+
+1272
+00:50:33,470 --> 00:50:36,670
+在那里你有这些非常长的不间断的长镜头
+Where you have these really long unbroken long takes
+
+1273
+00:50:36,670 --> 00:50:39,180
+它会让你体重增加
+And it makes you weigh more
+
+1274
+00:50:39,180 --> 00:50:40,830
+呃，担心角色
+Uh , afraid for the characters
+
+1275
+00:50:40,830 --> 00:50:43,870
+因为割伤或感觉不安全
+Because there's no safety in cuts or feeling like
+
+1276
+00:50:43,870 --> 00:50:47,590
+哦，也许编辑会以某种方式保存这些字符，比如，不
+Oh , maybe somehow the edit will save these characters like , no
+
+1277
+00:50:47,590 --> 00:50:49,850
+我们被困在这种纪录片风格中
+We're locked in in this documentary style
+
+1278
+00:50:49,850 --> 00:50:53,182
+而且，尤其是当抢劫案开始出现问题时
+And , and especially when things start to go wrong here with the heist
+
+1279
+00:50:53,182 --> 00:50:56,120
+事实上，我们已经建立了这种连续的
+The fact that we've established this continuous
+
+1280
+00:50:56,120 --> 00:50:59,430
+你无法逃脱这种长镜头风格
+You can't escape it kind of long take style
+
+1281
+00:50:59,430 --> 00:51:01,250
+我认为确实加剧了紧张气氛
+I think really amps up the tension
+
+1282
+00:51:01,250 --> 00:51:01,730
+一
+Um
+
+1283
+00:51:01,730 --> 00:51:02,990
+你也可能会谈论这个吗
+And so did you might talk about that
+
+1284
+00:51:02,990 --> 00:51:04,312
+你怎么样，如果你想过的话
+How you , if you thought about
+
+1285
+00:51:04,312 --> 00:51:07,980
+这是如何连续的第一人称视角，呃
+How this continuous first person perspective , uh
+
+1286
+00:51:07,980 --> 00:51:12,090
+你实际上也将它用于无法逃脱的电影技巧
+You were using it actually also for the cinematic technique of no escape
+
+1287
+00:51:12,090 --> 00:51:13,250
+你被锁在
+You are locked in
+
+1288
+00:51:13,250 --> 00:51:14,620
+这是实时的
+This is real time
+
+1289
+00:51:14,620 --> 00:51:15,210
+呃
+Uh
+
+1290
+00:51:15,210 --> 00:51:15,930
+你知道，在某种程度上
+You know , in a way
+
+1291
+00:51:15,930 --> 00:51:17,910
+这是你免费获得的东西
+It's something you get for free
+
+1292
+00:51:17,910 --> 00:51:20,510
+更重要的是你无法真正逃脱它
+And even more you can't really escape it
+
+1293
+00:51:20,510 --> 00:51:21,910
+因为一旦我们采用这个设计
+Because once we go with this design
+
+1294
+00:51:21,910 --> 00:51:24,390
+我们得到了一切酷炫的东西
+We get everything that's like cool coming with it
+
+1295
+00:51:24,390 --> 00:51:27,100
+所有这些，你知道，也有缺点，呃
+And all that , you know , downsides , uh , as well
+
+1296
+00:51:27,100 --> 00:51:28,860
+所以从某种意义上说它起作用了
+So in some sense it worked
+
+1297
+00:51:28,860 --> 00:51:30,180
+但例如，在其他方面
+But for example , in others
+
+1298
+00:51:30,180 --> 00:51:32,880
+事实上你只有副总裁是有问题的
+The fact that you had just vp was problematic
+
+1299
+00:51:32,880 --> 00:51:35,220
+因为也只是为了打断你的身体存在
+Because also just to interrupt your body presence
+
+1300
+00:51:35,220 --> 00:51:37,700
+看到一只手像这样移动
+See a hand moving like along this
+
+1301
+00:51:37,700 --> 00:51:41,300
+甚至更多。所以现在你会到达这里，还有一只手在你面前
+and even more . so now you will get here there's also a hand in front of you
+
+1302
+00:51:41,300 --> 00:51:44,250
+只是为了提醒您，您处于什么样的环境中
+Just to remind you like what kind of context you are in
+
+1303
+00:51:44,250 --> 00:51:45,730
+也在这里，例如
+And also here , for example
+
+1304
+00:51:45,730 --> 00:51:47,270
+当我们没有这只手的时候
+When we didn't have this hand
+
+1305
+00:51:47,270 --> 00:51:51,500
+感觉真的很奇怪。就像你只是太空中的这个浮点，没有参考
+It felt really weird . like you were just this floating point in space without reference
+
+1306
+00:51:51,500 --> 00:51:53,700
+坐下来感觉超级舒服
+And sit felt like super off
+
+1307
+00:51:53,700 --> 00:51:57,020
+你加上这手牌，突然间你就完全领先了
+You add this hand and suddenly you're totally total leader
+
+1308
+00:51:57,020 --> 00:51:57,700
+一
+Um
+
+1309
+00:51:57,700 --> 00:52:01,060
+例如，这个场景是关键情节点之一
+And for example , this scene is one of the crucial plot points
+
+1310
+00:52:01,060 --> 00:52:02,300
+就整个故事来说
+Let's say in the whole story
+
+1311
+00:52:02,300 --> 00:52:04,460
+所以我们觉得有必要
+So it felt necessary for us
+
+1312
+00:52:04,460 --> 00:52:07,180
+它至少需要是无钢的
+It needs to be at least this steel free with like
+
+1313
+00:52:07,180 --> 00:52:10,140
+你知道，你的焦点就在你面前
+You know , your focus here in front of you
+
+1314
+00:52:10,140 --> 00:52:11,420
+你需要感知它
+You need to perceive it
+
+1315
+00:52:11,420 --> 00:52:12,620
+我们不能给你自由
+We cannot give you a freedom
+
+1316
+00:52:12,620 --> 00:52:14,850
+例如旋转一百八十度
+For example , rotating one hundred and eighty degrees
+
+1317
+00:52:14,850 --> 00:52:16,120
+这太重要了
+This is too important
+
+1318
+00:52:16,120 --> 00:52:17,560
+就像从我们的角度来看
+Like from our perspective
+
+1319
+00:52:17,560 --> 00:52:19,240
+我们需要确保您看到它
+We need to be sure that you see it
+
+1320
+00:52:19,240 --> 00:52:22,610
+就像，呃，呃，同时感知到
+And like , uh , uh , perceived at , at the same time
+
+1321
+00:52:22,610 --> 00:52:26,140
+我们试着留下一点，嗯
+We try to leave a little like , um
+
+1322
+00:52:26,140 --> 00:52:27,960
+呃，玩家的互动性
+Uh , interactivity for the players
+
+1323
+00:52:27,960 --> 00:52:29,600
+例如，当你看这件夹克时
+So when you look at the jacket , for example
+
+1324
+00:52:29,600 --> 00:52:30,120
+我，呃
+I , uh
+
+1325
+00:52:30,120 --> 00:52:31,400
+你应该看看你
+You should look at you for
+
+1326
+00:52:31,400 --> 00:52:32,960
+呃，应该可以吗
+Uh , should it work
+
+1327
+00:52:34,050 --> 00:52:35,690
+也许现在还不是这个时刻
+Maybe it's not this exact moment
+
+1328
+00:52:35,690 --> 00:52:37,370
+因为我认为他在照顾明天
+Because i think he was looking after tomorrow
+
+1329
+00:52:37,370 --> 00:52:39,280
+哦这里，看，看，像你一样
+Oh here , look , look , look as you
+
+1330
+00:52:39,280 --> 00:52:41,580
+你看着他时会有这样的反应
+It's such a reaction to you looking at him
+
+1331
+00:52:41,580 --> 00:52:44,150
+但如果你不看着他，这一切就不会发生
+But it wouldn't happen if you didn't look at him
+
+1332
+00:52:44,150 --> 00:52:47,350
+嗯，我们在这里，呃，呃，也是takora的方式，呃
+Um , here we , uh , uh , also the way that takora , uh
+
+1333
+00:52:47,350 --> 00:52:49,820
+Takara takura 消失在画框后面
+The takara takura disappears like behind the frame
+
+1334
+00:52:49,820 --> 00:52:52,180
+然后突然出现在你面前
+And then suddenly appears just in front of you
+
+1335
+00:52:52,180 --> 00:52:55,720
+这是我们可以用这种有限的视角做的很酷的事情之一
+It's one of the cool things we can do with like this limited perspective
+
+1336
+00:52:55,720 --> 00:52:58,240
+呃，嗯，就像我们如何利用它一样
+Uh , um , like how we can utilize that
+
+1337
+00:52:58,240 --> 00:53:00,560
+你知道，创造，呃，创造戏剧
+You know , to create , uh , to create drama
+
+1338
+00:53:00,560 --> 00:53:02,760
+但现在回到我之前的想法
+But now going back to my previous thought
+
+1339
+00:53:02,760 --> 00:53:05,260
+所以有时候紧张是很酷的
+So sometimes it's cool for tension
+
+1340
+00:53:05,260 --> 00:53:06,880
+像你一样，你无法逃脱，你是
+Like you , you cannot escape , you are
+
+1341
+00:53:06,880 --> 00:53:08,582
+你知道，在这个地方。等等
+You know , in this spot . and so on
+
+1342
+00:53:08,582 --> 00:53:11,990
+但有时候，当你们的谈话时间较长时，例如
+But sometimes when you have longer conversations that , for example
+
+1343
+00:53:11,990 --> 00:53:14,830
+是更多的阐述而不是情感的沉重
+Are a bit more exposition rather than emotion is heavy
+
+1344
+00:53:14,830 --> 00:53:16,030
+这成为一个问题
+It becomes a problem
+
+1345
+00:53:16,030 --> 00:53:20,890
+因为内容越长，对玩家的吸引力就越低
+Because the content , it can become less attractive for the player the longer it goes
+
+1346
+00:53:20,890 --> 00:53:22,920
+因为你没有这么酷
+Because you don't have all this cool
+
+1347
+00:53:22,920 --> 00:53:25,720
+你知道，视觉效果来自不同的相机共享
+You know , visuals coming from different camera shares
+
+1348
+00:53:25,720 --> 00:53:26,820
+发送、编辑等
+Send , edit , and so on
+
+1349
+00:53:26,820 --> 00:53:29,160
+所以球员有时可以，你知道，那些在外的球员
+So players sometimes can , you know , those away
+
+1350
+00:53:29,160 --> 00:53:31,145
+然后我们需要
+And then we need to
+
+1351
+00:53:31,145 --> 00:53:33,210
+呃，比如让它更有吸引力
+Uh , make it more attractive , for example
+
+1352
+00:53:33,210 --> 00:53:38,200
+在动画层面上时刻保持内容一定程度的吸引力
+On the level of animation to keep a certain level of attractivity of content at all times
+
+1353
+00:53:38,200 --> 00:53:40,850
+所以如果场景很长并且很重要
+So if there's a long scene and it's important
+
+1354
+00:53:40,850 --> 00:53:42,550
+而你被锁在一个地方
+And you are locked in one spot
+
+1355
+00:53:42,550 --> 00:53:45,950
+我们需要投入更多资金，以其他方式使其更具吸引力
+We need to invest more into making it attractive in some other way
+
+1356
+00:53:45,950 --> 00:53:46,910
+也许有背景
+Maybe with the background
+
+1357
+00:53:46,910 --> 00:53:47,790
+也许随着灯光
+Maybe with the lighting
+
+1358
+00:53:47,790 --> 00:53:49,070
+也许有某种效果
+Maybe with some kind of effex
+
+1359
+00:53:49,070 --> 00:53:50,750
+可能是和角色的表演有关
+Maybe with the character staging
+
+1360
+00:53:50,750 --> 00:53:53,270
+时间越来越长，在一个地方持续的时间越来越长
+And so long and the longer it goes in one spot
+
+1361
+00:53:53,270 --> 00:53:57,440
+越长越需要开头也有这个场景
+The longer the , the more you needed there's this scene at the beginning as well
+
+1362
+00:53:57,440 --> 00:54:01,150
+嗯，在，呃，至少当你心情低落的时候是这样
+Um , in the , uh , at least this when you're down at judbasement
+
+1363
+00:54:01,150 --> 00:54:02,450
+并且在很长一段时间里
+And for a really long time
+
+1364
+00:54:02,450 --> 00:54:04,070
+你坐在这把椅子上
+You are sitting in this chair
+
+1365
+00:54:04,070 --> 00:54:06,840
+你可以看到伊芙琳的动作有多么像
+And you can see how much like evelyn is moving
+
+1366
+00:54:06,840 --> 00:54:09,400
+朱迪来回移动并再次回到你身边
+Judy is moving back and forth and back to you again
+
+1367
+00:54:09,400 --> 00:54:11,340
+因为如果他们只是在同一个地方
+Because if they were just in the same spots
+
+1368
+00:54:11,340 --> 00:54:13,352
+尽管这是一个有趣的序列
+Even though it's an interesting sequence
+
+1369
+00:54:13,352 --> 00:54:16,000
+它，它就变成了，实际上我们有这个
+It , it just became , and actually we had this
+
+1370
+00:54:16,000 --> 00:54:17,200
+变得有点乏味
+It became a little bit tedious
+
+1371
+00:54:17,200 --> 00:54:19,540
+例如，后来我们添加了伊芙琳
+So for example , later we added eveline
+
+1372
+00:54:19,540 --> 00:54:22,510
+拿起杯子并像与 deo 一样移动
+Getting cup and moving like alongside deo
+
+1373
+00:54:22,510 --> 00:54:24,970
+还因为框架比 更宽，呃
+Also because the frame is wider than , uh
+
+1374
+00:54:24,970 --> 00:54:27,970
+用一张相机拍摄就能看到什么
+What you can see in like with one camera shot
+
+1375
+00:54:27,970 --> 00:54:30,010
+所以你要么看到今天，要么看到伊芙琳
+So you can either see today or evelyn
+
+1376
+00:54:30,010 --> 00:54:32,010
+如果你非常关注朱迪
+And if you pay a lot of attention to judy
+
+1377
+00:54:32,010 --> 00:54:34,650
+我们需要提醒您现场的证据
+We needed to remind you that evidence in scene as well
+
+1378
+00:54:34,650 --> 00:54:36,300
+于是她起身
+So she got up
+
+1379
+00:54:36,300 --> 00:54:38,180
+来回走在你面前
+Walked in front of you back and forth
+
+1380
+00:54:38,180 --> 00:54:40,180
+因为她不耐烦所以有动力
+And it's motivated because she's impatient
+
+1381
+00:54:40,180 --> 00:54:42,210
+她想要效果或者什么
+She wants effects or , or something
+
+1382
+00:54:42,210 --> 00:54:43,900
+但是，嗯
+But , um
+
+1383
+00:54:43,900 --> 00:54:44,510
+但是是的
+But yeah
+
+1384
+00:54:44,510 --> 00:54:45,390
+我不知道它要去哪里
+I don't know where it's going
+
+1385
+00:54:45,390 --> 00:54:46,450
+但是，呃，这个想法
+But , uh , the thought
+
+1386
+00:54:46,450 --> 00:54:48,550
+但是，呃，还是，嗯
+But , uh , still , um
+
+1387
+00:54:48,550 --> 00:54:51,010
+保留内容的要点
+The point of keeping the content
+
+1388
+00:54:51,010 --> 00:54:55,350
+对于 fbp 设计来说，始终具有吸引力确实至关重要
+Attractive at all times was really crucial for this fbp design
+
+1389
+00:54:55,350 --> 00:54:56,330
+因为我们失去了一些东西
+Because we lose something
+
+1390
+00:54:56,330 --> 00:54:59,710
+所以我们需要想办法弥补
+So we need to somehow make up for it
+
+1391
+00:54:59,710 --> 00:55:06,380
+所以我们通常可以使用的最大工具当然是交互性和反应性，对吧
+So of course to biggest tools that we can use normally are interactivity and reactivity , right
+
+1392
+00:55:06,380 --> 00:55:10,950
+因此，交互性是指你实际上可以做一些对世界有益的事情
+So interactivity is when you actually can do something that is towards the world
+
+1393
+00:55:10,950 --> 00:55:13,290
+反应性是你需要相反的方式
+And reactivity is you need the other way around
+
+1394
+00:55:13,290 --> 00:55:15,710
+所以言语会对你所做的一切做出反应
+So words react to you doing whatever
+
+1395
+00:55:15,710 --> 00:55:17,530
+这实际上是一个有趣的例子
+This is actually an interesting example
+
+1396
+00:55:17,530 --> 00:55:18,810
+因为理论上
+Because in theory
+
+1397
+00:55:18,810 --> 00:55:20,650
+这是一个非常被动的场景吧
+This is a very passive scene , right
+
+1398
+00:55:20,650 --> 00:55:23,610
+你基本上已经脚踏实地了
+You are basically grounded in the situation
+
+1399
+00:55:23,610 --> 00:55:26,617
+也许因为你正站在这个非常
+Maybe because you are standing in this very
+
+1400
+00:55:26,617 --> 00:55:27,320
+呃
+Uh
+
+1401
+00:55:27,320 --> 00:55:30,140
+精致，呃，有的地方，有的地方，呃
+Delicate , uh , spots to be , to be in , uh
+
+1402
+00:55:30,140 --> 00:55:33,710
+不过，如果你观察玩家对这个场景的反应，就会发现，速度很快
+Still , if you watch how players react to this scene , it's it's , it's fast
+
+1403
+00:55:33,710 --> 00:55:34,740
+他们认为，你知道
+They think that , you know
+
+1404
+00:55:34,740 --> 00:55:36,300
+他们深吸一口气
+They take a deep breath
+
+1405
+00:55:36,300 --> 00:55:37,740
+当 takaoa 真正接近时
+When takaoa is actually close
+
+1406
+00:55:37,740 --> 00:55:39,440
+离玻璃非常非常近
+Very , very close to the , to the glass
+
+1407
+00:55:39,440 --> 00:55:42,520
+他们实际上对这些聋人做出反应
+They actually react to , to , to , to these deaf
+
+1408
+00:55:42,520 --> 00:55:44,237
+我认为是，呃
+I i think it's , uh
+
+1409
+00:55:44,237 --> 00:55:46,030
+我想当它起作用时
+I think when it works
+
+1410
+00:55:46,030 --> 00:55:48,410
+效果真的非常好
+It works really , really well
+
+1411
+00:55:48,410 --> 00:55:49,060
+呃
+Uh
+
+1412
+00:55:49,060 --> 00:55:50,980
+这是我想触摸他们的东西
+And this is something i wanted to touch them
+
+1413
+00:55:50,980 --> 00:55:53,860
+因为我们，我们发现，我猜，呃
+Because we , we discovered , i guess , uh
+
+1414
+00:55:53,860 --> 00:55:57,180
+这种沉浸感使一切倍增
+That immersion multiplies everything
+
+1415
+00:55:57,180 --> 00:56:00,070
+因此，如果您有精彩的内容呈现在玩家面前
+So if you have a great content in front of the player
+
+1416
+00:56:00,070 --> 00:56:02,310
+然后他们实际上非常投入
+Then they actually are extremely engaged
+
+1417
+00:56:02,310 --> 00:56:07,310
+如果你真的给他们一些东西去做一些非常有趣、有吸引力、有趣的事情
+If you actually give them something to do something very fun , engaging , interesting
+
+1418
+00:56:07,310 --> 00:56:09,250
+他们继续参与游戏
+They stay engaged with the game
+
+1419
+00:56:09,250 --> 00:56:12,200
+他们非常融入体验之中
+And they are very much inside the inside the experience
+
+1420
+00:56:12,200 --> 00:56:15,220
+另一方面，当你不再拥有那样的东西时
+On the other hand , when you don't have that again
+
+1421
+00:56:15,220 --> 00:56:16,940
+沉浸让一切倍增
+Immersion multiplies everything
+
+1422
+00:56:16,940 --> 00:56:19,280
+所以你可能会遇到很大的问题
+So you can have very big problems
+
+1423
+00:56:19,280 --> 00:56:20,240
+如果有什么事，你知道
+If something just , you know
+
+1424
+00:56:20,240 --> 00:56:21,560
+玩得不好
+Does does not play well
+
+1425
+00:56:21,560 --> 00:56:21,960
+正确的
+Right
+
+1426
+00:56:21,960 --> 00:56:24,040
+因为归根结底，这只是一场游戏
+Because at the end of the day , it's a game
+
+1427
+00:56:24,040 --> 00:56:26,300
+我们需要能够玩这个游戏
+We need to be able to play this game
+
+1428
+00:56:26,300 --> 00:56:29,180
+甚至在这个特别的时刻
+And even this in this specifically a moment
+
+1429
+00:56:29,180 --> 00:56:30,750
+这种互动量
+This amount of interactivity
+
+1430
+00:56:30,750 --> 00:56:32,470
+所以玩家实际上可以移动相机
+So player actually you can move the camera
+
+1431
+00:56:32,470 --> 00:56:35,380
+并且，你知道，制定行动
+And , you know , frame the action
+
+1432
+00:56:35,380 --> 00:56:37,660
+他们想要如何构建它很重要
+How they want to frame it is important
+
+1433
+00:56:37,660 --> 00:56:39,320
+它实际上运作得足够好
+It actually works well enough
+
+1434
+00:56:39,320 --> 00:56:42,100
+所以玩家仍然在这个游戏中
+So the player is still inside this game
+
+1435
+00:56:42,100 --> 00:56:44,030
+他们相信正在发生的事情
+They believe in what's happening
+
+1436
+00:56:44,030 --> 00:56:45,030
+他们，他们感觉是对的
+They , they feel it right
+
+1437
+00:56:45,030 --> 00:56:48,710
+他们实际上是这整个经历中的演员
+They actually are actor inside this , this whole experience
+
+1438
+00:56:48,710 --> 00:56:52,420
+不仅是从这里出发的观察者能够看到
+Not only an observer that goes from this got eyes view
+
+1439
+00:56:52,420 --> 00:56:54,470
+你知道，看着蚂蚁光滑地走
+You know , watching as the ants smooth
+
+1440
+00:56:54,470 --> 00:56:56,190
+不，他们实际上正处于其中
+No , they actually are in the middle of it
+
+1441
+00:56:56,190 --> 00:56:57,370
+他们
+They
+
+1442
+00:56:57,370 --> 00:56:59,790
+好吧，他们充当玩家
+Well , they act as the player
+
+1443
+00:56:59,790 --> 00:57:01,270
+作为玩家颜色角色
+As the player color character
+
+1444
+00:57:01,270 --> 00:57:02,310
+不是相反
+Not the other way around
+
+1445
+00:57:02,310 --> 00:57:04,190
+一、和、一
+Um , and , um
+
+1446
+00:57:04,190 --> 00:57:05,312
+一
+Um
+
+1447
+00:57:05,312 --> 00:57:06,940
+对于，呃，对于，例如
+For , uh , for , for example
+
+1448
+00:57:06,940 --> 00:57:09,020
+，这个就像这样工作
+The , the this like for this to work
+
+1449
+00:57:09,020 --> 00:57:12,340
+你需要资金才能让玩家站在学校的角度
+You need dough to put the player in the school perspective
+
+1450
+00:57:12,340 --> 00:57:13,340
+哪个有吸引力
+Which is attractive for
+
+1451
+00:57:13,340 --> 00:57:14,060
+例如
+So for example
+
+1452
+00:57:14,060 --> 00:57:17,120
+我记得场景的第一次迭代
+I remember that the first iterations of the scene
+
+1453
+00:57:17,120 --> 00:57:21,310
+我们看着整个事件，就像从一本杂志上想象谋杀案一样
+We were watching the whole like think of the murder from like a magazine
+
+1454
+00:57:21,310 --> 00:57:23,970
+这就是我们这样称呼它的，你知道，半地板
+This how we call it like this , you know , semi floor
+
+1455
+00:57:23,970 --> 00:57:28,040
+让我们说通过一些，嗯，通过一些东西
+Let's say through some like , um , like through something
+
+1456
+00:57:28,040 --> 00:57:29,260
+而且他们真的很远
+And they were really far away
+
+1457
+00:57:29,260 --> 00:57:30,340
+而且场景没有发挥作用
+And the scene didn't work
+
+1458
+00:57:30,340 --> 00:57:31,760
+因为真的很长
+Because it's really long
+
+1459
+00:57:31,760 --> 00:57:34,240
+我想大概持续了四分钟
+Like it goes for like four minutes , i think
+
+1460
+00:57:34,240 --> 00:57:36,310
+当角色很小的时候，呃
+And when the characters are small , uh
+
+1461
+00:57:36,310 --> 00:57:38,030
+就在那里，你就在那里，呃
+And out there and you are , uh
+
+1462
+00:57:38,030 --> 00:57:40,230
+你知道，就像被迫一样，观看它
+You know , like forced to , to watch it
+
+1463
+00:57:40,230 --> 00:57:42,540
+它突然变成了一种非常沉闷的经历
+It suddenly became a really dull experience
+
+1464
+00:57:42,540 --> 00:57:47,740
+所以我们需要，我们需要发明一些东西来让你尽可能接近动作
+So we need , we needed to invent something to bring you as close to the action as possible
+
+1465
+00:57:47,740 --> 00:57:51,580
+还有那面威尼斯镜子，呃，呃，呃，主意
+And hands that venetian mirror , uh , uh , uh , idea
+
+1466
+00:57:51,580 --> 00:57:53,200
+以及它的案例
+And the case by it
+
+1467
+00:57:53,200 --> 00:57:56,670
+正是这样的情况，就像这里面的一些人所做的那样
+It was exactly cases like those were like some people in this to do it
+
+1468
+00:57:56,670 --> 00:57:58,610
+就像 fpp 无法工作一样
+Like no way fpp can work
+
+1469
+00:57:58,610 --> 00:58:00,190
+因为就像你怎样才能做到
+Because like how can you do it
+
+1470
+00:58:00,190 --> 00:58:05,240
+但事实证明，你可以通过对不同事物的相似观点获得真正的创造力，嗯
+But then it turns out you can get really creative with like points of view on different things , um
+
+1471
+00:58:05,240 --> 00:58:09,080
+而且只要内容和故事实际上是有创意的
+And also as long as actually the content and stories is creative
+
+1472
+00:58:09,080 --> 00:58:12,355
+也喜欢玩家可以，嗯，嗯
+Also like players can , um , um
+
+1473
+00:58:12,355 --> 00:58:15,360
+呃呃呃比赛ch呃
+Uh , uh , uh , the match ch , uh
+
+1474
+00:58:15,360 --> 00:58:17,720
+你可以像很多人一样原谅你，呃
+You can forgive you like a lot of , uh
+
+1475
+00:58:17,720 --> 00:58:23,340
+很多事情有时甚至可能不是你实际上会做的最合乎逻辑的事情
+A lot of things sometimes even it's not maybe the most logical thing that you would actually do
+
+1476
+00:58:23,340 --> 00:58:24,960
+从外面观看这一切
+And watching this in from outside
+
+1477
+00:58:24,960 --> 00:58:26,800
+但如果它对我有吸引力呢
+But what if it's attractive for me
+
+1478
+00:58:26,800 --> 00:58:29,160
+喜欢它的作品。人们并没有真正考虑过它
+Like it works . people don't really think about it
+
+1479
+00:58:29,160 --> 00:58:30,390
+我觉得这很酷
+And i think it's cool
+
+1480
+00:58:30,390 --> 00:58:31,100
+是的
+Yeah
+
+1481
+00:58:31,100 --> 00:58:31,550
+是的
+Yeah
+
+1482
+00:58:31,550 --> 00:58:34,560
+我是说，我，我记得这个场景就像
+I mean , i , i remember this scene being like a
+
+1483
+00:58:34,560 --> 00:58:36,140
+就像我脑子里有一件大事
+Like a big deal in my brain
+
+1484
+00:58:36,140 --> 00:58:38,040
+我第一次玩的时候，就像我一样
+The first time i was playing it , like i
+
+1485
+00:58:38,040 --> 00:58:39,100
+我真的很喜欢它
+I was really into it
+
+1486
+00:58:39,100 --> 00:58:40,180
+我真的很享受
+I was really enjoying it
+
+1487
+00:58:40,180 --> 00:58:41,760
+但当那一幕发生时
+But when that scene happened
+
+1488
+00:58:41,760 --> 00:58:45,850
+我想那是我开始喜欢充分欣赏的时候，呃
+I think that's when i started to like fully appreciate , uh
+
+1489
+00:58:45,850 --> 00:58:50,810
+所有这些事情如何结合在一起创造了这种被困的体验
+How all these things were coming together to create this experience of feeling trapped
+
+1490
+00:58:50,810 --> 00:58:53,030
+感觉就像我不能你知道，我无法移动
+Feeling like i can't you know , i can't move
+
+1491
+00:58:53,030 --> 00:58:54,020
+我发不出声音
+I can't make a sound
+
+1492
+00:58:54,020 --> 00:58:55,620
+我和杰基在这里
+I'm in here with jackie
+
+1493
+00:58:55,620 --> 00:58:57,860
+就像我非常感受到那种存在
+Like i very much feel that presence
+
+1494
+00:58:57,860 --> 00:59:00,150
+然后也像你说的那样欣赏
+And then also appreciating like you were saying
+
+1495
+00:59:00,150 --> 00:59:02,730
+亚历克斯是那种擅长长镜头的人
+Alex is the kind of long take kness of this
+
+1496
+00:59:02,730 --> 00:59:05,760
+这么长的时间里发生了很多事情
+It is this long seeing where a lot happens
+
+1497
+00:59:05,760 --> 00:59:07,200
+人们进进出出
+People come in and out
+
+1498
+00:59:07,200 --> 00:59:09,200
+这是一个感人至深的呻吟场景
+It's a moan emotional scene
+
+1499
+00:59:09,200 --> 00:59:13,475
+有人死了，就像所有这一切都以不间断的方式发生一样
+somebody dies like all of that happening in an unbroken way
+
+1500
+00:59:13,475 --> 00:59:16,700
+表演必须喜欢流动
+Where the performances have to like flow
+
+1501
+00:59:16,700 --> 00:59:19,250
+总的来说，没有删减，没有作弊
+Altogether there's no cuts there's no cheating
+
+1502
+00:59:19,250 --> 00:59:20,057
+一
+Um
+
+1503
+00:59:20,057 --> 00:59:20,470
+是的
+Yeah
+
+1504
+00:59:20,470 --> 00:59:21,270
+我就是这么感觉
+I just feel like that
+
+1505
+00:59:21,270 --> 00:59:23,550
+这对我来说是第一个华丽的时刻
+That was the first like flashy moment for me
+
+1506
+00:59:23,550 --> 00:59:24,470
+我就像，哦哇
+I'm like , oh wow
+
+1507
+00:59:24,470 --> 00:59:28,290
+如果你继续玩这个游戏，这就像你所期待的那样
+This is like what you are in store for if you keep playing this game
+
+1508
+00:59:28,290 --> 00:59:30,390
+我真的真的很感激
+And i just really , really appreciate it
+
+1509
+00:59:30,390 --> 00:59:32,810
+明确涉及此的所有工作
+All the work clearly that went into this
+
+1510
+00:59:32,810 --> 00:59:33,755
+是的
+Yeah
+
+1511
+00:59:33,755 --> 00:59:34,310
+正确的
+Right
+
+1512
+00:59:34,310 --> 00:59:36,850
+就像我一样，我作为一名球员突然意识到了
+Like i , i as a player suddenly became conscious of like
+
+1513
+00:59:36,850 --> 00:59:39,070
+哦我，我开始明白这里发生了什么
+Oh i , i'm starting to see what's happening here
+
+1514
+00:59:39,070 --> 00:59:44,230
+这就像我以前从未经历过的真正的第一人称体验
+This is like a true first person experience in a way that i don't think i've had before
+
+1515
+00:59:44,230 --> 00:59:45,470
+并且，并且看到了。是的
+And , and that seen . yeah
+
+1516
+00:59:45,470 --> 00:59:48,690
+这就像一个结晶时刻，这就是可能的
+It was like a crystallization moment of this is what's possible
+
+1517
+00:59:48,690 --> 00:59:51,955
+当你致力于这种不间断的体验时
+When you commit to this unbroken experience
+
+1518
+00:59:51,955 --> 00:59:56,000
+嗯，不过很酷，呃，我认为这对每个人来说都不是非常直观
+Um , cool though , uh , i think it wasn't super intuitive for everyone
+
+1519
+00:59:56,000 --> 00:59:57,280
+例如，很有趣
+For example , was interesting
+
+1520
+00:59:57,280 --> 00:59:59,930
+我喜欢看很多信任游戏
+I like i watched a ton of played trust
+
+1521
+00:59:59,930 --> 01:00:01,730
+就像我喜欢看人们如何玩游戏一样
+Like i love to watch how people play the game
+
+1522
+01:00:01,730 --> 01:00:03,210
+我也从中学到了
+And also i learned from it like
+
+1523
+01:00:03,210 --> 01:00:05,260
+我们可以改进什么，呃，下次更好
+What could we improve , uh , better next time
+
+1524
+01:00:05,260 --> 01:00:07,180
+比如说，在《甜蜜的索拉》中
+And for example , in the sweet sora
+
+1525
+01:00:07,180 --> 01:00:09,880
+我看到很多人们喜欢的地方
+I saw plenty of play rose where people like
+
+1526
+01:00:09,880 --> 01:00:12,990
+它们挤在相机内部就像居中关闭一样
+They squeeze inside the camera is like centered shut
+
+1527
+01:00:12,990 --> 01:00:14,950
+他们在整个场景中都保持这样的状态
+And they leave it like this throughout rest of the scene
+
+1528
+01:00:14,950 --> 01:00:16,570
+他们不喜欢碰这样的东西
+They don't like touch them such thing
+
+1529
+01:00:16,570 --> 01:00:20,240
+有时他们可能喜欢触摸，你知道，那根小鸟的棍子
+Sometimes they like maybe touch the , you know , the stick a little bird
+
+1530
+01:00:20,240 --> 01:00:21,340
+就像刷新一样
+So like it's refresh
+
+1531
+01:00:21,340 --> 01:00:23,620
+但他们却真的跟着行动。等等
+But they really follow the action . and so on
+
+1532
+01:00:23,620 --> 01:00:25,925
+所以我觉得，嗯
+So i feel that , um
+
+1533
+01:00:25,925 --> 01:00:27,620
+其实我不知道我对此有何感受
+Actually i don't know how i feel about it
+
+1534
+01:00:27,620 --> 01:00:32,000
+只是我从一开始就对每个人来说并不是超级直观
+It's just that this i wasn't super intuitive for everyone from the start
+
+1535
+01:00:32,000 --> 01:00:37,230
+这就像进入内部，呃，就像进入身体内部一样
+And this like going inside it was , uh , like inside the body
+
+1536
+01:00:37,230 --> 01:00:39,710
+就像，你知道，真正关注事物
+And like , you know , really paying attention to things
+
+1537
+01:00:39,710 --> 01:00:42,950
+我认为人们仍然习惯于，你知道，一旦像某些东西触发一样
+I think people are still used that , you know , once like something triggers
+
+1538
+01:00:42,950 --> 01:00:44,370
+通常你把垫子收起来
+Usually you put the pad away
+
+1539
+01:00:44,370 --> 01:00:46,840
+就像，你知道，游戏发生了
+And just like , you know , the game happens
+
+1540
+01:00:46,840 --> 01:00:48,490
+白色上的一些东西
+Whiting some things on p
+
+1541
+01:00:48,490 --> 01:00:49,380
+我们上演了他们
+We staged them
+
+1542
+01:00:49,380 --> 01:00:50,900
+所以你必须移动相机
+So you had to move the camera
+
+1543
+01:00:50,900 --> 01:00:52,340
+因为我们想吸引你
+Because we wanted to engage you
+
+1544
+01:00:52,340 --> 01:00:55,360
+但后来我看到角色的电镀者刚刚走出画面
+But then i watch the platers for characters just walk out of frame
+
+1545
+01:00:55,360 --> 01:00:58,390
+是的 。就这样，然后他们就开始说话了，你知道，就像在银幕外一样
+Yeah . that's it then they talk , you know , from like offscreen
+
+1546
+01:00:58,390 --> 01:01:00,190
+我就像旋转相机
+And i'm like rotate the camera
+
+1547
+01:01:00,190 --> 01:01:03,145
+请喜欢这显然只是为了 st
+Please like it's obvious just for the st
+
+1548
+01:01:03,145 --> 01:01:05,030
+但现在就这样结束了
+But now it just finishes like this
+
+1549
+01:01:05,030 --> 01:01:06,410
+好吧
+And well
+
+1550
+01:01:07,450 --> 01:01:08,510
+该，该，该，该
+The , the , the , the
+
+1551
+01:01:08,510 --> 01:01:10,710
+这个设计的那些元素
+The , the those elements of this design
+
+1552
+01:01:10,710 --> 01:01:13,840
+我，我，我真的，我真的很喜欢我们所做的事情
+Which i , i , i really , i really like what we've done
+
+1553
+01:01:13,840 --> 01:01:16,420
+呃，乍一看并不明显，对吧
+Uh , that are not obvious at the first glance , right
+
+1554
+01:01:16,420 --> 01:01:16,940
+例如
+For example
+
+1555
+01:01:16,940 --> 01:01:21,860
+事实上，你实际上可以像以前一样在时间选择期间保持安静
+The fact that you can actually stay quiet during time choices like did
+
+1556
+01:01:21,860 --> 01:01:23,050
+你知道吗
+Did you know about that
+
+1557
+01:01:23,050 --> 01:01:25,880
+我的意思是，这实际上是我们支持moi的一个选择
+I mean , it's an actually an option that we support moi
+
+1558
+01:01:25,880 --> 01:01:28,080
+每时每刻都在思考，对吗？
+Think all all the time , like every time , right
+
+1559
+01:01:28,080 --> 01:01:28,600
+呃
+Uh
+
+1560
+01:01:28,600 --> 01:01:31,050
+所以，但是人们，人们是，是
+So , but but people , people are , are
+
+1561
+01:01:31,050 --> 01:01:33,880
+你知道，是由这样的想法触发的，嘿
+You know , are are triggered by the idea that , hey
+
+1562
+01:01:33,880 --> 01:01:35,200
+我有时间真正下来
+I have time actually going down
+
+1563
+01:01:35,200 --> 01:01:36,560
+所以我必须选择一些东西，对吧
+So i have to pick something , right
+
+1564
+01:01:36,560 --> 01:01:38,080
+不，你是，你是演员
+No , you are , you are the actor
+
+1565
+01:01:38,080 --> 01:01:39,540
+如果你不想说什么
+If you don't want to say anything
+
+1566
+01:01:39,540 --> 01:01:40,010
+出色地
+Well
+
+1567
+01:01:40,010 --> 01:01:42,820
+什么也别说。或者就像自我说的
+Don't say anything . or like ego said
+
+1568
+01:01:42,820 --> 01:01:44,680
+如果你有这个，这个视图
+If you have this , this view
+
+1569
+01:01:44,680 --> 01:01:47,430
+其实你可以四处看看，呃
+You can actually well look around , uh
+
+1570
+01:01:47,430 --> 01:01:49,750
+就像莉兹凉亭里的自我一样
+And like ego set in the lizz bower
+
+1571
+01:01:49,750 --> 01:01:53,437
+当你遇见朱迪，你就遇见了，呃，伊芙琳
+When you meet judy and you meet , you meet , uh , evelyn
+
+1572
+01:01:53,437 --> 01:01:56,140
+这是被设计成这样工作的东西
+This is something that is designed to , to work like that
+
+1573
+01:01:56,140 --> 01:01:58,540
+所以你实际上可以看看，看看之前的每件事
+So you can actually look at , look at every everything before
+
+1574
+01:01:58,540 --> 01:02:00,120
+而且，你知道，也许他们会做出反应
+And , you know , maybe they will react
+
+1575
+01:02:00,120 --> 01:02:00,520
+也许不是
+Maybe not
+
+1576
+01:02:00,520 --> 01:02:07,742
+但这实际上是我们有意识的设计和决定，为玩家提供这种
+But it's actually conscious design and decision on our part to give the player this kind of
+
+1577
+01:02:07,742 --> 01:02:08,370
+出色地
+Well
+
+1578
+01:02:08,370 --> 01:02:10,570
+他们拥有的自由和他们必须做的自由
+Freedom that they have that they have to
+
+1579
+01:02:10,570 --> 01:02:16,520
+或者至少不能以某种创造性的方式来增强玩游戏的整体体验
+Or cannot at least use in some creative way to enhance the whole experience of playing the game
+
+1580
+01:02:16,520 --> 01:02:18,540
+因为到了游戏的最后，这就是游戏
+Because at the very end of the game , this is a game
+
+1581
+01:02:18,540 --> 01:02:20,140
+所以没有过场动画
+So there are no cutscenes
+
+1582
+01:02:20,140 --> 01:02:23,470
+有场景。场景是为了播放而制作的，嗯
+There are scenes . and scenes are made to be played , um
+
+1583
+01:02:23,470 --> 01:02:25,950
+我想我们还是这样，呃
+I think it's something we're still like , uh
+
+1584
+01:02:25,950 --> 01:02:27,070
+以某种方式学习
+Learning in a way
+
+1585
+01:02:27,070 --> 01:02:30,730
+是你，抱歉，回到开头，就像，呃
+It's the u , sorry , going back to the beginning of the start , like , uh
+
+1586
+01:02:30,730 --> 01:02:34,190
+我们在这场比赛中的所有比赛方式是，嗯
+The way we approached through all playing in this game was , um
+
+1587
+01:02:34,190 --> 01:02:38,090
+也不仅仅是站在像，嗯
+Was also not only on the side of like , um
+
+1588
+01:02:38,090 --> 01:02:40,500
+做出影响世界的重大选择
+Making the big choices that affect the world
+
+1589
+01:02:40,500 --> 01:02:43,700
+就像，你知道的，把任务分成前面的过去等等
+And like , you know , split the quest into the front past and so on
+
+1590
+01:02:43,700 --> 01:02:47,020
+但也有很多喜欢那些小的个人选择
+But also plenty of like those small personal choices
+
+1591
+01:02:47,020 --> 01:02:52,090
+当你喜欢角色扮演角色时，它真的就像超级关键
+When you like role playing the character without it's really being like super crucial
+
+1592
+01:02:52,090 --> 01:02:54,450
+就像你想如何表达自己一样
+It's just like how you want to express yourself
+
+1593
+01:02:54,450 --> 01:02:57,990
+举例来说，所有那些你可以保持沉默的时间选择
+So for example , all those time choices when you can stay silent
+
+1594
+01:02:57,990 --> 01:03:01,090
+你可以保持沉默。角色会对它做出反应，就像
+You can stay silent . and characters will react to it like
+
+1595
+01:03:01,090 --> 01:03:04,100
+哦，例如，你不太爱说话
+Oh you're not much of a talker , for example
+
+1596
+01:03:04,100 --> 01:03:06,000
+并且不需要分割任务
+And it doesn't necessary split the quest
+
+1597
+01:03:06,000 --> 01:03:09,660
+但它让你对自己在这个世界上的身份有一点点不同的认识
+But it gives you like a little bit of different flink of who you are in this world
+
+1598
+01:03:09,660 --> 01:03:11,850
+以及总是放弃游戏
+As well as like always drop the game
+
+1599
+01:03:11,850 --> 01:03:14,110
+例如，您可以拒绝饮酒
+You can refuse drinking , for example
+
+1600
+01:03:14,110 --> 01:03:17,250
+我认为是由其中一位qs提出的
+something i think was proposed by one of the qs
+
+1601
+01:03:17,250 --> 01:03:20,740
+谁像直尺那样哈哈哈哈哈哈
+Who's like a straight edge that ha ha ha ha ha ha
+
+1602
+01:03:20,740 --> 01:03:22,280
+其实喜欢有机会
+Actually love to have a portunity
+
+1603
+01:03:22,280 --> 01:03:22,560
+是的
+Yeah
+
+1604
+01:03:22,560 --> 01:03:24,520
+喜欢随时拒绝喝酒
+To like to decline drinks at all times
+
+1605
+01:03:24,520 --> 01:03:26,740
+我们在整场比赛中都坚持这样做
+And we went with it throughout the whole game
+
+1606
+01:03:26,740 --> 01:03:28,980
+你可以拒绝每次喝酒
+You can decline drink every single time
+
+1607
+01:03:28,980 --> 01:03:32,560
+只是为了能够喜欢用这种，呃，用这种方式表达自己
+Just to be able to like express yourself in this , uh , in this way
+
+1608
+01:03:32,560 --> 01:03:36,770
+所以不幸的是有很多非常小的选择
+So there's a lot of really tiny choices that unfortunately
+
+1609
+01:03:36,770 --> 01:03:39,650
+我觉得他们并没有真正被视为选择
+I feel they weren't really perceived as choices
+
+1610
+01:03:39,650 --> 01:03:44,470
+因为通常球员都会期望不同的工作人员会产生很多后果
+Because usually players exuh expect a lot of consequences to different staff
+
+1611
+01:03:44,470 --> 01:03:46,890
+为什么我们创建这一层
+Why we created this layer
+
+1612
+01:03:46,890 --> 01:03:52,340
+也就像，我知道喝醉了哈哈，就是这样，你是一个喝酒的角色
+Also of just like , i know taking a rk ha ha that's it you're a drinking character
+
+1613
+01:03:52,340 --> 01:03:52,640
+是的
+Yeah
+
+1614
+01:03:52,640 --> 01:03:57,040
+或者你可以真正专注于，你知道的，npc，嗯
+Or you can just can be really focused on , you know , npc , um
+
+1615
+01:03:57,040 --> 01:04:00,210
+我认为我们仍在学习如何做得更好
+And i think it's something we're still learning how to do it better
+
+1616
+01:04:00,210 --> 01:04:00,880
+呃
+Uh
+
+1617
+01:04:00,880 --> 01:04:05,860
+比如说个人角色扮演层
+How to like make this let's say personal role playing layer
+
+1618
+01:04:05,860 --> 01:04:08,560
+甚至对于玩家来说更酷
+Even like cooler for the , for the player
+
+1619
+01:04:08,560 --> 01:04:10,620
+呃，为了让玩家能够享受到更多的乐趣
+Uh , for the players to enjoy more
+
+1620
+01:04:10,620 --> 01:04:11,300
+一
+Um
+
+1621
+01:04:11,300 --> 01:04:13,390
+但这是我们采用这种设计的第一款游戏
+But it was our first game in this design
+
+1622
+01:04:13,390 --> 01:04:17,150
+所以我觉得一些错误肯定会发生
+So like i feel some mistakes were bounds to happen
+
+1623
+01:04:17,150 --> 01:04:18,890
+或者就像上课一样
+Or just like lessons
+
+1624
+01:04:18,890 --> 01:04:21,290
+我觉得这也许很有趣
+I think it's interesting maybe
+
+1625
+01:04:21,290 --> 01:04:24,032
+呃，想想我们的例子
+Uh , to think that in our case
+
+1626
+01:04:24,032 --> 01:04:28,320
+甚至诸如玩家的视线或玩家站立的位置之类的事情
+Even things like where the player looks or where the player stands
+
+1627
+01:04:28,320 --> 01:04:30,520
+或者怎么样，多远还是多远
+Or how , how far or how far
+
+1628
+01:04:30,520 --> 01:04:35,830
+他们与npc的接近程度也可以作为一个表达载体吧
+How close they are to npc can also be used as an expression vectors , right
+
+1629
+01:04:35,830 --> 01:04:38,370
+作为可以定义他们关系的东西
+As something that can define their relationship
+
+1630
+01:04:38,370 --> 01:04:40,760
+或者至少他们想如何接近这个人
+Or at least how they want to approach this person
+
+1631
+01:04:40,760 --> 01:04:43,920
+所以当我们，你知道，设计整个系统时
+So when we were , you know , designing the whole system
+
+1632
+01:04:43,920 --> 01:04:45,200
+那么几年前
+So years ago
+
+1633
+01:04:45,200 --> 01:04:50,730
+我一直牢记着这样一个想法：你应该遇到一个实际上非常重要的人
+I always had in mind this idea that you are supposed to meet someone that's actually very important
+
+1634
+01:04:50,730 --> 01:04:52,050
+我们被告知
+And we are being told
+
+1635
+01:04:52,050 --> 01:04:54,327
+不要看着他们的眼睛
+Do not look them in the eye
+
+1636
+01:04:54,327 --> 01:04:56,410
+当然，你知道，你，你可以做到这一点
+And of course , you know , you , you can do that
+
+1637
+01:04:56,410 --> 01:04:59,610
+事实上，你可以通过观察他们的另一只脚来环顾四周
+You can actually look at their other feet to look look around them
+
+1638
+01:04:59,610 --> 01:05:02,150
+但我们实际上可以对玩家做出反应
+But we can actually react to player
+
+1639
+01:05:02,150 --> 01:05:03,910
+直视他们的眼睛
+looking straight in their eye
+
+1640
+01:05:03,910 --> 01:05:07,830
+并且实际上以支持该播放器的方式分支内容
+And actually branch the content in a way that supports this player
+
+1641
+01:05:07,830 --> 01:05:11,070
+那其实是不想听游戏
+That actually does not want to listen to the game
+
+1642
+01:05:11,070 --> 01:05:15,140
+即使不是，你知道，这不是选择集上的选择对了一半
+Even though it's not , you know , it's not choice on that choice set choice half right
+
+1643
+01:05:15,140 --> 01:05:17,520
+这实际上不是你从列表中选择的东西
+it's not something that you pick from a list is actually
+
+1644
+01:05:17,520 --> 01:05:23,710
+你在场景中的行为决定了世界对你的反应
+How you behave inside the scene that defines the reactivity of the world towards you
+
+1645
+01:05:23,710 --> 01:05:26,450
+实际上再次让你融入游戏
+And actually again grounds you in the game
+
+1646
+01:05:26,450 --> 01:05:29,030
+并让你再次成为
+And allows you to be again
+
+1647
+01:05:29,030 --> 01:05:31,080
+场景内的演员
+An actor inside the scene
+
+1648
+01:05:31,080 --> 01:05:33,480
+而且不仅仅是一个从中挑选的观察者，你知道
+And not only an observer that picks from , you know
+
+1649
+01:05:33,480 --> 01:05:35,480
+绿色、红色、蓝色选择
+Green , red , blue choices
+
+1650
+01:05:35,480 --> 01:05:38,230
+因为我们是，所以我们知道如何做到这一点
+Because we are , we understand how to make this
+
+1651
+01:05:38,230 --> 01:05:41,350
+这是新的部分，实际上非常困难
+This is the new part that actually extremely difficult
+
+1652
+01:05:41,350 --> 01:05:43,107
+但好吧
+But well
+
+1653
+01:05:43,107 --> 01:05:44,180
+好玩吧
+Fun , right
+
+1654
+01:05:44,180 --> 01:05:44,680
+凉爽的
+Cool
+
+1655
+01:05:44,680 --> 01:05:45,040
+呃
+Uh
+
+1656
+01:05:45,040 --> 01:05:47,280
+这正是我们在其他场合所看到的
+This is exactly what we mon for other occasions
+
+1657
+01:05:47,280 --> 01:05:49,880
+就像餐厅旁边的这个jackie之类的
+It's like this jackie by the restaurant and so on
+
+1658
+01:05:49,880 --> 01:05:54,980
+就像是你通过等待一段时间或朝某个特定方向看而做出的选择
+Like it's the choices you make just by like waiting a little bit longer or looking in a particular direction
+
+1659
+01:05:54,980 --> 01:05:56,540
+或者进入某个特定的空间
+Or entering a particular space
+
+1660
+01:05:56,540 --> 01:05:59,150
+这不是列出的选择之一
+It's not one of those like listed choices
+
+1661
+01:05:59,150 --> 01:06:00,290
+人通常都是坚持不懈的
+People usually persive
+
+1662
+01:06:00,290 --> 01:06:02,090
+哦，这个游戏没有选择
+Oh , there are no choices in this game
+
+1663
+01:06:02,090 --> 01:06:04,920
+因为游戏就像往常一样会尽力做到这一点
+because the game like usually it would try to make it
+
+1664
+01:06:04,920 --> 01:06:08,160
+所以它会以一种你看不到的方式调整你的行为
+So it adjust to your behavior in a way that's certainly invisible for you
+
+1665
+01:06:08,160 --> 01:06:08,600
+也为了你
+And for you
+
+1666
+01:06:08,600 --> 01:06:10,020
+就像是线性的
+It's like it's linear
+
+1667
+01:06:10,020 --> 01:06:11,540
+就像，你知道，现在有一个问题
+Like , you know , there are a tosis now
+
+1668
+01:06:11,540 --> 01:06:12,900
+其实如果你愿意的话，如果你和他一起去的话
+Actually if you like , if you went with him
+
+1669
+01:06:12,900 --> 01:06:14,480
+你会有一个不同的分支
+You would have a different branch
+
+1670
+01:06:14,480 --> 01:06:16,350
+你只是不太喜欢
+You just didn't really like
+
+1671
+01:06:16,350 --> 01:06:17,710
+难道你不认为这是一个选择吗
+Didn't you perceive it as a choice
+
+1672
+01:06:17,710 --> 01:06:19,350
+你只是以某种方式做到了
+You just did it in a way
+
+1673
+01:06:19,350 --> 01:06:20,262
+正确的
+Right
+
+1674
+01:06:20,262 --> 01:06:20,760
+是的
+Yeah
+
+1675
+01:06:20,760 --> 01:06:25,390
+我认为这就是我真正欣赏的事情
+And i think that's like the thing that i really appreciate about
+
+1676
+01:06:25,390 --> 01:06:27,570
+对这个游戏很欣赏，也很欣赏
+Appreciate about this game and appreciated it
+
+1677
+01:06:27,570 --> 01:06:31,977
+最喜欢玩的时间越长的就是像所有这些，所有这些你的样子
+The most like the longer played is like all these , all these ways that you are
+
+1678
+01:06:31,977 --> 01:06:35,440
+呃，影响v的体验
+Uh , affecting the experience of v
+
+1679
+01:06:35,440 --> 01:06:36,680
+以及你的塑造方式
+And how you're shaping
+
+1680
+01:06:36,680 --> 01:06:38,760
+你知道，这个故事以这些微妙的方式
+You know , the story in these subtle ways
+
+1681
+01:06:38,760 --> 01:06:40,570
+就像你说的喝酒的事
+The drinking thing like you mentioned
+
+1682
+01:06:40,570 --> 01:06:42,290
+我我喜欢那一刻
+I , i like that moment
+
+1683
+01:06:42,290 --> 01:06:43,640
+我总是像
+I always am like
+
+1684
+01:06:43,640 --> 01:06:44,680
+我想喝吗
+Do i want to drink
+
+1685
+01:06:44,680 --> 01:06:48,700
+就像，就像提出这个选项让我进行自我反思
+Like , like presenting that option makes me kind of self reflect
+
+1686
+01:06:48,700 --> 01:06:51,640
+所以这就像一种吸引玩家的方式
+So it's like a way of almost like drawing the player in
+
+1687
+01:06:51,640 --> 01:06:53,580
+让他们思考正在发生的事情
+And making them think about what's going on
+
+1688
+01:06:53,580 --> 01:06:53,920
+一
+Um
+
+1689
+01:06:53,920 --> 01:06:55,510
+所以我们对着直边大喊
+So we shout out to the straight edge
+
+1690
+01:06:55,510 --> 01:06:56,200
+一
+Um
+
+1691
+01:06:56,200 --> 01:06:56,750
+但是是的
+But yeah
+
+1692
+01:06:56,750 --> 01:06:58,310
+所以，当我们结束时
+So , so as we're wrapping up
+
+1693
+01:06:58,310 --> 01:07:01,810
+我，你知道，我，我真的很喜欢看为什么要玩这个
+And i , you know , i , i really love watching why play through this
+
+1694
+01:07:01,810 --> 01:07:06,890
+而且我确信玩游戏比呃，过场动画更有压力，嗯
+And i'm sure it's more stressful to play through gameplay than uh , the cinematics , um
+
+1695
+01:07:06,890 --> 01:07:09,390
+但是，像这样结束
+But to , to kind of wrap up like what
+
+1696
+01:07:09,390 --> 01:07:12,690
+对你们来说最大的收获是什么
+What for you guys is like the biggest takeaway
+
+1697
+01:07:12,690 --> 01:07:13,970
+或者最大的收获之一
+or one of the biggest takeaways
+
+1698
+01:07:13,970 --> 01:07:17,150
+你已经从这次经历中吸取了教训
+You've had as far as like learning from this experience
+
+1699
+01:07:17,150 --> 01:07:20,270
+在未来的项目中你会随身携带的东西
+Something that you're gonna take with you in future projects
+
+1700
+01:07:20,270 --> 01:07:23,557
+也许你，你不知道要进入这个
+That maybe you , you didn't know going into this
+
+1701
+01:07:23,557 --> 01:07:26,160
+显然，小伙子们学到了很多东西
+Clearly there's guys learned a lot
+
+1702
+01:07:26,160 --> 01:07:27,800
+听起来好像发现了很多东西
+It sounds like and discovered a lot of things
+
+1703
+01:07:27,800 --> 01:07:29,260
+但有一件事是什么呢
+But what's one thing
+
+1704
+01:07:29,260 --> 01:07:31,520
+也许你会从中带走
+Maybe that that you're gonna take away from this
+
+1705
+01:07:32,580 --> 01:07:34,690
+你有我有的东西
+You have i have like semme something
+
+1706
+01:07:34,690 --> 01:07:36,020
+所以我，好吧
+So i , okay
+
+1707
+01:07:36,020 --> 01:07:37,810
+所以，但你继续思考
+So , but you keep thinking
+
+1708
+01:07:37,810 --> 01:07:39,120
+嗯，好吧
+Um , all right
+
+1709
+01:07:39,120 --> 01:07:40,917
+所以，嗯
+So , um
+
+1710
+01:07:40,917 --> 01:07:41,470
+好的
+Okay
+
+1711
+01:07:41,470 --> 01:07:41,670
+它
+It
+
+1712
+01:07:41,670 --> 01:07:45,830
+但这在某种程度上听起来可能很平庸，或者是非常明显的事情
+But it , it may sound banal in a way or something that's like super obvious
+
+1713
+01:07:45,830 --> 01:07:47,730
+你知道，事后看来等等
+You know , in hindsight and so on
+
+1714
+01:07:47,730 --> 01:07:54,680
+但是呃，所有场景的最佳效果是那些你喜欢投入情感的场景
+But uh , the best effects for all the scenes are the ones you are like emotionally engaged in
+
+1715
+01:07:54,680 --> 01:07:56,570
+我知道这是一些超级
+And i know it's some superva
+
+1716
+01:07:56,570 --> 01:08:00,820
+但是一旦你和npc建立了关系
+But once you create the relationship with the npc
+
+1717
+01:08:00,820 --> 01:08:04,722
+而这个npc给人的感觉就是，呃，啊，人类
+And this npc feels like , uh , ah human
+
+1718
+01:08:04,722 --> 01:08:09,560
+这些就像游戏中所有最强大的时刻都像在那些个人路线上
+These are like all the strongest moments in the game are like on those personal lines
+
+1719
+01:08:09,560 --> 01:08:12,420
+就像从我的角度来看，就像我有点喜欢这个情节一样
+Like from my perspective , like i kind of like the plot
+
+1720
+01:08:12,420 --> 01:08:13,720
+超级复杂
+It's super complicated
+
+1721
+01:08:13,720 --> 01:08:14,100
+呃
+Uh
+
+1722
+01:08:14,100 --> 01:08:15,980
+我认为并且喜欢这很酷
+I think and like it's cool
+
+1723
+01:08:15,980 --> 01:08:17,540
+你知道这是赛博朋克情节
+You know it's the cyber punk plot
+
+1724
+01:08:17,540 --> 01:08:20,680
+还有那些最高的网络任务，一些东西
+And those highest missions cyber something , something
+
+1725
+01:08:20,680 --> 01:08:23,170
+但所有最感动的时刻
+But all the most touching moments
+
+1726
+01:08:23,170 --> 01:08:28,210
+我个人最喜欢这个游戏的所有东西都是个人的东西
+And all the things i personally like most about this game is all the personal stuff
+
+1727
+01:08:28,210 --> 01:08:30,170
+就像巴拿马和咖喱一样
+Like with with panam and curry
+
+1728
+01:08:30,170 --> 01:08:34,170
+所有与故事脱节的时刻等等
+All the moments that are like mostly disconnected from the story and so on
+
+1729
+01:08:34,170 --> 01:08:38,157
+这是像你这样的人，不会碰你或喜欢你，呃
+It's someone like you , no touching you or like , uh
+
+1730
+01:08:38,157 --> 01:08:41,060
+接吻或只是坐在一起
+Kissing or just like sitting next to each other
+
+1731
+01:08:41,060 --> 01:08:43,080
+壁炉旁边。等等
+Next to the fireplace . and so on
+
+1732
+01:08:43,080 --> 01:08:47,029
+一切，一切都一样，嗯，随着这个身体的存在
+All , all the like , um , with this body presence
+
+1733
+01:08:47,029 --> 01:08:50,170
+想想所有这些，比如与其他角色的接触和联系
+Think all that like the touches and connection with other character
+
+1734
+01:08:50,170 --> 01:08:51,870
+当你把它放在画布上时
+And also when you put it on the canvas
+
+1735
+01:08:51,870 --> 01:08:56,350
+有些人不喜欢赛博朋克，因为每个人都像，你知道的，在某种程度上孤独
+Some dislike cyber punk quirt where everyone are like , you know , alone in a way
+
+1736
+01:08:56,350 --> 01:08:59,149
+和其他一切一样，距离遥远、风雨无阻
+And like every other super distant and suding
+
+1737
+01:08:59,149 --> 01:09:01,600
+当一个喜欢的人真正关注你时
+When someone like really pays attention to you
+
+1738
+01:09:01,600 --> 01:09:03,060
+就像你在他们眼中看到的那样
+And like you see it in their eyes
+
+1739
+01:09:03,060 --> 01:09:04,560
+他们触碰你之类的东西
+And they touch you and something
+
+1740
+01:09:04,560 --> 01:09:07,340
+它变得如此、如此神奇
+It becomes something so , so magical
+
+1741
+01:09:07,340 --> 01:09:08,460
+所以对我来说
+So for me
+
+1742
+01:09:08,460 --> 01:09:11,279
+我认为最大的收获就是永远不要
+I think the biggest takeaway is to never
+
+1743
+01:09:11,279 --> 01:09:16,490
+曾经忘记过NPC和玩家之间的那些私人联系的时刻吗
+Ever forget about those moments of personal connection between npc and player
+
+1744
+01:09:16,490 --> 01:09:18,590
+并不是像我和某人一起做很酷的事情
+Not that just like i do cool stuff with someone
+
+1745
+01:09:18,590 --> 01:09:22,151
+有这样的阴谋，我们打倒这个组织
+And there's this plot and we take down this organization is
+
+1746
+01:09:22,151 --> 01:09:23,960
+为什么对我来说有意义
+Why is it meaningful for me
+
+1747
+01:09:23,960 --> 01:09:25,660
+为什么对npc有意义
+Why is it meaningful to npc
+
+1748
+01:09:25,660 --> 01:09:26,819
+NPC，相信我
+The npc , trust me
+
+1749
+01:09:26,819 --> 01:09:28,560
+我不能让他失望。等等
+I cannot let him down . and so on
+
+1750
+01:09:28,560 --> 01:09:33,660
+这是我要说的第一件事吗？
+And is this first one thing i would say that would be my eoy
+
+1751
+01:09:33,660 --> 01:09:35,620
+我知道这可能是非常明显的
+I know it's like maybe it's super obvious
+
+1752
+01:09:35,620 --> 01:09:37,140
+就像，嗯，事后看来
+Like , um , in hindsight
+
+1753
+01:09:37,140 --> 01:09:39,189
+但这是，是的
+But this is , yeah
+
+1754
+01:09:39,189 --> 01:09:45,109
+有时，最简单的回顾显而易见的事情是最重要的教训，很容易被忽视
+Sometimes the simplest retrospect obvious things are the most important lessons that are easy to lose sight of
+
+1755
+01:09:45,109 --> 01:09:47,532
+所以我想，是的，这是一个很好的教训
+So i think , yeah , that's a great lesson
+
+1756
+01:09:47,532 --> 01:09:48,768
+一
+Um
+
+1757
+01:09:48,768 --> 01:09:51,350
+我认为之后
+I think that after
+
+1758
+01:09:51,350 --> 01:09:53,569
+你知道，在开发这个游戏这么多年之后
+You know , after working on this game for so many years
+
+1759
+01:09:53,569 --> 01:09:55,150
+事实上在发布之后
+And actually after releasing it
+
+1760
+01:09:55,150 --> 01:09:58,277
+有了这个之后，这次要真正反思一下了
+And after having this , this time to actually reflect on it
+
+1761
+01:09:58,277 --> 01:09:58,840
+一
+Um
+
+1762
+01:09:58,840 --> 01:10:01,360
+我明白这就是什么时候、什么时候
+I understand that this is when , when
+
+1763
+01:10:01,360 --> 01:10:05,285
+当你真正从这个角度去制作游戏时
+When you actually make a game from this perspective
+
+1764
+01:10:05,285 --> 01:10:09,020
+这与其他游戏并不是同一场比赛
+It's not really the same race as , as do other games
+
+1765
+01:10:09,020 --> 01:10:13,450
+如果你明白我的意思的话，就像你一样，汽车和火车是不同的
+If you know what i mean , like you like a car is a different than the train
+
+1766
+01:10:13,450 --> 01:10:14,610
+还有，还有，还有，你知道，还有
+And , and , and , and you know , and
+
+1767
+01:10:14,610 --> 01:10:17,190
+还有、还有侧边自行车就在那里
+And , and and side bicycle right there
+
+1768
+01:10:17,190 --> 01:10:20,620
+您可以在其中讲述精彩的故事
+There are stories that you can tell great in the
+
+1769
+01:10:20,620 --> 01:10:22,860
+使用正常的古典叙事方式
+Using the normal classical way of narration
+
+1770
+01:10:22,860 --> 01:10:24,100
+我认为有很多
+And i think there are very
+
+1771
+01:10:24,100 --> 01:10:29,870
+非常有趣的故事，你只能使用第一人称或最好的故事
+Very fun stories that you can only or best tale using this first person
+
+1772
+01:10:29,870 --> 01:10:31,410
+呃，叙述类型
+Uh , type of narration
+
+1773
+01:10:31,410 --> 01:10:35,600
+我觉得你真的可以为两者制作同样的游戏
+And i feel that you can really make the same game for , for both
+
+1774
+01:10:35,600 --> 01:10:39,290
+你知道，在这两种情况下事情的运作方式并不相同，呃
+You know , like things don't work the same way in both cases , uh
+
+1775
+01:10:39,290 --> 01:10:42,210
+我们正在学习反方法来处理这种类型
+And we are learning counter to approach this this type
+
+1776
+01:10:42,210 --> 01:10:46,090
+这很令人兴奋，因为这对我们来说是全新的领域
+And it's exciting because it's completely new territory for us
+
+1777
+01:10:46,090 --> 01:10:48,670
+我也这么认为
+It's something that i think that , well
+
+1778
+01:10:48,670 --> 01:10:51,650
+我们以前绝对不会这么做，这是肯定的，呃
+We would never did before that's for sure , uh
+
+1779
+01:10:51,650 --> 01:10:55,460
+但我觉得里面的深度实在是太疯狂了
+But i feel that there's just crazy amount of depth
+
+1780
+01:10:55,460 --> 01:10:56,940
+桌子上还剩下
+Still left on the table
+
+1781
+01:10:56,940 --> 01:10:58,920
+以及我们可以接近的事情
+And things that we can approach
+
+1782
+01:10:58,920 --> 01:11:02,080
+现在我们明白了，我们拥有所有的工具，对吗？
+And we understand now that we , we have all the tools , right
+
+1783
+01:11:02,080 --> 01:11:04,430
+因为我们创造了设计
+Because we created designs
+
+1784
+01:11:04,430 --> 01:11:05,230
+我们创造了工具
+We created tools
+
+1785
+01:11:05,230 --> 01:11:06,830
+我们创造了处理事物的方法
+We created approaches to things
+
+1786
+01:11:06,830 --> 01:11:12,420
+我们创建了整个疯狂的经验团队，他们是他们所做的事情中最好的，对吗？
+We created whole insane experience team that is the best of what at what they do , right
+
+1787
+01:11:12,420 --> 01:11:16,090
+现在我觉得我们正处于做事的边缘
+And right now i feel that we are at this very edge of doing
+
+1788
+01:11:16,090 --> 01:11:19,580
+你知道，这样做甚至可以做得更好
+You know , doing even that doing stuff even better
+
+1789
+01:11:19,580 --> 01:11:24,860
+实际上，直接为这种特定类型的体验创建游戏
+And actually creating a game straight up for , for this specific type of experience
+
+1790
+01:11:24,860 --> 01:11:29,150
+你知道，就像讲述一个只能以这种特定方式讲述的故事一样
+You know , like for telling a story that can only be told in this specific way
+
+1791
+01:11:29,150 --> 01:11:30,470
+我认为这个独一无二
+I think this unique
+
+1792
+01:11:30,470 --> 01:11:33,970
+我认为这对我作为一名设计师和创作者来说非常令人兴奋
+I think this is very exciting for me as a designer , as a creator
+
+1793
+01:11:33,970 --> 01:11:37,450
+作为一个失去精彩内容的人
+As a , as a person that los amazing content
+
+1794
+01:11:37,450 --> 01:11:38,190
+呃
+Uh
+
+1795
+01:11:38,190 --> 01:11:41,875
+我想这就是我的收获
+So that's that's my take take away , i guess
+
+1796
+01:11:41,875 --> 01:11:42,430
+是的
+Yeah
+
+1797
+01:11:42,430 --> 01:11:43,170
+太棒了
+That's awesome
+
+1798
+01:11:43,170 --> 01:11:44,290
+我真的很兴奋
+I'm really excited
+
+1799
+01:11:44,290 --> 01:11:45,150
+呃，是的
+Uh , yeah
+
+1800
+01:11:45,150 --> 01:11:45,450
+是的
+Yeah
+
+1801
+01:11:45,450 --> 01:11:47,590
+我再次听到这一切
+Just hearing all that i again
+
+1802
+01:11:47,590 --> 01:11:49,930
+这是一个非常独特的
+It was a really like unique
+
+1803
+01:11:49,930 --> 01:11:51,510
+玩这个的体验很棒
+Awesome experience playing through this
+
+1804
+01:11:51,510 --> 01:11:53,470
+我对接下来的事情感到兴奋
+I'm excited for what's next
+
+1805
+01:11:53,470 --> 01:11:57,200
+很明显这是，呃
+And it's very clear that this is , uh
+
+1806
+01:11:57,200 --> 01:12:00,740
+当你做得好的时候，你所做的事情是完全看不见的
+What you guys do when you do it well is completely invisible
+
+1807
+01:12:00,740 --> 01:12:04,180
+所以我很高兴你们能够分享所有这些技术
+So i'm so glad that you guys got to share all of these techniques
+
+1808
+01:12:04,180 --> 01:12:09,400
+如果我们能够窥探这一切的幕后真相
+And if we got to peek behind the curtain of everything that goes into to all of this
+
+1809
+01:12:09,400 --> 01:12:09,970
+一
+Um
+
+1810
+01:12:09,970 --> 01:12:10,550
+所以是的
+So yeah
+
+1811
+01:12:10,550 --> 01:12:11,150
+保罗的自我
+Paul ego
+
+1812
+01:12:11,150 --> 01:12:12,830
+非常感谢你们加入我们
+Thank you guys so much for joining us
+
+1813
+01:12:12,830 --> 01:12:14,892
+有你真是太好了
+It's been really great to have you
+
+1814
+01:12:14,892 --> 01:12:16,100
+嗯，超级酷
+Um , super cool
+
+1815
+01:12:16,100 --> 01:12:18,480
+感谢大家的支持，团结起来才能谈论这个
+Thanks for the support unity to be able to talk about this
+
+1816
+01:12:18,480 --> 01:12:19,900
+因为这对我们来说也是第一次
+Because it's also first time for us
+
+1817
+01:12:19,900 --> 01:12:21,900
+所以我们对能够做到这一点感到非常兴奋
+So we are super stoked to be able to do it
+
+1818
+01:12:21,900 --> 01:12:25,830
+而且，呃，用印度语，呃，向我们所有的团队大声喊叫
+And , uh , in indian , uh , huge shout out to all of our team
+
+1819
+01:12:25,830 --> 01:12:27,830
+因为他们从来没有发生过任何思考游戏
+Because nothing thinking game they've ever happens
+
+1820
+01:12:27,830 --> 01:12:29,652
+喜欢单独或由一个人
+Like by itself or by one person
+
+1821
+01:12:29,652 --> 01:12:31,140
+唯一的集体努力
+The sole collective effort
+
+1822
+01:12:31,140 --> 01:12:34,180
+所以无论是电影伊拉克还是整个def团队
+So both to cinematic iraq and the whole def team
+
+1823
+01:12:34,180 --> 01:12:37,150
+老实说，实际上是世界上最有才华的人
+Actually the most talented people in the world , honestly
+
+1824
+01:12:37,150 --> 01:12:40,740
+所以谢谢，呃，也谢谢你的播客
+So thanks , uh , and thank you for the podcast as well
+
+1825
+01:12:40,740 --> 01:12:41,450
+惊人的
+Awesome
+
+1826
+01:12:41,450 --> 01:12:41,850
+是的
+Yeah
+
+1827
+01:12:41,850 --> 01:12:42,610
+我们的荣幸
+Our pleasure
+
+1828
+01:12:42,610 --> 01:12:43,300
+凉爽的
+Cool
+
+1829
+01:12:43,300 --> 01:12:44,450
+呃，嗯，是的
+Uh , well , yeah
+
+1830
+01:12:44,450 --> 01:12:46,050
+谢谢大家的观看
+Thank you everybody for watching
+
+1831
+01:12:46,050 --> 01:12:49,090
+这是我们关于赛博朋克二十七十七的对话
+This has been our conversation on cyber punk twenty seventy seven
+
+1832
+01:12:49,090 --> 01:12:51,460
+我们将在下一个视频中见到您
+And we will see you in the next video
+
+1833
+01:12:51,460 --> 01:12:52,190
+再见，伙计们
+Bye guys
