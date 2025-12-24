@@ -19,3 +19,17 @@ Section进行中有相应的支线或者相对不重要的剧情，有些编辑�
 ![alt text](image-70.png)
 
 ## 动画库组织框架
+
+## Validate 验证工具
+验证 SubSection超出TrackTimeline限制
+验证 节点引用关系是否正确
+验证 Actor和Props是否正确
+![alt text](image-71.png)
+
+## CoodTime机制
+![alt text](image-72.png)
+![alt text](image-73.png)
+![alt text](image-74.png)
+
+##  FPPAnimaltiopn
+![alt text](image-75.png)
