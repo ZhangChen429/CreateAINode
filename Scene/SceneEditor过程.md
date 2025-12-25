@@ -2,6 +2,10 @@
 
 ## Mark WorkSpot点位选择
 
+![alt text](image-78.png)
+Animation Workspot Marker 标价动画运行点位
+放视频Mark
+
 
 ## Section打断和取消目的
 Section进行中有相应的支线或者相对不重要的剧情，有些编辑过程需要手动打断，可能出现维护复杂
@@ -33,3 +37,4 @@ Section进行中有相应的支线或者相对不重要的剧情，有些编辑�
 
 ##  FPPAnimaltiopn
 ![alt text](image-75.png)
+![alt text](image-76.png)
