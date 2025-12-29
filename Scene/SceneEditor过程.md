@@ -31,6 +31,23 @@ Section进行中有相应的支线或者相对不重要的剧情，有些编辑�
 ![alt text](image-71.png)
 
 ## CoodTime机制
+打的循坏Idle需要一个最后保证Idle结束的时间
+  Cooldown（冷却时间） 是 Workspot Gesture（工作位手势） 可能播放的最长动画时长。它用于确保 Change Work 或 Stop Work 事件有足够的时间让正在播放的手势动画完成。
+![alt text](image-81.png)
+### 机制说明
+
+在前一个 Change Work 事件中：
+- 找到 Max Anim Time Limit 属性
+- 设置一个较小的值（例如 2秒）
+- Cooldown 会使用这个限制
+
+
+在前一个 Change Work 事件中：
+  - 找到 Max Anim Time Limit 属性
+  - 设置一个较小的值（例如 2秒）
+  - Cooldown 会使用这个限制
+
+
 ![alt text](image-72.png)
 ![alt text](image-73.png)
 ![alt text](image-74.png)
@@ -38,3 +55,11 @@ Section进行中有相应的支线或者相对不重要的剧情，有些编辑�
 ##  FPPAnimaltiopn
 ![alt text](image-75.png)
 ![alt text](image-76.png)
+
+
+## 
+![alt text](image-79.png)
+![alt text](image-80.png)
+
+
+
