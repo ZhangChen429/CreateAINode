@@ -70,3 +70,94 @@
 
 
 要不要我帮你补充一份**动画库命名规范的简化对照表**？
+
+
+
+
+
+
+
+
+~~~C++
+
+
+  a) PlaySkAnimDescriptor（播放骨骼动画）
+
+  if ( event->IsA<tools::PlaySkAnimDescriptor>() )
+  {
+      THandle<tools::PlaySkAnimDescriptor> skeletalAnimDescriptor = Cast<tools::PlaySkAnimDescriptor>( event );
+      AddAnimationToMap( animNames, skeletalAnimDescriptor->m_animName );
+  }
+  - 示例动画："stand__2h_front__01", "walk_0__to__stand__2h_front__01__turn0__01"
+
+  b) ChangeIdleAnimDescriptor（切换待机动画）
+
+  else if ( event->IsA<tools::ChangeIdleAnimDescriptor>() )
+  {
+      THandle<tools::ChangeIdleAnimDescriptor> changeIdleAnimDescriptor = Cast<tools::ChangeIdleAnimDescriptor>( event );
+      AddAnimationToMap( animNames, changeIdleAnimDescriptor->m_animName );           // 主动画
+      AddAnimationToMap( animNames, changeIdleAnimDescriptor->m_idleAnimName );       // 待机动画
+      AddAnimationToMap( animNames, changeIdleAnimDescriptor->m_addIdleAnimName );    // 附加待机动画
+
+      if ( changeIdleAnimDescriptor->m_customTransitionAnim != CName::NONE() )
+      {
+          AddAnimationToMap( animNames, changeIdleAnimDescriptor->m_customTransitionAnim );  // 过渡动画
+      }
+  }
+  - 一个事件可以贡献最多 4 个动画名称
+
+  c) ChangeWorkEvent（切换工作状态事件）
+
+  else if ( event->IsA<scnb::events::ChangeWorkEvent>() )
+  {
+      THandle<scnb::events::ChangeWorkEvent> changeWorkDescriptor = Cast<scnb::events::ChangeWorkEvent>( event );
+      if ( changeWorkDescriptor->GetTransitionAnimInfo().m_animName != CName::NONE() )
+      {
+          AddAnimationToMap( animNames, changeWorkDescriptor->GetTransitionAnimInfo().m_animName );  // 过渡动画
+      }
+      if ( changeWorkDescriptor->GetGameplayAnimInfo().m_animName != CName::NONE() )
+      {
+          AddAnimationToMap( animNames, changeWorkDescriptor->GetGameplayAnimInfo().m_animName );    // 游戏玩法动画
+      }
+  }
+
+  d) StopWorkEvent（停止工作事件）
+
+  else if ( event->IsA<scnb::events::StopWorkEvent>() )
+  {
+      THandle<scnb::events::StopWorkEvent> stopWorkDescriptor = Cast<scnb::events::StopWorkEvent>( event );
+      if ( stopWorkDescriptor->GetAnimationInfo().m_animName != CName::NONE() )
+      {
+          AddAnimationToMap( animNames, stopWorkDescriptor->GetAnimationInfo().m_animName );
+      }
+      if ( stopWorkDescriptor->GetGameplayAnimInfo().m_animName != CName::NONE() )
+      {
+          AddAnimationToMap( animNames, stopWorkDescriptor->GetGameplayAnimInfo().m_animName );
+      }
+  }
+
+  2. Internal Workspots 的 WorkspotTree（行 747-760）
+
+  for( const THandle< const scnb::SceneWorkspot > workspot : sceneEditorResource->GetWorkspots() )
+  {
+      if ( workspot->IsExternal() )
+      {
+          externalWorkspots.PushBack( workspot->GetExternalResourcePath() );
+      }
+      else
+      {
+          const THandle<work::WorkspotTree> workspotTree = workspot->GetWorkspotTree();
+          GatherWorkspotTreeAnimations( workspotTree, animNames );  // ← 第二个来源
+
+          internalWorkspots.PushBack( workspot->GetName() );
+      }
+  }
+
+~~~
+
+
+
+PlaySkAnimDescriptor类型 
+ChangeIdleAnimDescriptor类型
+ChangeWorkEvent类型
+StopWorkEvent类型

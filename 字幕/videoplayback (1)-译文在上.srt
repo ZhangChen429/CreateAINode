@@ -1,0 +1,3629 @@
+1
+00:00:10,510 --> 00:00:11,670
+大家好
+Hello everybody
+
+2
+00:00:11,670 --> 00:00:12,940
+谢谢你的光临
+Thank you for , for coming
+
+3
+00:00:12,940 --> 00:00:13,690
+呃，是的
+Uh , yes
+
+4
+00:00:13,690 --> 00:00:18,345
+所以，呃，让我们先道谢几句，让一切顺利进行
+So , uh , let's just start off with a couple of thanks here to get it rolling
+
+5
+00:00:18,345 --> 00:00:20,610
+如果幻灯片有效，我们就开始吧
+If the slides work , there we go
+
+6
+00:00:20,610 --> 00:00:21,250
+惊人的
+Awesome
+
+7
+00:00:21,250 --> 00:00:23,730
+首先要感谢gdc对我的邀请
+Firstly want to say thank you to gdc for inviting me
+
+8
+00:00:23,730 --> 00:00:27,100
+感谢独立峰会的组织者组织了这一切
+thank you to the organizers of the indie summit for put this whole thing on
+
+9
+00:00:27,100 --> 00:00:28,420
+并找到如此出色的演讲者
+And finding such great speakers
+
+10
+00:00:28,420 --> 00:00:30,000
+凯特·康彭的最后一篇演讲
+Kate compon's talk last one
+
+11
+00:00:30,000 --> 00:00:31,910
+如果你看到了，那就太棒了
+If you saw it , that was amazing
+
+12
+00:00:31,910 --> 00:00:32,840
+嗯
+U um
+
+13
+00:00:32,840 --> 00:00:34,200
+所以我想打个招呼
+So i want to say hi
+
+14
+00:00:34,200 --> 00:00:35,140
+我很重要
+I'm matter
+
+15
+00:00:35,140 --> 00:00:38,750
+正如荷兰nhtv大学提到的，我是一名教授
+I'm a professor , as mentioned from nhtv university in the netherlands
+
+16
+00:00:38,750 --> 00:00:40,110
+这是一个很棒的学习场所
+It's an awesome place to study
+
+17
+00:00:40,110 --> 00:00:42,210
+如果您想了解欧洲的视频游戏
+If you want to learn about video games in europe
+
+18
+00:00:42,210 --> 00:00:43,370
+你应该去那里
+You should be going there
+
+19
+00:00:43,370 --> 00:00:44,710
+呃，我是一名游戏开发者
+Uh , i'm a games developer
+
+20
+00:00:44,710 --> 00:00:48,980
+作为一名独立开发者，我经营了自己的名为 maizon 的公司七年
+I ran my own company called maizon for seven years as an indie developer
+
+21
+00:00:48,980 --> 00:00:49,650
+呃
+Uh
+
+22
+00:00:49,650 --> 00:00:52,610
+我为自己、为网络、为朋友制作游戏
+I made games for myself , for the web , for friends
+
+23
+00:00:52,610 --> 00:00:55,497
+对于像第四频道的MTV 2这样的公司
+And for companies like mtv two in channel four
+
+24
+00:00:55,497 --> 00:00:59,740
+呃，之后我就加入了ea和rebellion这样的人，呃
+Uh , after that i went to join people like ea and rebellion , uh
+
+25
+00:00:59,740 --> 00:01:01,960
+为他们制作一些不同的作品
+Working on a few different titles for them
+
+26
+00:01:01,960 --> 00:01:03,870
+我在哪里当作家
+Where i was a writer
+
+27
+00:01:03,870 --> 00:01:05,360
+叙事设计师
+Narrative designer
+
+28
+00:01:05,360 --> 00:01:06,880
+最终首席设计师
+Lead designer in the very end
+
+29
+00:01:06,880 --> 00:01:09,900
+啊，在我去上班和做其他事情之前
+Ah , before i went off to work and other things
+
+30
+00:01:09,900 --> 00:01:12,680
+最近我发布了他的片段
+most recently i released fragments of him
+
+31
+00:01:12,680 --> 00:01:18,740
+去年，在 Xbox One 和 PC 上，我们与工作室里的几个很棒的人合作，名为 sassy bot
+Last year on xbox one and pc in collaboration with an awesome couple of guys to studio called sassy bot
+
+32
+00:01:18,740 --> 00:01:22,252
+所以，呃，这是一种情感叙事游戏
+So , uh , that's an emotional storytelling kind of game
+
+33
+00:01:22,252 --> 00:01:26,810
+呃，它被英国作家协会提名为电子游戏最佳编剧
+Uh , it was nominated for the best writing in a video game by the writers guild of great britain
+
+34
+00:01:26,810 --> 00:01:28,950
+呃，既然我现在是正式会员了
+Uh , where since i'm now a full member
+
+35
+00:01:28,950 --> 00:01:31,590
+还记得电子游戏委员会，呃
+And remember the video game committee , uh
+
+36
+00:01:31,590 --> 00:01:34,230
+我还为叙事设计方面的人员提供咨询和培训
+I also consult and trained people in narrative design
+
+37
+00:01:34,230 --> 00:01:35,910
+我做更多的事情
+I do more stuff
+
+38
+00:01:35,910 --> 00:01:37,710
+我正在写关于天哪的书
+I'm writing books about , oh god
+
+39
+00:01:37,710 --> 00:01:38,210
+反正
+Anyway
+
+40
+00:01:38,210 --> 00:01:40,370
+我主要做游戏的事情，呃
+I basically do game stuff , uh
+
+41
+00:01:40,370 --> 00:01:42,030
+我已经度过了整个成年生活
+And i have done for my entire adult life
+
+42
+00:01:42,030 --> 00:01:44,210
+所以我今天要和你谈谈
+So i'm gonna be talking to you today
+
+43
+00:01:44,210 --> 00:01:48,730
+呃，关于为什么理解故事结构对于游戏开发者来说是有用的技能
+Uh , about why understanding story structures is useful skill for games developers
+
+44
+00:01:48,730 --> 00:01:52,585
+通常，这实际上是已经凭直觉完成的事情
+And often it's actually something which is already done intuitively
+
+45
+00:01:52,585 --> 00:01:54,470
+这就是有趣的事情之一
+So that's one of the interesting things about this
+
+46
+00:01:54,470 --> 00:01:56,270
+我要说的很多事情你都可以走了
+That a lot of stuff that i'm gonna say you can go
+
+47
+00:01:56,270 --> 00:01:56,830
+哦，是的
+Oh yeah
+
+48
+00:01:56,830 --> 00:01:58,910
+我们，我们已经做了一些这样的事情
+We , we kind of already do some of that
+
+49
+00:01:58,910 --> 00:02:02,450
+这是我将其带入意识领域的一种方式
+And it's a way of me moving that into kind of a conscious realm
+
+50
+00:02:02,450 --> 00:02:04,770
+我们可以看一个可靠的故事
+We can look at a reliable stories
+
+51
+00:02:04,770 --> 00:02:06,390
+您可以使用的讲故事结构
+Storytelling structure that you can use
+
+52
+00:02:06,390 --> 00:02:08,660
+这会帮助你讲故事，呃
+Which will help you tell stories , uh
+
+53
+00:02:08,660 --> 00:02:13,195
+还有一些调试问题可以帮助您修复感觉无意义的故事或游戏玩法
+And some debug questions to help you fix stories or game play that feels unrewarding
+
+54
+00:02:13,195 --> 00:02:16,920
+呃，在本次会议的最后、最后会有两张要点图
+Uh , there's gonna be two takeaway diagrams at the very , very end of this session
+
+55
+00:02:16,920 --> 00:02:19,030
+所以当我在最后最后说了谢谢之后
+So after i said thank you at the very , very end
+
+56
+00:02:19,030 --> 00:02:21,620
+有两张照片可以拍照
+There are two pictures which you can take photo of
+
+57
+00:02:21,620 --> 00:02:22,980
+它会给你大量的总结
+And it'll give you loads of summary
+
+58
+00:02:22,980 --> 00:02:25,130
+关于我今天所说的事情的信息
+Information about the things i've been saying today
+
+59
+00:02:25,130 --> 00:02:26,650
+所以我们要讨论如何构建这些
+so we're gonna talk about how to build those
+
+60
+00:02:26,650 --> 00:02:28,390
+并为您准备了一份美味的简单外卖
+And a nice easy takeaway for you
+
+61
+00:02:28,390 --> 00:02:30,610
+如果你想在节目结束时拿起相机
+If you want to bring up a camera right at the end of
+
+62
+00:02:31,740 --> 00:02:33,140
+这涉及很多内容
+This is a lot to cover
+
+63
+00:02:33,140 --> 00:02:34,420
+所以我要说得很快
+So i'm gonna be talking fast
+
+64
+00:02:34,420 --> 00:02:36,560
+关键点将出现在我身后的屏幕上
+The key points are gonna be on the screen behind me
+
+65
+00:02:36,560 --> 00:02:38,000
+我有英国口音
+I have an english accent
+
+66
+00:02:38,000 --> 00:02:40,110
+并非所有人都是以英语为母语的
+Not all of you are native english speakers
+
+67
+00:02:40,110 --> 00:02:40,710
+呃
+Uh
+
+68
+00:02:40,710 --> 00:02:42,830
+所以如果你不能，呃，就太容易跟随了
+So if you can't , uh , follow too easily
+
+69
+00:02:42,830 --> 00:02:43,750
+如果你看屏幕
+If you look at the screen
+
+70
+00:02:43,750 --> 00:02:45,590
+随着我们的进行，你会明白所有要点
+you're gonna get all the main points as we go
+
+71
+00:02:47,110 --> 00:02:49,790
+那么让我们开始讨论一下流动游戏
+So let's start off talking a little bit about flowing games
+
+72
+00:02:49,790 --> 00:02:52,180
+这是我们都明白的重要事情
+This is something that we all understand is important
+
+73
+00:02:52,180 --> 00:02:54,950
+我们通常用图表来表达
+We usually express this as a diagram
+
+74
+00:02:54,950 --> 00:02:56,970
+我们在金钱和技能方面面临挑战
+Where we've got challenge on money and skill on the other
+
+75
+00:02:56,970 --> 00:02:59,650
+如果它是，呃，如果它的技能非常低
+And if it's , uh , if it's got very low skill
+
+76
+00:02:59,650 --> 00:03:02,390
+呃，抱歉，下面的挑战对技能要求非常高
+Uh , sorry , very high skill requirement below challenge
+
+77
+00:03:02,390 --> 00:03:04,400
+然后游戏就变得很无聊
+Then game becomes quite boring
+
+78
+00:03:04,400 --> 00:03:06,930
+如果它的技能从低到低
+And if it's got a low to low skill
+
+79
+00:03:06,930 --> 00:03:08,970
+但挑战太高，游戏变得太难
+But high challenge and the game becomes too difficult
+
+80
+00:03:08,970 --> 00:03:10,770
+ERROR
+It makes players really anxious
+
+81
+00:03:10,770 --> 00:03:12,890
+所以我们真的决定我们应该尝试并保持
+So we decide really that we should try and keep
+
+82
+00:03:12,890 --> 00:03:15,507
+留人就是所谓的流量通道
+Keep people what's called the flow channel
+
+83
+00:03:15,507 --> 00:03:18,020
+现在我们开始认为这是一条直线
+Now we started off thinking that this was kind of a straight line
+
+84
+00:03:18,020 --> 00:03:22,280
+挑战和技能应该在彼此完美的关系中升级
+That challenge and skills should escalate in perfect relationship to each other
+
+85
+00:03:22,280 --> 00:03:24,410
+但我们确实发现这更有趣
+But we've discovered really that it's kind of more fun
+
+86
+00:03:24,410 --> 00:03:28,145
+如果是的话，如果我们沿着那里走的那种波浪形的摇摆线
+If it , if this kind of wavy wobbly line that as we go along there
+
+87
+00:03:28,145 --> 00:03:30,550
+现在，如果你想了解更多关于心流的知识，这里有一些很棒的人
+Now , if you want to learn more about flow there's some great people
+
+88
+00:03:30,550 --> 00:03:33,030
+你可以，呃，读一遍又一遍
+You can , uh , read up on and over chan
+
+89
+00:03:33,030 --> 00:03:35,920
+杰西·谢尔给我哈雷六号发给我哈雷，呃
+Jesse schell me harley six sends me harley , uh
+
+90
+00:03:35,920 --> 00:03:38,830
+他是那种想出了很多这样的东西的人，嗯
+He was kind of guy who came up with a lot of this stuff , um
+
+91
+00:03:38,830 --> 00:03:40,060
+很难找到一个
+Tricky one to search for
+
+92
+00:03:40,060 --> 00:03:41,340
+ERROR
+Just go mahi and flow
+
+93
+00:03:41,340 --> 00:03:43,680
+它会出来油炸和谷歌，嗯
+It will come out frying and google , um
+
+94
+00:03:43,680 --> 00:03:45,680
+这些人在 Flow 方面做出了惊人的工作
+These people have done amazing work on flow
+
+95
+00:03:45,680 --> 00:03:46,775
+查一下
+Look it up
+
+96
+00:03:46,775 --> 00:03:50,972
+现在当我们考虑讲故事时，呃，意图
+Now when we think about storytelling , uh , intention
+
+97
+00:03:50,972 --> 00:03:53,110
+我们也可以用图表来表示
+We also can express this as a diagram
+
+98
+00:03:53,110 --> 00:03:54,370
+而我们也经常这样做
+And we often do so
+
+99
+00:03:54,370 --> 00:03:56,150
+我们经常在一侧感到紧张
+We often have tension along one side
+
+100
+00:03:56,150 --> 00:04:00,040
+时间沿着故事的底部从零到百分之一百
+And time going along the bottom there from zero to one hundred percent of our story
+
+101
+00:04:00,040 --> 00:04:01,310
+ERROR
+And as we go through
+
+102
+00:04:01,310 --> 00:04:03,350
+我们有一些煽动事件
+We have kind of the the inciting incident
+
+103
+00:04:03,350 --> 00:04:04,590
+第一个峰值是哪个
+Which is that first peak
+
+104
+00:04:04,590 --> 00:04:05,730
+我们可以有一个低中点
+We can have a low midpoint
+
+105
+00:04:05,730 --> 00:04:07,710
+事情出乎意料地变得更糟
+Where things have got worse unexpectedly
+
+106
+00:04:07,710 --> 00:04:08,810
+当我们尝试修复它们时
+When we tried to fix them
+
+107
+00:04:08,810 --> 00:04:11,700
+我们有最后的写作“黑色时刻”
+We have that final what's called the black moment in writing
+
+108
+00:04:11,700 --> 00:04:15,020
+最大的黑暗时刻威胁着我们
+Where there's kind of this moment of the greatest darkness threatens us
+
+109
+00:04:15,020 --> 00:04:16,380
+ERROR
+And then we eventually overcome it
+
+110
+00:04:16,380 --> 00:04:17,620
+这是我们故事的结局
+Which is the end of our story
+
+111
+00:04:18,660 --> 00:04:21,250
+现在实际上一般稍微多一点
+Now it's actually generally slightly more
+
+112
+00:04:21,250 --> 00:04:22,750
+ERROR
+Sort of nobly than that
+
+113
+00:04:22,750 --> 00:04:24,150
+我会解释为什么它有点多
+And i'll explain why it's a bit more
+
+114
+00:04:24,150 --> 00:04:26,270
+比后来的还要高贵
+Nobly than that in the later on
+
+115
+00:04:26,270 --> 00:04:29,030
+但正如你所看到的，当我们可以将这两个想法放在一起比较时
+But as you can see , when we could kind of compare these two ideas together
+
+116
+00:04:29,030 --> 00:04:32,660
+我们看到，如果经过很多次，仍然有这个东西
+we see that there's still this thing there that if a lot of times gone along
+
+117
+00:04:32,660 --> 00:04:34,850
+而且没有发生紧张，那就很无聊了
+And no tension happened , then it's quite boring
+
+118
+00:04:34,850 --> 00:04:37,270
+它说，呃，非常紧张
+And it says , uh , have really high tension
+
+119
+00:04:37,270 --> 00:04:38,270
+而且过去的次数并不多
+And not a lot of times past
+
+120
+00:04:38,270 --> 00:04:39,710
+然后就感觉太紧张了
+Then it feels too tense
+
+121
+00:04:39,710 --> 00:04:41,092
+感觉不自然
+It doesn't feel natural
+
+122
+00:04:41,092 --> 00:04:44,420
+所以我们可以看到两者的切割组合
+and so we can see there's kind of this cut combination of the two that
+
+123
+00:04:44,420 --> 00:04:47,155
+ERROR
+We have these things that go in common between them
+
+124
+00:04:47,155 --> 00:04:47,880
+一
+Um
+
+125
+00:04:47,880 --> 00:04:51,965
+但这种摇晃的线实际上代表什么
+But really what does that kind of wobbly line actually represent
+
+126
+00:04:51,965 --> 00:04:54,020
+ERROR
+What is this thing when we talk about games
+
+127
+00:04:54,020 --> 00:04:56,450
+这是什么，这是怎么回事？
+What is , what is this thing going on here
+
+128
+00:04:56,450 --> 00:04:57,780
+现在当我们思考这个问题时
+Now when we think about this
+
+129
+00:04:57,780 --> 00:05:01,070
+我们可以考虑一下你的游戏的故事是什么
+We could think about what is the story of your game
+
+130
+00:05:01,070 --> 00:05:02,600
+现在我们可以走了
+Now we can kind of go
+
+131
+00:05:02,600 --> 00:05:06,330
+ERROR
+Well , your game has things that we might call pre authored content
+
+132
+00:05:06,330 --> 00:05:09,800
+这就是事件和内容之类的东西
+So this is things like events and content
+
+133
+00:05:09,800 --> 00:05:12,240
+讲故事、、、、机制
+The storytelling , the , the , the mechanics
+
+134
+00:05:12,240 --> 00:05:13,420
+它所在的世界
+The world that it's in
+
+135
+00:05:13,420 --> 00:05:17,865
+这些是我们放入游戏中来讲述游戏故事的东西
+These are things that we put into our games to tell the stories of them
+
+136
+00:05:17,865 --> 00:05:20,197
+另一方面，我们有我们的球员
+On the other hand , we've got our players
+
+137
+00:05:20,197 --> 00:05:21,990
+太棒了，一大群人
+Awesome , huge bunch of people
+
+138
+00:05:21,990 --> 00:05:24,390
+他们所有人都在玩这种东西，享受其中的乐趣
+All of them playing , having fun with this kind of stuff
+
+139
+00:05:24,390 --> 00:05:27,082
+我们可以称其为用户生成的故事版本
+We could call this a user generated version of the story
+
+140
+00:05:27,082 --> 00:05:29,140
+这就是他们与世界的互动
+This is their interaction with the world
+
+141
+00:05:29,140 --> 00:05:31,260
+这是他们对世界的诠释
+And it's their interpretation of the world
+
+142
+00:05:31,260 --> 00:05:34,380
+因为我们设计的世界可能不是他们看到的世界
+Because the world that we design might not be the world that they see
+
+143
+00:05:34,380 --> 00:05:40,212
+因为他们根据自己玩游戏的经历和周围的世界对事物的解释不同
+Because they interpret things differently based on their experiences are playing games and the world around them
+
+144
+00:05:40,212 --> 00:05:41,830
+所以在这两者之间
+So between the two of these
+
+145
+00:05:41,830 --> 00:05:43,432
+我们可能会得到不同的东西
+We might get different things
+
+146
+00:05:43,432 --> 00:05:46,540
+想象一下我们有一个世界，里面有一辆汽车在赛道上
+So imagine we've got a world which has a car in it on a race track
+
+147
+00:05:46,540 --> 00:05:47,660
+而且它位于城市中心
+And it's in the middle of a city
+
+148
+00:05:47,660 --> 00:05:49,340
+嗯，我们已经有了一个叙事背景
+Well , we've already got a narrative setting there
+
+149
+00:05:49,340 --> 00:05:50,140
+我们了解汽车
+We know about cars
+
+150
+00:05:50,140 --> 00:05:51,447
+我们了解城市
+We know about cities
+
+151
+00:05:51,447 --> 00:05:53,110
+比赛开始了
+And it starts off the race
+
+152
+00:05:53,110 --> 00:05:55,740
+在你和到达之间有这样的来回
+And there's this back and forth between you and arrival
+
+153
+00:05:55,740 --> 00:05:57,680
+然后最后一个弯道即将到来
+And then on the final bend is coming up
+
+154
+00:05:57,680 --> 00:05:59,980
+对手就在前面，最后一个角球响亮
+And the rival is just ahead and loud final corner
+
+155
+00:05:59,980 --> 00:06:01,760
+竞争对手的驾驶技术不太好
+The rival doesn't drive particularly well
+
+156
+00:06:01,760 --> 00:06:03,690
+你成功地把它带入了内心
+And you managed to take it on the inside
+
+157
+00:06:03,690 --> 00:06:10,165
+奇妙的兴奋和可爱的小故事都可以浓缩在那一刻
+Fantastic excitement and lovely little story can encapsulated in that moment there
+
+158
+00:06:10,165 --> 00:06:12,950
+这是游戏中的一个小故事
+That's a tiny little story within a game
+
+159
+00:06:12,950 --> 00:06:16,010
+我们可以看到，我们是否考虑故事中的张力
+And we can see that whether we think about tension in stories
+
+160
+00:06:16,010 --> 00:06:17,822
+或者我们是否将其视为流程
+Or whether we think of this as flow
+
+161
+00:06:17,822 --> 00:06:19,500
+这基本上是一个故事
+This is basically a story
+
+162
+00:06:19,500 --> 00:06:23,400
+这两行符合这里的经历
+These these two lines fit with this experience over here
+
+163
+00:06:23,400 --> 00:06:24,880
+现在作为开发者
+Now as as developers
+
+164
+00:06:24,880 --> 00:06:27,170
+我们通过人工智能塑造了它
+We shaped that through the ai
+
+165
+00:06:27,170 --> 00:06:32,610
+也许我们在人工智能上做了橡皮筋，以确保我们的对手在最后一个弯道上很接近
+Maybe we did rubber banding on the ai to make sure that that our opponent was close on that final bend
+
+166
+00:06:32,610 --> 00:06:35,600
+但愚蠢到我们刚经过那里就撞车了
+But stupid enough to crash just as we were taking past it there
+
+167
+00:06:35,600 --> 00:06:38,800
+我们通过轨道设计对其进行了更改，以确保它很有趣
+We changed it with a track design to make sure that it was fun
+
+168
+00:06:38,800 --> 00:06:43,950
+故事的节奏中会有令人兴奋的直角和弯角
+That there was gonna be straight and corners that felt exciting and built in this rhythm of a story
+
+169
+00:06:43,950 --> 00:06:45,105
+他在哪里踢球
+Where is he played
+
+170
+00:06:45,105 --> 00:06:46,690
+而从玩家的角度来看
+And from a player's perspective
+
+171
+00:06:46,690 --> 00:06:48,050
+当他们运用自己的技能时
+While they were using their skill
+
+172
+00:06:48,050 --> 00:06:48,950
+他们的选择
+Their choices
+
+173
+00:06:48,950 --> 00:06:53,290
+他们控制弯道的方式为自己创造故事
+Their their ways of controlling the corners to create that story for themselves
+
+174
+00:06:54,360 --> 00:06:59,177
+所以这两件事基本上创造了他们之间的玩家体验
+So these two things have basically created the player experience between them
+
+175
+00:06:59,177 --> 00:07:00,150
+这条线
+This line
+
+176
+00:07:00,150 --> 00:07:02,270
+他们创造的这个故事
+This story that they've created
+
+177
+00:07:02,270 --> 00:07:07,165
+这条不稳定的线基本上就是这些之间的地方
+This wobbly line is basically the the place between these
+
+178
+00:07:07,165 --> 00:07:10,550
+理想情况下，这就是我们作为游戏开发者所做的事情
+And ideally that's the thing that we make as games developers
+
+179
+00:07:10,550 --> 00:07:11,870
+我们创造这种体验
+We create that experience
+
+180
+00:07:11,870 --> 00:07:13,170
+我们为它创造空间
+We create that space for it
+
+181
+00:07:13,170 --> 00:07:15,427
+我们帮助我们的用户实现这一点
+And we help our users get to that point
+
+182
+00:07:15,427 --> 00:07:18,290
+那么我们如何做这种事情
+So how do we do this kind of stuff
+
+183
+00:07:18,290 --> 00:07:23,480
+因此，流量理论认为，让玩家留在该流量通道中是件好事
+So flow theory says that it's good to keep players in that flow channel
+
+184
+00:07:23,480 --> 00:07:25,720
+我们知道那是留住它们的好地方
+We know that that's a good place to keep them
+
+185
+00:07:25,720 --> 00:07:27,220
+但我们如何做到这一点
+But how do we do this
+
+186
+00:07:27,220 --> 00:07:30,480
+嗯，还有很多其他基于力学的想法
+Well , there's lots of other ideas out there based on mechanics
+
+187
+00:07:30,480 --> 00:07:37,530
+但讲故事的人拥有结构化的系统，几千年来他们一直在可靠地使用这些系统来创造出色的观众体验
+But storytellers have structured systems that they've been reliably using to create great your audience experiences for millennia
+
+188
+00:07:38,560 --> 00:07:42,060
+因此，与其重新发明轮子来理解玩家体验，不如
+So rather than perhaps reinvent the wheel for understanding a player experience
+
+189
+00:07:42,060 --> 00:07:45,120
+我们可以从讲故事的人身上学到很多东西，了解他们如何塑造体验
+We can learn a lot from storytellers in how they shape experiences
+
+190
+00:07:45,120 --> 00:07:48,445
+他们如何引导玩家的情感旅程
+How they guide the emotional journey the players go on
+
+191
+00:07:48,445 --> 00:07:51,580
+所以我们要做的就是构建一个图表
+So what we're gonna do here is gonna build in a diagram
+
+192
+00:07:51,580 --> 00:07:54,175
+其中涵盖了讲故事的基础知识
+Which covers the basics of storytelling
+
+193
+00:07:54,175 --> 00:07:57,680
+我们将会有，呃，一些关于动机的小东西
+We're gonna have , uh , some little bit of stuff about motivations
+
+194
+00:07:57,680 --> 00:07:59,420
+我们可以了解一些有关场景结构的东西
+We can have some stuff about scene structure
+
+195
+00:07:59,420 --> 00:08:02,292
+很多事情都是从开始到结束的流程
+And a lot of it is gonna be about a flow from beginning to end
+
+196
+00:08:02,292 --> 00:08:05,190
+大部分覆盖从百分之零到百分之一百，还有一点点
+Mostly covering from zero to one hundred percent with a little bit more
+
+197
+00:08:05,190 --> 00:08:06,220
+最后还有一点
+And a little bit at the end
+
+198
+00:08:06,220 --> 00:08:10,000
+整个图表将显示在这张幻灯片的最后
+This whole diagram will be shown at the very , very end of this slide
+
+199
+00:08:10,000 --> 00:08:11,120
+所以不需要拍照
+So you don't need to take photos
+
+200
+00:08:11,120 --> 00:08:12,480
+随着我们的进展逐步进行。顺便一提
+Progressively as we go . by the way
+
+201
+00:08:12,480 --> 00:08:14,090
+除非你愿意
+Unless you want to
+
+202
+00:08:14,090 --> 00:08:14,720
+呃
+Uh
+
+203
+00:08:14,720 --> 00:08:18,645
+我还将填写一些有关每个时刻发生的情况的信息
+And i'm also gonna be filling in some information about what happens at each juncture there
+
+204
+00:08:18,645 --> 00:08:21,140
+那么让我们开始讨论动机
+So let's start off talking about motivations
+
+205
+00:08:21,140 --> 00:08:24,380
+这是讲好故事的关键部分
+This is a really key part of of telling a good story
+
+206
+00:08:25,440 --> 00:08:26,400
+所以对于人物来说
+So for characters
+
+207
+00:08:26,400 --> 00:08:29,280
+这些动机分为外部动机和内部动机
+These are divided between external and internal motivations
+
+208
+00:08:29,280 --> 00:08:33,600
+外部动机是改变外部世界某些事物的愿望
+An external motivation is the desire to change something in the world outside you
+
+209
+00:08:33,600 --> 00:08:36,568
+所以这往往是为了变得更富有
+So this is often to get richer
+
+210
+00:08:36,568 --> 00:08:38,980
+从银行偷一些钱
+To steal of some money from a bank
+
+211
+00:08:38,980 --> 00:08:41,419
+或者通过做某件事而变得富有和出名
+Or become rich and famous through doing a particular thing
+
+212
+00:08:41,419 --> 00:08:43,740
+这是一种非常常见的外部动机
+That's a a very common external motivation
+
+213
+00:08:43,740 --> 00:08:45,945
+它会改变你在外界的地位
+It changes your status in the outside world
+
+214
+00:08:45,945 --> 00:08:47,240
+还有一个就是去旅行
+Another one is to travel
+
+215
+00:08:47,240 --> 00:08:48,800
+你想要到达某个地方
+You want to reach to a certain place
+
+216
+00:08:48,800 --> 00:08:50,520
+你想探索一个新领域
+You want to explore a new area
+
+217
+00:08:50,520 --> 00:08:52,480
+作为你的改变
+As a as a a change in your
+
+218
+00:08:52,480 --> 00:08:55,442
+呃，根据你所在位置的状态
+Uh , status in terms of your location
+
+219
+00:08:55,442 --> 00:09:01,150
+建立友谊、爱情和人际关系正在改变你的关系状态
+Forming friendships and love and relationships is changing your relationship status
+
+220
+00:09:01,150 --> 00:09:02,925
+这是在外界的一种状态
+It's a status in the outside world
+
+221
+00:09:02,925 --> 00:09:05,230
+情绪在某些方面是一种内在的东西
+Emotions are an internal thing in some ways
+
+222
+00:09:05,230 --> 00:09:08,590
+但它们如何影响外界仍然是外部动机
+But how they affect the outside world is still an external motivation
+
+223
+00:09:08,590 --> 00:09:11,770
+例如，可能是和办公室里的帅哥约会
+So it could be to date the hot guy in the office , for example
+
+224
+00:09:11,770 --> 00:09:14,850
+这可能是游戏的目标或你的角色的目标
+That could be the objective of the game or for your character
+
+225
+00:09:15,920 --> 00:09:17,520
+所以就动机而言
+So in terms of motivation here
+
+226
+00:09:17,520 --> 00:09:21,687
+内在动机是改变人内心某些事物的愿望
+And internal motivation is a desire to change something inside the person
+
+227
+00:09:21,687 --> 00:09:25,010
+这通常被称为“征服一个省”
+This is usually , uh , termed like overcoming a province
+
+228
+00:09:25,010 --> 00:09:26,570
+所以克服障碍
+So overcome a block
+
+229
+00:09:26,570 --> 00:09:28,250
+这往往是情感障碍
+It's often an emotional block
+
+230
+00:09:28,250 --> 00:09:30,150
+克服孤独感
+Overcoming a sense of loneliness
+
+231
+00:09:30,150 --> 00:09:32,410
+克服悲伤
+Overcoming , uh , grief
+
+232
+00:09:33,490 --> 00:09:38,032
+现在复仇是外在的事情，因为你影响了对外界的复仇
+Now revenge is an external thing because you affect revenge on the outside world
+
+233
+00:09:38,032 --> 00:09:40,780
+克服悲伤是其中的内在部分
+Overcoming grief is the inside part of that
+
+234
+00:09:40,780 --> 00:09:43,852
+你试图通过杀死外界的人来克服悲伤
+You try to overcome grief by killing people in the outside world
+
+235
+00:09:43,852 --> 00:09:46,070
+这就是很多电子游戏情节的运作方式
+That's how a lot of video game plots work
+
+236
+00:09:47,490 --> 00:09:49,870
+另一个内在动机是学习新东西
+Another internal motivation is learning something new
+
+237
+00:09:49,870 --> 00:09:52,697
+通常这是他们应该已经知道的事情
+Usually it's something they should have already known
+
+238
+00:09:52,697 --> 00:09:56,035
+你可以在一个方面成功，在另一个方面失败
+And you can succeed in one and fail in the other
+
+239
+00:09:56,035 --> 00:10:00,260
+通常当你在外部激励方面取得成功而在内部激励方面失败时
+And often when you succeed in external motivation and fail on internal motivation
+
+240
+00:10:00,260 --> 00:10:02,942
+你会看到一场悲剧，那就是罗密欧与朱丽叶
+You get a tragedy that's romeo and juliet
+
+241
+00:10:02,942 --> 00:10:05,460
+两个家庭在尊严上是相似的
+two families are alike in dignity
+
+242
+00:10:05,460 --> 00:10:11,480
+他们实际上从未接受过他们应该停止战斗的事实
+who failed to actually ever come to terms with the fact that they should stop fighting
+
+243
+00:10:11,480 --> 00:10:15,650
+以及他们学习新东西的内在必要性
+And their internal necessity to learn something new about themselves
+
+244
+00:10:15,650 --> 00:10:20,180
+ERROR
+To learn that they're all the same to learn to accept their differences
+
+245
+00:10:20,180 --> 00:10:23,430
+如果他们不这样做就会杀死他们的孩子
+And their failure to do that kills their children
+
+246
+00:10:23,430 --> 00:10:25,570
+这就是为什么这是一场悲剧
+And that's why that's a tragedy
+
+247
+00:10:25,570 --> 00:10:29,342
+所以学习新东西是内部改变的一件大事
+So learning something new is a huge thing of an internal change there
+
+248
+00:10:29,342 --> 00:10:32,880
+现在这两件事，就像我说的，都是关于改变的
+Now both of these things , like i say they are about change
+
+249
+00:10:32,880 --> 00:10:34,600
+故事总是与变化有关
+A story is always about change
+
+250
+00:10:34,600 --> 00:10:37,410
+一个改变。一个从头到尾没有变化的故事
+A change . a story that doesn't have change from beginning to end
+
+251
+00:10:37,410 --> 00:10:39,940
+ERROR
+Is a very , very boring story
+
+252
+00:10:39,940 --> 00:10:43,297
+现在可能只是你的角色拥有更大的枪
+Now it can just be that your character got bigger guns
+
+253
+00:10:43,297 --> 00:10:44,800
+让我们换一种方式
+Let's change of a kind
+
+254
+00:10:44,800 --> 00:10:45,680
+你知道
+You know
+
+255
+00:10:45,680 --> 00:10:47,080
+而且效果很好
+And it works pretty well
+
+256
+00:10:47,080 --> 00:10:47,760
+确实如此
+It really does
+
+257
+00:10:47,760 --> 00:10:48,160
+呃
+Uh
+
+258
+00:10:48,160 --> 00:10:49,840
+我知道我不会放弃游戏
+I know i'm not putting down games
+
+259
+00:10:49,840 --> 00:10:51,680
+这纯粹是关于机械进步
+Which is just purely about mechanic ical advancement
+
+260
+00:10:51,680 --> 00:10:52,520
+这也很有趣
+That's a lot of fun as well
+
+261
+00:10:52,520 --> 00:10:54,760
+但我们还可以做其他事情来改变
+But there are other things we can do to change
+
+262
+00:10:56,800 --> 00:10:59,240
+所以这种改变必须以某种方式发生
+So that change must happen in some kind
+
+263
+00:10:59,240 --> 00:11:01,300
+但我们如何将所有这些东西应用到游戏中
+But how do we apply all this kind of stuff to games
+
+264
+00:11:01,300 --> 00:11:05,805
+好吧，我们可能不认为托里亚斯是一款情节最精彩的游戏
+Well , we might not think of torias a game with the greatest of plots
+
+265
+00:11:05,805 --> 00:11:08,762
+但它确实很好地遵循了这些事情
+But it really does follow these kind of things pretty well
+
+266
+00:11:08,762 --> 00:11:11,210
+这是一种非常非常引人入胜的玩家体验
+It's a very , very compelling player experience
+
+267
+00:11:11,210 --> 00:11:12,290
+现在如果我们考虑一下
+Now if we think about this
+
+268
+00:11:12,290 --> 00:11:15,380
+如果我们考虑一下我们玩这个游戏时所经历的紧张弧线
+If we think about kind of the tension arc that we go through when we're playing this
+
+269
+00:11:15,380 --> 00:11:16,740
+很适合那种流动的东西
+It fits that flow thing
+
+270
+00:11:16,740 --> 00:11:18,280
+很合适。就是那个张力方舟
+It fits . its that tension ark
+
+271
+00:11:18,280 --> 00:11:20,680
+玩家有外部目标和内部目标
+And the player has both external , internal goals
+
+272
+00:11:20,680 --> 00:11:22,620
+我们将分数作为外部目标
+We have the scores as an external goal
+
+273
+00:11:22,620 --> 00:11:23,700
+我们有这个内部目标
+We have that internal goal
+
+274
+00:11:23,700 --> 00:11:26,080
+这是一种对秩序的渴望
+Which is kind of a desire for order
+
+275
+00:11:26,080 --> 00:11:30,845
+俄罗斯方块的驱动因素是我们希望世界比实际情况稍微整洁一些
+Tetris is driven by the thing that we like the world to be slightly neater than it is
+
+276
+00:11:30,845 --> 00:11:32,800
+这是一个很小的地方，也许
+And this is a tiny place where maybe
+
+277
+00:11:32,800 --> 00:11:35,460
+也许会成功实现它
+Just maybe will succeed in making it happen
+
+278
+00:11:35,460 --> 00:11:36,900
+而且总是悲剧
+And it's always a tragedy
+
+279
+00:11:36,900 --> 00:11:38,120
+因为我们总是失败
+Because we always fail
+
+280
+00:11:39,920 --> 00:11:44,400
+但我认为内部目标是俄罗斯方块持久吸引力的一个非常强大的部分
+But i think that internal goal is a really powerful part of the lasting appeal of tetris
+
+281
+00:11:44,400 --> 00:11:46,240
+那种渴望秩序的感觉
+That sense of desiring order
+
+282
+00:11:46,240 --> 00:11:47,990
+它总是从我们身边赶走
+And it always chasing away from us
+
+283
+00:11:47,990 --> 00:11:49,490
+这是一次非常人性化的体验
+That's a very human experience
+
+284
+00:11:49,490 --> 00:11:53,410
+我认为这就是它对我们具有持久吸引力的原因之一
+And i think that's one of the reasons it works as such an enduring appeal for us
+
+285
+00:11:54,550 --> 00:11:56,430
+所以如果你快速将其添加到我们的图表中
+So if you add that quickly into our diagram
+
+286
+00:11:56,430 --> 00:11:57,870
+那里有，呃，门
+There we have the , uh , the door
+
+287
+00:11:57,870 --> 00:11:59,860
+动机是寻求改变
+Motivation is a looking for change
+
+288
+00:11:59,860 --> 00:12:03,620
+通常表达这些非常直接的动词，例如保存和查找之类的东西
+Usually express these very direct verbs like save and find and things like that
+
+289
+00:12:03,620 --> 00:12:07,120
+内部是关于克服或接受
+and internal is about overcoming or coming to terms with
+
+290
+00:12:09,820 --> 00:12:12,180
+所以让我们继续讨论情节结构
+so let's move on to plot structure
+
+291
+00:12:13,820 --> 00:12:15,740
+你已经为你的玩家角色设定了目标
+You've got your goals for your player character
+
+292
+00:12:15,740 --> 00:12:17,930
+外部有内部动机
+External internal motivations there
+
+293
+00:12:17,930 --> 00:12:21,702
+现在我们需要一个财富结构化的系列事件，通过这些事件将会发生变化
+Now we need a wealth structured series events through which change will happen
+
+294
+00:12:21,702 --> 00:12:24,220
+外在的目标只是一个愿望
+The external goals are just a desire
+
+295
+00:12:24,220 --> 00:12:26,480
+ERROR
+We need the plot to make that change happen
+
+296
+00:12:26,480 --> 00:12:29,960
+所以，呃，情节控制着整个过程的进展速度
+So , uh , a plot controls the speed of progress through the
+
+297
+00:12:29,960 --> 00:12:31,540
+穿越张力方舟的体验
+Through the tension ark of the experience
+
+298
+00:12:31,540 --> 00:12:34,842
+所以我要更详细地讨论这个情节是如何运作的
+And so i'm gonna be talking a little bit more in detail about how this plot works
+
+299
+00:12:34,842 --> 00:12:39,270
+所以在大事件开始之前开始你的故事
+So start your story before the big events begin
+
+300
+00:12:39,270 --> 00:12:43,345
+这是很多游戏都未能正确做到的一件事
+This is one thing that a lot of games fail to do properly
+
+301
+00:12:43,345 --> 00:12:48,052
+我的意思是，你不应该以你是巫师哈利开始你的故事吗？
+By this i mean don't you don't start your story with you're a wizard harry
+
+302
+00:12:48,052 --> 00:12:51,260
+你和德斯利见面的整个部分
+You you have this whole part of meeting the durslees
+
+303
+00:12:51,260 --> 00:12:52,820
+你有他的，他的童年
+You have his , his childhood
+
+304
+00:12:52,820 --> 00:12:56,270
+他的，他在巫师世界之外的正常日常生活
+His , his normal everyday life outside of the wizard world
+
+305
+00:12:56,270 --> 00:13:00,590
+在你来到这里之前，你会看到海格
+Before you here you see the you see kind of hagrid
+
+306
+00:13:00,590 --> 00:13:02,970
+进来之前先体验一下魔法世界
+Come in before you experience the world of magic
+
+307
+00:13:02,970 --> 00:13:05,430
+因为魔法世界本身毫无意义
+Because the world of magic by itself means nothing
+
+308
+00:13:05,430 --> 00:13:08,800
+除非与平凡的世界形成对比
+Unless it's contrasted by the world of the ordinary
+
+309
+00:13:08,800 --> 00:13:10,850
+我们有时会在游戏中看到这种情况
+We see this sometimes in games
+
+310
+00:13:10,850 --> 00:13:13,510
+当我们这么做的时候，波斯王子就非常强大了
+And when we do it's very powerful prince of persia
+
+311
+00:13:13,510 --> 00:13:15,550
+时间之声是我最喜欢的讲故事游戏之一
+Sounds of time is one of my favorite storytelling games
+
+312
+00:13:15,550 --> 00:13:18,900
+一开始就有一些正常的片段
+And there's got a little snatch of normality at the very beginning of it
+
+313
+00:13:18,900 --> 00:13:20,940
+真的很漂亮，很可爱的游戏
+It's beautiful , really lovely game
+
+314
+00:13:20,940 --> 00:13:22,220
+所以你设置了你的角色
+So you set up your character
+
+315
+00:13:22,220 --> 00:13:24,460
+二、本次活动的情况及基本规则
+The situation and the basic rules of this
+
+316
+00:13:24,460 --> 00:13:26,922
+这也称为教程任务
+This is otherwise known as a tutorial mission
+
+317
+00:13:26,922 --> 00:13:28,090
+你可以这样做
+You can do it that way
+
+318
+00:13:28,090 --> 00:13:29,550
+你确实可以做到
+It's you can literally do it
+
+319
+00:13:29,550 --> 00:13:30,750
+将其置于正常世界
+Set it in a normal world
+
+320
+00:13:30,750 --> 00:13:32,250
+使命召唤有时会这样做
+Call of duty sometimes does this
+
+321
+00:13:32,250 --> 00:13:34,762
+在你去射击之前你要在基地进行训练
+That you train on the base before you go and shoot
+
+322
+00:13:34,762 --> 00:13:37,480
+意识形态上与你对立的人
+People who are ideologically opposed to you
+
+323
+00:13:40,460 --> 00:13:41,460
+所以你
+So you
+
+324
+00:13:42,980 --> 00:13:44,620
+我本来不想从事政治
+I wasn't gonna do politics
+
+325
+00:13:44,620 --> 00:13:46,280
+我说我会的，嗯
+I said i would , um
+
+326
+00:13:46,280 --> 00:13:48,650
+所以在事件开始之前就开始你的故事
+So start your story before the events begin
+
+327
+00:13:48,650 --> 00:13:51,660
+如果可能的话，与你的角色建立同理心非常重要
+It's really important to build empathy with your characters if possible
+
+328
+00:13:51,660 --> 00:13:55,020
+所以我们希望这个角色能够克服我们面前的挑战
+So we wanted the character overcome the challenges ahead of us
+
+329
+00:13:55,020 --> 00:13:57,300
+啊，这真是一个很好的例子，我认为是看火人
+Ah , really great example of this , i think is firewatch
+
+330
+00:13:57,300 --> 00:13:59,220
+我认为看火人在这方面做得很好
+I think firewatch had done beautiful work with this
+
+331
+00:13:59,220 --> 00:14:01,260
+所以在我们到达看火湖之前
+So before we reached the lake in firewatch
+
+332
+00:14:01,260 --> 00:14:04,330
+这才是故事真正开始、紧张气氛开始的时候
+Which is really when the story begins to kick off and that tension starts
+
+333
+00:14:04,330 --> 00:14:05,680
+我们对哈利了解很多
+We know a lot about harry
+
+334
+00:14:05,680 --> 00:14:08,440
+我们,我们知道他的外在内在动机
+We , we know about his external internal motivations
+
+335
+00:14:08,440 --> 00:14:15,890
+故事从那一刻开始，他的外部动机真的被公园里的麻烦所激发
+And the story begins with that moment there that his external motivation is really kicked off by there's trouble in this park
+
+336
+00:14:15,890 --> 00:14:17,670
+所以我们有了这些内部的东西
+So we've got this internal stuff
+
+337
+00:14:17,670 --> 00:14:19,390
+需要逃避的成长
+That growth that need to escape
+
+338
+00:14:19,390 --> 00:14:22,215
+我们知道在某个时候他将不得不回去
+And we know at some point he's gonna have to go back
+
+339
+00:14:22,215 --> 00:14:23,610
+这是一个不错的设置
+It's a nice setup
+
+340
+00:14:23,610 --> 00:14:25,410
+它使游戏的其余部分变得强大
+And it makes the rest of the game powerful
+
+341
+00:14:25,410 --> 00:14:30,232
+如果我们从与少女的对抗开始
+If we just started with that confrontation with the , the teenage women
+
+342
+00:14:30,232 --> 00:14:32,160
+呃，可能效果不太好
+Uh , it probably wouldn't work so well
+
+343
+00:14:33,320 --> 00:14:35,890
+然后我们就发生了所谓的煽动事件
+And then we have what we call the inciting incident
+
+344
+00:14:35,890 --> 00:14:38,120
+所以现在你是玩家角色，知道自己在世界上的位置
+So now you're player character knows their place in the world
+
+345
+00:14:38,120 --> 00:14:40,220
+我们可以开始为他们设置挑战
+We can start to set up the challenges for them
+
+346
+00:14:40,220 --> 00:14:43,220
+所以我们在这里增加叙事或机械张力
+So we increase the narrative or mechanical tension here
+
+347
+00:14:43,220 --> 00:14:46,030
+我们给对手或敌人增加风险
+And we add the antagonist or the enemies the risk
+
+348
+00:14:46,030 --> 00:14:49,270
+或者我们，我们打破了平常的情况，一些正常的事情
+Or we , we break the usual situation , something which was normal
+
+349
+00:14:49,270 --> 00:14:51,310
+每一天都变得不那么正常
+And every day becomes less normal
+
+350
+00:14:51,310 --> 00:14:52,750
+突然停止工作
+Suddenly it stops working
+
+351
+00:14:52,750 --> 00:14:54,270
+看看斯坦利寓言中的内容
+See it's in the stanley parable
+
+352
+00:14:54,270 --> 00:14:55,590
+按钮停止转动
+The button stops going
+
+353
+00:14:57,770 --> 00:15:00,910
+克服这个问题通常是你情节的外部动机
+Overcoming this problem is usually the external motivation of your plot
+
+354
+00:15:00,910 --> 00:15:03,150
+试图找到问题的根源并
+Trying to find the source of that problem and
+
+355
+00:15:03,150 --> 00:15:07,000
+让一切恢复正常通常是主角的动力
+And bring it back into normality is usually what drives your main character
+
+356
+00:15:08,040 --> 00:15:11,660
+但首先，尽管玩家角色回避了这个问题
+But to begin with , though the player character avoids the problem
+
+357
+00:15:11,660 --> 00:15:14,160
+玩家通常不会直接解决问题
+The player doesn't usually go straight to attacking the problem
+
+358
+00:15:14,160 --> 00:15:17,040
+他们要么探索自己的能力，要么探索世界
+They'll either explore their abilities , explore the world
+
+359
+00:15:17,040 --> 00:15:19,540
+他们会避免面临的大问题
+They'll avoid the big issues that's facing them
+
+360
+00:15:19,540 --> 00:15:22,185
+虽然一路上有一些较小的战斗
+Although have some smaller battles along the way
+
+361
+00:15:22,185 --> 00:15:25,260
+所以在 vv , vv , vv , 呃
+So in vv , vv , vv , uh
+
+362
+00:15:25,260 --> 00:15:27,300
+从现在开始我也称之为尖峰，呃
+Which i also called spikes from now on , uh
+
+363
+00:15:27,300 --> 00:15:28,140
+所以在尖峰比赛中
+So in spikes to play
+
+364
+00:15:28,140 --> 00:15:30,710
+角色必须拯救他们的同事
+A character has to rescue their colleagues
+
+365
+00:15:30,710 --> 00:15:32,570
+这是一个非常可爱的小游戏
+It's a really lovely little game
+
+366
+00:15:32,570 --> 00:15:33,830
+这让我想起了杰西说过的很多话
+It reminds me a lot of jess said
+
+367
+00:15:33,830 --> 00:15:36,970
+威廉真是个可爱的小游戏。非常非常有趣
+William is really a lovely little game . is very , very fun
+
+368
+00:15:36,970 --> 00:15:37,930
+但首先
+But to begin with
+
+369
+00:15:37,930 --> 00:15:40,550
+基本上玩家会漫无目的地闲逛
+Basically the player wanders aimlessly
+
+370
+00:15:40,550 --> 00:15:41,910
+真的，这就是你所做的
+Really that's what you do
+
+371
+00:15:41,910 --> 00:15:43,030
+你不，你没有让你失望
+You don't you're not set you off
+
+372
+00:15:43,030 --> 00:15:44,780
+我会立即找到大家
+I shall find everybody immediately
+
+373
+00:15:44,780 --> 00:15:48,682
+现在你去玩吧，你就会看到世界上有什么样的谜题
+Now you go off and play and you see what the kind of puzzles are in the world
+
+374
+00:15:48,682 --> 00:15:50,700
+经过一段时间的其他探索
+Now after a little while other exploration
+
+375
+00:15:50,700 --> 00:15:53,385
+他们做出有意图的选择
+They make a choice to act with intention
+
+376
+00:15:53,385 --> 00:15:56,240
+毕竟，这部剧给人的感觉是他们对这片土地足够了解，可以进行这场战斗
+After all , the play feels like they know the territory enough to make that fight
+
+377
+00:15:56,240 --> 00:15:57,230
+集中选择行动
+Focus choice to act
+
+378
+00:15:57,230 --> 00:15:59,300
+或者别无选择，只能行动
+Or there's no choice left , but to act
+
+379
+00:15:59,300 --> 00:16:01,220
+您已完成所有提交
+You've done all the submissions
+
+380
+00:16:01,220 --> 00:16:03,140
+你必须去看一个故事
+you have to go to a story one
+
+381
+00:16:04,320 --> 00:16:08,040
+在尖峰中，这基本上意味着我最好更多地使用地图
+In spikes , that means basically i'd better use the map more
+
+382
+00:16:08,040 --> 00:16:09,480
+如果你曾经玩过这个游戏，文斯
+If you ever played the game , vince
+
+383
+00:16:09,480 --> 00:16:10,120
+你就走吧，是的
+You kind of go , yeah
+
+384
+00:16:10,120 --> 00:16:10,880
+我迷路了
+I'm lost
+
+385
+00:16:10,880 --> 00:16:11,835
+好的
+Okay
+
+386
+00:16:11,835 --> 00:16:13,720
+这是什么闪烁的大象
+What is this flashing elephant
+
+387
+00:16:13,720 --> 00:16:14,380
+一
+Um
+
+388
+00:16:14,380 --> 00:16:16,790
+他们致力于实现外部目标
+They engage with the external objective of the
+
+389
+00:16:16,790 --> 00:16:18,550
+他们面前的故事或世界
+The story or the world that's ahead of them
+
+390
+00:16:18,550 --> 00:16:21,705
+那是他们真正开始涉足这个领域的时候
+And that's when they really begin to kind of get into this
+
+391
+00:16:21,705 --> 00:16:23,250
+但当他们进一步深入时
+But as they get further into it
+
+392
+00:16:23,250 --> 00:16:24,910
+复杂性开始增加
+The complexity begins to increase
+
+393
+00:16:24,910 --> 00:16:27,920
+这些能力似乎，嗯，不太有效
+The abilities seem , um , less effective
+
+394
+00:16:27,920 --> 00:16:29,420
+也许会添加新的敌人
+Maybe new enemies are added
+
+395
+00:16:29,420 --> 00:16:30,880
+哪个伙伴，哪个更有挑战性
+Which mate , which are more challenging
+
+396
+00:16:30,880 --> 00:16:33,700
+新的故事元素表明事情并非如此，是的
+New story elements show that things were not so , yeah
+
+397
+00:16:33,700 --> 00:16:36,070
+并不像我们想象的那么简单
+Not so simple as we thought they were to begin with
+
+398
+00:16:36,070 --> 00:16:38,120
+我认为俄罗斯方块是杰作
+And i think tetris is a masterpiece
+
+399
+00:16:38,120 --> 00:16:39,740
+正是因为这一刻
+Because of exactly this moment
+
+400
+00:16:44,260 --> 00:16:47,012
+复杂性突然增加
+Suddenly complexity is increased
+
+401
+00:16:47,012 --> 00:16:49,610
+突然间我们知道前方将会有困难
+And suddenly we know that there's going to be difficulty ahead
+
+402
+00:16:49,610 --> 00:16:52,650
+我们必须采取一种策略，将东西堆叠起来
+and we're gonna have to a strategy of just piling things on top of each other
+
+403
+00:16:52,650 --> 00:16:54,950
+现在是一种将事情隐藏起来的策略
+Is now a strategy of slipping things underneath
+
+404
+00:16:54,950 --> 00:16:56,750
+快要搬出去了
+Just about quickly moved out
+
+405
+00:16:56,750 --> 00:16:57,950
+哦不
+Oh no
+
+406
+00:16:57,950 --> 00:16:59,630
+突然间复杂性增加了
+Suddenly the complexity is increased
+
+407
+00:16:59,630 --> 00:17:01,790
+这本身就是一个讲故事的时刻
+And this is a storytelling moment in itself
+
+408
+00:17:02,820 --> 00:17:05,500
+我认为必须增加复杂性才能使体验引人注目
+I think the complexity has to increase to make the experience compelling
+
+409
+00:17:05,500 --> 00:17:07,220
+否则它会停留在这种平坦的水平
+Otherwise it stays at this kind of flat level
+
+410
+00:17:07,220 --> 00:17:09,059
+紧张的气氛没有改变
+The tension doesn't change
+
+411
+00:17:09,059 --> 00:17:11,619
+这样复杂性就可以通过叙事术语而改变
+So that complexity can change through narrative terms
+
+412
+00:17:11,619 --> 00:17:13,400
+机械术语，或通过两者
+Mechanical terms , or through both
+
+413
+00:17:13,400 --> 00:17:15,020
+如果可以的话我两个都喜欢
+I like both if you can
+
+414
+00:17:15,020 --> 00:17:17,392
+但你可以通过叙述来做到这一点
+But you can just do it with narrative
+
+415
+00:17:17,392 --> 00:17:20,970
+我认为如果你制作纯粹的叙事游戏，这是一种非常有效的方法
+I think that's a really valid way of doing it if you're making purely narrative games
+
+416
+00:17:24,119 --> 00:17:26,760
+所以在弗吉尼亚州，我们看到了主角之间的分歧
+So in virginia , we see divisions between the protagonists
+
+417
+00:17:26,760 --> 00:17:29,160
+梦想开始对现实提出质疑
+And the dreams begins to call some of reality into question
+
+418
+00:17:29,160 --> 00:17:34,840
+这是我们陷入火中的日常环境的复杂化
+And this is a complexification of the everyday setting that we , we'd gone into in fire
+
+419
+00:17:34,840 --> 00:17:36,760
+观看额外的阴谋
+Watching extra lay of conspiracy as added
+
+420
+00:17:36,760 --> 00:17:39,960
+公园里不仅有女性失踪，还发生了其他事情吗？
+Is there's not just missing women there's some other stuff going on in the park
+
+421
+00:17:39,960 --> 00:17:41,360
+它会得到一点所有
+And it will get a bit all
+
+422
+00:17:41,360 --> 00:17:42,280
+这很酷
+It's cool
+
+423
+00:17:42,280 --> 00:17:44,925
+我喜欢我自己的游戏。他的碎片
+I love the game in my own game . fragments of him
+
+424
+00:17:44,925 --> 00:17:48,660
+呃，威尔一直在努力建立一种、一种、一种长期的合作关系
+Uh , will's kind of been trying to build a , a , a big long term relationship
+
+425
+00:17:48,660 --> 00:17:50,580
+读到一半他开始怀疑
+And halfway through he begins to doubt
+
+426
+00:17:50,580 --> 00:17:53,237
+他能否在不伤害他人的情况下玷污一段关系
+Whether he can stain a relationship without hurting other people
+
+427
+00:17:53,237 --> 00:17:54,990
+这是一个很大的疑问时刻
+It's a big doubtful moment
+
+428
+00:17:54,990 --> 00:17:56,270
+这是，这是一种
+And this is , this is kind of the
+
+429
+00:17:56,270 --> 00:17:58,950
+大多数故事的中低点
+The , the , the low midpoint of most stories
+
+430
+00:18:00,840 --> 00:18:03,240
+所以最初的策略和武器已经不够了
+So the first strategies and weapons are no longer enough
+
+431
+00:18:03,240 --> 00:18:06,950
+通常在射击游戏中，会添加新的敌人模式和组合
+Usually in shooters , new patterns and combinations of enemies are added
+
+432
+00:18:06,950 --> 00:18:10,430
+呃，我认为超级巨星尘埃往往会在中途添加一些新东西
+Uh , something i sua superstar dust tends to add a new things halfway through
+
+433
+00:18:10,430 --> 00:18:14,057
+敌人使用更好的瞄准更多子弹或追踪错过岛屿
+Enemies use a better targeting more bullets or homing miss isles
+
+434
+00:18:14,057 --> 00:18:16,440
+敌人再次开始变得危险
+Enemies again begin to kind of get dangerous
+
+435
+00:18:16,440 --> 00:18:20,560
+新能力，例如快速移动或在死亡时跟踪你
+New abilities like moving fast or tracking you in left for dead
+
+436
+00:18:20,560 --> 00:18:22,480
+你不会把这些东西扔给玩家
+You would not throw these things at the player
+
+437
+00:18:22,480 --> 00:18:24,367
+他们一走出门
+As soon as they walk out the door
+
+438
+00:18:24,367 --> 00:18:25,770
+这很自然不是吗
+It's just natural isn't it
+
+439
+00:18:25,770 --> 00:18:26,490
+这就是我的意思
+And that's what i mean
+
+440
+00:18:26,490 --> 00:18:28,810
+ERROR
+This , some of these patterns are intuitive to us
+
+441
+00:18:28,810 --> 00:18:31,222
+我们只知道这不是一个好主意
+We just know it wouldn't be a good idea
+
+442
+00:18:31,222 --> 00:18:33,400
+然后希望战胜恐惧。经过一些努力
+Then hope overcome fear . with some effort
+
+443
+00:18:33,400 --> 00:18:36,000
+ERROR
+Player finds new weapons or strategies to overcome the enemies
+
+444
+00:18:36,000 --> 00:18:37,440
+外部变化发生
+The external change happens
+
+445
+00:18:37,440 --> 00:18:39,020
+他们得到力量提升或磨练
+They get power ups or grinding
+
+446
+00:18:39,020 --> 00:18:40,480
+这是一种，呃
+This is kind of the , uh
+
+447
+00:18:40,480 --> 00:18:43,590
+电影中的武器蒙太奇和训练蒙太奇
+The , the weapon montage and the training montage in a film
+
+448
+00:18:43,590 --> 00:18:45,430
+他们发现了他们从未意识到的力量
+They find the strength they never knew they had
+
+449
+00:18:45,430 --> 00:18:47,230
+他们有内在改变的时刻
+They have that moment of internal change
+
+450
+00:18:47,230 --> 00:18:50,730
+我认为生活很奇怪，凯特的故事做得很好
+which i think life is strange does so well with kate's story
+
+451
+00:18:51,790 --> 00:18:55,870
+角色学会将他们的技能和团队团结起来实现一个目标
+And the character learns to unite their skills and teams behind a single purpose
+
+452
+00:18:55,870 --> 00:18:57,602
+它有很高的风险
+It has high risks
+
+453
+00:18:57,602 --> 00:18:59,940
+在这只是乐趣之前现在已经有危险了
+There's danger ahead now before it was just fun
+
+454
+00:18:59,940 --> 00:19:02,280
+但现在面对这些事情有危险
+But now there's danger in facing these things
+
+455
+00:19:02,280 --> 00:19:04,500
+但这是他们继续下去的唯一希望
+But it is their only hope to continue
+
+456
+00:19:06,640 --> 00:19:09,260
+吉林看起来枪，很多枪
+Guilling look guns , lots of guns
+
+457
+00:19:09,260 --> 00:19:10,940
+然后我们就到了至暗时刻
+And then we get to the black moment
+
+458
+00:19:10,940 --> 00:19:13,160
+解决问题的所有希望都面临着风险
+All hopes of overcoming the problem at a risk
+
+459
+00:19:13,160 --> 00:19:14,240
+最终boss被杀
+The final boss is killed
+
+460
+00:19:14,240 --> 00:19:15,600
+但这还不是最终形式
+But it's not even it's final form
+
+461
+00:19:15,600 --> 00:19:16,420
+我的天啊
+Oh my god
+
+462
+00:19:16,420 --> 00:19:20,520
+正是在这种时刻，不断升级的危险显得太过分了
+It's it's this kind of moment that the escalating danger seemed too much
+
+463
+00:19:20,520 --> 00:19:22,320
+以及所有的知识、关系
+And all the knowledge , the relationships
+
+464
+00:19:22,320 --> 00:19:24,590
+通过玩家角色经验制定的策略
+The strategies developed through the player character experience
+
+465
+00:19:24,590 --> 00:19:27,500
+我需要克服这最后的挑战
+I needed to overcome this final challenge
+
+466
+00:19:27,500 --> 00:19:28,940
+最终的选择
+The final choice
+
+467
+00:19:28,940 --> 00:19:32,680
+你一路上建立的令人心碎的关系
+The heartbreaking relationships you've built along the way
+
+468
+00:19:32,680 --> 00:19:34,340
+现在所有人都处于危险之中
+Are all at risk now
+
+469
+00:19:34,340 --> 00:19:37,350
+而对于未来你会做出怎样的选择
+And what choice will you make about the future
+
+470
+00:19:37,350 --> 00:19:38,890
+这是一个强大的时刻
+It's a powerful moment
+
+471
+00:19:38,890 --> 00:19:39,880
+黑色时刻
+The black moment
+
+472
+00:19:39,880 --> 00:19:41,750
+在你的故事中非常非常重要
+Very , very important in your story
+
+473
+00:19:43,190 --> 00:19:45,850
+然后你尽快结束它
+And then you end it as fast as possible
+
+474
+00:19:45,850 --> 00:19:48,030
+人们常说，我的结局要到什么时候才会是你？
+People often say , how long should my ending be you
+
+475
+00:19:48,030 --> 00:19:50,030
+所以你要尽快完成
+So you do it as quickly as you possibly can
+
+476
+00:19:50,030 --> 00:19:51,630
+ERROR
+And you keep the ending neat and short
+
+477
+00:19:51,630 --> 00:19:54,110
+尽可能多地包裹线程
+Wrapping up as many of the threads as you possibly can
+
+478
+00:19:54,110 --> 00:19:56,122
+尽可能轻松地
+As easily as you can
+
+479
+00:19:56,122 --> 00:19:58,820
+所以让我们将所有这些添加到我们的图表中
+So let's add all of that to our diagram
+
+480
+00:19:58,820 --> 00:19:59,812
+好的
+Okay
+
+481
+00:19:59,812 --> 00:20:02,940
+ERROR
+So we're gonna start off with our before it begins moment
+
+482
+00:20:02,940 --> 00:20:04,910
+我们开始讨论煽动性事件
+We get to our inciting incidents
+
+483
+00:20:04,910 --> 00:20:06,885
+我们需要改变的地方
+Where we kind of have a need for change
+
+484
+00:20:06,885 --> 00:20:08,790
+但这个角色有点试图避免它
+But the character kind of tries to avoid it
+
+485
+00:20:08,790 --> 00:20:10,350
+认为是别人的问题
+Thinks it's somebody else's problem
+
+486
+00:20:10,350 --> 00:20:12,550
+然后他们就得到了外部目标的陈述
+And then they kind of gets that statement of external objective
+
+487
+00:20:12,550 --> 00:20:12,790
+是的
+Yes
+
+488
+00:20:12,790 --> 00:20:13,950
+我会勇敢地面对这一切
+I will face up to this
+
+489
+00:20:13,950 --> 00:20:14,110
+是的
+Yes
+
+490
+00:20:14,110 --> 00:20:17,465
+我会更多地使用地图并找到我的、我的同事
+I will use the map more and find my , my colleagues
+
+491
+00:20:17,465 --> 00:20:19,440
+ERROR
+They try this , uh
+
+492
+00:20:19,440 --> 00:20:20,860
+他们，他们尝试这些事情
+They , they try these kind of things
+
+493
+00:20:20,860 --> 00:20:22,060
+然后它并没有真正起作用
+Then it's not really working
+
+494
+00:20:22,060 --> 00:20:23,200
+我们到达低中点
+We get to the low midpoint
+
+495
+00:20:23,200 --> 00:20:24,440
+ERROR
+They're gonna have to get better
+
+496
+00:20:24,440 --> 00:20:27,127
+他们必须找到新的方法来处理这些事情
+They're gonna have to find new ways of dealing with these kind of things
+
+497
+00:20:27,127 --> 00:20:28,570
+训练蒙太奇
+Training montage
+
+498
+00:20:28,570 --> 00:20:29,670
+人们将通电
+People going to power up
+
+499
+00:20:29,670 --> 00:20:32,350
+人们为了获得高尚的东西而更加努力地磨练他们的角色
+People grind as their characters a little bit more to get their high things
+
+500
+00:20:32,350 --> 00:20:34,620
+我们在故事中看到了一些希望
+We get some hope entering into the story
+
+501
+00:20:34,620 --> 00:20:36,150
+也许如果我继续这样做
+Maybe if i keep on doing this
+
+502
+00:20:36,150 --> 00:20:37,310
+如果我在这个游戏中表现得更好
+If i get better at this game
+
+503
+00:20:37,310 --> 00:20:39,197
+我会克服这些挑战
+I'll overcome these challenges
+
+504
+00:20:39,197 --> 00:20:45,120
+ERROR
+Let me get this this this moment of of of building up the the the body assembles behind this one plan
+
+505
+00:20:45,120 --> 00:20:46,480
+这将推动我们前进
+Which is gonna push us forwar
+
+506
+00:20:46,480 --> 00:20:48,710
+当我们到了一切都处于危险之中的黑暗时刻
+When we to the black moment where all is at risk
+
+507
+00:20:48,710 --> 00:20:53,370
+也许只要有足够的技能，有足够的我们一路上保存下来的东西
+And maybe just with enough skill , with enough of the things that we saved along the way
+
+508
+00:20:53,370 --> 00:20:54,375
+我们可以克服
+We can overcome
+
+509
+00:20:54,375 --> 00:20:57,930
+我们得到了最终令人满意的结论
+And we have the final satisfying conclusion
+
+510
+00:20:57,930 --> 00:20:58,470
+凉爽的
+Cool
+
+511
+00:20:58,470 --> 00:21:01,110
+您可能已经注意到结尾处缺少一些内容
+you may have noticed there's a bits missing at the beginning of the end there
+
+512
+00:21:01,110 --> 00:21:04,340
+因为这是大多数故事作为玩家角色旅程的模型
+Because that's a model for most stories as a player character journey
+
+513
+00:21:04,340 --> 00:21:05,820
+这适合最强烈的体验
+This fits most strong experiences
+
+514
+00:21:05,820 --> 00:21:09,230
+ERROR
+A lot of films you see will follow this model pretty much exactly
+
+515
+00:21:09,230 --> 00:21:12,440
+它在直觉和情感层面上发挥作用，让人感觉非常有价值
+It works on an intuitive and emotional level to feel very rewarding
+
+516
+00:21:12,440 --> 00:21:14,620
+但如果你要拍惊悚片
+But if you're making a thriller
+
+517
+00:21:14,620 --> 00:21:15,780
+真实或恐怖的故事
+An actual or horror story
+
+518
+00:21:15,780 --> 00:21:19,660
+ERROR
+You might want to add an extra little bit on there horror stories in particular
+
+519
+00:21:19,660 --> 00:21:21,180
+做这个有一个额外的结构
+Do this one there's an additional bit of structure
+
+520
+00:21:21,180 --> 00:21:22,780
+您可能需要考虑在一开始就添加
+You might want to consider adding at the very beginning
+
+521
+00:21:22,780 --> 00:21:23,960
+这就是所谓的抓取器
+Which is called the grabber
+
+522
+00:21:23,960 --> 00:21:27,430
+这是一种行动恐惧的爆发，预示着游戏的未来
+It's a burst of actional fear that promises for future of the game
+
+523
+00:21:27,430 --> 00:21:30,380
+并在煽动事件发生前放慢速度
+And slows down before the inciting incident
+
+524
+00:21:30,380 --> 00:21:34,050
+所以这是让玩家角色知道前方将会有令人兴奋的事情的一种方式
+So it's a way to let the player character know there's gonna be excitement ahead
+
+525
+00:21:34,050 --> 00:21:36,630
+然后你稍后给他们一点喘息的空间
+And then you give them a bit of breathing space later on
+
+526
+00:21:36,630 --> 00:21:37,430
+例如
+For example
+
+527
+00:21:37,430 --> 00:21:41,190
+这是一款银河战士游戏，一开始你就会拥有大量强大的力量
+This is the metroid games where you end up with loads of great powers at the beginning
+
+528
+00:21:41,190 --> 00:21:42,850
+ERROR
+And then they take them away and kind of go
+
+529
+00:21:42,850 --> 00:21:43,370
+好的
+Okay
+
+530
+00:21:43,370 --> 00:21:46,022
+现在让你慢慢建立起来
+Let's let you build those up slowly now
+
+531
+00:21:46,022 --> 00:21:48,580
+或者呃，火焰杯
+Or the uh , goblet of fire
+
+532
+00:21:48,580 --> 00:21:50,760
+一开始就有恐怖的时刻
+It gets moment of horror at the beginning
+
+533
+00:21:50,760 --> 00:21:53,460
+你知道，稍后还会有另一个恐怖时刻
+And you know , it's gonna have another moment of horror later on
+
+534
+00:21:53,460 --> 00:21:57,442
+果然，最后一名少年被冷血杀害
+And sure enough , a teenager is killed in cold blood at the very end
+
+535
+00:21:57,442 --> 00:21:58,950
+这是剧透
+That's a spoilers
+
+536
+00:21:58,950 --> 00:21:59,950
+抱歉，呃
+Sorry , uh
+
+537
+00:21:59,950 --> 00:22:03,930
+但这就是它，这是一种告诉我们将会有事情发生的方式
+But it's it's it's , it's a way of telling us that there's gonna be something coming along
+
+538
+00:22:03,930 --> 00:22:06,610
+日间性爱从一开始就用所有的能力做到这一点
+Day sex does this with with all the abilities at the beginning
+
+539
+00:22:06,610 --> 00:22:09,537
+之后稍微拿走一些较慢的粘贴
+Take some away slower paste a bit after that
+
+540
+00:22:09,537 --> 00:22:11,340
+星际迷航 .杰·艾布拉姆斯
+Star trek . jj abrams
+
+541
+00:22:11,340 --> 00:22:12,420
+你已经死了
+You've got death
+
+542
+00:22:12,420 --> 00:22:13,040
+你有爱
+You've got love
+
+543
+00:22:13,040 --> 00:22:13,940
+你已经出生了
+You've got birth
+
+544
+00:22:13,940 --> 00:22:15,100
+你有牺牲
+You've got sacrifice
+
+545
+00:22:15,100 --> 00:22:16,100
+你有很棒的东西
+You've got amazing stuff
+
+546
+00:22:16,100 --> 00:22:17,810
+不是电影的前五分钟
+Not the first five minutes of the film
+
+547
+00:22:17,810 --> 00:22:21,530
+嗯，真的，我jj艾布拉姆斯是抓取大师
+Um , really , i jj abrams is a master of the grabber
+
+548
+00:22:21,530 --> 00:22:23,280
+我认为这是一件非常重要的事情
+It's a very important thing , i think
+
+549
+00:22:23,280 --> 00:22:25,620
+但如果你能在恐怖故事中做这种事
+But if you can do that kind of stuff in horror stories
+
+550
+00:22:25,620 --> 00:22:27,980
+最后你常常也会有最后的恐惧时刻
+You often also have a final moment of fear at the end
+
+551
+00:22:27,980 --> 00:22:29,480
+潜伏着所谓的邪恶
+Which called evil lurks
+
+552
+00:22:29,480 --> 00:22:30,570
+当当当
+Dang dang dang
+
+553
+00:22:30,570 --> 00:22:34,510
+所以在《嘉莉》中，这就是手从地下伸出来的时候
+So in carrie , this is when the the hand comes up from the beneath the the earth
+
+554
+00:22:34,510 --> 00:22:35,810
+还抢她这种东西
+And grabs her this kind of thing
+
+555
+00:22:35,810 --> 00:22:38,280
+这是租金期限结束时的噩梦
+It's the nightmares at the end of a rent horizon
+
+556
+00:22:38,280 --> 00:22:40,090
+但有时你也会感到兴奋
+But also you sometimes have this in thrills
+
+557
+00:22:40,090 --> 00:22:42,690
+该组织也许还没有完全失败
+Where the organization perhaps wasn't quite defeated
+
+558
+00:22:42,690 --> 00:22:44,130
+ERROR
+So in austin powers dr
+
+559
+00:22:44,130 --> 00:22:45,422
+邪恶逃脱
+Evil escapes
+
+560
+00:22:45,422 --> 00:22:48,240
+您知道，这是我们使用的一种相当常见的结构
+You know , this is a fairly common kind of structure that we do with this
+
+561
+00:22:48,240 --> 00:22:49,540
+或者杀戮地带的尽头
+Or the end of kills zone too
+
+562
+00:22:49,540 --> 00:22:51,220
+你杀了大老板的地方
+Where you've killed the big boss
+
+563
+00:22:51,220 --> 00:22:51,820
+我的天啊
+Oh my god
+
+564
+00:22:51,820 --> 00:22:52,400
+太棒了
+It's brilliant
+
+565
+00:22:52,400 --> 00:22:54,960
+战争结束了，你走到外面，战争仍在继续
+The war is over , you walk outside and the war is still going
+
+566
+00:22:56,170 --> 00:23:01,090
+哦，看起来很邪恶，他们会在三点被杀
+oh evil looks they'll be killed on three
+
+567
+00:23:03,400 --> 00:23:06,920
+所以我们只需将它们快速添加到该结构的末尾的开头即可。开始了
+so we just add those quickly at the beginning of the end of that structure . here we go
+
+568
+00:23:09,080 --> 00:23:10,740
+到目前为止我们已经描述了这一点
+So we've described this so far
+
+569
+00:23:10,740 --> 00:23:12,220
+这里有这条漂亮的平滑曲线
+This nice smooth curve in here
+
+570
+00:23:12,220 --> 00:23:14,720
+该图很好地解释了玩家角色的旅程
+The diagram explains the player character journey pretty nicely
+
+571
+00:23:14,720 --> 00:23:18,280
+，呃，它可以从字面上应用来帮助编写游戏中的故事
+the , uh , it could be applied literally to help write an in game story
+
+572
+00:23:18,280 --> 00:23:23,370
+或者作为一种隐喻结构，在引人注目的机械驱动体验中塑造张力
+Or as a metaphorical structure to shape tension in a compelling mechanics driven experience
+
+573
+00:23:23,370 --> 00:23:24,730
+无论你想用哪种方式来做
+Whichever way you want to do it
+
+574
+00:23:24,730 --> 00:23:27,310
+这种结构以情感方式发挥作用
+This kind of structure works on an emotional way
+
+575
+00:23:28,840 --> 00:23:30,720
+所以我们也可以这样设置
+So we can also sort of set it out like this
+
+576
+00:23:30,720 --> 00:23:33,280
+ERROR
+This model works is a metastructure for the entire game
+
+577
+00:23:33,280 --> 00:23:35,120
+但你也可以在较小的层面上做到这一点
+But it also you can do it on a smaller level
+
+578
+00:23:35,120 --> 00:23:37,335
+它可以逐级重复
+It can repeat on a level by level basis
+
+579
+00:23:37,335 --> 00:23:39,740
+呃，随着关卡的一点点
+Uh , with each little bit of the level
+
+580
+00:23:39,740 --> 00:23:44,692
+有助于某种，呃，通往外部内部动机的旅程
+Contributing to kind of the , uh , journey towards that external internal motivation
+
+581
+00:23:44,692 --> 00:23:47,470
+呃，这就是我在《外星人与掠夺者》中所做的，例如
+Uh , this is what i did on aliens versus predator , for example
+
+582
+00:23:47,470 --> 00:23:49,890
+每个级别都有一个完整的故事
+Every level of that has a full story inside it
+
+583
+00:23:49,890 --> 00:23:53,090
+以及为游戏的完整故事做出贡献
+As well as contributing to the full story of the game
+
+584
+00:23:53,090 --> 00:23:55,870
+但这对于每个遭遇或场景来说细节太多了
+But that's too much detail for each encounter or scene
+
+585
+00:23:55,870 --> 00:23:58,490
+所以如果你想创造一个好的场景，就用它来工作
+So if you want to make a good scene to be to , to work with that
+
+586
+00:23:58,490 --> 00:24:00,957
+为此我们需要一个简单一点的指南
+We need a little , little simpler sher guide for that
+
+587
+00:24:00,957 --> 00:24:04,970
+基本上，我们想把它变成那种高贵的版本
+Basically , we want to turn this into that kind of nobly version
+
+588
+00:24:04,970 --> 00:24:06,500
+那么我们该如何去做呢
+So how do we go about doing this
+
+589
+00:24:06,500 --> 00:24:08,490
+好吧，我们用场景结构来做到这一点
+Well , we do this with scene structure
+
+590
+00:24:08,490 --> 00:24:10,060
+这是该图的最后一部分
+It's the final part of that diagram
+
+591
+00:24:10,060 --> 00:24:10,930
+我们要在那里添加
+We're gonna add in there
+
+592
+00:24:10,930 --> 00:24:13,940
+所以你所在关卡中的所有场景都必须有一个目标
+So all scenes on your level must have an objective
+
+593
+00:24:13,940 --> 00:24:16,542
+这是玩家的目标或经验
+Which is the player's target goal or experience
+
+594
+00:24:16,542 --> 00:24:19,330
+你必须有冲突，一些能够实现目标的东西
+You must have conflict , something that makes the objective
+
+595
+00:24:19,330 --> 00:24:21,140
+更难到达，就像，呃
+More difficult to reach it's like , uh
+
+596
+00:24:21,140 --> 00:24:23,440
+这可以是叙述性的，也可以是机制性的，或者两者兼而有之
+This can be either nnarrative or mechanics or both
+
+597
+00:24:23,440 --> 00:24:25,740
+某种让我们挣扎的冲突
+Some sort of conflict that makes us struggle
+
+598
+00:24:25,740 --> 00:24:27,720
+让我们更难实现这些事情
+Makes it harder for us to make these things happen
+
+599
+00:24:27,720 --> 00:24:32,412
+然后通过要求角色玩家做出改变来达到结果
+And then outcome is reached by requiring change from the player of the character
+
+600
+00:24:32,412 --> 00:24:35,070
+所以他们要么解决冲突，要么适应冲突
+So they either resolve or adapt to the conflict
+
+601
+00:24:35,070 --> 00:24:37,550
+构建故事体验的下一部分
+Building to the next part of the experience of the story
+
+602
+00:24:37,550 --> 00:24:40,270
+故事随着那里的紧张局势不断升级而继续下去
+And the story goes on with escalating tension there
+
+603
+00:24:40,270 --> 00:24:41,790
+你会得到这些漂亮的小峰
+And you get these nice little peaks of
+
+604
+00:24:41,790 --> 00:24:42,510
+哦，我会成功的
+Oh i'm gonna make it
+
+605
+00:24:42,510 --> 00:24:43,830
+哦，不，这并不更令人期待
+Oh no , that wasn't more expected
+
+606
+00:24:43,830 --> 00:24:44,610
+哦，我是
+Oh i am
+
+607
+00:24:44,610 --> 00:24:46,470
+你会得到这些小张力方舟
+You get these little tension arks coming all
+
+608
+00:24:46,470 --> 00:24:47,620
+一路走来都有
+All the way along the way there
+
+609
+00:24:47,620 --> 00:24:49,730
+这是《外星人大战》中的联盟角色
+So this was the league character from aliens vs
+
+610
+00:24:49,730 --> 00:24:51,970
+掠食者或这方面的作家
+Predator or a writer on this one
+
+611
+00:24:51,970 --> 00:24:55,430
+呃，你的首要目标之一就是重置殖民地
+Uh , one of the first objectives you get is to reset the , the colony
+
+612
+00:24:55,430 --> 00:24:57,510
+呃，权力，让它发挥作用。再次
+Uh , powers to , to make it work . again
+
+613
+00:24:57,510 --> 00:24:58,730
+冲突就是力量
+The conflict is the power
+
+614
+00:24:58,730 --> 00:25:01,110
+pler成功重置断电
+The pler successfully resets the cut power
+
+615
+00:25:01,110 --> 00:25:03,410
+ERROR
+But it blows the circuits across the colony
+
+616
+00:25:03,410 --> 00:25:05,280
+所以之前殖民地实际上面临的风险更大
+So the colony is actually more at risk before
+
+617
+00:25:05,280 --> 00:25:07,240
+而且人物的生活也更加复杂
+And the character's life is more complex
+
+618
+00:25:07,240 --> 00:25:12,087
+现在请注意，玩家成功了，而角色失败了
+Now notice here that the player succeeded whilst the character failed
+
+619
+00:25:12,087 --> 00:25:15,120
+所以只要你有路标，你仍然可以获得玩家的成功
+So you can still have player success as long as you signpost
+
+620
+00:25:15,120 --> 00:25:16,710
+干得好，你做对了
+Well done , you've done the right thing
+
+621
+00:25:16,710 --> 00:25:21,020
+你的玩家的生活现在更糟糕了，但没关系
+Your player's life now sucks even more that's perfectly fine
+
+622
+00:25:21,020 --> 00:25:24,000
+事实上，我强烈鼓励您尽可能多地这样做
+In fact , i thoroughly encourage you to do that as often as possible
+
+623
+00:25:24,000 --> 00:25:26,200
+因为如果你的角色的生活很轻松
+Because if your character's life is easy
+
+624
+00:25:26,200 --> 00:25:29,130
+他们，他们的故事通常很无聊
+Their , their story is usually pretty boring
+
+625
+00:25:29,130 --> 00:25:31,940
+所以尽可能多地尝试玩这种东西
+So try and play with this kind of stuff as much as you can
+
+626
+00:25:33,910 --> 00:25:35,770
+所以另一个例子可能是上帝
+So another example for this might be the god
+
+627
+00:25:35,770 --> 00:25:36,970
+可能是战神系列
+Might be god of war series
+
+628
+00:25:36,970 --> 00:25:39,390
+目标是继续杀死一切
+Where the objective is to continue killing everything
+
+629
+00:25:39,390 --> 00:25:40,010
+呃
+Uh
+
+630
+00:25:40,010 --> 00:25:41,190
+然后你就有了冲突
+And then you have the conflict
+
+631
+00:25:41,190 --> 00:25:42,790
+谁用盾牌对付敌人
+Which is who gets enemies with shields
+
+632
+00:25:42,790 --> 00:25:44,380
+阻止通常的攻击
+Which block the usual attacks
+
+633
+00:25:44,380 --> 00:25:47,850
+所以玩家必须开始使用新的攻击才能进步
+And so the player has to start using new attacks to progress
+
+634
+00:25:47,850 --> 00:25:49,230
+让游戏更具挑战性
+Making the game more challenging
+
+635
+00:25:49,230 --> 00:25:51,170
+玩家的复杂性增加
+The complexity increases for the player
+
+636
+00:25:51,170 --> 00:25:52,970
+没有改变的性格
+The character that has not changed
+
+637
+00:25:52,970 --> 00:25:55,312
+这个角色只是想让他们杀死一切
+The character just wants to keep them killing everything
+
+638
+00:25:55,312 --> 00:25:57,240
+所以在这里我们再次看到我们有
+So here we see again that we've got
+
+639
+00:25:57,240 --> 00:26:00,140
+我们在场景中不断升级的小便控制
+We've got that escalating little pee control in a scene
+
+640
+00:26:00,140 --> 00:26:04,120
+但这一次对于玩家的复杂性来说却是相反的
+But it's working the other way around for the , for the players complexity this time
+
+641
+00:26:05,590 --> 00:26:06,870
+所以让我们在其中添加它
+So let's add that in there
+
+642
+00:26:06,870 --> 00:26:07,910
+所以我们有我们的目标
+So we have our objective
+
+643
+00:26:07,910 --> 00:26:10,427
+我们有我们的冲突，我们有我们的结果
+We have our conflict and we have our outcome
+
+644
+00:26:10,427 --> 00:26:12,200
+这将出现在最后的幻灯片上
+This will be on the final slides
+
+645
+00:26:12,200 --> 00:26:13,040
+你不需要去思考
+You don't need to go think
+
+646
+00:26:13,040 --> 00:26:15,200
+我现在就要改变它，已经太晚了
+And i'm gonna change it now ha too late
+
+647
+00:26:15,200 --> 00:26:16,160
+一
+um
+
+648
+00:26:17,920 --> 00:26:20,425
+游戏就是玩家的故事
+For games are players stories
+
+649
+00:26:20,425 --> 00:26:21,940
+所以如果你的游戏感觉平淡
+So if your game feels flat
+
+650
+00:26:21,940 --> 00:26:25,760
+然后将你的、你的玩家体验视为一个故事，这是调试它的好方法
+Then think of your , your players experience as a story is a good way of debugging it
+
+651
+00:26:25,760 --> 00:26:28,620
+想想他们正在经历的事情
+Think about what they're experiencing as they going through it
+
+652
+00:26:28,620 --> 00:26:30,390
+所以这里有四个调试问题要问
+So here are four debug questions to ask
+
+653
+00:26:30,390 --> 00:26:33,370
+呃，在游戏、事件或关卡中感觉令人满意
+The , uh , in a game , event or level feels on satisfying
+
+654
+00:26:33,370 --> 00:26:36,277
+我也会在最后放一张图表
+And i'm gonna put a diagram of this at the very end as well
+
+655
+00:26:36,277 --> 00:26:36,960
+好的
+Okay
+
+656
+00:26:36,960 --> 00:26:39,840
+呃，这个地方目标明确吗？
+Uh , is the place objective clear
+
+657
+00:26:39,840 --> 00:26:42,920
+是否存在不断升级的机械或叙事冲突
+Is there an escalating mechanical or narrative conflict
+
+658
+00:26:42,920 --> 00:26:44,160
+或者只是重复
+Or is it only repetition
+
+659
+00:26:44,160 --> 00:26:45,520
+我们以前做过吗
+Have we done this before
+
+660
+00:26:46,680 --> 00:26:50,240
+结果是否对机制、叙事或两者都有有意义的补充
+does the outcome meaningfully add to the mechanics , the narrative or both
+
+661
+00:26:51,600 --> 00:26:55,040
+整场比赛就是他们从开始到结束的变化
+And over the whole game was their change from start to finish
+
+662
+00:26:55,040 --> 00:26:57,442
+对于玩家、角色或两者
+For the player , the character or both
+
+663
+00:26:57,442 --> 00:26:59,690
+这种改变是非常关键的事情
+That change is a really key thing
+
+664
+00:26:59,690 --> 00:27:04,310
+让你的游戏体验感觉良好，真的很重要
+To making your game experience feel good , really really important thing
+
+665
+00:27:05,410 --> 00:27:06,810
+所以这件事就这样结束了
+So it's gonna conclude this
+
+666
+00:27:06,810 --> 00:27:08,500
+现在结束这一切
+Wrapping this all up now
+
+667
+00:27:08,500 --> 00:27:10,890
+好的设计已经被直观地使用了
+Good design is already intuitively used
+
+668
+00:27:10,890 --> 00:27:14,742
+因此故事结构可以创造引人入胜且有益的游戏
+So story structures to create compelling and rewarding games
+
+669
+00:27:14,742 --> 00:27:18,720
+尽管我认为有意识地学习是一种强有力的理解方式
+Learning to do so consciously though i think is a powerful way of understanding
+
+670
+00:27:18,720 --> 00:27:22,420
+我们如何有意识地利用故事塑造美好体验
+How we shape great experiences using stories consciously
+
+671
+00:27:22,420 --> 00:27:24,880
+了解人们所经历的紧张局势
+Understanding this tension ark that people go through
+
+672
+00:27:24,880 --> 00:27:26,220
+这是波峰和波谷
+That it is peaks and troughs
+
+673
+00:27:26,220 --> 00:27:28,620
+不是一条直线是一件非常重要的事情
+Not a straight line is a really important thing to do
+
+674
+00:27:28,620 --> 00:27:31,200
+因此，无论您的游戏是叙事性的还是机制性的
+So whether your game is narrative or mechanics oriented
+
+675
+00:27:31,200 --> 00:27:36,527
+学习像讲故事的人一样思考可以帮助您做出明智的以玩家为中心的设计选择
+Learning to think like a storyteller helps you make intelligent player focus design choices
+
+676
+00:27:36,527 --> 00:27:38,790
+我希望您觉得这次演讲有趣且有用
+I hope you found this talk interesting and useful
+
+677
+00:27:38,790 --> 00:27:40,740
+如果您想了解更多，请联系我们，呃
+Getting in touch if you want to know more , uh
+
+678
+00:27:40,740 --> 00:27:42,960
+请在会议结束后发表评论并进行审查
+Please leave comments with review after the session
+
+679
+00:27:42,960 --> 00:27:44,560
+我确实阅读了你在那里发表的所有评论
+I do read all the comments you put in there
+
+680
+00:27:44,560 --> 00:27:45,480
+那些太棒了
+Those are awesome
+
+681
+00:27:45,480 --> 00:27:48,540
+所以我将在下一张幻灯片后展示这两张图
+So i'm gonna show those two diagrams after the next slide
+
+682
+00:27:48,540 --> 00:27:49,750
+所以我要说一声谢谢
+So i'm going to say thank you one
+
+683
+00:27:49,750 --> 00:27:51,030
+然后我将展示这两个图
+Then i'll show the two diagrams
+
+684
+00:27:51,030 --> 00:27:53,200
+我们都可以拍照片之类的东西
+And we can all take photos and stuff like that
+
+685
+00:27:53,200 --> 00:27:54,497
+一
+Um
+
+686
+00:27:54,497 --> 00:27:56,520
+在那之前我想说玩得开心
+Before that i wanted to say have fun
+
+687
+00:27:56,520 --> 00:27:58,760
+制作精彩的游戏并讲述一些精彩的故事
+Make great games and please tell some great stories
+
+688
+00:27:58,760 --> 00:28:00,520
+非常感谢您的聆听
+And thank you so much for listening
+
+689
+00:28:00,520 --> 00:28:02,100
+二十九分十五秒
+Twenty nine minutes , fifteen seconds
+
+690
+00:28:02,100 --> 00:28:03,640
+哇！哈哈哈
+Wow ! ha ha ha
+
+691
+00:28:09,940 --> 00:28:11,540
+谢谢你对的
+thank you right
+
+692
+00:28:13,340 --> 00:28:14,390
+让我们来做吧
+Let's do
+
+693
+00:28:14,390 --> 00:28:15,660
+让我们做一下相机部分
+Let's do the camera bit
+
+694
+00:28:15,660 --> 00:28:16,900
+我们到这里
+here we go here
+
+695
+00:28:18,390 --> 00:28:19,430
+我喜欢这个
+I love this fi
+
+696
+00:28:19,430 --> 00:28:21,590
+看到大约有两百个摄像机出现，太棒了
+see about two hundred cameras come up it's great
+
+697
+00:28:25,560 --> 00:28:27,500
+哈哈哈哈
+Ha ha ha ha
+
+698
+00:28:27,500 --> 00:28:30,130
+我应该拿出相机给你拍张照片
+I should get my camera out and take photo of you
+
+699
+00:28:30,130 --> 00:28:30,720
+大家
+Everybody
+
+700
+00:28:30,720 --> 00:28:31,760
+他刚刚拍了一张照片
+He just took a photo
+
+701
+00:28:31,760 --> 00:28:33,610
+将相机举在空中
+Hold a camera in the air
+
+702
+00:28:33,610 --> 00:28:35,940
+惊人的
+Awesome
+
+703
+00:28:35,940 --> 00:28:37,140
+谢谢
+Thank you
+
+704
+00:28:37,140 --> 00:28:38,520
+呃，好吧，我们开始吧
+Uh , okay , let's do
+
+705
+00:28:38,520 --> 00:28:39,900
+我们来做下一个
+Let's do the next one
+
+706
+00:28:39,900 --> 00:28:40,640
+我们去吧
+There we go
+
+707
+00:28:40,640 --> 00:28:43,060
+一些关于使用的 cd 错误问题可以帮助你解决这个问题
+Some cd bugging questions for uses help you through there
+
+708
+00:28:43,060 --> 00:28:44,750
+关于如何使用它们的一些提示
+Some tips about how to use them
+
+709
+00:28:44,750 --> 00:28:47,010
+什么样的事情可能会给你带来问题
+Kind of , what sort of things are probably causing you problems
+
+710
+00:28:47,010 --> 00:28:51,110
+如果你必须这样做，呃，如果你自己没有得到这些问题的好的答案
+If you have to , uh , if you don't get a good answer to those questions for yourself
+
+711
+00:28:52,390 --> 00:28:53,500
+凉爽的
+Cool
+
+712
+00:28:53,500 --> 00:28:54,190
+好的
+Okay
+
+713
+00:28:54,190 --> 00:28:57,150
+我们有时间提问还是必须现在就结束
+Do we have time for questions or do we have to wrap up right now
+
+714
+00:28:57,150 --> 00:28:59,722
+我想我们可能得结束了
+I think we probably have to wrap up
+
+715
+00:28:59,722 --> 00:29:01,060
+有一个包房
+There is a wrap up room
+
+716
+00:29:01,060 --> 00:29:02,892
+这是二二二
+Which is two o two two
+
+717
+00:29:02,892 --> 00:29:06,530
+我想他们说的是二二二
+I think they said two o two two
+
+718
+00:29:06,530 --> 00:29:07,230
+这是正确的吗
+Is that correct
+
+719
+00:29:07,230 --> 00:29:08,170
+这是正确的
+It is correct
+
+720
+00:29:08,170 --> 00:29:09,637
+出色的
+Excellent
+
+721
+00:29:09,637 --> 00:29:10,420
+大家
+Everybody
+
+722
+00:29:10,420 --> 00:29:12,580
+非常感谢你们来到这里
+So thank you so , so much for being here
+
+723
+00:29:12,580 --> 00:29:13,760
+我希望你喜欢这次演讲
+I hope you enjoyed that talk
+
+724
+00:29:13,760 --> 00:29:15,110
+再次感谢您
+Thank you once again
+
+725
+00:29:15,110 --> 00:29:16,180
+谢谢
+Thank you
+
+726
+00:29:17,700 --> 00:29:18,380
+谢谢
+Thank you
