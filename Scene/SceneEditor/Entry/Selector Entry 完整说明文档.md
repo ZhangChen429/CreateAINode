@@ -11,11 +11,11 @@ class Selector : public RandomList  // 继承随机选择能力
 
 {
 
-&#x20;   CName m\_idleAnim;  // 基础姿态（回退用）
+  CName m\_idleAnim;  // 基础姿态（回退用）
 
-&#x20;   // + 自动 transition 处理
+  // + 自动 transition 处理
 
-&#x20;   // + 姿态回退机制
+  // + 姿态回退机制
 
 };
 ```
@@ -227,9 +227,9 @@ Selector 让多个不同姿态的行为能够自然流畅地切换，避免穿�
 
 └─ 否（只有一个姿态，多个手势动画）
 
-&#x20;   └─ 使用 Sequence + Random List
+└─ 使用 Sequence + Random List
 
-&#x20;       └─ 例如：站立时的各种小动作（挠头、伸懒腰、看手表）
+└─ 例如：站立时的各种小动作（挠头、伸懒腰、看手表）
 ```
 
 ### 总结公式
@@ -255,15 +255,15 @@ Selector 让多个不同姿态的行为能够自然流畅地切换，避免穿�
 ```
 IdleGuard ← 这是 transition 魔法的源头！
 
-&#x20;   ↑
+  ↑
 
 ContainerIterator ← 所有容器继承这个能力
 
-&#x20;   ↑
+  ↑
 
 RandomListIterator ← 随机列表继承
 
-&#x20;   ↑
+  ↑
 
 SelectorIterator ← Selector 继承并增强
 ```
@@ -285,49 +285,49 @@ virtual void Next(const EntryIterationContext& context) override
 
 {
 
-&#x20;   const EntryClass\* clip = static\_castClass\*>(m\_pointedEntry);
+  const EntryClass\* clip = static\_castClass\*>(m\_pointedEntry);
 
-&#x20;   // ✅ 第一步：获取当前和目标 idle
+  // ✅ 第一步：获取当前和目标 idle
 
-&#x20;   CName fromIdle = context.m\_currentIdleAnim;  // 当前姿态
+  CName fromIdle = context.m\_currentIdleAnim;  // 当前姿态
 
-&#x20;   CName toIdle = clip->m\_idleAnim;             // 目标容器的姿态
+  CName toIdle = clip->m\_idleAnim;             // 目标容器的姿态
 
-&#x20;   // ✅ 第二步：检查是否需要 transition
+  // ✅ 第二步：检查是否需要 transition
 
-&#x20;   Bool hasPendingTransition =
+  Bool hasPendingTransition =
 
-&#x20;       m\_state == State::CheckTransition &&
+      m\_state == State::CheckTransition &&
 
-&#x20;       (fromIdle && toIdle && fromIdle != toIdle);  // idle 不同才需要
+      (fromIdle && toIdle && fromIdle != toIdle);  // idle 不同才需要
 
-&#x20;   if (hasPendingTransition)
+  if (hasPendingTransition)
 
-&#x20;   {
+  {
 
-&#x20;       // ✅ 第三步：调用查找函数
+      // ✅ 第三步：调用查找函数
 
-&#x20;       DetermineTransitionAnim(
+      DetermineTransitionAnim(
 
-&#x20;           context.m\_customTransitionAnims,  // 自定义 transition 列表
+          context.m\_customTransitionAnims,  // 自定义 transition 列表
 
-&#x20;           fromIdle,                         // 从哪个 idle
+          fromIdle,                         // 从哪个 idle
 
-&#x20;           toIdle,                           // 到哪个 idle
+          toIdle,                           // 到哪个 idle
 
-&#x20;           m\_transiionAnimName               // \[输出] 找到的动画名
+          m\_transiionAnimName               // \[输出] 找到的动画名
 
-&#x20;       );
+      );
 
-&#x20;       m\_state = State::PerformTransition;  // 标记：下次返回 transition
+      m\_state = State::PerformTransition;  // 标记：下次返回 transition
 
-&#x20;       return;  // 停止，先播放 transition
+      return;  // 停止，先播放 transition
 
-&#x20;   }
+  }
 
-&#x20;   // 没有 transition 或已播放完，继续正常流程
+  // 没有 transition 或已播放完，继续正常流程
 
-&#x20;   BaseIterator::Next(context);
+  BaseIterator::Next(context);
 
 }
 ```
@@ -341,57 +341,57 @@ virtual void Next(const EntryIterationContext& context) override
 ```
 void DetermineTransitionAnim(
 
-&#x20;   const red::DynArray\<TransitionAnim>\* customTransitionAnims,
+  const red::DynArray\<TransitionAnim>\* customTransitionAnims,
 
-&#x20;   CName fromIdle,
+  CName fromIdle,
 
-&#x20;   CName toIdle,
+  CName toIdle,
 
-&#x20;   CName& transitionAnimName)  // 引用，直接修改输出
+  CName& transitionAnimName)  // 引用，直接修改输出
 
 {
 
-&#x20;   Bool found = false;
+  Bool found = false;
 
-&#x20;   // ✅ 优先级 1：查找自定义 transition
+  // ✅ 优先级 1：查找自定义 transition
 
-&#x20;   if (customTransitionAnims)
+  if (customTransitionAnims)
 
-&#x20;   {
+  {
 
-&#x20;       for (const TransitionAnim& entry : \*customTransitionAnims)
+      for (const TransitionAnim& entry : \*customTransitionAnims)
 
-&#x20;       {
+      {
 
-&#x20;           if (entry.m\_fromIdle == fromIdle && entry.m\_toIdle == toIdle)
+          if (entry.m\_fromIdle == fromIdle && entry.m\_toIdle == toIdle)
 
-&#x20;           {
+          {
 
-&#x20;               transitionAnimName = entry.m\_transitionAnim;
+              transitionAnimName = entry.m\_transitionAnim;
 
-&#x20;               found = true;
+              found = true;
 
-&#x20;               break;
+              break;
 
-&#x20;           }
+          }
 
-&#x20;       }
+      }
 
-&#x20;   }
+  }
 
-&#x20;   // ✅ 优先级 2：生成标准命名的 transition
+  // ✅ 优先级 2：生成标准命名的 transition
 
-&#x20;   if (!found)
+  if (!found)
 
-&#x20;   {
+  {
 
-&#x20;       // 格式：fromIdle\_\_2\_\_toIdle
+      // 格式：fromIdle\_\_2\_\_toIdle
 
-&#x20;       // 例如：sit\_phone\_\_2\_\_sit\_tablet
+      // 例如：sit\_phone\_\_2\_\_sit\_tablet
 
-&#x20;       transitionAnimName = GenerateTransitionAnimName(fromIdle, toIdle);
+      transitionAnimName = GenerateTransitionAnimName(fromIdle, toIdle);
 
-&#x20;   }
+  }
 
 }
 ```
@@ -407,13 +407,13 @@ CName GenerateTransitionAnimName(CName fromIdle, CName toIdle)
 
 {
 
-&#x20;   // 格式：fromIdle\_\_2\_\_toIdle
+  // 格式：fromIdle\_\_2\_\_toIdle
 
-&#x20;   return CName(String::Printf("%s\_\_2\_\_%s",
+  return CName(String::Printf("%s\_\_2\_\_%s",
 
-&#x20;                               fromIdle.AsChar(),
+                              fromIdle.AsChar(),
 
-&#x20;                               toIdle.AsChar()));
+                              toIdle.AsChar()));
 
 }
 ```
@@ -429,35 +429,35 @@ virtual void GetData(WorkspotEntryData& outData) override
 
 {
 
-&#x20;   if (IsTransitionActive())  // m\_state == State::PerformTransition
+  if (IsTransitionActive())  // m\_state == State::PerformTransition
 
-&#x20;   {
+  {
 
-&#x20;       // ✅ 返回 transition 动画的数据
+      // ✅ 返回 transition 动画的数据
 
-&#x20;       outData.m\_animationName = m\_transiionAnimName;  // 要播放的动画
+      outData.m\_animationName = m\_transiionAnimName;  // 要播放的动画
 
-&#x20;       outData.m\_idleAnimName = clip->m\_idleAnim;      // 目标 idle
+      outData.m\_idleAnimName = clip->m\_idleAnim;      // 目标 idle
 
-&#x20;       outData.m\_entryFlags = IEntry::Animation |
+      outData.m\_entryFlags = IEntry::Animation |
 
-&#x20;                              IEntry::MotionAnim |
+                             IEntry::MotionAnim |
 
-&#x20;                              IEntry::TransitionAnim;  // 标记为 transition
+                             IEntry::TransitionAnim;  // 标记为 transition
 
-&#x20;       outData.m\_blendTime = m\_blendTime;
+      outData.m\_blendTime = m\_blendTime;
 
-&#x20;   }
+  }
 
-&#x20;   else
+  else
 
-&#x20;   {
+  {
 
-&#x20;       // 正常返回子节点数据
+      // 正常返回子节点数据
 
-&#x20;       BaseIterator::GetData(outData);
+      BaseIterator::GetData(outData);
 
-&#x20;   }
+  }
 
 }
 ```
@@ -475,69 +475,69 @@ class SelectorIterator : public RandomListIterator
 
 {
 
-&#x20;   virtual IEntry\* GetNextElement(Int32 index, const EntryIterationContext& context) override
+  virtual IEntry\* GetNextElement(Int32 index, const EntryIterationContext& context) override
 
-&#x20;   {
+  {
 
-&#x20;       // 1. 先用 RandomList 的逻辑选择一个子节点
+      // 1. 先用 RandomList 的逻辑选择一个子节点
 
-&#x20;       THandle nextEl = RandomListIterator::GetNextElement(index, context);
+      THandle nextEl = RandomListIterator::GetNextElement(index, context);
 
-&#x20;       THandle\<IContainerEntry> nextContainer = CastontainerEntry>(nextEl);
+      THandle\<IContainerEntry> nextContainer = CastontainerEntry>(nextEl);
 
-&#x20;       // 2. 预先检查是否有 transition 动画
+      // 2. 预先检查是否有 transition 动画
 
-&#x20;       CName fromIdle = context.m\_currentIdleAnim;
+      CName fromIdle = context.m\_currentIdleAnim;
 
-&#x20;       CName toIdle = nextContainer ? nextContainer->m\_idleAnim : CName::NONE();
+      CName toIdle = nextContainer ? nextContainer->m\_idleAnim : CName::NONE();
 
-&#x20;       CName transitionAnim;
+      CName transitionAnim;
 
-&#x20;       if (fromIdle && toIdle && fromIdle != toIdle)
+      if (fromIdle && toIdle && fromIdle != toIdle)
 
-&#x20;       {
+      {
 
-&#x20;           // 调用相同的查找函数
+          // 调用相同的查找函数
 
-&#x20;           DetermineTransitionAnim(context.m\_customTransitionAnims,
+          DetermineTransitionAnim(context.m\_customTransitionAnims,
 
-&#x20;                                  fromIdle, toIdle, transitionAnim);
+                                 fromIdle, toIdle, transitionAnim);
 
-&#x20;       }
+      }
 
-&#x20;       // 3. ✅ Selector 特有：检查动画是否真的存在
+      // 3. ✅ Selector 特有：检查动画是否真的存在
 
-&#x20;       Bool changeToBaseIdle = !transitionAnim ||                    // 没找到
+      Bool changeToBaseIdle = !transitionAnim ||                    // 没找到
 
-&#x20;                               !context.m\_animExistFunctor ||         // 或
+                              !context.m\_animExistFunctor ||         // 或
 
-&#x20;                               !context.m\_animExistFunctor(transitionAnim);  // 动画文件不存在
+                              !context.m\_animExistFunctor(transitionAnim);  // 动画文件不存在
 
-&#x20;       if (changeToBaseIdle)
+      if (changeToBaseIdle)
 
-&#x20;       {
+      {
 
-&#x20;           // 4. ✅ 使用回退策略：用 Selector 的 m\_idleAnim 包裹
+          // 4. ✅ 使用回退策略：用 Selector 的 m\_idleAnim 包裹
 
-&#x20;           m\_idleSequence->m\_list.Clear();
+          m\_idleSequence->m\_list.Clear();
 
-&#x20;           m\_idleSequence->m\_list.PushBack(nextEl);
+          m\_idleSequence->m\_list.PushBack(nextEl);
 
-&#x20;           m\_idleSequence->m\_idleAnim = clip->m\_idleAnim;  // Selector 的基础 idle
+          m\_idleSequence->m\_idleAnim = clip->m\_idleAnim;  // Selector 的基础 idle
 
-&#x20;           nextEl = m\_idleSequence;  // 返回包裹后的节点
+          nextEl = m\_idleSequence;  // 返回包裹后的节点
 
-&#x20;           // 这样 IdleGuard 会查找两次 transition：
+          // 这样 IdleGuard 会查找两次 transition：
 
-&#x20;           // fromIdle → Selector.m\_idleAnim (第一次)
+          // fromIdle → Selector.m\_idleAnim (第一次)
 
-&#x20;           // Selector.m\_idleAnim → toIdle  (第二次)
+          // Selector.m\_idleAnim → toIdle  (第二次)
 
-&#x20;       }
+      }
 
-&#x20;       return nextEl.Get();
+      return nextEl.Get();
 
-&#x20;   }
+  }
 
 };
 ```
@@ -645,11 +645,11 @@ class SelectorIterator : public RandomListIterator
 
 {
 
-&#x20;   m\_fromIdle = "sit\_neutral",
+  m\_fromIdle = "sit\_neutral",
 
-&#x20;   m\_toIdle = "sit\_phone",
+  m\_toIdle = "sit\_phone",
 
-&#x20;   m\_transitionAnim = "custom\_pickup\_phone"  // ← 使用这个
+  m\_transitionAnim = "custom\_pickup\_phone"  // ← 使用这个
 
 }
 ```
@@ -716,17 +716,24 @@ GenerateTransitionAnimName("sit\_neutral", "sit\_phone")
 
 
 ```mermaid
-graph TD
-    A[Selector.Next() 被调用] --> B[SelectorIterator::GetNextElement()]
-    B -->|"1. 随机选择一个 Sequence<br>2. 预先检查 transition"| C[DetermineTransitionAnim()]
-    C -->|"├─ 查找自定义 transition？<br>└─ 生成标准命名 transition"| D{找到动画？}
-    D -->|是| E[IdleGuard::Next()]
-    D -->|否| F{是 Selector？}
-    F -->|否| G[直接 blend可能穿模)]
-    F -->|是| H[用基础 idle 包裹]
-    H --> E
-    E -->|"检测到 idle 变化m_state = PerformTransition"| I[IdleGuard::GetData()]
-    I -->|"返回 transition 动画数据"| J[系统播放 transition 动画]
+flowchart TD
+    A["Selector.Next() 被调用"] --> B["SelectorIterator::GetNextElement()
+1. 随机选择一个 Sequence
+2. 预先检查 transition"]
+    B --> C["DetermineTransitionAnim()
+├─ 查找自定义 transition？
+└─ 生成标准命名 transition"]
+    C --> D{找到动画？}
+    D -->|是| G["IdleGuard::Next()
+检测到 idle 变化
+m_state = PerformTransition"]
+    D -->|否| E{是 Selector？}
+    E -->|是| F["用基础 idle 包裹"]
+    E -->|否| H["直接 blend (可能穿模)"]
+    F --> G
+    H --> G
+    G --> I["IdleGuard::GetData()
+返回 transition 动画数据"]
+    I --> J["系统播放 transition 动画"]
 ```
 
-> （注：文档部分内容可能由 AI 生成）

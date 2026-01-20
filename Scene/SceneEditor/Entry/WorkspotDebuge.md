@@ -1253,6 +1253,17 @@ flowchart TB
 
 ---
 
+  | 功能                            | 按键     | 操作方式   | 说明                                            |
+  |---------------------------------|----------|------------|-------------------------------------------------|
+  | SelectPuppetWorkspots           | 小键盘 2 | 短按       | 选择镜头前NPC，切换显示其动画调试信息           |
+  | AlternativeWorkspotModeDebug    | 小键盘 2 | 长按 0.8秒 | 高级模式：在ShadowDebugger和VisualState之间切换 |
+  | SelfWorkspotDebugMode           | Alt      | 按住       | 按住时调试玩家自己，松开时调试NPC               |
+  | SendSlowExitSignalWorkspotDebug | 分号键 ; | 长按 0.8秒 | 让NPC慢退出Workspot                             |
+  | SendFastExitSignalWorkspotDebug | 分号键 ; | 双击       | 让NPC快速退出Workspot                           |
+
+workspot.StateOn [#reactions_ws_sitting]
+workspot.EnableShadowDebugger
+
 ### 使用示例
 
 #### 场景：调试酒吧 NPC 的 workspot 问题
@@ -1275,6 +1286,8 @@ flowchart TB
 5. 完成后关闭：
    workspot.StopAllDebuggers
 ```
+workspot.StateOn (#Hanakospawner_spline)
+workspot.StateOn (#reactions_spawner_vendor_001)
 
 ---
 
