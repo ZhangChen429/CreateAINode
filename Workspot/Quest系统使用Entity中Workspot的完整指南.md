@@ -451,21 +451,50 @@ WorkspotResourceComponent:
 
 ### 8.3 同步机制
 
-```
-NPC Workspot (m_npcResource)              Device Workspot (m_deviceResource)
-┌────────────────────────┐                ┌────────────────────────┐
-│ WorkspotTree           │                │ WorkspotTree           │
-│   └── SyncAnimClip     │◀───同步槽────▶│   └── SyncAnimClip     │
-│         m_slotName     │  m_syncSlotName│         m_slotName     │
-│         = "slot_buy"   │  = "slot_buy"  │         = "slot_buy"   │
-└────────────────────────┘                └────────────────────────┘
-        │                                          │
-        │         WorkspotSynchronizer             │
-        │                   │                      │
-        │      PlaySyncAnim("slot_buy")            │
-        │                   │                      │
-        ▼                   ▼                      ▼
-   NPC播放动画 ◀──────同步时间────────▶ 设备播放反应动画
+```mermaid 
+classDiagram
+    direction LR
+    
+    class NPCWorkspot {
+        - m_npcResource
+        + WorkspotTree workspotTree
+    }
+    
+    class DeviceWorkspot {
+        - m_deviceResource
+        + WorkspotTree workspotTree
+    }
+    
+    class WorkspotTree {
+        + SyncAnimClip syncAnimClip
+    }
+    
+    class SyncAnimClip {
+        - m_slotName: string
+    }
+    
+    class WorkspotSynchronizer {
+        - m_syncSlotName: string = "slot_buy"
+        + PlaySyncAnim(slotName: string)
+    }
+    
+    %% 组合关系：Workspot包含WorkspotTree
+    NPCWorkspot *-- WorkspotTree : 包含
+    DeviceWorkspot *-- WorkspotTree : 包含
+    
+    %% 组合关系：WorkspotTree包含SyncAnimClip
+    WorkspotTree *-- SyncAnimClip : 包含
+    
+    %% 同步槽关联：通过m_syncSlotName关联
+    NPCWorkspot o-- WorkspotSynchronizer : 同步槽 m_syncSlotName = "slot_buy"
+    DeviceWorkspot o-- WorkspotSynchronizer : 同步槽 m_syncSlotName = "slot_buy"
+    
+    %% 方法调用与动画同步
+    WorkspotSynchronizer --> NPCWorkspot : PlaySyncAnim("slot_buy") 触发NPC播放动画
+    WorkspotSynchronizer --> DeviceWorkspot : PlaySyncAnim("slot_buy") 触发设备播放反应动画
+    
+    %% 属性赋值说明
+    note for SyncAnimClip "NPC侧 m_slotName = 'slot_buy'\nDevice侧 m_slotName = 'slot_buy'"
 ```
 
 ---

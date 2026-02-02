@@ -1,0 +1,1678 @@
+<!DOCTYPE html><html><head>
+      <title>Workspot函数调用文档</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\Windows\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      <script type="text/javascript" src="file:///c:\Users\Windows\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\mermaid\mermaid.min.js" charset="UTF-8"></script>
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="workspot-函数调用完整文档">Workspot 函数调用完整文档 </h1>
+<p>这个文档详细记录了 Workspot 系统从 Quest Node 到 WorkspotSystem 的完整函数调用链路。</p>
+<hr>
+<h2 id="类图">类图 </h2>
+<h3 id="完整类继承和组合关系">完整类继承和组合关系 </h3>
+<div class="mermaid">classDiagram
+    %% Quest 层
+    class QuestNodeBase {
+        +OnExecute()
+        +OnActivate()
+        +OnDestroy()
+    }
+
+    class AICommandNodeBase {
+        +CreateAICommand()
+    }
+
+    class UseWorkspotNodeDefinition {
+        -UseWorkspotParamsV1* m_params
+        -EntityReference m_entityReference
+        +OnExecute()
+        +OnActivate()
+        +OnDestroy()
+    }
+
+    class UseWorkspotParamsV1 {
+        +UseWorkspotNodeFunctions m_function
+        +world::NodeRef m_workspotNode
+        +Bool m_teleport
+        +CName m_animName
+        +work::WorkEntryId m_entryId
+        +Bool m_jumpToEntry
+    }
+
+    %% Listener 层
+    class IWorkspotListener {
+        &lt;&lt;interface&gt;&gt;
+        +OnStarted()*
+        +OnFinished()*
+        +OnAnimationStarted()*
+        +OnAnimationFinished()*
+        +OnAnimationMissing()*
+    }
+
+    class WorkspotListener {
+        -red::WeakPtr~StopWorkspotListenerWrapper~ m_wrapper
+        +OnFinished()
+        +OnAnimationStarted()
+        +OnAnimationFinished()
+    }
+
+    class StopWorkspotListenerWrapper {
+        -red::SharedPtr~WorkspotListener~ m_workspotListener
+        -AI::IWorkspotManager* m_workspotManager
+        +OnWorkspotFinished()
+        +OnAnimationStarted()
+        +OnAnimationFinished()
+    }
+
+    %% AI Command 层
+    class Command {
+        &lt;&lt;base&gt;&gt;
+    }
+
+    class BaseUseWorkspotCommand {
+        -Bool moveToWorkspot
+        -move::MovementType movementType
+        -CName forceEntryAnimName
+        -Bool jumpToEntry
+        -work::WorkEntryId entryId
+        +GetWorkspotWorldTransform()*
+        +GetWorkspotSetupParameters()
+        +CreateSetupWorkspotActionEvent()
+    }
+
+    class UseWorkspotCommand {
+        -world::NodeRef workspotNode
+        +GetWorkspotWorldTransform()
+        +CreateSetupWorkspotActionEvent()
+    }
+
+    %% Behavior Tree 层
+    class ActionTreeNode {
+        &lt;&lt;base&gt;&gt;
+        +SetupAction()*
+    }
+
+    class ActionUseWorkspotNode {
+        -ActionUseWorkspotNodeDefinition&amp; m_definition
+        +SetupAction()
+    }
+
+    class ActionUseCommunityWorkspotNode {
+        -ActionUseCommunityWorkspotNodeDefinition&amp; m_definition
+        +SetupAction()
+    }
+
+    %% Game Action 层
+    class CAction {
+        &lt;&lt;base&gt;&gt;
+        +Setup()
+        +OnStart()
+        +OnUpdate()
+        +OnStop()
+    }
+
+    class ActionBaseUseWorkspot {
+        -Object* m_owner
+        -WorkspotInstanceWrapperPtr m_workspotInstance
+        -CompletionCallbackId m_completionCallbackId
+        +Setup()
+        +OnStart()
+        +OnUpdate()
+        +OnStop()
+        +SetFinished()
+    }
+
+    class CActionUseWorkspot {
+    }
+
+    %% Workspot Instance 层
+    class WorkspotInstanceWrapper {
+        -AI::ObjectId m_id
+        -WorkspotSetupParameters m_initialParameters
+        -ent::Entity* m_owner
+        -move::Component* m_movingAgent
+        -AnimationControllerComponent* m_animationController
+        -WorkspotMovementController m_animMoveController
+        -SharedPtr~CallbacksReceiver~ m_callbackInterface
+        -Bool m_isActive
+        -Bool m_useMotion
+        +Setup()
+        +Start()
+        +Complete()
+        +SetUpMotionProvider()
+        +TeleportRequest()
+        +IsValid()
+        +IsActive()
+    }
+
+    class IWorkspotInstanceCommFunc {
+        &lt;&lt;interface&gt;&gt;
+        +OnCompleted()*
+        +OnActiveRecordChanged()*
+        +OnMovementStateChanged()*
+        +TeleportRequest()*
+        +MovementRequest()*
+        +CalcSlideToSafety()*
+        +RequestEnd()*
+    }
+
+    class WorkspotInstanceCallbacksReceiver {
+        -WeakPtr~WorkspotInstanceWrapper~ m_instance
+        +OnCompleted()
+        +OnMovementStateChanged()
+        +TeleportRequest()
+        +MovementRequest()
+        +RequestEnd()
+    }
+
+    %% WorkspotSystem 层
+    class IWorkspotSystem {
+        &lt;&lt;interface&gt;&gt;
+    }
+
+    class WorkspotSystem {
+        -HashMap~EntityID, UniquePtr~WorkspotInstance~~ m_instances
+        -HashMap~EntityID, CommandQueue~ m_commandQueues
+        -WorkspotCallbackManager m_callbackManager
+        -WorkspotSynchronizer m_synchronizer
+        +SetupWorkspot()
+        +SendCommand()
+        +IsActorInWorkspot()
+        +ClearExitFlags()
+    }
+
+    class WorkspotInstance {
+        -WorkspotParams m_workResource
+        -SharedPtr~IWorkspotInstanceCommFunc~ m_commFun
+        -WorkEntryId m_entryAnimToUse
+        +Execute()
+        +FindEntryAnim()
+        +PlayEntry()
+        +PlaySequence()
+        +PlayExit()
+    }
+
+    %% WorkspotManager 层
+    class IWorkspotManager {
+        &lt;&lt;interface&gt;&gt;
+        +StartWorkspot()*
+        +GetCurrentWorkspot()*
+    }
+
+    class WorkspotManager {
+        -HashMap~EntityID, WorkspotInstanceWrapperPtr~ m_workspots
+        +StartWorkspot()
+        +GetCurrentWorkspot()
+    }
+
+    %% Resource 层
+    class WorkspotParams {
+        -WorkspotTree* m_tree
+        +GetClosestEntryAnim()
+        +FindEntryAnim()
+        +IsValid()
+    }
+
+    class WorkspotTree {
+        -THandle~IEntry~ m_rootEntry
+        -Uint32 m_idCounter
+        -red::TagList m_tags
+        +GetClosestEntryAnim()
+        +GetClosestExitAnim()
+        +FindEntryAnim()
+        +FindExitAnim()
+    }
+
+    class IEntry {
+        &lt;&lt;interface&gt;&gt;
+        +Uint32 m_flags
+        +WorkEntryId m_id
+    }
+
+    class EntryAnim {
+        -CName m_animName
+        -CName m_idleAnim
+        -Transform m_syncOffset
+        -CName m_slotName
+    }
+
+    class Sequence {
+        -red::DynArray~THandle~IEntry~~ m_list
+    }
+
+    class ExitAnim {
+        -CName m_animName
+        -Transform m_movement
+    }
+
+    %% 继承关系
+    QuestNodeBase &lt;|-- AICommandNodeBase
+    AICommandNodeBase &lt;|-- UseWorkspotNodeDefinition
+    UseWorkspotNodeDefinition --&gt; UseWorkspotParamsV1 : contains
+
+    IWorkspotListener &lt;|.. WorkspotListener
+    IWorkspotListener &lt;|.. StopWorkspotListenerWrapper
+    WorkspotListener --&gt; StopWorkspotListenerWrapper : weak ref
+
+    Command &lt;|-- BaseUseWorkspotCommand
+    BaseUseWorkspotCommand &lt;|-- UseWorkspotCommand
+
+    ActionTreeNode &lt;|-- ActionUseWorkspotNode
+    ActionTreeNode &lt;|-- ActionUseCommunityWorkspotNode
+
+    CAction &lt;|-- ActionBaseUseWorkspot
+    ActionBaseUseWorkspot &lt;|-- CActionUseWorkspot
+    ActionBaseUseWorkspot --&gt; WorkspotInstanceWrapper : manages
+
+    IWorkspotInstanceCommFunc &lt;|.. WorkspotInstanceCallbacksReceiver
+    WorkspotInstanceCallbacksReceiver --&gt; WorkspotInstanceWrapper : weak ref
+    WorkspotInstanceWrapper --&gt; WorkspotInstanceCallbacksReceiver : owns
+
+    IWorkspotSystem &lt;|.. WorkspotSystem
+    WorkspotSystem --&gt; WorkspotInstance : creates
+    WorkspotSystem --&gt; WorkspotCallbackManager : uses
+
+    IWorkspotManager &lt;|.. WorkspotManager
+    WorkspotManager --&gt; WorkspotInstanceWrapper : manages
+
+    WorkspotParams --&gt; WorkspotTree : references
+    WorkspotInstance --&gt; WorkspotParams : uses
+    WorkspotTree --&gt; IEntry : contains
+    IEntry &lt;|-- EntryAnim
+    IEntry &lt;|-- Sequence
+    IEntry &lt;|-- ExitAnim
+</div><hr>
+<h2 id="完整函数调用链路">完整函数调用链路 </h2>
+<h3 id="阶段-1quest-node-执行">阶段 1：Quest Node 执行 </h3>
+<h4 id="11-useworkspotnodedefinitiononexecute">1.1 UseWorkspotNodeDefinition::OnExecute </h4>
+<p><strong>文件</strong>: <code>useWorkspotNode.cpp</code><br>
+<strong>行号</strong>: 999-1079<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>NodeResult <span class="token class-name">UseWorkspotNodeDefinition</span><span class="token double-colon punctuation">::</span><span class="token function">OnExecute</span><span class="token punctuation">(</span>
+    NodeExecutionContext<span class="token operator">&amp;</span> executionContext<span class="token punctuation">,</span>
+    NodeSocket<span class="token operator">*</span> inputSocket<span class="token punctuation">,</span>
+    red<span class="token double-colon punctuation">::</span>DynArray<span class="token operator">&lt;</span>THandle<span class="token operator">&lt;</span>NodeSocket<span class="token operator">&gt;&gt;</span><span class="token operator">&amp;</span> outputSockets
+<span class="token punctuation">)</span> <span class="token keyword keyword-const">const</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>检查 NPC 是否已在其他 workspot</li>
+<li>创建 AI Command</li>
+<li>注册事件监听器</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 获取 NPC Entity</span>
+<span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID entId <span class="token operator">=</span> <span class="token function">GetPuppetEntityID</span><span class="token punctuation">(</span>executionContext<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 非传送模式下检查是否在其他 workspot</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>m_params<span class="token operator">-&gt;</span>m_teleport <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span><span class="token function">IsPlayerEntityReference</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-auto">auto</span> puppet <span class="token operator">=</span> <span class="token function">GetPuppet</span><span class="token punctuation">(</span>executionContext<span class="token punctuation">,</span> m_entityReference<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>puppet <span class="token operator">&amp;&amp;</span> executionContext<span class="token punctuation">.</span><span class="token function">GetWorkspotSystem</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">IsActorInWorkspot</span><span class="token punctuation">(</span>puppet<span class="token operator">-&gt;</span><span class="token function">GetEntityID</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 在其他 workspot，先退出</span>
+        <span class="token comment">// → 调用 StopWorkspot (line 128-180)</span>
+        <span class="token keyword keyword-auto">auto</span> eventListener <span class="token operator">=</span> red<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">CreateSharedPtr</span><span class="token generic class-name"><span class="token operator">&lt;</span>StopWorkspotListenerWrapper<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        executionContext<span class="token punctuation">.</span><span class="token function">RegisterEvent</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword keyword-return">return</span> NodeResult<span class="token double-colon punctuation">::</span>StayInNode<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 3. 调用父类创建 AI Command</span>
+<span class="token keyword keyword-const">const</span> NodeResult parentResult <span class="token operator">=</span> <span class="token class-name">TBaseClass</span><span class="token double-colon punctuation">::</span><span class="token function">OnExecute</span><span class="token punctuation">(</span>executionContext<span class="token punctuation">,</span> inputSocket<span class="token punctuation">,</span> outputSockets<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// → 调用 AICommandNodeBase::OnExecute</span>
+
+<span class="token comment">// 4. 注册 WorkspotListener</span>
+<span class="token keyword keyword-auto">auto</span> eventListener <span class="token operator">=</span> red<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">CreateSharedPtr</span><span class="token generic class-name"><span class="token operator">&lt;</span>WorkspotListenerWrapper<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+executionContext<span class="token punctuation">.</span><span class="token function">RegisterEvent</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-return">return</span> result<span class="token punctuation">;</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>GetPuppetEntityID(executionContext)</code> - 获取 NPC Entity ID</li>
+<li><code>GetPuppet(executionContext, m_entityReference)</code> - 获取 NPC Puppet 对象</li>
+<li><code>IsActorInWorkspot(entityId)</code> - 检查是否在 workspot（→ WorkspotSystem）</li>
+<li><code>StopWorkspot(...)</code> - 停止 workspot（lines 128-180）</li>
+<li><code>AICommandNodeBase::OnExecute(...)</code> - 创建 AI Command（父类）</li>
+</ul>
+<hr>
+<h4 id="12-stopworkspot-函数">1.2 StopWorkspot 函数 </h4>
+<p><strong>文件</strong>: <code>useWorkspotNode.cpp</code><br>
+<strong>行号</strong>: 128-180<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>StopWorkspotResult <span class="token function">StopWorkspot</span><span class="token punctuation">(</span>
+    AI<span class="token double-colon punctuation">::</span>IWorkspotManager<span class="token operator">*</span> workspotManager<span class="token punctuation">,</span>
+    game<span class="token double-colon punctuation">::</span>IPersistencySystem<span class="token operator">*</span> persistencySystem<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID<span class="token operator">&amp;</span> entityId<span class="token punctuation">,</span>
+    Bool immediate <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    Bool notifyImmediately <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    Bool finishAnimation <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    work<span class="token double-colon punctuation">::</span>WorkEntryId entryId <span class="token operator">=</span> work<span class="token double-colon punctuation">::</span>WorkEntryId<span class="token double-colon punctuation">::</span>invalid<span class="token punctuation">,</span>
+    CName animName <span class="token operator">=</span> <span class="token class-name">CName</span><span class="token double-colon punctuation">::</span><span class="token function">NONE</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    Transform exitDir <span class="token operator">=</span> <span class="token class-name">Transform</span><span class="token double-colon punctuation">::</span><span class="token function">IDENTITY</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>检查 NPC 当前 workspot 状态</li>
+<li>取消队列中的 workspot 命令</li>
+<li>执行 SlowExit 或立即完成</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 获取持久化状态</span>
+<span class="token keyword keyword-const">const</span> game<span class="token double-colon punctuation">::</span>PersistentID pid<span class="token punctuation">{</span>entityId<span class="token punctuation">,</span> AI<span class="token double-colon punctuation">::</span><span class="token class-name">CommandQueuePS</span><span class="token double-colon punctuation">::</span><span class="token function">GetHardcodedName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-const">const</span> THandle<span class="token operator">&lt;</span>AI<span class="token double-colon punctuation">::</span>CommandQueuePS<span class="token operator">&gt;</span> persistentState <span class="token operator">=</span>
+    persistencySystem<span class="token operator">-&gt;</span><span class="token generic-function"><span class="token function">AccessPersistentState</span><span class="token generic class-name"><span class="token operator">&lt;</span>AI<span class="token double-colon punctuation">::</span>CommandQueuePS<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>pid<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 检查命令队列中是否有 UseWorkspot 命令</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>persistentState<span class="token operator">-&gt;</span><span class="token function">GetCommandQueue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">IsEnqueued</span><span class="token punctuation">(</span>
+    AI<span class="token double-colon punctuation">::</span><span class="token class-name">BaseUseWorkspotCommand</span><span class="token double-colon punctuation">::</span><span class="token function">GetStaticClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">GetName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 取消命令</span>
+    persistentState<span class="token operator">-&gt;</span><span class="token function">GetCommandQueue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Cancel</span><span class="token punctuation">(</span><span class="token keyword keyword-nullptr">nullptr</span><span class="token punctuation">,</span> wsCommandInQueue<span class="token punctuation">,</span>
+                                              AI<span class="token double-colon punctuation">::</span>CommandStateChangeFlags<span class="token double-colon punctuation">::</span>DoNotRepeat<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 3. 获取当前 workspot 实例</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>AI<span class="token double-colon punctuation">::</span>IWorkspotManager<span class="token double-colon punctuation">::</span>WorkspotInstanceWrapperPtr workspotInstance <span class="token operator">=</span>
+    workspotManager<span class="token operator">-&gt;</span><span class="token function">GetCurrentWorkspot</span><span class="token punctuation">(</span>entityId<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>workspotInstance<span class="token operator">-&gt;</span><span class="token function">IsValid</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>immediate<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token comment">// 执行 SlowExit</span>
+            workspotInstance<span class="token operator">-&gt;</span><span class="token function">PerformSlowExit</span><span class="token punctuation">(</span>finishAnimation<span class="token punctuation">,</span> entryId<span class="token punctuation">,</span> animName<span class="token punctuation">,</span> exitDir<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword keyword-return">return</span> StopWorkspotResult<span class="token double-colon punctuation">::</span>WaitForStop<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-else">else</span>
+        <span class="token punctuation">{</span>
+            <span class="token comment">// 立即完成</span>
+            workspotInstance<span class="token operator">-&gt;</span><span class="token function">Complete</span><span class="token punctuation">(</span>notifyImmediately<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword keyword-return">return</span> StopWorkspotResult<span class="token double-colon punctuation">::</span>Completed<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-return">return</span> StopWorkspotResult<span class="token double-colon punctuation">::</span>AlreadyStopped<span class="token punctuation">;</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>GetCurrentWorkspot(entityId)</code> - 获取当前 workspot 实例（→ WorkspotManager）</li>
+<li><code>workspotInstance-&gt;PerformSlowExit(...)</code> - 执行慢速退出（→ WorkspotInstanceWrapper）</li>
+<li><code>workspotInstance-&gt;Complete(...)</code> - 立即完成 workspot（→ WorkspotInstanceWrapper）</li>
+</ul>
+<hr>
+<h3 id="阶段-2ai-command-创建">阶段 2：AI Command 创建 </h3>
+<h4 id="21-aicommandnodebaseonexecute">2.1 AICommandNodeBase::OnExecute </h4>
+<p><strong>文件</strong>: <code>aiCommandNodeBase.cpp</code>（未提供完整代码，根据调用推断）<br>
+<strong>职责</strong>:</p>
+<ul>
+<li>从 Quest Node 参数创建 AI Command</li>
+<li>将 Command 加入 AI Command Queue</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 创建 UseWorkspotCommand</span>
+UseWorkspotCommand<span class="token operator">*</span> command <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token function">UseWorkspotCommand</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 设置参数</span>
+command<span class="token operator">-&gt;</span><span class="token function">SetWorkspotNode</span><span class="token punctuation">(</span>m_params<span class="token operator">-&gt;</span>m_workspotNode<span class="token punctuation">)</span><span class="token punctuation">;</span>
+command<span class="token operator">-&gt;</span><span class="token function">SetForceEntryAnimName</span><span class="token punctuation">(</span>m_params<span class="token operator">-&gt;</span>m_animName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+command<span class="token operator">-&gt;</span><span class="token function">SetJumpToEntry</span><span class="token punctuation">(</span>m_params<span class="token operator">-&gt;</span>m_jumpToEntry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+command<span class="token operator">-&gt;</span><span class="token function">SetEntryId</span><span class="token punctuation">(</span>m_params<span class="token operator">-&gt;</span>m_entryId<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// ... 其他参数</span>
+
+<span class="token comment">// 3. 加入 Command Queue</span>
+puppet<span class="token operator">-&gt;</span><span class="token function">GetCommandQueue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">AddCommand</span><span class="token punctuation">(</span>command<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p><strong>创建的对象</strong>:</p>
+<ul>
+<li><code>UseWorkspotCommand</code> - AI Command 对象</li>
+</ul>
+<hr>
+<h3 id="阶段-3behavior-tree-执行">阶段 3：Behavior Tree 执行 </h3>
+<h4 id="31-actionuseworkspotnodesetupaction">3.1 ActionUseWorkspotNode::SetupAction </h4>
+<p><strong>文件</strong>: <code>aiActionUseWorkspotNode.cpp</code><br>
+<strong>行号</strong>: 64-127<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>ActionTreeNode<span class="token double-colon punctuation">::</span>SetupResult <span class="token class-name">ActionUseWorkspotNode</span><span class="token double-colon punctuation">::</span><span class="token function">SetupAction</span><span class="token punctuation">(</span>
+    ExecutionContext<span class="token operator">&amp;</span> context
+<span class="token punctuation">)</span> <span class="token keyword keyword-const">const</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>从 AI Command 提取参数</li>
+<li>创建 CActionUseWorkspot</li>
+<li>调用 CActionUseWorkspot::Setup</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 获取 Puppet</span>
+<span class="token keyword keyword-auto">auto</span><span class="token operator">*</span> puppet <span class="token operator">=</span> <span class="token generic-function"><span class="token function">Cast</span><span class="token generic class-name"><span class="token operator">&lt;</span>game<span class="token double-colon punctuation">::</span>Puppet<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token operator">&amp;</span>context<span class="token punctuation">.</span><span class="token function">GetAgent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">GetOwner</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+game<span class="token double-colon punctuation">::</span>CActionAIProxy<span class="token operator">&amp;</span> proxy <span class="token operator">=</span> context<span class="token punctuation">[</span>i_action<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 获取或创建 CActionUseWorkspot</span>
+game<span class="token double-colon punctuation">::</span>CActionUseWorkspot<span class="token double-colon punctuation">::</span>Ptr action <span class="token operator">=</span> proxy<span class="token punctuation">.</span><span class="token generic-function"><span class="token function">AcquireAction</span><span class="token generic class-name"><span class="token operator">&lt;</span>game<span class="token double-colon punctuation">::</span>CActionUseWorkspot<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token operator">*</span>puppet<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 3. 从 AI Command 获取 setup 参数</span>
+THandle<span class="token operator">&lt;</span>game<span class="token double-colon punctuation">::</span>SetupWorkspotActionEvent<span class="token operator">&gt;</span> setupData <span class="token operator">=</span> <span class="token keyword keyword-nullptr">nullptr</span><span class="token punctuation">;</span>
+<span class="token comment">// ... 从 event data 中提取 ...</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>setupData<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 4. 配置 action 参数</span>
+    setupData<span class="token operator">-&gt;</span>m_parameters<span class="token punctuation">.</span>m_autoCompletion <span class="token operator">=</span> playExitAutomatically<span class="token punctuation">;</span>
+    setupData<span class="token operator">-&gt;</span>m_parameters<span class="token punctuation">.</span>m_markUninterruptable <span class="token operator">=</span> markWorkspotUninterruptable<span class="token punctuation">;</span>
+
+    <span class="token comment">// 5. 创建初始化上下文</span>
+    <span class="token keyword keyword-const">const</span> game<span class="token double-colon punctuation">::</span>WorkspotInitializationContext <span class="token function">initContext</span><span class="token punctuation">(</span>
+        setupData<span class="token operator">-&gt;</span>m_parameters<span class="token punctuation">,</span>
+        <span class="token operator">*</span>puppet<span class="token punctuation">,</span>
+        puppet<span class="token operator">-&gt;</span><span class="token function">GetMovingAgent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        setupData<span class="token operator">-&gt;</span>m_mountDescriptor
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 6. Setup action</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>action<span class="token operator">-&gt;</span><span class="token function">Setup</span><span class="token punctuation">(</span>initContext<span class="token punctuation">)</span><span class="token punctuation">)</span>  <span class="token comment">// ← 调用 CActionUseWorkspot::Setup</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword keyword-return">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-return">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>proxy.AcquireAction&lt;CActionUseWorkspot&gt;(*puppet)</code> - 获取或创建 Action</li>
+<li><code>action-&gt;Setup(initContext)</code> - 初始化 Action（→ CActionUseWorkspot::Setup）</li>
+</ul>
+<hr>
+<h4 id="32-actionusecommunityworkspotnodesetupaction">3.2 ActionUseCommunityWorkspotNode::SetupAction </h4>
+<p><strong>文件</strong>: <code>aiActionUseWorkspotNode.cpp</code><br>
+<strong>行号</strong>: 230-248<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>ActionTreeNode<span class="token double-colon punctuation">::</span>SetupResult <span class="token class-name">ActionUseCommunityWorkspotNode</span><span class="token double-colon punctuation">::</span><span class="token function">SetupAction</span><span class="token punctuation">(</span>
+    ExecutionContext<span class="token operator">&amp;</span> context
+<span class="token punctuation">)</span> <span class="token keyword keyword-const">const</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>自动选择 EntryAnim（基于距离和阈值）</li>
+<li>调用父类 SetupAction</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 自动选择 Entry 动画（如果没有强制指定）</span>
+CName entryAnimName <span class="token operator">=</span> setupData<span class="token operator">-&gt;</span>m_parameters<span class="token punctuation">.</span>m_entryAnimation<span class="token punctuation">;</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>entryAnimName <span class="token operator">&amp;&amp;</span> setupData<span class="token operator">-&gt;</span>m_useEntryAnimation<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    work<span class="token double-colon punctuation">::</span>AnimSearchContext cont<span class="token punctuation">;</span>
+    <span class="token function">SetupAnimSearchContext</span><span class="token punctuation">(</span>cont<span class="token punctuation">,</span> puppet<span class="token punctuation">,</span> puppet<span class="token operator">-&gt;</span><span class="token generic-function"><span class="token function">GetSceneSystem</span><span class="token generic class-name"><span class="token operator">&lt;</span>world<span class="token double-colon punctuation">::</span>AnimationSystem<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 2. 计算 NPC 在 workspot 空间中的位置</span>
+    Transform actorInWorkspotSpace <span class="token operator">=</span>
+        setupData<span class="token operator">-&gt;</span>m_parameters<span class="token punctuation">.</span>m_workspotTransform<span class="token punctuation">.</span><span class="token function">TransformInv</span><span class="token punctuation">(</span>puppet<span class="token operator">-&gt;</span><span class="token function">GetWorldTransform</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 3. 查找最近的 Entry Point</span>
+    work<span class="token double-colon punctuation">::</span>EntryPoint point <span class="token operator">=</span> setupData<span class="token operator">-&gt;</span>m_parameters<span class="token punctuation">.</span>m_workspot<span class="token punctuation">.</span><span class="token function">GetClosestEntryAnim</span><span class="token punctuation">(</span>
+        actorInWorkspotSpace<span class="token punctuation">,</span> cont<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotParams::GetClosestEntryAnim</span>
+    <span class="token comment">// → 调用 WorkspotTree::GetClosestEntryAnim</span>
+
+    <span class="token comment">// 4. 检查 NPC 是否足够接近这个 Entry Point</span>
+    Quaternion rotationDiff <span class="token operator">=</span> point<span class="token punctuation">.</span>m_transform<span class="token punctuation">.</span><span class="token function">GetOrientation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Conjugated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span>
+                              actorInWorkspotSpace<span class="token punctuation">.</span><span class="token function">GetOrientation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    Vector3 positionDiff <span class="token operator">=</span> point<span class="token punctuation">.</span>m_transform<span class="token punctuation">.</span><span class="token function">GetPosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span>
+                           actorInWorkspotSpace<span class="token punctuation">.</span><span class="token function">GetPosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 进入阈值判定</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>rotationDiff<span class="token punctuation">.</span><span class="token function">GetAngle</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token function">DEG2RAD</span><span class="token punctuation">(</span><span class="token number">20.f</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span>   <span class="token comment">// 旋转差异 &lt; 20度</span>
+        positionDiff<span class="token punctuation">.</span>Z <span class="token operator">&lt;</span> <span class="token number">0.1f</span> <span class="token operator">&amp;&amp;</span>                      <span class="token comment">// Z轴差异 &lt; 0.1米</span>
+        positionDiff<span class="token punctuation">.</span><span class="token function">AsVector2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Mag</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">0.03f</span><span class="token punctuation">)</span>       <span class="token comment">// XY平面差异 &lt; 0.03米</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// NPC 已经在 Entry Point 附近，直接使用这个 EntryAnim</span>
+        setupData<span class="token operator">-&gt;</span>m_parameters<span class="token punctuation">.</span>m_entryAnimation <span class="token operator">=</span> point<span class="token punctuation">.</span>m_animName<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 5. 初始化 action</span>
+<span class="token keyword keyword-const">const</span> game<span class="token double-colon punctuation">::</span>WorkspotInitializationContext <span class="token function">initContext</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>action<span class="token operator">-&gt;</span><span class="token function">Setup</span><span class="token punctuation">(</span>initContext<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-return">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-return">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>SetupAnimSearchContext(cont, puppet, animSystem)</code> - 设置动画搜索上下文</li>
+<li><code>GetClosestEntryAnim(actorInWorkspotSpace, cont)</code> - 查找最近的 EntryAnim（→ WorkspotTree）</li>
+<li><code>action-&gt;Setup(initContext)</code> - 初始化 Action（→ CActionUseWorkspot::Setup）</li>
+</ul>
+<hr>
+<h3 id="阶段-4game-action-初始化">阶段 4：Game Action 初始化 </h3>
+<h4 id="41-actionbaseuseworkspotsetup">4.1 ActionBaseUseWorkspot::Setup </h4>
+<p><strong>文件</strong>: <code>actionUseWorkspot.cpp</code><br>
+<strong>行号</strong>: 25-58<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>Bool <span class="token class-name">ActionBaseUseWorkspot</span><span class="token double-colon punctuation">::</span><span class="token function">Setup</span><span class="token punctuation">(</span>
+    <span class="token keyword keyword-const">const</span> WorkspotInitializationContext<span class="token operator">&amp;</span> context
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>创建 WorkspotInstanceWrapper</li>
+<li>设置 workspot 实例</li>
+<li>注册完成回调</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-const">const</span> WorkspotSetupParameters<span class="token operator">&amp;</span> params <span class="token operator">=</span> context<span class="token punctuation">.</span>m_initialParameters<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>params<span class="token punctuation">.</span>m_workspot<span class="token punctuation">.</span><span class="token function">IsValid</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token function">RED_DBGCTX_FAIL</span><span class="token punctuation">(</span><span class="token string">"Invalid workspot passed to the action"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+m_owner <span class="token operator">=</span> <span class="token operator">&amp;</span>context<span class="token punctuation">.</span>m_owner<span class="token punctuation">;</span>
+m_spotNodeId <span class="token operator">=</span> context<span class="token punctuation">.</span>m_initialParameters<span class="token punctuation">.</span>m_nodeId<span class="token punctuation">;</span>
+
+<span class="token comment">// 1. 获取 WorkspotManager</span>
+AI<span class="token double-colon punctuation">::</span>IWorkspotManager<span class="token operator">*</span> workspotManager <span class="token operator">=</span> m_owner<span class="token operator">-&gt;</span><span class="token generic-function"><span class="token function">GetGameSystem</span><span class="token generic class-name"><span class="token operator">&lt;</span>AI<span class="token double-colon punctuation">::</span>IWorkspotManager<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">RED_ASSERT</span><span class="token punctuation">(</span>workspotManager<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 创建 WorkspotInstanceWrapper</span>
+m_workspotInstance <span class="token operator">=</span> workspotManager<span class="token operator">-&gt;</span><span class="token function">StartWorkspot</span><span class="token punctuation">(</span>m_owner<span class="token operator">-&gt;</span><span class="token function">GetEntityID</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// → 调用 WorkspotManager::StartWorkspot</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>m_workspotInstance<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token function">RED_DBGCTX_FAIL</span><span class="token punctuation">(</span><span class="token string">"Couldn't obtain a workspot instance from game system"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 3. 设置 workspot 实例</span>
+m_workspotInstance<span class="token operator">-&gt;</span><span class="token function">SetDependentWorkspot</span><span class="token punctuation">(</span><span class="token keyword keyword-nullptr">nullptr</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+m_workspotInstance<span class="token operator">-&gt;</span><span class="token function">Setup</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// ← 初始化 workspot 实例</span>
+<span class="token comment">// → 调用 WorkspotInstanceWrapper::Setup</span>
+
+<span class="token comment">// 4. 注册完成回调</span>
+m_completionCallbackId <span class="token operator">=</span> m_workspotInstance<span class="token operator">-&gt;</span><span class="token function">RegisterCompletionCallback</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token keyword keyword-this">this</span><span class="token punctuation">]</span> <span class="token punctuation">{</span>
+    <span class="token function">RED_AI_LOGF</span><span class="token punctuation">(</span>m_owner<span class="token punctuation">,</span> <span class="token string">"action"</span><span class="token punctuation">,</span>
+                <span class="token string">"%hs received completion callback from workspot instance."</span><span class="token punctuation">,</span>
+                <span class="token function">GetDescription</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">AsChar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">SetFinished</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">SetReady</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-return">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>GetGameSystem&lt;AI::IWorkspotManager&gt;()</code> - 获取 WorkspotManager</li>
+<li><code>workspotManager-&gt;StartWorkspot(entityId)</code> - 创建 WorkspotInstanceWrapper（→ WorkspotManager）</li>
+<li><code>m_workspotInstance-&gt;Setup(context)</code> - 初始化实例（→ WorkspotInstanceWrapper）</li>
+<li><code>m_workspotInstance-&gt;RegisterCompletionCallback(callback)</code> - 注册回调</li>
+</ul>
+<hr>
+<h4 id="42-actionbaseuseworkspotonstart">4.2 ActionBaseUseWorkspot::OnStart </h4>
+<p><strong>文件</strong>: <code>actionUseWorkspot.cpp</code><br>
+<strong>行号</strong>: 84-103<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">ActionBaseUseWorkspot</span><span class="token double-colon punctuation">::</span><span class="token function">OnStart</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>启动 workspot 实例</li>
+<li>处理快进（从存档恢复）</li>
+<li>设置 LOD</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token function">HasFlag</span><span class="token punctuation">(</span>EActionFlags<span class="token double-colon punctuation">::</span>COMMAND_ACTION<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    m_owner<span class="token operator">-&gt;</span><span class="token generic-function"><span class="token function">GetGameSystem</span><span class="token generic class-name"><span class="token operator">&lt;</span>AI<span class="token double-colon punctuation">::</span>IWorkspotManager<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">RestoreWorkspotSavedata</span><span class="token punctuation">(</span>m_owner<span class="token operator">-&gt;</span><span class="token function">GetEntityID</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">RED_ASSERT</span><span class="token punctuation">(</span>m_workspotInstance<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 启动 workspot 实例（关键！）</span>
+m_workspotInstance<span class="token operator">-&gt;</span><span class="token function">Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// → 调用 WorkspotInstanceWrapper::Start</span>
+
+<span class="token comment">// 快进支持（用于加载游戏时恢复 workspot 状态）</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token function">GetInitialTimeProgress</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token number">.0f</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    red<span class="token double-colon punctuation">::</span>UniquePtr<span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>FastForwardData<span class="token operator">&gt;</span> data <span class="token operator">=</span> red<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">CreateUniquePtr</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>FastForwardData<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    data<span class="token operator">-&gt;</span>m_forceTime <span class="token operator">=</span> <span class="token function">GetInitialTimeProgress</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    m_owner<span class="token operator">-&gt;</span><span class="token generic-function"><span class="token function">GetSceneSystem</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>WorkspotSystem<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">SendCommand</span><span class="token punctuation">(</span>
+        m_owner<span class="token operator">-&gt;</span><span class="token function">GetEntityID</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> work<span class="token double-colon punctuation">::</span>CMD_FastForward<span class="token punctuation">,</span> std<span class="token double-colon punctuation">::</span><span class="token function">move</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotSystem::SendCommand</span>
+    <span class="token function">ProgressSet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+m_owner<span class="token operator">-&gt;</span><span class="token generic-function"><span class="token function">GetSceneSystem</span><span class="token generic class-name"><span class="token operator">&lt;</span>world<span class="token double-colon punctuation">::</span>RuntimeSystemEntity<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">ScheduleEntitySetLOD</span><span class="token punctuation">(</span>
+    <span class="token function">HandleFromPtr</span><span class="token punctuation">(</span>m_owner<span class="token punctuation">)</span><span class="token punctuation">,</span> ent<span class="token double-colon punctuation">::</span>EntityLOD<span class="token double-colon punctuation">::</span>UsingWorkspotThroughUseWorkspotAction<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>m_workspotInstance-&gt;Start()</code> - 启动实例（→ WorkspotInstanceWrapper::Start）</li>
+<li><code>SendCommand(entityId, CMD_FastForward, data)</code> - 发送快进命令（→ WorkspotSystem）</li>
+<li><code>ScheduleEntitySetLOD(...)</code> - 设置 LOD</li>
+</ul>
+<hr>
+<h3 id="阶段-5workspotinstancewrapper-执行">阶段 5：WorkspotInstanceWrapper 执行 </h3>
+<h4 id="51-workspotinstancewrappersetup">5.1 WorkspotInstanceWrapper::Setup </h4>
+<p><strong>文件</strong>: <code>workspot.cpp</code>（Setup 方法未在提供的代码中，根据调用推断）<br>
+<strong>职责</strong>:</p>
+<ul>
+<li>保存初始化参数</li>
+<li>获取组件引用（AnimationController、MovingAgent）</li>
+<li>初始化运动控制器</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 保存参数</span>
+m_initialParameters <span class="token operator">=</span> context<span class="token punctuation">.</span>m_initialParameters<span class="token punctuation">;</span>
+m_owner <span class="token operator">=</span> <span class="token operator">&amp;</span>context<span class="token punctuation">.</span>m_owner<span class="token punctuation">;</span>
+m_movingAgent <span class="token operator">=</span> context<span class="token punctuation">.</span>m_movingAgent<span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 获取 AnimationController</span>
+m_animationController <span class="token operator">=</span> m_owner<span class="token operator">-&gt;</span><span class="token generic-function"><span class="token function">GetComponent</span><span class="token generic class-name"><span class="token operator">&lt;</span>ent<span class="token double-colon punctuation">::</span>AnimationControllerComponent<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 3. 初始化运动控制器</span>
+m_animMoveController<span class="token punctuation">.</span><span class="token function">Initialize</span><span class="token punctuation">(</span>m_owner<span class="token punctuation">,</span> m_movingAgent<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 4. 确定是否使用运动系统</span>
+m_useMotion <span class="token operator">=</span> <span class="token operator">!</span>m_initialParameters<span class="token punctuation">.</span>m_teleport <span class="token operator">&amp;&amp;</span> m_movingAgent <span class="token operator">!=</span> <span class="token keyword keyword-nullptr">nullptr</span><span class="token punctuation">;</span>
+</code></pre><hr>
+<h4 id="52-workspotinstancewrapperstart">5.2 WorkspotInstanceWrapper::Start </h4>
+<p><strong>文件</strong>: <code>workspot.cpp</code><br>
+<strong>行号</strong>: 240-380<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotInstanceWrapper</span><span class="token double-colon punctuation">::</span><span class="token function">Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>设置运动控制器（非传送模式）</li>
+<li>创建 AdjustCommand（如果需要滑动）</li>
+<li>注册到 WorkspotSystem</li>
+<li>发送播放命令</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token function">RED_ASSERT</span><span class="token punctuation">(</span><span class="token function">IsValid</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+m_isActive <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+
+work<span class="token double-colon punctuation">::</span>WorkspotSystem<span class="token operator">*</span> workspotSystem <span class="token operator">=</span> m_owner<span class="token operator">-&gt;</span><span class="token generic-function"><span class="token function">GetSceneSystem</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>WorkspotSystem<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">RED_ASSERT</span><span class="token punctuation">(</span>workspotSystem<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID<span class="token operator">&amp;</span> ownerId <span class="token operator">=</span> m_owner<span class="token operator">-&gt;</span><span class="token function">GetEntityID</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 1. 检查 NPC 是否已经在这个 workspot 中</span>
+<span class="token keyword keyword-const">const</span> Bool alreadyInWorkspot <span class="token operator">=</span> workspotSystem<span class="token operator">-&gt;</span><span class="token function">IsActorInWorkspot</span><span class="token punctuation">(</span>ownerId<span class="token punctuation">,</span> m_initialParameters<span class="token punctuation">.</span>m_workspot<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// → 调用 WorkspotSystem::IsActorInWorkspot</span>
+
+<span class="token keyword keyword-const">const</span> Bool canReuseWorkspot <span class="token operator">=</span> m_callbackInterface <span class="token operator">!=</span> <span class="token keyword keyword-nullptr">nullptr</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 如果使用运动系统（非传送模式）</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_useMotion<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 2.1 计算地面贴合（如果需要）</span>
+    <span class="token keyword keyword-const">const</span> Bool snapToGround <span class="token operator">=</span> m_initialParameters<span class="token punctuation">.</span>m_workspot<span class="token punctuation">.</span>m_tree<span class="token operator">-&gt;</span><span class="token function">ShouldSnapToTerrain</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">||</span>
+                              m_initialParameters<span class="token punctuation">.</span>m_snapToGround<span class="token punctuation">;</span>
+    <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span>snapToGround<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        Transform adjustedTransform<span class="token punctuation">;</span>
+        <span class="token function">CalcSlideToSafety</span><span class="token punctuation">(</span>m_initialParameters<span class="token punctuation">.</span>m_workspotTransform<span class="token punctuation">,</span> adjustedTransform<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        m_initialParameters<span class="token punctuation">.</span>m_workspotTransform <span class="token operator">=</span>
+            m_initialParameters<span class="token punctuation">.</span>m_workspotTransform<span class="token punctuation">.</span><span class="token function">TransformXForm</span><span class="token punctuation">(</span>adjustedTransform<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// 2.2 如果 NPC 不在 workspot 中且配置了 slideTime</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token function">IsOwnerInWorkspot</span><span class="token punctuation">(</span>m_initialParameters<span class="token punctuation">.</span>m_workspot<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_initialParameters<span class="token punctuation">.</span>m_slideTime <span class="token operator">&gt;</span> <span class="token number">0.f</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token comment">// 创建 Adjust 命令 - 在播放 EntryAnim 前滑动到正确位置</span>
+            m_adjustCommand <span class="token operator">=</span> red<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">CreateUniquePtr</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>AdjustAndPlayCommandData<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token keyword keyword-const">const</span> WorldTransform currentTransform <span class="token operator">=</span> m_owner<span class="token operator">-&gt;</span><span class="token function">HasDependentTransform</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">?</span>
+                m_owner<span class="token operator">-&gt;</span><span class="token function">GetLocalTransformAsWorld</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">:</span> m_owner<span class="token operator">-&gt;</span><span class="token function">GetWorldTransform</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword keyword-const">const</span> WorldTransform entrySlotSpace <span class="token operator">=</span>
+                m_initialParameters<span class="token punctuation">.</span>m_workspotTransform<span class="token punctuation">.</span><span class="token function">TransformXForm</span><span class="token punctuation">(</span>m_initialParameters<span class="token punctuation">.</span>m_entryPositionLS<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token comment">// 计算当前位置到 Entry Point 的差值</span>
+            <span class="token keyword keyword-const">const</span> Transform deltaSlotSpace <span class="token operator">=</span> currentTransform<span class="token punctuation">.</span><span class="token function">TransformInv</span><span class="token punctuation">(</span>entrySlotSpace<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            m_adjustCommand<span class="token operator">-&gt;</span>m_adjustDelta <span class="token operator">=</span> deltaSlotSpace<span class="token punctuation">;</span>
+            m_adjustCommand<span class="token operator">-&gt;</span>m_adjustTime <span class="token operator">=</span> m_initialParameters<span class="token punctuation">.</span>m_slideTime<span class="token punctuation">;</span>
+            m_adjustCommand<span class="token operator">-&gt;</span>m_globalBlendDuration <span class="token operator">=</span> m_initialParameters<span class="token punctuation">.</span>m_globalBlendDuration<span class="token punctuation">;</span>
+            m_adjustCommand<span class="token operator">-&gt;</span>m_playbackDelay <span class="token operator">=</span> m_initialParameters<span class="token punctuation">.</span>m_playbackDelay<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// 2.3 设置运动控制器</span>
+    m_movingAgent<span class="token operator">-&gt;</span><span class="token function">ForceRawRepresentation</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    m_movingAgent<span class="token operator">-&gt;</span><span class="token function">AttachLocomotionController</span><span class="token punctuation">(</span>m_animMoveController<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// ← 附加动画驱动的运动控制器</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_parentId<span class="token punctuation">.</span><span class="token function">IsDefined</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        m_movingAgent<span class="token operator">-&gt;</span><span class="token function">MountToVirtualParent</span><span class="token punctuation">(</span>m_parentId<span class="token punctuation">,</span> m_parentSlotName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 3. 如果无法复用或不在 workspot 中</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>canReuseWorkspot <span class="token operator">||</span> <span class="token operator">!</span>alreadyInWorkspot<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token function">PlayDependentWorkspot</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 3.1 创建回调接口</span>
+    m_callbackInterface <span class="token operator">=</span> red<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">CreateSharedPtr</span><span class="token generic class-name"><span class="token operator">&lt;</span>WorkspotInstanceCallbacksReceiver<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token function">SharedFromThis</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 3.2 设置同步信息</span>
+    work<span class="token double-colon punctuation">::</span>SyncedWorkspotInfo syncInfo <span class="token operator">=</span> <span class="token punctuation">{</span> m_initialParameters<span class="token punctuation">.</span>m_masterWsOwner <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 3.3 向 WorkspotSystem 注册 workspot</span>
+    workspotSystem<span class="token operator">-&gt;</span><span class="token function">SetupWorkspot</span><span class="token punctuation">(</span>
+        <span class="token function">HandleFromPtr</span><span class="token punctuation">(</span>m_owner<span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            m_initialParameters<span class="token punctuation">.</span>m_workspot<span class="token punctuation">,</span>           <span class="token comment">// workspot 参数</span>
+            m_initialParameters<span class="token punctuation">.</span>m_nodeId<span class="token punctuation">,</span>             <span class="token comment">// 节点 ID</span>
+            m_callbackInterface<span class="token punctuation">,</span>                      <span class="token comment">// 回调接口</span>
+            m_initialParameters<span class="token punctuation">.</span>m_entryAnimation<span class="token punctuation">,</span>     <span class="token comment">// EntryAnim 名称</span>
+            m_initialParameters<span class="token punctuation">.</span>m_exitAnimation<span class="token punctuation">,</span>      <span class="token comment">// ExitAnim 名称</span>
+            m_initialParameters<span class="token punctuation">.</span>m_isWorkspotStatic<span class="token punctuation">,</span>
+            m_initialParameters<span class="token punctuation">.</span>m_globalItemManager<span class="token punctuation">,</span>
+            m_initialParameters<span class="token punctuation">.</span>m_itemOverride<span class="token punctuation">,</span>
+            m_initialParameters<span class="token punctuation">.</span>m_clippingSpace<span class="token punctuation">,</span>
+            m_initialParameters<span class="token punctuation">.</span>m_disableInertiaBlend
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        m_initialParameters<span class="token punctuation">.</span>m_masterWsOwner <span class="token operator">?</span> <span class="token operator">&amp;</span>syncInfo <span class="token operator">:</span> <span class="token keyword keyword-nullptr">nullptr</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotSystem::SetupWorkspot</span>
+
+    <span class="token comment">// 3.4 发送播放命令</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_adjustCommand<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 如果有 Adjust 命令，先调整位置再播放</span>
+        workspotSystem<span class="token operator">-&gt;</span><span class="token function">SendCommand</span><span class="token punctuation">(</span>ownerId<span class="token punctuation">,</span> work<span class="token double-colon punctuation">::</span>CMD_Adjust_And_Play<span class="token punctuation">,</span> std<span class="token double-colon punctuation">::</span><span class="token function">move</span><span class="token punctuation">(</span>m_adjustCommand<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword keyword-else">else</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 否则直接播放</span>
+        workspotSystem<span class="token operator">-&gt;</span><span class="token function">SendCommand</span><span class="token punctuation">(</span>ownerId<span class="token punctuation">,</span> work<span class="token double-colon punctuation">::</span>CMD_Play<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// ← 开始播放 workspot</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// → 调用 WorkspotSystem::SendCommand</span>
+
+    <span class="token comment">// ... 其他命令（startup functor, cleanup 等）...</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span> <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_initialParameters<span class="token punctuation">.</span>m_resumePlayback<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 4. 复用现有 workspot 并恢复播放</span>
+    m_callbackInterface<span class="token operator">-&gt;</span><span class="token function">OnInstanceReused</span><span class="token punctuation">(</span><span class="token function">SharedFromThis</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    workspotSystem<span class="token operator">-&gt;</span><span class="token function">SendCommand</span><span class="token punctuation">(</span>ownerId<span class="token punctuation">,</span> work<span class="token double-colon punctuation">::</span>CMD_Stop<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    workspotSystem<span class="token operator">-&gt;</span><span class="token function">SendCommand</span><span class="token punctuation">(</span>ownerId<span class="token punctuation">,</span> work<span class="token double-colon punctuation">::</span>CMD_Play<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 5. 复用现有 workspot 但不恢复播放</span>
+    m_callbackInterface<span class="token operator">-&gt;</span><span class="token function">OnInstanceReused</span><span class="token punctuation">(</span><span class="token function">SharedFromThis</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    workspotSystem<span class="token operator">-&gt;</span><span class="token function">ClearExitFlags</span><span class="token punctuation">(</span>ownerId<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    workspotSystem<span class="token operator">-&gt;</span><span class="token function">ClearPlayStopFlag</span><span class="token punctuation">(</span>ownerId<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 6. 如果需要跳转到特定 Entry</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_initialParameters<span class="token punctuation">.</span>m_jumpToEntry<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token function">JumpToEntry</span><span class="token punctuation">(</span>m_initialParameters<span class="token punctuation">.</span>m_entryId<span class="token punctuation">,</span> m_initialParameters<span class="token punctuation">.</span>m_entryTag<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>IsActorInWorkspot(ownerId, workspotParams)</code> - 检查是否在 workspot（→ WorkspotSystem）</li>
+<li><code>CalcSlideToSafety(...)</code> - 计算地面贴合</li>
+<li><code>IsOwnerInWorkspot(workspotParams)</code> - 检查是否在 workspot 内</li>
+<li><code>AttachLocomotionController(m_animMoveController)</code> - 附加运动控制器</li>
+<li><code>SetupWorkspot(...)</code> - 注册到 WorkspotSystem（→ WorkspotSystem）</li>
+<li><code>SendCommand(ownerId, cmd, data)</code> - 发送命令（→ WorkspotSystem）</li>
+<li><code>JumpToEntry(entryId, entryTag)</code> - 跳转到指定 Entry</li>
+</ul>
+<hr>
+<h4 id="53-workspotinstancewrappersetupmotionprovider">5.3 WorkspotInstanceWrapper::SetUpMotionProvider </h4>
+<p><strong>文件</strong>: <code>workspot.cpp</code><br>
+<strong>行号</strong>: 556-606<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotInstanceWrapper</span><span class="token double-colon punctuation">::</span><span class="token function">SetUpMotionProvider</span><span class="token punctuation">(</span>
+    Transform transform<span class="token punctuation">,</span>        <span class="token comment">// 目标 Transform（Entry Point 位置）</span>
+    Transform<span class="token operator">*</span> startLocation<span class="token punctuation">,</span>   <span class="token comment">// 起始位置</span>
+    Float logicDuration<span class="token punctuation">,</span>        <span class="token comment">// 逻辑持续时间</span>
+    CName animName<span class="token punctuation">,</span>             <span class="token comment">// EntryAnim 名称</span>
+    Float forceTime<span class="token punctuation">,</span>            <span class="token comment">// 强制时间</span>
+    <span class="token keyword keyword-const">const</span> Uint32 recordFlags<span class="token punctuation">,</span>   <span class="token comment">// Entry 标志（SlowEnter/SlowExit 等）</span>
+    Bool forceSnapToTerrain
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>创建 Motion Provider（运动提供者）</li>
+<li>从动画中提取运动数据</li>
+<li>启动动画驱动的运动</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>m_animationController<span class="token punctuation">)</span>
+    <span class="token keyword keyword-return">return</span><span class="token punctuation">;</span>
+
+anim<span class="token double-colon punctuation">::</span>MotionProvider provider<span class="token punctuation">;</span>
+<span class="token keyword keyword-const">const</span> WorldTransform startLocPS <span class="token operator">=</span> m_owner<span class="token operator">-&gt;</span><span class="token function">GetLocalTransformAsWorld</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 设置 NavMesh 贴合选项</span>
+m_animMoveController<span class="token punctuation">.</span><span class="token function">StickToNavmesh</span><span class="token punctuation">(</span>recordFlags <span class="token operator">&amp;</span> work<span class="token double-colon punctuation">::</span>IEntry<span class="token double-colon punctuation">::</span>StayOnNavmesh<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-const">const</span> Bool zSnap <span class="token operator">=</span> <span class="token punctuation">(</span>recordFlags <span class="token operator">&amp;</span> work<span class="token double-colon punctuation">::</span>IEntry<span class="token double-colon punctuation">::</span>SnapZToNavmesh<span class="token punctuation">)</span> <span class="token operator">||</span>
+                   m_initialParameters<span class="token punctuation">.</span>m_workspot<span class="token punctuation">.</span>m_tree<span class="token operator">-&gt;</span><span class="token function">ShouldSnapToTerrain</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">||</span>
+                   forceSnapToTerrain<span class="token punctuation">;</span>
+m_animMoveController<span class="token punctuation">.</span><span class="token function">EnableSnapZToNavmesh</span><span class="token punctuation">(</span>zSnap<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-auto">auto</span> trajectoryTargetObject <span class="token operator">=</span> m_initialParameters<span class="token punctuation">.</span>m_trajectoryTargetObject<span class="token punctuation">.</span><span class="token function">ToHandle</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 处理 SlowEnter（EntryAnim）</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>recordFlags <span class="token operator">&amp;</span> work<span class="token double-colon punctuation">::</span>IEntry<span class="token double-colon punctuation">::</span>SlowEnter<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>trajectoryTargetObject <span class="token operator">&amp;&amp;</span> trajectoryTargetObject<span class="token operator">-&gt;</span><span class="token function">GetState</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> ent<span class="token double-colon punctuation">::</span>EntityState<span class="token double-colon punctuation">::</span>Attached<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 动态 workspot entry（目标会移动）</span>
+        red<span class="token double-colon punctuation">::</span>SharedPtr<span class="token operator">&lt;</span>MotionProviderTarget_DynamicWorkspotEnter<span class="token operator">&gt;</span> target <span class="token operator">=</span>
+            red<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">CreateSharedPtr</span><span class="token generic class-name"><span class="token operator">&lt;</span>MotionProviderTarget_DynamicWorkspotEnter<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>
+                <span class="token function">HandleFromPtr</span><span class="token punctuation">(</span>m_owner<span class="token punctuation">)</span><span class="token punctuation">,</span> trajectoryTargetObject<span class="token punctuation">,</span> m_initialParameters<span class="token punctuation">.</span>m_trajectoryTargetOffset<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment">// 创建带动画的运动提供者</span>
+        m_animationController<span class="token operator">-&gt;</span><span class="token function">CreateMotionProviderWithTarget</span><span class="token punctuation">(</span>
+            animName<span class="token punctuation">,</span>           <span class="token comment">// ← EntryAnim 名称</span>
+            <span class="token class-name">CName</span><span class="token double-colon punctuation">::</span><span class="token function">NONE</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>      <span class="token comment">// 无 slot 名称</span>
+            logicDuration<span class="token punctuation">,</span>      <span class="token comment">// 逻辑持续时间</span>
+            target<span class="token punctuation">,</span>             <span class="token comment">// 目标位置</span>
+            logicDuration<span class="token punctuation">,</span>
+            std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token number">0.f</span><span class="token punctuation">,</span>
+            <span class="token boolean">true</span><span class="token punctuation">,</span>  <span class="token comment">// useMotionExtraction = true ← 从动画中提取运动数据</span>
+            <span class="token boolean">true</span><span class="token punctuation">,</span>  <span class="token comment">// applyMotion = true</span>
+            <span class="token boolean">false</span><span class="token punctuation">,</span>
+            provider
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// → 调用 AnimationController::CreateMotionProviderWithTarget</span>
+
+        <span class="token comment">// 开始运动</span>
+        m_animMoveController<span class="token punctuation">.</span><span class="token function">MoveWithMotionProvider</span><span class="token punctuation">(</span>provider<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>startLocPS<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// → 调用 WorkspotMovementController::MoveWithMotionProvider</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword keyword-else">else</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 静态 workspot entry</span>
+        <span class="token keyword keyword-const">const</span> Transform targetLS <span class="token operator">=</span> startLocPS<span class="token punctuation">.</span><span class="token function">TransformInv</span><span class="token punctuation">(</span>m_animMoveController<span class="token punctuation">.</span><span class="token function">GetLocationPS</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        red<span class="token double-colon punctuation">::</span>SharedPtr<span class="token operator">&lt;</span>anim<span class="token double-colon punctuation">::</span>SimpleMotionProviderTarget<span class="token operator">&gt;</span> target <span class="token operator">=</span>
+            red<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">CreateSharedPtr</span><span class="token generic class-name"><span class="token operator">&lt;</span>anim<span class="token double-colon punctuation">::</span>SimpleMotionProviderTarget<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>targetLS<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        m_animationController<span class="token operator">-&gt;</span><span class="token function">CreateMotionProviderWithTarget</span><span class="token punctuation">(</span>
+            animName<span class="token punctuation">,</span>  <span class="token comment">// ← EntryAnim 名称</span>
+            <span class="token class-name">CName</span><span class="token double-colon punctuation">::</span><span class="token function">NONE</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            logicDuration<span class="token punctuation">,</span>
+            target<span class="token punctuation">,</span>
+            logicDuration<span class="token punctuation">,</span>
+            std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token number">0.f</span><span class="token punctuation">,</span>
+            <span class="token boolean">true</span><span class="token punctuation">,</span>   <span class="token comment">// useMotionExtraction = true ← 从动画中提取运动数据</span>
+            <span class="token boolean">true</span><span class="token punctuation">,</span>   <span class="token comment">// applyMotion = true</span>
+            <span class="token boolean">true</span><span class="token punctuation">,</span>   <span class="token comment">// useWorldSpace = true</span>
+            provider
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment">// 开始运动</span>
+        m_animMoveController<span class="token punctuation">.</span><span class="token function">MoveWithMotionProvider</span><span class="token punctuation">(</span>provider<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>startLocPS<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// ... SlowExit 和 FastExit 的处理 ...</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>StickToNavmesh(flag)</code> - 设置 NavMesh 贴合</li>
+<li><code>EnableSnapZToNavmesh(flag)</code> - 启用 Z 轴贴合</li>
+<li><code>CreateMotionProviderWithTarget(...)</code> - 创建运动提供者（→ AnimationController）</li>
+<li><code>MoveWithMotionProvider(provider, ...)</code> - 开始运动（→ MovementController）</li>
+</ul>
+<hr>
+<h3 id="阶段-6workspotsystem-执行">阶段 6：WorkspotSystem 执行 </h3>
+<h4 id="61-workspotsystemsetupworkspot">6.1 WorkspotSystem::SetupWorkspot </h4>
+<p><strong>文件</strong>: <code>workspotSystem.cpp</code>（具体实现未在提供的代码中）<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotSystem</span><span class="token double-colon punctuation">::</span><span class="token function">SetupWorkspot</span><span class="token punctuation">(</span>
+    THandle<span class="token operator">&lt;</span>ent<span class="token double-colon punctuation">::</span>Entity<span class="token operator">&gt;</span> entity<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> WorkspotSetupContext<span class="token operator">&amp;</span> context<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> SyncedWorkspotInfo<span class="token operator">*</span> syncInfo <span class="token operator">=</span> <span class="token keyword keyword-nullptr">nullptr</span>
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>创建 WorkspotInstance</li>
+<li>注册到实例映射表</li>
+<li>保存回调接口</li>
+<li>解析 WorkspotTree</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID entityId <span class="token operator">=</span> entity<span class="token operator">-&gt;</span><span class="token function">GetEntityID</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 1. 创建 WorkspotInstance</span>
+red<span class="token double-colon punctuation">::</span>UniquePtr<span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>WorkspotInstance<span class="token operator">&gt;</span> instance <span class="token operator">=</span> red<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">CreateUniquePtr</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>WorkspotInstance<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+instance<span class="token operator">-&gt;</span><span class="token function">Setup</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// → 调用 WorkspotInstance::Setup</span>
+
+<span class="token comment">// 2. 注册到映射表</span>
+m_instances<span class="token punctuation">.</span><span class="token function">Insert</span><span class="token punctuation">(</span>entityId<span class="token punctuation">,</span> std<span class="token double-colon punctuation">::</span><span class="token function">move</span><span class="token punctuation">(</span>instance<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 3. 保存回调接口</span>
+work<span class="token double-colon punctuation">::</span>WorkspotInstance<span class="token operator">*</span> inst <span class="token operator">=</span> m_instances<span class="token punctuation">[</span>entityId<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">Get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+inst<span class="token operator">-&gt;</span><span class="token function">SetCommFunc</span><span class="token punctuation">(</span>context<span class="token punctuation">.</span>m_commFun<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 4. 如果有同步信息，注册到同步器</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>syncInfo<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    m_synchronizer<span class="token punctuation">.</span><span class="token function">RegisterSyncedWorkspot</span><span class="token punctuation">(</span>entityId<span class="token punctuation">,</span> <span class="token operator">*</span>syncInfo<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>WorkspotInstance::Setup(context)</code> - 初始化 WorkspotInstance</li>
+<li><code>m_synchronizer.RegisterSyncedWorkspot(...)</code> - 注册同步 workspot</li>
+</ul>
+<hr>
+<h4 id="62-workspotsystemsendcommand">6.2 WorkspotSystem::SendCommand </h4>
+<p><strong>文件</strong>: <code>workspotSystem.cpp</code><br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotSystem</span><span class="token double-colon punctuation">::</span><span class="token function">SendCommand</span><span class="token punctuation">(</span>
+    <span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID<span class="token operator">&amp;</span> entityId<span class="token punctuation">,</span>
+    Uint32 cmd<span class="token punctuation">,</span>
+    red<span class="token double-colon punctuation">::</span>UniquePtr<span class="token operator">&lt;</span>IWorkspotCommandData<span class="token operator">&gt;</span> data <span class="token operator">=</span> <span class="token keyword keyword-nullptr">nullptr</span>
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>将命令加入命令队列</li>
+<li>下一帧执行命令</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 验证命令数据</span>
+helper<span class="token double-colon punctuation">::</span><span class="token function">ValidateCommandData</span><span class="token punctuation">(</span>cmd<span class="token punctuation">,</span> data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 找到 WorkspotInstance</span>
+<span class="token keyword keyword-auto">auto</span> it <span class="token operator">=</span> m_instances<span class="token punctuation">.</span><span class="token function">Find</span><span class="token punctuation">(</span>entityId<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>it <span class="token operator">==</span> m_instances<span class="token punctuation">.</span><span class="token function">End</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token function">RED_LOG_WARNING</span><span class="token punctuation">(</span><span class="token string">"Trying to send command to non-existent workspot instance"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 3. 将命令加入队列</span>
+<span class="token type-opencl-host-cpp keyword">CommandQueue</span><span class="token operator">&amp;</span> queue <span class="token operator">=</span> m_commandQueues<span class="token punctuation">[</span>entityId<span class="token punctuation">]</span><span class="token punctuation">;</span>
+queue<span class="token punctuation">.</span><span class="token function">Push</span><span class="token punctuation">(</span><span class="token punctuation">{</span> cmd<span class="token punctuation">,</span> std<span class="token double-colon punctuation">::</span><span class="token function">move</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><hr>
+<h4 id="63-workspotsystemupdate-每帧执行">6.3 WorkspotSystem::Update (每帧执行) </h4>
+<p><strong>文件</strong>: <code>workspotSystem.cpp</code>（具体实现未在提供的代码中）<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotSystem</span><span class="token double-colon punctuation">::</span><span class="token function">Update</span><span class="token punctuation">(</span>Float deltaTime<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>处理命令队列</li>
+<li>更新所有 WorkspotInstance</li>
+<li>触发回调</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 遍历所有实例</span>
+<span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-auto">auto</span><span class="token operator">&amp;</span> <span class="token punctuation">[</span>entityId<span class="token punctuation">,</span> instance<span class="token punctuation">]</span> <span class="token operator">:</span> m_instances<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 2. 处理命令队列</span>
+    <span class="token type-opencl-host-cpp keyword">CommandQueue</span><span class="token operator">&amp;</span> queue <span class="token operator">=</span> m_commandQueues<span class="token punctuation">[</span>entityId<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>queue<span class="token punctuation">.</span><span class="token function">IsEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        Command cmd <span class="token operator">=</span> queue<span class="token punctuation">.</span><span class="token function">Pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">ProcessCommand</span><span class="token punctuation">(</span>entityId<span class="token punctuation">,</span> instance<span class="token punctuation">.</span><span class="token function">Get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> cmd<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// → 调用 WorkspotSystem::ProcessCommand</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// 3. 更新实例</span>
+    instance<span class="token operator">-&gt;</span><span class="token function">Execute</span><span class="token punctuation">(</span>deltaTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::Execute</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>ProcessCommand(entityId, instance, cmd)</code> - 处理命令</li>
+<li><code>instance-&gt;Execute(deltaTime)</code> - 更新实例</li>
+</ul>
+<hr>
+<h4 id="64-workspotsystemprocesscommand">6.4 WorkspotSystem::ProcessCommand </h4>
+<p><strong>文件</strong>: <code>workspotSystem.cpp</code>（根据调用推断）<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotSystem</span><span class="token double-colon punctuation">::</span><span class="token function">ProcessCommand</span><span class="token punctuation">(</span>
+    <span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID<span class="token operator">&amp;</span> entityId<span class="token punctuation">,</span>
+    work<span class="token double-colon punctuation">::</span>WorkspotInstance<span class="token operator">*</span> instance<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> Command<span class="token operator">&amp;</span> cmd
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>根据命令类型执行不同操作</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-switch">switch</span> <span class="token punctuation">(</span>cmd<span class="token punctuation">.</span>type<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword keyword-case">case</span> work<span class="token double-colon punctuation">::</span>CMD_Play<span class="token operator">:</span>
+<span class="token punctuation">{</span>
+    instance<span class="token operator">-&gt;</span><span class="token function">Play</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::Play</span>
+    <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-case">case</span> work<span class="token double-colon punctuation">::</span>CMD_Stop<span class="token operator">:</span>
+<span class="token punctuation">{</span>
+    instance<span class="token operator">-&gt;</span><span class="token function">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::Stop</span>
+    <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-case">case</span> work<span class="token double-colon punctuation">::</span>CMD_Adjust_And_Play<span class="token operator">:</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>AdjustAndPlayCommandData<span class="token operator">*</span> data <span class="token operator">=</span> <span class="token generic-function"><span class="token function">Cast</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>AdjustAndPlayCommandData<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>cmd<span class="token punctuation">.</span>data<span class="token punctuation">.</span><span class="token function">Get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    instance<span class="token operator">-&gt;</span><span class="token function">AdjustAndPlay</span><span class="token punctuation">(</span>data<span class="token operator">-&gt;</span>m_adjustDelta<span class="token punctuation">,</span> data<span class="token operator">-&gt;</span>m_adjustTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::AdjustAndPlay</span>
+    <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-case">case</span> work<span class="token double-colon punctuation">::</span>CMD_JumpToEntry<span class="token operator">:</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>JumpToCommandData<span class="token operator">*</span> data <span class="token operator">=</span> <span class="token generic-function"><span class="token function">Cast</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>JumpToCommandData<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>cmd<span class="token punctuation">.</span>data<span class="token punctuation">.</span><span class="token function">Get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    instance<span class="token operator">-&gt;</span><span class="token function">JumpToEntry</span><span class="token punctuation">(</span>data<span class="token operator">-&gt;</span>m_entryId<span class="token punctuation">,</span> data<span class="token operator">-&gt;</span>m_entryTag<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::JumpToEntry</span>
+    <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-case">case</span> work<span class="token double-colon punctuation">::</span>CMD_FastExit<span class="token operator">:</span>
+<span class="token punctuation">{</span>
+    instance<span class="token operator">-&gt;</span><span class="token function">FastExit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::FastExit</span>
+    <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-case">case</span> work<span class="token double-colon punctuation">::</span>CMD_SlowExit<span class="token operator">:</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>SlowExitCommandData<span class="token operator">*</span> data <span class="token operator">=</span> <span class="token generic-function"><span class="token function">Cast</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>SlowExitCommandData<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>cmd<span class="token punctuation">.</span>data<span class="token punctuation">.</span><span class="token function">Get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    instance<span class="token operator">-&gt;</span><span class="token function">SlowExit</span><span class="token punctuation">(</span>data<span class="token operator">-&gt;</span>m_entryId<span class="token punctuation">,</span> data<span class="token operator">-&gt;</span>m_animName<span class="token punctuation">,</span> data<span class="token operator">-&gt;</span>m_exitDir<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::SlowExit</span>
+    <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-case">case</span> work<span class="token double-colon punctuation">::</span>CMD_EventListener<span class="token operator">:</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>EventListenerCommandData<span class="token operator">*</span> data <span class="token operator">=</span> <span class="token generic-function"><span class="token function">Cast</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>EventListenerCommandData<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>cmd<span class="token punctuation">.</span>data<span class="token punctuation">.</span><span class="token function">Get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>data<span class="token operator">-&gt;</span>m_mode <span class="token operator">==</span> work<span class="token double-colon punctuation">::</span>EventListenerCommandData<span class="token double-colon punctuation">::</span>Mode<span class="token double-colon punctuation">::</span>Register<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        m_callbackManager<span class="token punctuation">.</span><span class="token function">RegisterListener</span><span class="token punctuation">(</span>entityId<span class="token punctuation">,</span> data<span class="token operator">-&gt;</span>m_listener<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword keyword-else">else</span>
+    <span class="token punctuation">{</span>
+        m_callbackManager<span class="token punctuation">.</span><span class="token function">UnregisterListener</span><span class="token punctuation">(</span>entityId<span class="token punctuation">,</span> data<span class="token operator">-&gt;</span>m_listener<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// ... 其他命令</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>instance-&gt;Play()</code> - 开始播放</li>
+<li><code>instance-&gt;Stop()</code> - 停止</li>
+<li><code>instance-&gt;AdjustAndPlay(...)</code> - 调整并播放</li>
+<li><code>instance-&gt;JumpToEntry(...)</code> - 跳转到 Entry</li>
+<li><code>instance-&gt;FastExit()</code> - 快速退出</li>
+<li><code>instance-&gt;SlowExit(...)</code> - 慢速退出</li>
+<li><code>m_callbackManager.RegisterListener(...)</code> - 注册监听器</li>
+</ul>
+<hr>
+<h3 id="阶段-7workspotinstance-执行">阶段 7：WorkspotInstance 执行 </h3>
+<h4 id="71-workspotinstanceplay">7.1 WorkspotInstance::Play </h4>
+<p><strong>文件</strong>: <code>gameWorkspotsInstance.cpp</code>（根据调用推断）<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotInstance</span><span class="token double-colon punctuation">::</span><span class="token function">Play</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>开始播放 WorkspotTree</li>
+<li>如果有 EntryAnim，先播放 EntryAnim</li>
+<li>然后进入 Sequence</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 查找 EntryAnim</span>
+work<span class="token double-colon punctuation">::</span>WorkEntryId entryId <span class="token operator">=</span> <span class="token function">FindEntryAnim</span><span class="token punctuation">(</span>m_entryAnimToUse<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// → 调用 WorkspotInstance::FindEntryAnim</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>entryId <span class="token operator">!=</span> work<span class="token double-colon punctuation">::</span>WorkEntryId<span class="token double-colon punctuation">::</span>invalid<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 2. 播放 EntryAnim</span>
+    <span class="token function">PlayEntry</span><span class="token punctuation">(</span>entryId<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::PlayEntry</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 3. 没有 EntryAnim，直接播放 Sequence</span>
+    <span class="token function">PlaySequence</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 WorkspotInstance::PlaySequence</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>FindEntryAnim(animName)</code> - 查找 EntryAnim</li>
+<li><code>PlayEntry(entryId)</code> - 播放 EntryAnim</li>
+<li><code>PlaySequence()</code> - 播放 Sequence</li>
+</ul>
+<hr>
+<h4 id="72-workspotinstancefindentryanim">7.2 WorkspotInstance::FindEntryAnim </h4>
+<p><strong>文件</strong>: <code>gameWorkspotsInstance.cpp</code><br>
+<strong>行号</strong>: 188-195<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>work<span class="token double-colon punctuation">::</span>WorkEntryId <span class="token class-name">WorkspotInstance</span><span class="token double-colon punctuation">::</span><span class="token function">FindEntryAnim</span><span class="token punctuation">(</span>CName animName<span class="token punctuation">)</span> <span class="token keyword keyword-const">const</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>在 WorkspotTree 中查找指定名称的 EntryAnim</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>m_workResource<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-return">return</span> work<span class="token double-colon punctuation">::</span>WorkEntryId<span class="token double-colon punctuation">::</span>invalid<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-return">return</span> m_workResource<span class="token operator">-&gt;</span><span class="token function">FindEntryAnim</span><span class="token punctuation">(</span>animName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// → 调用 WorkspotParams::FindEntryAnim</span>
+<span class="token comment">// → 调用 WorkspotTree::FindEntryAnim</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>WorkspotParams::FindEntryAnim(animName)</code> - 查找 EntryAnim（→ WorkspotTree）</li>
+</ul>
+<hr>
+<h4 id="73-workspotinstanceplayentry">7.3 WorkspotInstance::PlayEntry </h4>
+<p><strong>文件</strong>: <code>gameWorkspotsInstance.cpp</code>（根据调用推断）<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotInstance</span><span class="token double-colon punctuation">::</span><span class="token function">PlayEntry</span><span class="token punctuation">(</span>work<span class="token double-colon punctuation">::</span>WorkEntryId entryId<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>播放 EntryAnim</li>
+<li>通过回调接口请求运动或传送</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 获取 EntryAnim 数据</span>
+<span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>IEntry<span class="token operator">*</span> entry <span class="token operator">=</span> m_workResource<span class="token operator">-&gt;</span><span class="token function">GetEntry</span><span class="token punctuation">(</span>entryId<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>EntryAnim<span class="token operator">*</span> entryAnim <span class="token operator">=</span> <span class="token generic-function"><span class="token function">Cast</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>EntryAnim<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>entry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 检查是否需要运动（SlowEnter）</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>entryAnim<span class="token operator">-&gt;</span>m_flags <span class="token operator">&amp;</span> work<span class="token double-colon punctuation">::</span>IEntry<span class="token double-colon punctuation">::</span>SlowEnter<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 需要运动，调用 MovementRequest 回调</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_commFun<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        m_commFun<span class="token operator">-&gt;</span><span class="token function">MovementRequest</span><span class="token punctuation">(</span>
+            entryAnim<span class="token operator">-&gt;</span>m_transform<span class="token punctuation">,</span>        <span class="token comment">// 目标位置</span>
+            <span class="token keyword keyword-nullptr">nullptr</span><span class="token punctuation">,</span>                       <span class="token comment">// 起始位置（nullptr 使用当前位置）</span>
+            entryAnim<span class="token operator">-&gt;</span>m_logicDuration<span class="token punctuation">,</span>    <span class="token comment">// 逻辑持续时间</span>
+            entryAnim<span class="token operator">-&gt;</span>m_animName<span class="token punctuation">,</span>         <span class="token comment">// EntryAnim 名称</span>
+            <span class="token number">0.f</span><span class="token punctuation">,</span>                           <span class="token comment">// forceTime</span>
+            entryAnim<span class="token operator">-&gt;</span>m_flags<span class="token punctuation">,</span>            <span class="token comment">// 标志</span>
+            <span class="token boolean">false</span>                          <span class="token comment">// forceSnapToTerrain</span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// → 调用 WorkspotInstanceCallbacksReceiver::MovementRequest</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 不需要运动，直接传送</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_commFun<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        m_commFun<span class="token operator">-&gt;</span><span class="token function">TeleportRequest</span><span class="token punctuation">(</span>
+            entryAnim<span class="token operator">-&gt;</span>m_transform<span class="token punctuation">,</span>        <span class="token comment">// 目标位置</span>
+            <span class="token boolean">true</span>                           <span class="token comment">// snapToZ</span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// → 调用 WorkspotInstanceCallbacksReceiver::TeleportRequest</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 3. 触发 OnAnimationStarted 回调</span>
+m_callbackManager<span class="token operator">-&gt;</span><span class="token function">OnAnimationStarted</span><span class="token punctuation">(</span>
+    m_entityId<span class="token punctuation">,</span> m_originId<span class="token punctuation">,</span> entryId<span class="token punctuation">,</span> entryAnim<span class="token operator">-&gt;</span>m_flags<span class="token punctuation">,</span> entryAnim<span class="token operator">-&gt;</span>m_animName<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>m_workResource-&gt;GetEntry(entryId)</code> - 获取 Entry 数据</li>
+<li><code>m_commFun-&gt;MovementRequest(...)</code> - 请求运动（→ WorkspotInstanceCallbacksReceiver）</li>
+<li><code>m_commFun-&gt;TeleportRequest(...)</code> - 请求传送（→ WorkspotInstanceCallbacksReceiver）</li>
+<li><code>m_callbackManager-&gt;OnAnimationStarted(...)</code> - 触发回调（→ 所有 IWorkspotListener）</li>
+</ul>
+<hr>
+<h3 id="阶段-8回调处理">阶段 8：回调处理 </h3>
+<h4 id="81-workspotinstancecallbacksreceivermovementrequest">8.1 WorkspotInstanceCallbacksReceiver::MovementRequest </h4>
+<p><strong>文件</strong>: <code>workspot.cpp</code><br>
+<strong>行号</strong>: 50-59<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotInstanceCallbacksReceiver</span><span class="token double-colon punctuation">::</span><span class="token function">MovementRequest</span><span class="token punctuation">(</span>
+    Transform transform<span class="token punctuation">,</span>        <span class="token comment">// 目标 Transform（Entry Point 位置）</span>
+    Transform<span class="token operator">*</span> startLocation<span class="token punctuation">,</span>   <span class="token comment">// 起始位置</span>
+    Float logicDuration<span class="token punctuation">,</span>        <span class="token comment">// 逻辑持续时间</span>
+    CName animName<span class="token punctuation">,</span>             <span class="token comment">// EntryAnim 名称</span>
+    Float forceTime<span class="token punctuation">,</span>            <span class="token comment">// 强制时间</span>
+    <span class="token keyword keyword-const">const</span> Uint32 recordFlags<span class="token punctuation">,</span>   <span class="token comment">// Entry 标志（SlowEnter/SlowExit 等）</span>
+    Bool forceSnapToTerrain
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>转发到 WorkspotInstanceWrapper</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token keyword keyword-auto">auto</span> instance <span class="token operator">=</span> m_instance<span class="token punctuation">.</span><span class="token function">Lock</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>instance<span class="token operator">-&gt;</span><span class="token function">UsesMotion</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 设置运动提供者，开始运动+动画</span>
+        instance<span class="token operator">-&gt;</span><span class="token function">SetUpMotionProvider</span><span class="token punctuation">(</span>transform<span class="token punctuation">,</span> startLocation<span class="token punctuation">,</span> logicDuration<span class="token punctuation">,</span>
+                                      animName<span class="token punctuation">,</span> forceTime<span class="token punctuation">,</span> recordFlags<span class="token punctuation">,</span> forceSnapToTerrain<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// → 调用 WorkspotInstanceWrapper::SetUpMotionProvider</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>instance-&gt;SetUpMotionProvider(...)</code> - 设置运动提供者（→ WorkspotInstanceWrapper）</li>
+</ul>
+<hr>
+<h4 id="82-workspotcallbackmanageronanimationstarted">8.2 WorkspotCallbackManager::OnAnimationStarted </h4>
+<p><strong>文件</strong>: <code>workspotCallbackManager.cpp</code>（根据调用推断）<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotCallbackManager</span><span class="token double-colon punctuation">::</span><span class="token function">OnAnimationStarted</span><span class="token punctuation">(</span>
+    <span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID<span class="token operator">&amp;</span> puppetID<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>OriginId<span class="token operator">&amp;</span> originId<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>WorkEntryId<span class="token operator">&amp;</span> entryId<span class="token punctuation">,</span>
+    Uint32 flags<span class="token punctuation">,</span>
+    CName animationName<span class="token punctuation">,</span>
+    Bool fastForward
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>触发所有注册的 IWorkspotListener</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// 1. 查找注册的监听器</span>
+<span class="token keyword keyword-auto">auto</span> it <span class="token operator">=</span> m_listeners<span class="token punctuation">.</span><span class="token function">Find</span><span class="token punctuation">(</span>puppetID<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>it <span class="token operator">==</span> m_listeners<span class="token punctuation">.</span><span class="token function">End</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword keyword-return">return</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 2. 遍历所有监听器</span>
+<span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-auto">auto</span><span class="token operator">&amp;</span> listener <span class="token operator">:</span> it<span class="token operator">-&gt;</span>Second<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    listener<span class="token operator">-&gt;</span><span class="token function">OnAnimationStarted</span><span class="token punctuation">(</span>puppetID<span class="token punctuation">,</span> originId<span class="token punctuation">,</span> entryId<span class="token punctuation">,</span> flags<span class="token punctuation">,</span> animationName<span class="token punctuation">,</span> fastForward<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// → 调用 IWorkspotListener::OnAnimationStarted</span>
+    <span class="token comment">// → 例如 WorkspotListener::OnAnimationStarted</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>listener-&gt;OnAnimationStarted(...)</code> - 触发监听器（→ IWorkspotListener 实现）</li>
+</ul>
+<hr>
+<h4 id="83-workspotlisteneronanimationstarted">8.3 WorkspotListener::OnAnimationStarted </h4>
+<p><strong>文件</strong>: <code>useWorkspotNode.cpp</code><br>
+<strong>行号</strong>: 626-636<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token class-name">WorkspotListener</span><span class="token double-colon punctuation">::</span><span class="token function">OnAnimationStarted</span><span class="token punctuation">(</span>
+    <span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID<span class="token operator">&amp;</span> puppetID<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>OriginId<span class="token operator">&amp;</span> originId<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>WorkEntryId<span class="token operator">&amp;</span> entryId<span class="token punctuation">,</span>
+    Uint32 flags<span class="token punctuation">,</span>
+    CName animationName<span class="token punctuation">,</span>
+    Bool fastForward
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>通知 StopWorkspotListenerWrapper</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token comment">// TODO: We should take originId into account here</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token keyword keyword-auto">auto</span> wrapper <span class="token operator">=</span> m_wrapper<span class="token punctuation">.</span><span class="token function">Lock</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>wrapper<span class="token operator">-&gt;</span><span class="token function">GetFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> UseWorkspotNodeFunctions<span class="token double-colon punctuation">::</span>UseWorkspot<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        wrapper<span class="token operator">-&gt;</span><span class="token function">OnAnimationStarted</span><span class="token punctuation">(</span>puppetID<span class="token punctuation">,</span> entryId<span class="token punctuation">,</span> flags<span class="token punctuation">,</span> animationName<span class="token punctuation">,</span> fastForward<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// → 调用 StopWorkspotListenerWrapper::OnAnimationStarted</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>wrapper-&gt;OnAnimationStarted(...)</code> - 通知包装器（→ StopWorkspotListenerWrapper）</li>
+</ul>
+<hr>
+<h4 id="84-stopworkspotlistenerwrapperonanimationstarted">8.4 StopWorkspotListenerWrapper::OnAnimationStarted </h4>
+<p><strong>文件</strong>: <code>useWorkspotNode.cpp</code><br>
+<strong>行号</strong>: 476-490<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-void">void</span> <span class="token function">OnAnimationStarted</span><span class="token punctuation">(</span>
+    <span class="token keyword keyword-const">const</span> ent<span class="token double-colon punctuation">::</span>EntityID<span class="token operator">&amp;</span> puppetID<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>WorkEntryId<span class="token operator">&amp;</span> entryId<span class="token punctuation">,</span>
+    Uint32 flags<span class="token punctuation">,</span>
+    CName animName<span class="token punctuation">,</span>
+    Bool fastForward
+<span class="token punctuation">)</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>检测工作是否开始</li>
+<li>激活 Quest Node 的 "Work Started" socket</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token function">IsWorkStarted</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>  <span class="token comment">// 是否首次动画</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>puppetID <span class="token operator">==</span> m_entityId<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 如果不是 EnterNode，说明已经开始工作</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>flags <span class="token operator">&amp;</span> work<span class="token double-colon punctuation">::</span>IEntry<span class="token double-colon punctuation">::</span>EnterNode<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token function">NotifyWorkStarted</span><span class="token punctuation">(</span>fastForward<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// ← 激活 "Work Started" socket</span>
+            <span class="token comment">// → 调用 StopWorkspotListenerWrapper::NotifyWorkStarted</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>NotifyWorkStarted(fastForward)</code> - 通知工作开始</li>
+</ul>
+<hr>
+<h3 id="阶段-9资源层查找">阶段 9：资源层查找 </h3>
+<h4 id="91-workspottreegetclosestentryanim">9.1 WorkspotTree::GetClosestEntryAnim </h4>
+<p><strong>文件</strong>: <code>workspotResource.cpp</code><br>
+<strong>行号</strong>: 954-972<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>work<span class="token double-colon punctuation">::</span>EntryPoint <span class="token class-name">WorkspotTree</span><span class="token double-colon punctuation">::</span><span class="token function">GetClosestEntryAnim</span><span class="token punctuation">(</span>
+    <span class="token keyword keyword-const">const</span> Transform<span class="token operator">&amp;</span> posLS<span class="token punctuation">,</span>
+    <span class="token keyword keyword-const">const</span> AnimSearchContext<span class="token operator">&amp;</span> context
+<span class="token punctuation">)</span> <span class="token keyword keyword-const">const</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>遍历所有 EntryAnim</li>
+<li>计算距离</li>
+<li>返回最近的 EntryPoint</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>work<span class="token double-colon punctuation">::</span>EntryPoint res<span class="token punctuation">;</span>
+Float currMaxDistance <span class="token operator">=</span> std<span class="token double-colon punctuation">::</span><span class="token class-name">numeric_limits</span><span class="token operator">&lt;</span>Float<span class="token operator">&gt;</span><span class="token double-colon punctuation">::</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Lambda 函数：评估每个 EntryAnim 的距离</span>
+std<span class="token double-colon punctuation">::</span>function<span class="token operator">&lt;</span><span class="token keyword keyword-void">void</span><span class="token punctuation">(</span>EntryAnim<span class="token operator">*</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> nodeFun <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token keyword keyword-this">this</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>posLS<span class="token punctuation">,</span> <span class="token operator">&amp;</span>context<span class="token punctuation">,</span> <span class="token operator">&amp;</span>res<span class="token punctuation">,</span> <span class="token operator">&amp;</span>currMaxDistance<span class="token punctuation">]</span><span class="token punctuation">(</span>EntryAnim<span class="token operator">*</span> entryAnim<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-return">return</span> helper<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">EvaluateDistance</span><span class="token generic class-name"><span class="token operator">&lt;</span>EntryAnim<span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>
+        entryAnim<span class="token punctuation">,</span> context<span class="token punctuation">,</span> posLS<span class="token punctuation">,</span> res<span class="token punctuation">,</span> currMaxDistance<span class="token punctuation">,</span> <span class="token keyword keyword-this">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>m_rootEntry<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    CheckConditionContext cont<span class="token punctuation">;</span>
+    helper<span class="token double-colon punctuation">::</span><span class="token function">SetupCheckConditionContext</span><span class="token punctuation">(</span>cont<span class="token punctuation">,</span> context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 遍历所有 EntryAnim，找到距离最近的</span>
+    helper<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">ForEachNodeConditional</span><span class="token generic class-name"><span class="token operator">&lt;</span>EntryAnim<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>m_rootEntry<span class="token punctuation">,</span> cont<span class="token punctuation">,</span> nodeFun<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-return">return</span> res<span class="token punctuation">;</span>
+</code></pre><p><strong>调用的函数</strong>:</p>
+<ul>
+<li><code>helper::EvaluateDistance&lt;EntryAnim, true&gt;(...)</code> - 评估距离</li>
+<li><code>helper::ForEachNodeConditional&lt;EntryAnim&gt;(...)</code> - 遍历 EntryAnim</li>
+</ul>
+<hr>
+<h4 id="92-workspottreefindentryanim">9.2 WorkspotTree::FindEntryAnim </h4>
+<p><strong>文件</strong>: <code>workspotResource.cpp</code><br>
+<strong>行号</strong>: 1492（行号根据 Grep 结果推断）<br>
+<strong>签名</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>work<span class="token double-colon punctuation">::</span>WorkEntryId <span class="token class-name">WorkspotTree</span><span class="token double-colon punctuation">::</span><span class="token function">FindEntryAnim</span><span class="token punctuation">(</span>CName animName<span class="token punctuation">)</span> <span class="token keyword keyword-const">const</span>
+</code></pre><p><strong>职责</strong>:</p>
+<ul>
+<li>根据动画名称查找 EntryAnim 的 ID</li>
+</ul>
+<p><strong>调用流程</strong>:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>m_rootEntry<span class="token punctuation">)</span>
+    <span class="token keyword keyword-return">return</span> work<span class="token double-colon punctuation">::</span>WorkEntryId<span class="token double-colon punctuation">::</span>invalid<span class="token punctuation">;</span>
+
+<span class="token comment">// 遍历所有 Entry</span>
+std<span class="token double-colon punctuation">::</span>function<span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span><span class="token function">WorkEntryId</span><span class="token punctuation">(</span><span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>IEntry<span class="token operator">*</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> findFn <span class="token operator">=</span>
+    <span class="token punctuation">[</span><span class="token operator">&amp;</span><span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>IEntry<span class="token operator">*</span> entry<span class="token punctuation">)</span> <span class="token operator">-&gt;</span> work<span class="token double-colon punctuation">::</span>WorkEntryId
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token keyword keyword-const">const</span> work<span class="token double-colon punctuation">::</span>EntryAnim<span class="token operator">*</span> entryAnim <span class="token operator">=</span> <span class="token generic-function"><span class="token function">Cast</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>EntryAnim<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>entry<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>entryAnim<span class="token operator">-&gt;</span>m_animName <span class="token operator">==</span> animName<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword keyword-return">return</span> entryAnim<span class="token operator">-&gt;</span>m_id<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword keyword-return">return</span> work<span class="token double-colon punctuation">::</span>WorkEntryId<span class="token double-colon punctuation">::</span>invalid<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-return">return</span> helper<span class="token double-colon punctuation">::</span><span class="token generic-function"><span class="token function">ForEachNodeUntil</span><span class="token generic class-name"><span class="token operator">&lt;</span>work<span class="token double-colon punctuation">::</span>IEntry<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span>m_rootEntry<span class="token punctuation">,</span> findFn<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><hr>
+<h2 id="完整调用序列图">完整调用序列图 </h2>
+<div class="mermaid">sequenceDiagram
+    participant QN as Quest Node
+    participant AC as AI Command
+    participant BT as Behavior Tree
+    participant GA as Game Action
+    participant WIW as WorkspotInstanceWrapper
+    participant WS as WorkspotSystem
+    participant WI as WorkspotInstance
+    participant CB as Callback
+    participant WT as WorkspotTree
+
+    QN-&gt;&gt;QN: OnExecute()
+    QN-&gt;&gt;WS: IsActorInWorkspot(entityId)
+    alt 在其他workspot
+        QN-&gt;&gt;WIW: PerformSlowExit()
+        WIW--&gt;&gt;QN: 等待退出
+    end
+    QN-&gt;&gt;AC: 创建 UseWorkspotCommand
+    AC-&gt;&gt;BT: 传递到 Behavior Tree
+    BT-&gt;&gt;BT: SetupAction()
+    BT-&gt;&gt;WT: GetClosestEntryAnim()
+    WT--&gt;&gt;BT: EntryPoint
+    BT-&gt;&gt;GA: 创建 CActionUseWorkspot
+    GA-&gt;&gt;GA: Setup(context)
+    GA-&gt;&gt;WIW: 创建 WorkspotInstanceWrapper
+    WIW-&gt;&gt;WIW: Setup(context)
+    GA-&gt;&gt;WIW: Start()
+    WIW-&gt;&gt;WS: SetupWorkspot()
+    WS-&gt;&gt;WI: 创建 WorkspotInstance
+    WIW-&gt;&gt;WS: SendCommand(CMD_Play)
+    WS-&gt;&gt;WI: Play()
+    WI-&gt;&gt;WT: FindEntryAnim()
+    WT--&gt;&gt;WI: EntryId
+    WI-&gt;&gt;WI: PlayEntry(entryId)
+    WI-&gt;&gt;CB: MovementRequest()
+    CB-&gt;&gt;WIW: SetUpMotionProvider()
+    WIW-&gt;&gt;WIW: 创建 Motion Provider
+    WIW-&gt;&gt;WIW: 开始运动+动画
+    WI-&gt;&gt;CB: OnAnimationStarted()
+    CB-&gt;&gt;QN: 通知动画开始
+    Note over WIW: EntryAnim 播放中&lt;br/&gt;Motion Extraction
+    WI-&gt;&gt;WI: PlaySequence()
+    Note over WI: Sequence 播放中
+    WI-&gt;&gt;CB: OnAnimationFinished()
+    CB-&gt;&gt;QN: 通知动画结束
+    WI-&gt;&gt;WI: PlayExit()
+    WI-&gt;&gt;CB: OnCompleted()
+    CB-&gt;&gt;GA: 通知完成
+    GA-&gt;&gt;GA: SetFinished()
+</div><hr>
+<h2 id="关键函数速查表">关键函数速查表 </h2>
+<table>
+<thead>
+<tr>
+<th>函数名</th>
+<th>文件</th>
+<th>行号</th>
+<th>职责</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>UseWorkspotNodeDefinition::OnExecute</strong></td>
+<td>useWorkspotNode.cpp</td>
+<td>999-1079</td>
+<td>Quest Node 入口，检查状态，创建 AI Command</td>
+</tr>
+<tr>
+<td><strong>StopWorkspot</strong></td>
+<td>useWorkspotNode.cpp</td>
+<td>128-180</td>
+<td>停止 workspot，执行退出</td>
+</tr>
+<tr>
+<td><strong>ActionUseWorkspotNode::SetupAction</strong></td>
+<td>aiActionUseWorkspotNode.cpp</td>
+<td>64-127</td>
+<td>Behavior Tree 节点，创建 CActionUseWorkspot</td>
+</tr>
+<tr>
+<td><strong>ActionUseCommunityWorkspotNode::SetupAction</strong></td>
+<td>aiActionUseWorkspotNode.cpp</td>
+<td>230-248</td>
+<td>自动选择 EntryAnim</td>
+</tr>
+<tr>
+<td><strong>ActionBaseUseWorkspot::Setup</strong></td>
+<td>actionUseWorkspot.cpp</td>
+<td>25-58</td>
+<td>创建 WorkspotInstanceWrapper</td>
+</tr>
+<tr>
+<td><strong>ActionBaseUseWorkspot::OnStart</strong></td>
+<td>actionUseWorkspot.cpp</td>
+<td>84-103</td>
+<td>启动 WorkspotInstanceWrapper</td>
+</tr>
+<tr>
+<td><strong>WorkspotInstanceWrapper::Start</strong></td>
+<td>workspot.cpp</td>
+<td>240-380</td>
+<td>注册到 WorkspotSystem，发送播放命令</td>
+</tr>
+<tr>
+<td><strong>WorkspotInstanceWrapper::SetUpMotionProvider</strong></td>
+<td>workspot.cpp</td>
+<td>556-606</td>
+<td>创建 Motion Provider，启动运动</td>
+</tr>
+<tr>
+<td><strong>WorkspotSystem::SetupWorkspot</strong></td>
+<td>workspotSystem.cpp</td>
+<td>-</td>
+<td>注册 workspot 实例</td>
+</tr>
+<tr>
+<td><strong>WorkspotSystem::SendCommand</strong></td>
+<td>workspotSystem.cpp</td>
+<td>-</td>
+<td>发送命令到队列</td>
+</tr>
+<tr>
+<td><strong>WorkspotInstance::FindEntryAnim</strong></td>
+<td>gameWorkspotsInstance.cpp</td>
+<td>188-195</td>
+<td>查找 EntryAnim</td>
+</tr>
+<tr>
+<td><strong>WorkspotTree::GetClosestEntryAnim</strong></td>
+<td>workspotResource.cpp</td>
+<td>954-972</td>
+<td>查找最近的 EntryAnim</td>
+</tr>
+<tr>
+<td><strong>WorkspotTree::FindEntryAnim</strong></td>
+<td>workspotResource.cpp</td>
+<td>~1492</td>
+<td>根据名称查找 EntryAnim</td>
+</tr>
+<tr>
+<td><strong>WorkspotListener::OnAnimationStarted</strong></td>
+<td>useWorkspotNode.cpp</td>
+<td>626-636</td>
+<td>监听动画开始事件</td>
+</tr>
+<tr>
+<td><strong>WorkspotListener::OnAnimationFinished</strong></td>
+<td>useWorkspotNode.cpp</td>
+<td>638-650</td>
+<td>监听动画结束事件</td>
+</tr>
+<tr>
+<td><strong>WorkspotListener::OnFinished</strong></td>
+<td>useWorkspotNode.cpp</td>
+<td>617-624</td>
+<td>监听 workspot 完成事件</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="总结">总结 </h2>
+<p>这个文档详细记录了 Workspot 系统从 Quest Node 到最终执行的完整调用链路，包括：</p>
+<ol>
+<li><strong>Quest 层</strong>：UseWorkspotNodeDefinition::OnExecute → 创建 AI Command</li>
+<li><strong>AI Command 层</strong>：UseWorkspotCommand → 传递参数</li>
+<li><strong>Behavior Tree 层</strong>：ActionUseWorkspotNode::SetupAction → 自动选择 EntryAnim</li>
+<li><strong>Game Action 层</strong>：CActionUseWorkspot::Setup/OnStart → 管理生命周期</li>
+<li><strong>实例层</strong>：WorkspotInstanceWrapper::Start → 注册和启动</li>
+<li><strong>系统层</strong>：WorkspotSystem::SetupWorkspot/SendCommand → 管理和命令</li>
+<li><strong>执行层</strong>：WorkspotInstance::Play/PlayEntry/PlaySequence → 实际执行</li>
+<li><strong>回调层</strong>：IWorkspotListener → 事件通知</li>
+<li><strong>资源层</strong>：WorkspotTree → 查找动画</li>
+</ol>
+<p>每个函数的文件位置、行号、签名、职责和调用关系都已详细记录，方便快速定位和理解代码。</p>
+
+      </div>
+      
+      
+    
+    
+    <script type="module">
+// TODO: If ZenUML gets integrated into mermaid in the future,
+//      we can remove the following lines.
+
+
+var MERMAID_CONFIG = ({"startOnLoad":false});
+if (typeof MERMAID_CONFIG !== 'undefined') {
+  MERMAID_CONFIG.startOnLoad = false
+  MERMAID_CONFIG.cloneCssStyles = false
+  MERMAID_CONFIG.theme = "default"
+}
+
+mermaid.initialize(MERMAID_CONFIG || {})
+if (typeof(window['Reveal']) !== 'undefined') {
+  function mermaidRevealHelper(event) {
+    var currentSlide = event.currentSlide
+    var diagrams = currentSlide.querySelectorAll('.mermaid')
+    for (var i = 0; i < diagrams.length; i++) {
+      var diagram = diagrams[i]
+      if (!diagram.hasAttribute('data-processed')) {
+        mermaid.init(null, diagram, ()=> {
+          Reveal.slide(event.indexh, event.indexv)
+        })
+      }
+    }
+  }
+  Reveal.addEventListener('slidetransitionend', mermaidRevealHelper)
+  Reveal.addEventListener('ready', mermaidRevealHelper)
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+} else {
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+}
+</script>
+    
+    
+    
+  
+    </body></html>

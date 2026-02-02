@@ -1,0 +1,272 @@
+
+classDiagram
+    %% Quest 层
+    class QuestNodeBase {
+        +OnExecute()
+        +OnActivate()
+        +OnDestroy()
+    }
+
+    class AICommandNodeBase {
+        +CreateAICommand()
+    }
+
+    class UseWorkspotNodeDefinition {
+        -UseWorkspotParamsV1* m_params
+        -EntityReference m_entityReference
+        +OnExecute()
+        +OnActivate()
+        +OnDestroy()
+    }
+
+    class UseWorkspotParamsV1 {
+        +UseWorkspotNodeFunctions m_function
+        +world::NodeRef m_workspotNode
+        +Bool m_teleport
+        +CName m_animName
+        +work::WorkEntryId m_entryId
+        +Bool m_jumpToEntry
+    }
+
+    %% Listener 层
+    class IWorkspotListener {
+        <<interface>>
+        +OnStarted()*
+        +OnFinished()*
+        +OnAnimationStarted()*
+        +OnAnimationFinished()*
+        +OnAnimationMissing()*
+    }
+
+    class WorkspotListener {
+        -red::WeakPtr~StopWorkspotListenerWrapper~ m_wrapper
+        +OnFinished()
+        +OnAnimationStarted()
+        +OnAnimationFinished()
+    }
+
+    class StopWorkspotListenerWrapper {
+        -red::SharedPtr~WorkspotListener~ m_workspotListener
+        -AI::IWorkspotManager* m_workspotManager
+        +OnWorkspotFinished()
+        +OnAnimationStarted()
+        +OnAnimationFinished()
+    }
+
+    %% AI Command 层
+    class Command {
+        <<base>>
+    }
+
+    class BaseUseWorkspotCommand {
+        -Bool moveToWorkspot
+        -move::MovementType movementType
+        -CName forceEntryAnimName
+        -Bool jumpToEntry
+        -work::WorkEntryId entryId
+        +GetWorkspotWorldTransform()*
+        +GetWorkspotSetupParameters()
+        +CreateSetupWorkspotActionEvent()
+    }
+
+    class UseWorkspotCommand {
+        -world::NodeRef workspotNode
+        +GetWorkspotWorldTransform()
+        +CreateSetupWorkspotActionEvent()
+    }
+
+    %% Behavior Tree 层
+    class ActionTreeNode {
+        <<base>>
+        +SetupAction()*
+    }
+
+    class ActionUseWorkspotNode {
+        -ActionUseWorkspotNodeDefinition& m_definition
+        +SetupAction()
+    }
+
+    class ActionUseCommunityWorkspotNode {
+        -ActionUseCommunityWorkspotNodeDefinition& m_definition
+        +SetupAction()
+    }
+
+    %% Game Action 层
+    class CAction {
+        <<base>>
+        +Setup()
+        +OnStart()
+        +OnUpdate()
+        +OnStop()
+    }
+
+    class ActionBaseUseWorkspot {
+        -Object* m_owner
+        -WorkspotInstanceWrapperPtr m_workspotInstance
+        -CompletionCallbackId m_completionCallbackId
+        +Setup()
+        +OnStart()
+        +OnUpdate()
+        +OnStop()
+        +SetFinished()
+    }
+
+    class CActionUseWorkspot {
+    }
+
+    %% Workspot Instance 层
+    class WorkspotInstanceWrapper {
+        -AI::ObjectId m_id
+        -WorkspotSetupParameters m_initialParameters
+        -ent::Entity* m_owner
+        -move::Component* m_movingAgent
+        -AnimationControllerComponent* m_animationController
+        -WorkspotMovementController m_animMoveController
+        -SharedPtr~CallbacksReceiver~ m_callbackInterface
+        -Bool m_isActive
+        -Bool m_useMotion
+        +Setup()
+        +Start()
+        +Complete()
+        +SetUpMotionProvider()
+        +TeleportRequest()
+        +IsValid()
+        +IsActive()
+    }
+
+    class IWorkspotInstanceCommFunc {
+        <<interface>>
+        +OnCompleted()*
+        +OnActiveRecordChanged()*
+        +OnMovementStateChanged()*
+        +TeleportRequest()*
+        +MovementRequest()*
+        +CalcSlideToSafety()*
+        +RequestEnd()*
+    }
+
+    class WorkspotInstanceCallbacksReceiver {
+        -WeakPtr~WorkspotInstanceWrapper~ m_instance
+        +OnCompleted()
+        +OnMovementStateChanged()
+        +TeleportRequest()
+        +MovementRequest()
+        +RequestEnd()
+    }
+
+    %% WorkspotSystem 层
+    class IWorkspotSystem {
+        <<interface>>
+    }
+
+    class WorkspotSystem {
+        -HashMap~EntityID, UniquePtr~WorkspotInstance~~ m_instances
+        -HashMap~EntityID, CommandQueue~ m_commandQueues
+        -WorkspotCallbackManager m_callbackManager
+        -WorkspotSynchronizer m_synchronizer
+        +SetupWorkspot()
+        +SendCommand()
+        +IsActorInWorkspot()
+        +ClearExitFlags()
+    }
+
+    class WorkspotInstance {
+        -WorkspotParams m_workResource
+        -SharedPtr~IWorkspotInstanceCommFunc~ m_commFun
+        -WorkEntryId m_entryAnimToUse
+        +Execute()
+        +FindEntryAnim()
+        +PlayEntry()
+        +PlaySequence()
+        +PlayExit()
+    }
+
+    %% WorkspotManager 层
+    class IWorkspotManager {
+        <<interface>>
+        +StartWorkspot()*
+        +GetCurrentWorkspot()*
+    }
+
+    class WorkspotManager {
+        -HashMap~EntityID, WorkspotInstanceWrapperPtr~ m_workspots
+        +StartWorkspot()
+        +GetCurrentWorkspot()
+    }
+
+    %% Resource 层
+    class WorkspotParams {
+        -WorkspotTree* m_tree
+        +GetClosestEntryAnim()
+        +FindEntryAnim()
+        +IsValid()
+    }
+
+    class WorkspotTree {
+        -THandle~IEntry~ m_rootEntry
+        -Uint32 m_idCounter
+        -red::TagList m_tags
+        +GetClosestEntryAnim()
+        +GetClosestExitAnim()
+        +FindEntryAnim()
+        +FindExitAnim()
+    }
+
+    class IEntry {
+        <<interface>>
+        +Uint32 m_flags
+        +WorkEntryId m_id
+    }
+
+    class EntryAnim {
+        -CName m_animName
+        -CName m_idleAnim
+        -Transform m_syncOffset
+        -CName m_slotName
+    }
+
+    class Sequence {
+        -red::DynArray~THandle~IEntry~~ m_list
+    }
+
+    class ExitAnim {
+        -CName m_animName
+        -Transform m_movement
+    }
+
+    %% 继承关系
+    QuestNodeBase <|-- AICommandNodeBase
+    AICommandNodeBase <|-- UseWorkspotNodeDefinition
+    UseWorkspotNodeDefinition --> UseWorkspotParamsV1 : contains
+
+    IWorkspotListener <|.. WorkspotListener
+    IWorkspotListener <|.. StopWorkspotListenerWrapper
+    WorkspotListener --> StopWorkspotListenerWrapper : weak ref
+
+    Command <|-- BaseUseWorkspotCommand
+    BaseUseWorkspotCommand <|-- UseWorkspotCommand
+
+    ActionTreeNode <|-- ActionUseWorkspotNode
+    ActionTreeNode <|-- ActionUseCommunityWorkspotNode
+
+    CAction <|-- ActionBaseUseWorkspot
+    ActionBaseUseWorkspot <|-- CActionUseWorkspot
+    ActionBaseUseWorkspot --> WorkspotInstanceWrapper : manages
+
+    IWorkspotInstanceCommFunc <|.. WorkspotInstanceCallbacksReceiver
+    WorkspotInstanceCallbacksReceiver --> WorkspotInstanceWrapper : weak ref
+    WorkspotInstanceWrapper --> WorkspotInstanceCallbacksReceiver : owns
+
+    IWorkspotSystem <|.. WorkspotSystem
+    WorkspotSystem --> WorkspotInstance : creates
+    WorkspotSystem --> WorkspotCallbackManager : uses
+
+    IWorkspotManager <|.. WorkspotManager
+    WorkspotManager --> WorkspotInstanceWrapper : manages
+
+    WorkspotParams --> WorkspotTree : references
+    WorkspotInstance --> WorkspotParams : uses
+    WorkspotTree --> IEntry : contains
+    IEntry <|-- EntryAnim
+    IEntry <|-- Sequence
+    IEntry <|-- ExitAnim
