@@ -2,6 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(dir:*)"
+    ],
+    "additionalDirectories": [
+      "D:\\Data\\UEProject\\Smart\\Test_SmartObjects_Unreal",
+      "D:\\AppSoft\\UEItem\\UE_5.7",
+      "D:\\AppSoft\\Sy2077\\2077\\2077\\CDPR2077"
     ]
   }
 }
