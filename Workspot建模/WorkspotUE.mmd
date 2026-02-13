@@ -1,0 +1,54 @@
+
+graph LR
+    subgraph "编辑器模块 Editor"
+        WE[WorkspotEditor]
+        WP_PREVIEW[WorkspotPreview]
+        NODE_EDITOR[NodeEditor]
+    end
+
+    subgraph "游戏核心模块 Game Core"
+        WS_CORE[gameWorkspots]
+        WS_SYS[WorkspotSystem]
+        WS_RES[WorkspotResource]
+    end
+
+    subgraph "动画模块 Animation"
+        ANIM_CORE[animation]
+        ANIM_GRAPH[AnimGraph]
+        ANIM_WORKSPOT[AnimWorkspotInterface]
+    end
+
+    subgraph "实体模块 Entities"
+        ENT_CORE[worldEntities]
+        COMPONENT[IPlacedComponent]
+    end
+
+    subgraph "移动模块 Movement"
+        MOVE_CORE[game/movement]
+        MOVE_PARAM[MovementParameters]
+    end
+
+    subgraph "物品模块 Items"
+        ITEM_CORE[game/items]
+        ITEM_ACTION[IWorkspotItemAction]
+    end
+
+    WE --> WS_CORE
+    WP_PREVIEW --> WS_CORE
+    NODE_EDITOR --> WS_RES
+
+    WS_CORE --> ANIM_CORE
+    WS_CORE --> ENT_CORE
+    WS_CORE --> MOVE_CORE
+    WS_CORE --> ITEM_CORE
+
+    WS_SYS --> ANIM_GRAPH
+    WS_RES --> ANIM_WORKSPOT
+
+    WS_RES --> COMPONENT
+    WS_CORE --> MOVE_PARAM
+    WS_CORE --> ITEM_ACTION
+
+    style WS_CORE fill:#ff6b6b
+    style ANIM_CORE fill:#4ecdc4
+    style ENT_CORE fill:#ffe66d
