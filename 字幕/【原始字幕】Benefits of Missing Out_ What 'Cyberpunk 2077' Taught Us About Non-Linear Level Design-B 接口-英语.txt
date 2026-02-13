@@ -1,0 +1,1732 @@
+好的
+All right
+你好，欢迎大家
+Hello and a one welcome everyone
+我的名字是英里吐司
+My name is miles toast
+我很荣幸代表 CDPR 的聪明才智
+and i have the honor to represent the bright minds of the cdpr
+关卡设计团队今天来到 GDC
+Level design team here at gdc today
+我在 cdpr 担任关卡设计师已有十多年了
+I've been working as a level designer at cdpr for more than ten years now
+目前有幸领导关卡设计团队完成我们即将推出的《which ga》
+and currently have the privilege to lead the level design team on our upcoming which ga
+小免责声明
+Small disclaimer
+这个时间或者这个演讲的时间其实会很紧
+This timing or the timing of this talk will actually be pretty tight
+这就是为什么不幸的是
+Which is why unfortunately
+我相信这个房间里没有时间进行问答
+I believe there won't be any time for q and a here in this room
+一
+Um
+然而，谈话结束后我想直接出去，那里有一个小壁龛
+However , after the talk i will want a straight outside there's this little alcove
+呃，我很乐意回答你所有的问题，直到我放弃为止
+Uh , and there i will gladly answer all of your questions until i drop
+所以再一次，呃
+So once again , uh
+我很高兴在这里见到你们
+i'm so happy to see you all here
+并衷心感谢您加入我
+And would like to thank you from the bottom of my heart for joining me
+今天我想告诉你
+today i would like to tell you
+关于 cdpr 关卡设计团队如何设计的五部分故事
+a five part story about how the cdpr level design team
+我了解到错过的好处
+and i learned of the benefits of missing out
+我希望这个谈话
+my hope with this talkis
+我可以为你们提供一些关于关卡的见解
+that i can provide you guys with some insights into the level
+赛博朋克二十七十七设计
+Design off cyber punk twenty seventy seven
+最终有了更好的理解
+and in the end a better understanding
+以及如何创建非线性关卡的一组具体原则
+And a concrete set of principles of how to create non linear levels
+这给每个玩家
+That give each player
+无论选择哪条路，都是更特别的经历
+No matter which path they pick , a more special experience
+我们的旅程从头开始
+And our journey starts right at the beginning
+就在我们的第二个版本发布之前不久
+It's shortly before the release of our second
+这是2016年初的三部扩展血与酒
+Which is three expansion blood and wine in early two thousand and sixteen
+呃，当我和其他关卡设计师一起的时候
+Uh , when i , together with the other level designers
+开始转向网络放克二十七十七
+Start moving to cyber funk twenty seventy seven
+经过四年的努力，打造了一个风景广阔的中世纪奇幻世界
+After four years of working on a medieval fantasy world with wide open landscapes
+扮演特定角色的方式相对有限
+Relatively limited amount of ways to play a defined character
+无冒犯阁楼和第三人称视角
+No offense garret and a third person perspective
+我迫不及待地想转而从事游戏工作
+I couldn't wait to switch working on a game
+呃，我了解到，就其所带来的挑战而言，这是非常不同的
+Uh , that i learned couldn't be more different in regards of the challenges it would present
+我当时的身高
+i was height
+那么我们要处理什么
+So what are we about to deal with
+网络点二十七十七完全以第一人称视角发生
+Cyber point twenty seventy seven takes place entirely in first person perspective
+在一个被称为“夜之城”的恐惧症大都市
+In a rostrophobic megalopolis called night city
+与预定义的不同，杰洛特与主角不同
+Unlike predefined which a geralt v a protagonist
+旨在让玩家有最终的自由去扮演他们想成为的人
+Was meant to allow players the ultimate freedom to play who they want to be
+那是
+That is
+如果我们能成功的话
+If we could pull it off
+没有压力
+no pressure
+从高层次来看
+From a high level
+我们最近所有的 3a 琶音都是基于几个支柱
+All of our recent triple a arpaggies are based on a few pillars
+这就是故事里的自由
+That is the freedom in the story
+世界上的自由
+Freedom in the world
+游戏中的自由度
+Freedom in the gameplay
+当我们看这些设计宫殿时实际上是前两个
+When we look at these design palace is actually the first two
+其中规模巨大并推动其发展的是三个
+Which have been massive and driving the development of which are three
+这是第三个，然后是游戏自由度
+It's the third one then freedom in gameplay
+那是莎拉朋克的新版本
+That was the big new edition to sarah punk
+这就是游戏玩法和关卡设计团队想要做出巨大突破的地方
+And this is where the gameplay and level design teams wanted to make a gigantic leave forward
+雄心壮志的灵感来自于沉浸式体验
+The inspiration for ambitions came from immersive
+有些泰坦如原日那样x
+Some titans such as the original day as x
+请注意，它是 cdpr
+Mind you it being cdpr
+我们并不是唯一拥有远大抱负和梦想的学科
+We weren't the only discipline with huge ambitions and dreams
+所以基于这些支柱
+So based of these pillars
+我们的董事向我们提出了一些设计目标
+We were presented by our directors with a few design goals
+风格重于实质是迈克·庞森最初的笔和纸宇宙的核心模型
+Style over substance is a model that is at the heart of mike ponson's original pen and paper universe
+Cyrapunk 实际上是基于哪个
+Which cyrapunk actually is based on
+为什么要以平凡的方式做某事
+Why do something in a mundane way
+当你能够以时尚的方式去做这件事的时候
+When you could do and go about it in style
+我们的目标是给玩家
+our goal was to give players
+一般适用的选项
+The options to generally apply
+并慷慨地将酷的规则应用到他们的角色以及他们的扮演方式上
+And generously apply the rule of cool to their characters and how they play them
+同样，我们也不希望他们这么做
+Likewise , we didn't want them to go do that
+然后就陷入了死胡同
+And then end up in a dead end
+或者采用不可行的游戏风格
+Or with an unviable play style
+所以他们选择的每一个选项
+So every option they chose
+无论组合如何，都应该产生有效的游戏方式
+No matter the combo should result in a valid way to play the game
+毕竟这就是自由和游戏玩法的意义所在
+This is what freedom and gameplay was all about after all
+为了实现这种程度的自由
+And in order to enable this level of freedom
+我们被要求制作支持一吨的关卡
+We were asked to make levels that supported a ton
+大量不同的模式
+a ton of vastly different plastyles
+这是男性与远程
+That is male versus ranged
+移动性与稳定性
+Mobility versus stability
+蛮力与独创性、战斗与隐秘
+Brute force versus ingenuity and combat versus stealth
+我们心里想
+And we thought to ourselves
+由沉浸式模拟风格系统支持的关卡并构建沙箱
+Levels supported by immersive sim style systems and build a sandboxes
+多么梦幻啊
+What a dream
+他们都必须是一个巨大的开放世界的一部分
+And they all had to be part of a huge open world
+并考虑到我们任务的复杂分支叙事和电影焦点及其所有可能性和结果
+And take into account the complex branching narrative and cinematic focus of our quests with all their possibilities and outcomes
+哦
+Oh
+现在既不是这个工作室也不是大多数四到五个关卡设计师
+now neither this studio nor most of the four to five level designers
+当时正在游戏中工作
+Working at the game on the game at the time
+以前曾经做过类似的事情
+Had ever done stuff like this before
+这其中也包括我自己
+That includes myself
+但听起来很疯狂
+But as insane as it sounded
+听起来也太棒了
+It also sounded fucking awesome
+天哪，我们必须迎接挑战
+And boy , where we have to the challenge
+那么人们如何开始吃这头鲸鱼呢？
+So how does one even begin to eat this whale
+这是我们需要回答的一个问题
+This is a question for which it took us
+花了很长时间来寻找我们游戏玩法的答案
+A long time to find an answer to our gameplay
+设计师决定将所有能力和福利建立在
+Designers decided to base all of the abilities and perks of the
+论原始纸笔之类的幻想
+On the fantasies of the classes of the original pen and paper
+我们不想在萨鲁普开设关于二七十七自由的固定课程以及所有这些，呃
+We didn't want to have fixed classes in sarup on twenty seventy seven freedom and all that , uh
+而是允许玩家建立自己的
+But instead allow players to build their own
+通过混合和匹配大量不同的公园
+By mixing and matching a ton of different parks
+能力
+Abilities
+武器和网络软件有效地再现了源游戏、类的幻想
+Weapons , and cyber ware to effectively recreate the fantasy of the source games , classes
+或者介于两者之间的任何东西
+Or anything in between
+知道了这一点，我们决定围绕最纯粹的角色幻想来构建我们的关卡
+Knowing this , we decided to structure our levels around the most purest character fantasies
+Cyup关于玩家将能够创建我们的原型，嗯
+Cyup on players would be able to create our archetypes , um
+代表原始类
+Representing the original classes
+单人网跑者和技术人员
+Solo net runner and techi
+该理论认为，如果玩家完全投入到实现特定原型中
+The theory was that if a player completely invested themselves into fulfilling a specific archetype
+他们将通过关卡获得自己独特的路径
+They would get their own unique path through a level
+并且会感觉很有意义
+And that it would feel rewarding
+如果一个玩家混合，呃
+If a player mixed , uh
+如果玩家混合原型
+If players were mixing archetypes
+他们可以随心所欲地走这三种道路之一
+They would be able to follow one of the three paths for as long as they liked
+如果他们的能力不够高的话,嗯
+And if their abilities were not high enough , um
+他们只是找到了他们
+They simply found them
+或者他们找到了一种更有趣的方式来穿越关卡
+Or they found a more interesting way to go at traverse the level
+他们可以简单地切换到另一条路径
+They could simply switch to another path
+如果他们沿着这条路走然后由于某种原因被卡住了怎么办
+what if they followed the path then got stuck for whatever reason
+没有成功切换到任何其他游戏风格路径所需的能力
+Without the necessary abilities to successfully switch to any other play style path
+所以为了避免这样的情况
+So to avoid such situations
+我们还添加了故障安全装置
+We also added a fail safe
+这是不受任何技能检查的通用路径
+that is the generic path which was free from any skill checks
+遗传路径将是我们的后备，以确保玩家始终能够沿着关键路径前进
+The genetic path would be our fallback to ensure players could always progress down the critical path
+这对我们来说非常重要
+this was super important to us
+因为我们为自己是讲故事的人而自豪
+because we pride ourselves on being storytellers
+我们不希望玩家缺乏远见而妨碍他们体验我们的叙事
+and we did not want a lack of a player's foresight to get in the way of them experiencing our narrative
+并鼓励更好地运用游戏风格
+And to encourage better use of play styles
+我们还决定通用路径应该始终是最困难的路径
+We also decide that the generic path should always be the most difficult one
+现在这通常会与我们讲故事的要求发生冲突
+now this would often end up clashing with our storytelling requirements
+因为围绕所有玩家都可以通过的一条路径构建一个精彩的叙述通常是最容易的
+Because it's often easiest to construct a great narrative around the one path that all players can pass
+不管他们如何塑造自己的性格
+No matter how they build their character
+由于通用路径是最困难的路径
+And as a result of the generic path being the most difficult one
+相反，比赛开始传球将提供最小的阻力
+Conversely , play start pass would provide the least resistance
+为他们应该提供给玩家的力量幻想做出贡献
+Contributing to the power fantasies they should provide to players
+这就是实际水平上的样子
+And this is how that would look like on an actual level
+这是一个演出地点
+This is a gig location
+我有机会在游戏开发的早期创建基础封锁
+I had the opportunity to create the base blockout for early in the games development
+正因为如此，它很好地反映了我们基于假设的最初设计
+And because of that , it reflects our initial design ason assumptions really well
+你可以将演出视为相对而言
+And you can think of a gig as a ratively
+手工制作的开放世界任务的简短类型
+Brief type of handcrafted open world mission
+首先
+First off
+通用的隐身和战斗路径
+The generic stealth and combat path
+这里它们实际上与隐身不谋而合
+Here they actually coincide with stealth
+主要专注于等待适当的时机来绕过敌人的巡逻队
+Mostly being focused on waiting for opportune timing windows to bypass enemy patrols
+使用二段跳
+Using double jump
+独奏者可以通过另一个入口渗透到该区域
+The solo can infiltrate the area through an alternative entrance
+并顺利达到这个可能很难看到的目标
+And smoothly reach the goal that it's probably hard to see on this
+但是呃
+But uh
+就是这样
+It is what it is
+哈哈哈哈
+Ha ha h , uh
+网络跑者可以破解设备并操纵敌人制造干扰，从而创建自己的计时窗口
+The net runner can hack devices and manipulate enemies to create distractions to create their own timing windows
+那时我们使用可破解的设备（如面包屑痕迹）来引导网络跑步者的道路
+Back then we used hackable devices like a trail of breadcrumbs to lead the net runners way
+最后
+And finally
+可以闯入并使用完全不同的路线的技术人员
+The techie who could break in and use a completely different route altogether
+技术人员最初有自己的定制机械计划
+Techies is initially had their own custom mechanic plans
+但在实践中，它与网荣誉比赛停止的距离太近了
+But in practice it played too closely to the net honors play stop
+最后
+And in the end
+ERROR
+We couldn't really find and afford a meaningful difference between these two play styles
+这导致技术的重要性被降低为更重要的游戏风格
+Which led to the techi being downscoped in importance to a more important playstyle
+与他自己的完整原型相反
+As opposed to his own full archetype
+我也很高兴成为第二内容团队的一员
+I also had the pleasure to be part of content team number two
+Mteam成员无一例外都令人难以置信
+Mteam members were incredible without exception
+我们一起负责将朱迪任务线变为现实
+And together we were responsible for bringing the judy quest line to life
+这是我们的 plastyles 在我的一个地点的最后一场比赛中的一个例子
+This is an example from the final game of our plastyles in action on one of my locations
+我们内部将其称为脑舞工作室
+Which we internally refer to as the brain dance studio
+作为一名关卡设计师，我负责场景本身的设计和实现
+As a level designer , i was responsible for both the design and implementation of the location itself
+以及遭遇的实施
+As well as the implementation of the encounters
+你能把音量调高吗
+can you bring the volume back up please
+别担心你偷懒得够多
+Don't worry you enough slacking around
+在街上得到那些狗屎
+Get that shit on the street
+如果你这么着急，你就这么做
+If you're in such a harry you do it
+美好的城市 令人期待的意外
+nice city expeppy unexpected
+哦哇
+oh wow
+得到了一套蓝图
+got the blueprint be there in a set
+而这里实际上是大脑和工作室以完全不同的方式发挥的
+And here is actually the brain and studio played in a completely different way
+在设计和实施诸如此类的遭遇时
+While designing and implementing encounters such as these
+我们经常需要平衡不同的游戏开始并调整我们的脚本
+we constantly had to balance the different play starts and adjust our scripting
+为了确保所有 pss 的可能性，我们都在相互配合
+To make sure all pss possibilities we're playing in concert with each other
+你得到里面的一切
+you get everything inside
+第一枪他还活着
+First shot he's still alive
+我在这儿没时间到处溜达
+I'm here got no time to creep around
+啊她是我的
+ah she's mine
+哎呀呀
+哎呀呀
+蓝图就在那里
+got the blueprint be there
+尝试立即找到一条路
+try to find a way to the right now
+现在NPC的行为需要调整以适应突然的战斗情况
+Now npc behavior would need to adjust to a sudden combat situation
+理论上你可以看到
+Which in theory as you can see
+这样的遭遇随时可能发生
+Could occurred any time and at any moment of an encounter like this
+虽然我们的人工智能能够很好地处理各种情况
+while our ai is able to handle a wide variety of situations reasonably well
+感谢游戏设计师和程序员的出色工作
+Thanks to our great work of our gameplay designers and programmers
+为了确保战斗总是感觉正确
+In order to make sure a combat always felt right
+例如，敌人需要将自己定位于
+Enemies would for example , need to position themselves towards
+我们希望玩家相对于玩家位置去哪里
+Where we wanted the player to go relative to the player's position
+基本上，我想说的是
+Basically , what i'm trying to say is that
+我们经常不仅要编写潜行序列的脚本
+We often had to script not just the stealth sequences
+而且还有多种战斗场景
+But also multiple combat scenarios
+好吧，所以看起来没那么糟糕
+All right , so that didn't look so bad
+一
+Um
+我实际上记得有一次使用我们的子弹时间能力走过我们的一位测试人员
+I actually recall once walking past one of our testers using our bullet time ability
+Sana vista 是一种在隐身时绕过巡逻队的战斗技能
+Sana vista very much a combat skill to bypast patrols while stealth thing
+另一次
+Another time
+我看到了我的一个非常好的朋友
+i saw a really good friend of mine
+强行进入他不具备适当技术技能的建筑物
+force his way into a building for which he did not have the proper teche skill
+用赤手空拳在窗户上打一个洞
+By punching a hole into a window with his bare fists
+在整整一分钟的时间里
+Over the course of a whole minute
+事情看起来确实很有希望
+Things look really promising
+那么我们就发货吧
+So let's ship it
+现在笑话就要上来了，先别笑
+Now the joke is about to come , so don't laugh yet
+现在莎拉 PG 二七十七的推出真的很艰难
+Now the launch of sarah pg twenty seventy seven was really rough
+我相信在座的很多人都能与我产生共鸣
+i'm sure my many of you in here can relate to me
+当我说制作诸如cyo punk之类的游戏时
+When i say that making games such as cyo punk
+二十七十七真是梦想成真
+Twenty seventy seven is truly a dream come true
+至少对我来说
+At least for me
+我很自豪能够始终给予它
+And i'm proud to always give it
+我将竭尽全力帮助实现雄心勃勃且要求极高的项目
+my all to help do my part in realizing the wonderfully ambitious and demanding projects
+我们在 cdpr 工作
+We work on at cdpr
+把你的心全心投入到一个项目中，然后却付出了巨大的失望
+Pouring your heart into a project and then having it costs so much disappointment
+尽管你尽了最大的努力却是毁灭性的
+despite your best efforts is crushing
+我的心与所有经历过类似经历的死亡者同在
+And my heart goes out to all the deaths who have gone through similar experiences
+但你绊倒了，你就会站起来
+But you trip , you get back up
+两千零一十三
+in two thousand thirteen
+在我开始的环境中，我们想证明这个小型波兰开发商
+I started out in an environment where we wanted to prove that this small polish developer
+可以重新定义开放世界页面
+could redefine open world rpages
+作为一个团队
+And as a team
+我们现在又想证明这一点
+We are now back to wanting to prove that
+我们认真地从错误中吸取教训并做得更好
+We're serious about learning from our mistakes and doing better
+我们花了几个补丁才最终获得了一些了解
+It took us a few patches to finally gain some insight into
+从关卡设计的角度来看，我们的努力实际上是多么富有成果
+How fruitful our efforts from level design perspective actually were
+总体来说还是很漂亮的
+And overall it was pretty
+玩家很乐意尝试自己的游戏风格
+Players were happy to experiment with their play styles
+我们甚至在发布后添加了尊重机制来帮助他们进行更多实验
+We even added a respect mechanic post launch to help them experiment even more
+而且游戏风格有效性之间的平衡也很好
+And also the balance between validity of play styles was also pretty good
+所以，你知道，没有比其他人更占优势的地方
+So there was no , you know , like dominant place over the other
+每个人都玩得很开心，只玩自己想玩的
+Everyone was happy playing just what they wanted to play
+当然还有
+And of course
+我们以意想不到的方式看到人们。大部头书
+We saw people plain ways we had not anticipated . to me
+ERROR
+Using throwing knives or silence pistols to distract enemies was one of these examples
+无论我们多么雄心勃勃
+However highly ambitious as we were
+我们不禁注意到一些不断出现的批评
+We couldn't help but notice some criticism that kept coming up
+一是玩家并不真正觉得他们选择的模型有那么重要
+One was that players didn't really feel like whatever plastyle they picked matter that much
+体验实际上不会发生太大改变
+The experience wouldn't actually drastically change
+我怀疑情绪可能变得更糟
+And i have a suspicion that sentiment may have gotten even worse
+在我们添加了那个简单的尊重机制之后
+After we added that simple respect mechanic
+现在事实证明，经过仔细检查
+Now it turns out though that on closer inspection
+这个问题相当复杂
+This problem was pretty complex
+l d 只是方程的一部分
+And l d was only one part of the equation
+我们还需要评估我们的福利系统，呃本身
+We also would need to evaluate how our perk system would , um itself
+甚至我们自己的设计心态也影响了这个问题
+And even our own design mentality affected the problem
+也就是说，当谈到任务中的遭遇时
+That is , when it comes to encounters on quests
+基本上我们正在尝试创造多种高度精致的线性体验
+We basically we're trying to create multiple highly polished linear experiences
+与交织方式相反
+As opposed to interwoven ones way
+这取决于玩家
+it's up to the player
+他们经历了多少
+How much they experience
+如果沿途有一件很酷或重要的事情
+If there was a cool or important thing along the path
+我们真的不希望玩家的体验受到影响
+We really didn't want the player to suffer a diminished experience
+因为他们错过了
+Because they missed it
+还
+Also
+你们应该看到我的推特收件箱
+You guys should have seen my twitter inbox
+ERROR
+Some of them can creatively compared our work to having combined noodles and raisins
+然后醒来，呃
+And waking up to , uh
+在发布当天这确实是一件很了不起的事
+That on launch day was truly something
+抛开笑话不谈，这里的积极前景是，尽管如此
+Jokes aside though , the positive outlook here is that despite it all
+人们真正关心我们的工作质量
+People really cared about the quality of our work
+现在我们有责任向他们展示我们，我们也做到了
+And now it was on us to show them that we , we did too
+好的
+All right
+所以从错误中学习并做得更好
+So learning from mistakes and doing better
+变得更好从认识自己的缺点开始
+Becoming better starts with understanding one's own shortcomings
+在春天二十二岁
+And in spring twenty twenty two
+我们的关卡设计团队为自己设定了使命
+Our level design team set itself a mission
+我们想要评估我们可以合理修复和修补哪些内容
+We wanted to evaluate what we could reasonably fix and patches
+或者我们未来可能需要考虑哪些方面做得更好
+Or what we may want to look at to do better in the future
+在那张纸条上
+And on that note
+我知道 arryan 项目团队正在为我们的波士顿工作室招聘
+I know the project arryan team is hiring for our boston studio
+你可以发现我们的死亡在这里四处奔走
+And you can find our deaths here running around
+所以如果你对此感兴趣
+So if you're interested in that
+随意抓住他们
+Feel free to catch them
+好的
+Okay
+弄清楚关卡设计师应该做什么
+To figure out what we level designers should do
+团队内部启动研发项目
+The team internally kicked off a research and development project
+每个l d都会尝试找到一个与关卡设计相关的问题和coppang 277
+Every l d would try to find one level design related problem and coppang twenty seventy seven
+分析一下
+Analyze it
+提出一个解决方案，并将其提交给团队进行进一步讨论
+Propose a solution , and present that to the team for further discussion
+于是我开始了新的使命
+And so i embarked on a new mission
+我想研究的问题如下
+The problem the problem i wanted to research was the following
+关卡设计insire pg。二七十七
+Level design insire pg . twenty seventy seven
+专注于支持各种游戏开始
+Is focused on supporting various play starts
+通过提供非线性设计的分支
+By providing branching of the nonlinear designs
+然而，自推出以来，我们了解到玩家不喜欢游戏风格和福利
+Yet since launch we have learned that players don't feel like play styles and perks
+他们致力于做很多事情
+They commit to matter much
+其他游戏的福利较少，选择也较少
+Other games feature less varied perks , less options
+然而那些游戏似乎在我们没有成功的地方取得了成功
+And yet those games seem to have succeeded where we have not
+我的任务目标如下
+My mission objectives then were the following
+首先我想深入了解
+First i wanted to gain insight into
+我们的关卡设计如何对游戏风格的感觉产生负面影响并不重要
+How our level design contributes negatively to the feeling of play styles not mattering
+然后我想利用这些信息来改进未来的设计
+And then i wanted to use that information to improve future designs
+增强场所重要且有趣的感觉
+To enhance the feeling of place stles mattering and being fun
+因此，问题和我的使命都明确表述了
+So with the problem and my mission clearly stated
+是时候制定一个计划了
+It was time to come up with a plan
+我最初的预感是回到公式
+My initial hunch was to go back to the formula
+并凭借事后的智慧
+And with the wisdom of hindsight
+重温并分析那些激发灵感的游戏
+Revisit and analyze the games that inspired
+正如最初一样
+As in the first place
+ERROR
+These were games such as arcanes dishonored one and two
+摇滚研究，蝙蝠侠阿奇姆系列
+Rock studies , batman archim series
+当然，离子风暴的原始日期是 x 以及 idos
+And of course ion storms original day is x as well as idos
+呃，后续行动还有更多
+Uh , follow ups and many more
+现在我想更仔细地剖析我们的工作
+Now then i wanted to dissect our work more closely
+希望找出可能导致我们问题的差异
+In hopes of finding out the differences that may contribute to our problem
+我希望我能够制定一套原则
+My hope was that i could then formulate a set of principles
+根据我的发现
+based on what i would find
+ERROR
+Which we could use to improve our future work
+并进一步验证这些原则
+And to further validate these principles
+我想从理论上应用它们，看看会发生什么
+I want to apply them theoretically simply to see what would happen
+所以既然我爱上了我之前提到的游戏
+So since i'm in love with the games that i mentioned before
+我很容易感到兴奋并简单地走
+It would be easy for me to get excited and simply go
+好吧，伙计们，哈哈哈
+All right guys , ha ha ha
+我们只需要像这些人一样构建关卡
+We just need to build levels exactly like these guys do
+ERROR
+Annoying myself
+重播后我决定做一些现实检查
+I decided to do a little reality check after replaying them
+首先
+First off
+我们把，嗯
+We put , um
+ERROR
+We put our narrative first
+这是我们的商标
+It's our trademark
+我们所做的一切都是为了在一个感觉真实的开放世界中讲述一个精彩的故事
+and everything that we do is meant to contribute to telling a great story in an open world that feels real
+并为玩家提供
+and affords the player
+许多自由，例如
+Many freedoms with , for example
+没有加载屏幕
+No loading screens
+这意味着建筑物的内部和内部总是必须匹配
+Which meant that building terior and interiors always had to match
+其次，因为我们的世界有多大
+Secondly , because of the size of our worlds
+我们需要制作大量内容
+We need to make a ton of content
+萨鲁普点二十七十七有超过八十五场演出
+Sarup point twenty seventy seven features more than eighty five gigs
+近四十个主线任务和超过二十五个支线任务
+Almost forty main missions and more than twenty five side missions
+其中大多数具有一个或多个定制的自定义位置
+Most of which feature one or multiple bespoke custom locations
+第三，因为前两点
+And thirdly , because of these first two points
+我们总是可以通过简单地提供完全不同的路径来暴力破解解决方案
+we can always brute force a solution by simply providing completely different paths
+分别与我们游戏中的单个关卡进行比较
+Which individually would compare to a single level in our game
+所以这意味着我想形成的任何原则
+So that meant whatever principles i wanted to form
+ERROR
+Should consider our production reality
+从而被充分分解以便我们可以应用它们
+And thus be broken down enough so that we could apply them
+即使规模较小
+Even on a smaller scale
+而现在
+And now
+如果这看起来是一个相对完善的计划
+If this seems like a relatively well put together plan
+现实是我不知道我会发现什么
+the reality is that i had no clue what i was going to find
+或者如果其中任何一个会导致任何有意义的事情
+Or if any of this would result in anything meaningful
+但我们前进的方向
+but on what we march
+我发现两个主要问题在我们的关卡中不断重复
+And i found two major issues that kept repeating throughout our levels
+ERROR
+It's not like all of them were affected by both of these issues in the same way
+但这种情况发生的次数足够多，仔细观察的话
+But it's happened often enough that on closer inspection
+这绝对是引人注目的
+It was definitely noticeable
+确保遗传路径是可靠的后备方案
+To make sure the genetic path was a reliable fallback
+我们经常把它做得非常明显
+We often made it super obvious
+这导致我们无意中简化了体验，是的
+And this resulted in us inadvertently streamlining the experience to the point where , yes
+遗传路径是后退
+The genetic path was the fall back
+但这也成为了最明显的一个
+But it also became the most obvious one
+当通用解决方案如此接近时，为什么要选择地点风格路径
+Why pick a place style path when the generic solution is so close
+易于触及且明显
+Easy to reach and obvious
+当然，我们的导航系统在小地图上显示了两个目标的路径
+Certainly our guidance systems with paths two objectives being displayed on the mini map
+也没有在这里帮那么多忙
+Also didn't do as many favors here
+我不断发现的另一个问题与我们如何播种很酷的可选内容有关
+The other issue i kept finding was related to how we seed cool optional content
+例如，如果你在两个上看一下这个
+If you take a look at this on a two for example
+在这里向奥秘或大粉丝们的团队大声喊出你们的工作
+And here shout out to the team over at arcane or big fans for your work
+ERROR
+We see that as soon as the player actually moves from the golden path
+他们一定会遇到一些很酷的事情
+They are bound to run into some cool things
+这是奖励具有独特体验的玩家的很酷的方式
+This is a cool way to reward players with unique experience
+但这也意味着取决于你选择的路径以及你在那里发现的东西
+But it also means that depending on which path you pick and what you find there
+玩家掌握的关于世界的信息可能略有不同
+The information the player has about the world can be slightly different
+ERROR
+In an effort to make sure that players would experience the best possible narrative
+我们经常会把最酷、最重要的事情放在通用路径上
+We often would put the coolest and most important things following the generic path
+因为这样我们就可以确保所有玩家都能体验到它
+Because this way we could make sure all players would be able to experience it
+这变得特别明显和有问题
+This becomes especially obvious and problematic
+ERROR
+When we look at the way we could
+我们将为此利用技能检查
+We would utilize skill checks for this
+我们看一个有点极端的例子
+We look at a somewhat extreme example
+但这是在游戏中
+But it is in the game
+在这次任务中，玩家将与一个新帮派进行密切接触
+In this mission , the player gets in close contact with a new gang
+以体力为荣的
+Which prides themselves on the physical strength
+过来避开它
+Come over and avoid it
+甚至有人说这个地方几年前就被废弃了
+Even wor said this place was abandoned years ago
+ERROR
+now it is not animals . fix their eyes
+但那是谁
+But who was that
+你对跑步者的看法
+What you think the runner
+我们不会为了额外的眼睛而试图侵入你
+We won't try to invade you for the extra eyes
+我们暂时给你谦虚
+We give you modespite for now
+像这样的新的就不行了
+One like this s don't work the new one
+虽然这个有情感传感器，但只有当你移动时才会做出反应
+Though this one's got emotion sensor only reacts when you move
+拥有肌肉记忆的新模型似乎对你的意图做出反应，而不是你的行动
+New models got muscle memory seems react to your intention , not your mo
+黑凯特的意思
+Meaning black ket
+新人知道在追随遗传路径之前我要做什么
+The new ones know what i'm gonna do before following the genetipath
+我和我技术精湛的同事丹麦马克·埃瓦吉
+me and my intimidingly skilled colleague danish mark evbage
+确保您会看到很多自定义聊天内容
+Made sure that you'd see a lot of custom chatter
+介绍一下这个新帮派的背景
+To give a background to this new gang
+这是一个很酷的
+It's a cool
+实际上这是很酷的体验
+It's quite the cool experience actually
+其中甚至还具有一些自定义交互功能，例如这个
+Which even features some custom interactions such as this one
+在这里您还可以看到我们如何在某种程度上放弃了每种游戏风格一条路径的方法
+Here you can also see how we somewhat abandoned the one path per play style approach
+如果你是一名网络跑者
+If you're a net runner
+您不只是想追踪对您有用的面包屑痕迹
+You don't just want to follow a trail of breadcrumbs with utility for you
+但无论你选择哪条路径并说适用于其他模式，都要摆弄设备
+but mess around with devices no matter which path you pick and saying goes for other plastyles
+你就放弃吧
+and you come on give up che
+小时是狼，看看吧
+Hour is a wolfx , just look at
+最终我们决定为人们提供尽可能多的酷炫选择
+ultimately we just decided to give people as many cool options as we could fit on the level
+这相当不错，而且设计起来也更简单
+and that was reasonably well and was also simpler to design for
+这很蠢，我只是很蠢，对吧
+it's stupid i'm just stupid right
+为何心啊啊啊啊
+为何心啊啊啊啊
+好的，我们现在在这个地方的大大厅里
+Okay , and we're in the big main hall of this location
+现在让我们看看如果玩家利用他们投入的技能解锁另一条通道会发生什么
+Now let's see what happens if the player makes use of their invested skills to unlock another passage
+这是西奈半岛的边缘
+This is the rim of sinai
+保持隐藏
+Stay hidden
+提防王位
+beware of a throne
+是的，是的，那就是我们刚刚离开的健身房出口
+yes , yep , and that's the exit of the gym that we just left
+这是令人难以置信的，并且凸显了有时增强的成本
+And it's incredible and highlights how sometimes the cost of enhancing
+玩家投入的技能价值可能相当低
+The value of invested skills for the player could be quite low
+想象一下如果我们选择相反的方式
+imagine if we have chosen to do it the other way around
+并将这条旁路视为通用路径
+And treat this side passage as a generic path
+通过技能检查解锁健身房
+With the gym being unlocked by skill check
+这样你的技能检查就会为你解锁一个很棒的新部分
+That way your skill check would have unlocked an awesome new section for you
+为您带来炫酷而独特的体验
+Rewarding you with a cool and unique experience
+总结一下我们的问题
+To summarize our issues then
+首先，我们使用遗传路径作为后备的计划在执行上变成了一个陷阱
+First our plan to use the genetic path as fallback turn into a bit of a trap on execution
+结果往往是最明显的解决方案
+Resulting in it often being the most obvious solutions
+哪些玩家会很高兴地选择
+Which players would pick only too happily that is
+第二
+Secondly
+通常我们会为挑战添加奖励
+Oftentimes we would add reward to the challenge
+通用应该通过制作它来提供
+Generic should provide by also making it
+酷炫定制体验之路
+The path with a cool bespoke experience
+为了实现我们呈现精彩故事的目标
+To fulfill our goal to present a great story
+我们倾向于将所有与博览会相关的精彩内容集中在一起
+We tended to cluster all our cool content related to exposition
+降低酷炫的遭遇、秘密，有时甚至会在关卡的瓶颈处进行掠夺
+Lower cool encounters , secrets and sometimes even loot at bottlenecks in the level
+就像最后这本身并不是一个大问题
+Like in the end that in by itself is not such a big problem
+事实上，如果你只想创造一个很酷的电影叙事体验
+Actually , if you only want to create a cool cinematic narrative experience
+然而，从在游戏中创造令人难忘的非线性体验的角度来看
+However , looking at it from the perspective of creating memorable nonlinear experiences in gameplay
+ERROR
+It's hard to give real value to play styles with this approach
+重新审视我们最初的方法
+Revisiting our initial approach
+然后我们发现遗传路径作为后备
+Then we find that the genetic path as fallback
+实际上是发展你的，呃，我们的道路的主要贡献者之一
+Is actually one of the main contributors of developing your , uh , our paths
+因为在执行过程中，它最终会因为过度强调、简化而稀释了体验
+Because on execution it ended up diluting the experience by over emphasizing , streamlining to a fault
+至于遗传和玩法路径的难度
+As for the difficulty of the genetic and play style paths
+我们的方法导致大量的技能检查被用来简单地绕过遭遇
+Our approach resulted in a multitude of skill checks being used to simply bypass encounters
+事后看来这听起来相当疯狂
+As which in hindsight sounds relatively insane
+玩家投入他们辛苦获得的属性和额外奖励点
+Players invest their hard earned attribute and perk points
+作为奖励，他们可以体验更少的游戏
+And as a reward they get to experience less of the game
+好吧，至少现在你们知道我们从哪里来了
+Well , at least now you guys know where we were coming from
+了解出了什么问题
+Equipped with the knowledge of what went wrong
+我回去看了很多我们自己的水平
+I went back and took a look at many of our own levels
+并想知道我们如何才能将我们的电影故事讲述结合起来
+and wondered how we can marry our cinematic story telling
+同时仍然在我们的关卡中提供各种非线性体验
+While still providing varied nonlinear experiences in our level
+说实话，我们的工作成果还不错
+Truthfully , the outcome of our work wasn't bad
+在为玩家提供丰富的非线性体验方面
+On the aspect of providing the player rich nonlinear experiences
+它只是比我们预期的要弱
+It was merely weaker than we had intended
+基于我对我们的关卡和其他游戏的比较
+Based off my comparison between our levels and other games
+我决定扩展我们已经了解的非线性关卡设计的一些概念
+I decided to expand on some concepts of what we already knew about nonlinear level design
+还定义
+to also define
+我们如何在关卡中设置行动和奖励结构
+How we set up the action and reward structure in our levels
+我将由此产生的概念称为发现和探索
+And i call the resulting concept discovery and exploration
+发现和探索是构建关卡的一种方法
+Discovery and exploration is a method to structure your level
+这扩展了分析的概念
+Which expands the concept of analysis
+玩家观察并制定计划和执行的节拍
+A beat in which the player observes and formulates their plan and execution
+ERROR
+The beat in which the player executes their plan
+这个概念的重点是建立选择并提供回报
+the concept focuses on setting up choices and providing payoff
+让玩家在他们选择的每条道路上获得更特别的体验
+To give players a more special experience on each path they pick
+就像这个概念是基于
+And like the concept is based on
+它由两个不同的交替节拍组成
+It consists of two distinct alternating beats
+每个都有自己的特点和目的
+Each with their own characteristics and purpose
+该方法侧重于将珠子作为关卡奖励结构的一部分
+This method focuses on beads as part of the reward structure of a level
+这意味着单个珠子可以而且应该仍然可以调味
+Meaning that individual beads can and should very much still be flavored
+是战斗力更强还是相反
+Is it a more combat heavy or the opposite
+ERROR
+Does it include environmental puzzles
+秘密、故事、阐述等
+Secrets , story , exposition , etc
+让我们仔细看看各个节拍
+Let's take a closer look at the individual beats
+从一个发现开始
+Starting with a discovery one
+这个节奏主要是让玩家发现他们的选择
+This beat is primarily about the player discovering their options
+做出，呃，他们的选择并克服挑战
+Making , uh , their choices and overcoming challenges
+ERROR
+Not always
+但很多时候
+But often
+您将在这里使用信息丰富的守望先锋
+This is where you will use your informative overwatch
+所以这里没有太多革命
+So not much revolution here
+但从叙事功能的角度来看
+However , from a narrative function perspective
+这是您所在位置的定场镜头
+This is the establishing shot of your location
+我们在这里设定心情
+It is here that we set the mood
+并为玩家提供他们需要了解的信息
+And give the player what they need to know
+ERROR
+It's also where we planned some seeds to tease
+ERROR
+What players might find in later parts of the level
+然而
+However
+重要的是不要在这里超支预算
+It's important to not overspend your budget here
+ERROR
+So it's crucial to not shoot all of your powder
+并保存一些供以后使用
+And save some for later
+一旦玩家做出选择
+Once the player made their choice
+并顺利穿过发现区
+And successfully passed through the discovery area
+他们现在发现自己处于危险和我们的探索节奏中
+They now find themselves in the exuh and our exploration beat
+ERROR
+And the exploration b provides a more intimate and linear experience compared to discovery
+它通过缩小级别来做到这一点
+It does this by narrowing down the level
+以及玩家可以看到该位置其余部分的内容
+And what the player can see of the rest of the location
+限制他们走自己选择的道路
+Restricting them to the path they have chosen
+目的是让玩家专注于探索和体验他们所做出的选择
+The intent is to let the player focus on exploring and experiencing the choice they committed to
+这个节拍并不是要做出新的选择
+And this beat is less about making new choices
+更多关于选择的后果是选择的回报
+And much more about the consequence of choosing it's the payoff for having chosen
+现在是一些很酷的亲密体验的时刻
+Now this is the moment for some cool intimate experiences
+世界建设谜题，特殊遭遇
+World building puzzles , special encounters
+关卡叙事背景下的秘密扩展
+Secrets expanding on the context of the levels narrative
+无论你能想到什么来让它变得很酷
+Whatever you can think of to make this cool
+结果，我们得到了两颗互补的珠子
+As a result , we get two beads which complement each other
+发现就是提供选择
+Discovery is all about providing choices
+ERROR
+And presenting the player with promises of the awesome that they are about to uncover
+探索是令人敬畏的地方
+Exploration is where that awesome lives
+玩家正在经历自己选择道路的后果
+It's the player experiencing the consequences of their choice of picking a path
+这样做，探索就会奖励玩家
+And for doing so , exploration rewards the player
+这不仅从玩家的角度来看很棒
+It's not only great from the player's perspective
+但也来自我们作为讲故事的人
+But also from ours as storytellers
+这种结构使我们仍然可以让玩家接触到重要的叙事元素和电影时刻
+this structure allows us to still expose the player to important narrative elements and cinematic moments
+同时给予个人玩家更独特的体验
+While giving the individual player a more unique experience
+如果使用得当，探索床可以为我们的叙述提供更多的背景并在此基础上继续发展
+Used well , the exploration beds can provide more context for our narrative and build on it
+从而增强它
+And thus enhance it
+尽管如此，这个概念效果最好
+Nonetheless , this concept works best
+最糟糕的是玩家可能会错过一些很酷的东西
+The mork one is with the player potentially missing cool stuff
+由于我的研究
+Due to my research
+我确实认为玩家错过一些很酷的东西是可以接受的
+I do genuinely think it is ok for players to miss cool things if they do it
+并且只有当他们通过体验其他成本来做到这一点时
+And only if they do it by experiencing other costuff
+基本上保持玩家和球的净收益
+Basically keeping the net gain for the player and ballo
+让我们看看这个概念是什么样子的
+Let's look at how that concept might look like
+适用于我们的水平大脑和你吗
+Apply to our level the brain nds do you
+我们看到分析和执行的基础就在那里
+We see that the foundation of analysis and execution are there
+经典关卡设计设置一击即可分析您的优势路径
+Classic level design setup one beat to analyze your path from advantage
+指向另一个来接近行动并执行你的计划
+Point another to get close to the action and execute your plan
+当我们用发现和探索的概念重新思考它时
+When we rethink it with the concept of discovery and exploration
+节拍设置发生变化以聚焦
+The beat set up changes to focus on
+提供选择和承诺奖励，然后给予它们
+Providing choices and promising rewards , then granting them
+我们仍然应用相同的分析、执行和发现理论
+We still apply the same theory of analysis and execution and discovery
+但我们的关注点从这个角度来看其实还有改进的空间
+But our focus changes from this perspective there's actually room for improvement
+主要是在还款方面
+Mainly in the pay off
+探索节奏提供的不仅仅是一分钟内的内容
+The exploration beat provides more than that in a minute
+请尝试在此处记下注意事项
+Please try to make a mental note here
+我之前提到过，作为我使命的一部分
+I mentioned earlier that as part of my mission
+我想找到一组有用的原则来帮助让不同的道路感觉更特别
+I wanted to find a set of useful principles to help make different paths feel more special
+我做到了
+And i did
+除了在探索中发现
+In addition to discovery in exploration
+这些原则广泛适用
+These principles are widely applicable
+即使在较小的层面上并通过具体行动
+Even on smaller levels and through specific actions
+关卡设计师可能会使用这些来改进他们的设计
+A level designer might use these to improve on their designs
+我想与您分享的三个原则中的第一个
+our first of three principles i want to share with you
+重点关注同一关卡中不同路径彼此的接近程度
+Focuses on the proximity of different paths in a level to each other
+如果你能看到这两个入口，请看一下
+Take a look at these two entrances if you can see them
+这是一个有点极端的例子
+This is a bit of an extreme example
+但即使玩家在这里有选择
+But even though the player has a choice here
+这真的是一个值得做出的选择吗
+Does it really feel like a choice worth making
+这两个入口距离很近，几乎没有什么神秘的空间
+The proximity of these two entrances leaves little room for mystery
+至于这些过去是否真的有什么不同
+As to whether these past are actually any different
+还记得之前的 Brain End 工作室吗
+Remember the brain end studio from earlier
+我如何提到需要改进的探索节奏
+And how i mentioned the exploration beat needing improvement
+而我们实际上正在看它
+While here we're actually looking at it
+白色代表预期的遗传路径
+White represents the intended genetic paths
+绿色是游戏风格类别
+And green are the play style class
+发生的情况是，即使我们将垂直距离应用于路径
+What happens is that even when we apply vertical distance to a path
+只要路径彼此靠近
+As long as the paths are close to each other
+他们仍然被认为是同一条道路
+They are still perceived as the same path
+因为接近导致它们彼此垂直平行运行
+Because the proximity results on them running vertically parallel to each other
+部分原因是这样
+And in part to this
+勘探活动未能提供有意义的报告
+The exploration beat fails to provide meaningful reports
+通过做出每个选择都会产生非常相似的回报
+By making each choice result in a very similar payoff
+所以首要的是第一点，然后是距离的感知
+So principal number one , then the perception of distance
+这位校长试图给球员们
+This principal tries to give the players
+他们认为自己可以做出选择
+The perception that they have a choice to make
+我该选择哪条路
+Which path do i pick
+秘密通行证是彼此的
+The closet pass are to each other
+越感觉选择一个实际上没有什么不同
+The less it feels like picking one actually makes a difference
+虽然垂直度可以是创造入口距离的有效方法
+And while verticality can be a valid way of creating distances for entrances
+对于过去本身却不能说同样的话
+The same cannot be said about the past themselves
+重要的是，玩家认为你的路径彼此之间有距离
+it's important that your paths are perceived by players as being distance to each other
+增强他们与众不同的感觉
+To enhance the feeling of them being different
+并导致极端的不同结果
+And leading to different outcomes on the extrement
+这就是为什么在您的位置设置完全不同的路径是如此酷但可能非常昂贵
+This is why having completely different path through your location is so cool but potentially very expensive
+那么关卡设计我们可以做些什么来增强玩家对路径和入口之间距离的感知
+So what can we as level designs do to enhance a player's perception of distance between paths and entrances
+一般来说，我们会尝试将入口和通道设计得尽可能远离彼此
+Well generally try to design entrances and pass as far away from each other as reasonably possible
+有点道理
+Kind of makes sense
+然而，这与路径之间的实际距离无关
+However , it's not so much about the actual distance between the paths
+与感知距离有关
+As much as it is about the perceive distance
+这意味着任何可以帮助让路径感觉彼此距离的东西
+That means anything that can help make paths feel distance from each other
+就像构建可见性有限的布局一样
+Like building a layout in which visibility is limited
+设置遭遇或技能检查来使访问过去变得更加困难也有帮助
+Setting up encounters or skill checks to make access to the past more difficult can also help
+我建议平等重于数量的方法
+I recommend equality over quantity approach
+尤其是在较小的位置，可能很难将许多路径彼此保持适当的距离
+especially in smaller locations where it may be hard to properly distance many paths from each other
+而是有两个对距离有较高感知的人
+Rather have two that have a high perception of distance
+比三个距离太近的
+Than three which are too close to each other
+在这里的设置中，您可以看到 plastyle 入口的典型示例
+In the setup here you can see a typical example of a plastyle entrance
+允许单独访问某个位置
+Allowing for a separate access to a location
+这本身就很好
+This in by itself is fine
+但如果我们看看路径的流动
+But if we look at the flow of the paths
+我们可以看到该位置的构建方式
+We can see that the way the location is built
+最初的问题是我想知道另一条路可能会走向何方
+the initial question of i wonder where that other path may go
+向玩家展示，而他们实际上不必使用该路径
+Is revealed to the player without them ever actually having to use that path
+最终暴露了这一点
+It exposes that in the end
+他们选择的道路其实并不那么重要
+The path they pick really did not matter all that much
+因此，虽然第一号校长试图建立选择
+So while principal number one tries to build choice
+第二条原则侧重于构建，更重要的是
+Principle number two focuses on building and more importantly
+在选择周围保持神秘气氛
+Maintaining an air of mystery around the choices
+通过一号校长
+Through principal number one
+玩家意识到他们需要做出第二条选择原则
+The player becomes aware that they need to make a choice principle number two
+排他性的观念使他们无法知道替代结果
+A perception of exclusivity prevents them from knowing the alternative outcome
+并增强惊奇感
+And heightens a sense of wonder
+路径字段越排他和孤立
+The more exclusive and isolated the path fields
+在玩家心目中就越特别
+The more special it can become in the player's mind
+没有排他性的感觉
+Without a perception of exclusivity
+我们摧毁了玩家所有想知道的机会
+We destroy all chances of players to even wonder
+另一条路径是否会导致不同的结果
+Whether another path might result in a different outcome
+通过排他性的感知
+Through perception of exclusivity
+我们还可以让玩家完全专注于他们选择的路径所提供的体验
+We can also allow a player to fully focus on the experience provided from the path they picked
+而这反过来
+And this in turn
+提高玩家对他们可能经历的替代结果的好奇心
+Heightena players curiosity about the possible alternative outcomes they could have experienced
+作为关卡设计师
+As a level designer
+我如何让我的过去感觉更独特
+How do i make my past feel more exclusive
+特别是如果我的预算很紧张
+Especially if i'm on a tight budget
+最具成本效益的方法之一
+one of the most cost effective ways
+我发现可以增加玩家的排他性感觉
+I found to increase a perception of exclusivity for players
+就是限制和控制
+Is to limit and control
+玩家可以看到什么
+What a player can see
+这意味着插队
+That means breaking in line
+打破视线
+Breaking line of sight
+嗯，让玩家离开其他路径和入口以防止他们弄清楚
+Um , off the player to alternative paths and entrances to prevent them from figuring out
+它们如何工作而无需使用它们
+How they work without ever having to use them
+此外，要充分让玩家专注于路径
+Furthermore , to fully allow the player to focus on the path
+嗯，通过使用单向下降和通道让他们做出选择
+Um , commit them to a choice by using one way drops and passages
+然而，如果您的游戏像我们一样致力于提供自由
+However , if your game is all about providing freedom like ours
+几乎没有惩罚玩家的想法
+With little notion of punishing the player
+呃，允许他们在路径之间切换
+Uh , allow them to switch between paths
+但只是有代价
+But only at a cost
+例如，让他们决定是否愿意继续走这条路
+For example , by making them decide whether they rather stay on the path
+他们选择或试图溜过一个特别致命的敌人
+They picked or tried to sneak past a particularly deadly enemy
+好吧，我认为第三个原则是最容易理解的
+All right principal number three i think is the easiest to understand
+但也许不是那么容易做出承诺
+but maybe not so such an easy one to commit to
+我们是您的安全
+We're your own safety
+请保持沉默。分享你的米斯塔
+please maintain silence . share your mista
+好吧伙计们，不要评判，二七十七
+All right guys , don't judge and twenty seventy seven
+即使是机器人也需要一些爱
+Even robots need some love
+哈哈
+Ha ha
+希望你能看到这一切顺利
+Hope you can see that this landed well
+呃哈哈哈哈哈哈嗯
+Uh , ha ha ha ha , um
+但所有的话我们游行大厅，对吧
+But all words we march hall , right
+哈哈
+Ha ha
+好的
+All right
+我们今天的最后一个原则侧重于验证玩家所做的选择
+Our last principle for today focuses on validating the choices that player made
+或者更确切地说是玩家做出的选择
+Or rather the choice the player made
+对独特性的认知满足了玩家做出正确选择的愿望
+a perception of uniqueness fulfills the players desire to have made the right choice
+同时增加了制作一个游戏的风险和兴奋感
+While at the same time heightening the stakes and the excitement of making one
+为了让它发挥作用
+And for that to work
+我们需要特殊对待我们的道路
+We need to treat our paths as special
+并为玩家计划适当的回报
+and plan proper pay off for players
+并接受其他可能错过的玩家
+And be okay with other players potentially missing out
+这就是创造价值和玩家做出的选择
+This is what creates value and the choices players make
+如果没有适当的后果或在这种情况下没有回报，选择就没有意义
+The choice is not interesting without a proper consequence or in this case pay off
+这同样适用于叙事选择
+This goes for narrative choices as much for
+至于一个人的完成和游戏玩法，就像我们在一个关卡中导航一样
+As for one's done and gameplay like are we navigate through a level
+玩家尽了自己的职责
+The player did their part
+他们做出了选择
+They made the choice
+现在，作为设计师，我们有责任让这一切变得值得
+And now it's on us as designers to make it worth their time
+并给他们表演
+And give them a show
+提供独特性的感觉当然是通过确保
+providing a perception of uniqueness is of course done by making sure
+我们分配预算并找到负担得起的解决方案，为玩家提供独家内容
+We allocate budget and find affordable solutions to give the players exclusive content
+这确实是个人设计师和小团队可以大放异彩的地方
+And this is really where the individual designers and small teams can shine
+我相信你们中的许多人都至少经历过一种情况
+and i'm sure many of you have experienced at least one instance
+一些孩子酒吧里的一些人从看似无中生有的酷炫体验中脱颖而出
+Where some kid bar someone kit bashed a cool experience out of seemingly nothing
+在cdpr，我们有很多令人难以置信的头脑
+At cdpr , we have so many incredible minds
+尤其是在我们的探索和开放世界设计师中
+Especially amongst our quest and open world designers
+谁在这方面表现出色
+Who excel at this
+其中一个人实际上是那边的任务总监 powl sasa
+One of these guys is actually powl sasa over there a quest director
+感谢他和其他一些人
+Thanks to him and some others
+我们可以在游戏中养小咬和鬣蜥作为宠物
+We can have nibbles and iguana as a pet in the game
+旁注，我的朋友将举行一次演讲
+Side note , my friend pl will be holding a talk
+明天你一定要去看看
+Tomorrow that you should definitely check out
+在其中
+In it
+他还概述了我们如何为玩家设计有影响力的叙事选择
+He also outlines how we design impactful narrative choices for players
+好的
+All right
+回归提供酷炫体验
+Getting back to providing cool experiences
+我们甚至创建了一整套内容
+We even created a whole type of content
+Insire朋克二十七十七
+Insire punk twenty seventy seven
+我们亲切地称许多世界故事为个体设计师提供了帮助
+We lovingly call many world stories that gives individual designers
+可以乱搞的房间，增加独特感
+the room to mess around and increase the perception of uniqueness
+同时为我们的世界注入更多活力
+While at the same time breathing more life into our world
+就像跳舞的机器人或汽车碰撞的遭遇一样，即使是那些知道的人
+Like the dancing robots or the car bump encounter for those even know it
+至于关卡设计师，除了提供一个很酷的独特的，呃
+As for level designers , in addition to providing a cool unique , uh
+提供酷炫独特的布景和视觉叙事
+To providing cool unique set pieces and visual storytelling
+也许是一次很酷的定制邂逅
+Perhaps a cool custom encounter
+我们还可以以防止同一房间出现瓶颈的方式来构建我们的地点
+We can also build our locations in a way that we prevent bottlenecks ending in the same room
+看到另一条路的出口可能会提醒你它就在那里，并让你好奇
+Seeing the exit of another path may remind that it is there and make you wonder
+但它最终也告诉你，最终
+But it also ultimately tells you that in the end
+条条大路通向ro
+all paths lead to ro
+掩盖这一点并隐藏这些入口会带来更多好处
+There's more gain in masking this and hiding away those entrances to instead
+让玩家在事后徘徊
+Keep the player wandering after the fact
+等等，曾经还有另一条路
+Wait , there used to be another path
+我想知道那去了哪里
+I wonder where that went
+如你看到的
+As you can see
+很像发现和探索
+Much like discovery and exploration
+这些原则相辅相成、相互促进
+These principles complement and build on each other
+不过理论是好的
+Theory is good , however
+但很多时候却很难想象
+But often it can be hard to imagine
+它如何转化为实际用例
+How it translates into practical use cases
+我在一开始就提到过
+I mentioned at the beginning
+我想应用这些原则来验证它们
+I wanted to apply these principles to validate them
+那么让我们这样做吧
+So let's do that
+这是我出于研究目的而创建的实验性封锁的自上而下的镜头
+This is a top down shot from an experimental blockout i created for research purposes
+它是在我开始之前创建的
+It was created before i started out
+呃，关于我的研发项目
+Uh , on my research and development project
+你可以看出白色路径是通用的游戏风格
+And you can tell white paths are the generic play styles
+中间是战斗一及以上
+In the middle we have the combat one and above
+而北方我们有自己的一个
+And the north we have the self one
+绿色路径是游戏风格
+Green paths are play styles
+数字是关卡的入口
+The numbers are entrances to the level
+这些字母是通往下层的出口或目标
+And the letters are exits or goals leading to a lower floor
+就像以前一样
+Just as before
+蓝色区域是探索节拍，橙色区域是探索节拍
+Blue zones are discovery beats and orange ones exploration
+虽然我承认我没有考虑过他们
+Though admittedly i did not think about them
+就像那个封锁发生时那样
+Like that at the time of the making of that blockout
+再说一次，所有的症状都在这里
+And again , all the symptoms are here
+游戏路线的回报非常低
+There's very low payoff for play stle paths
+第一个原则，上面的比赛开始违反了距离感
+Principle number one , perception of distance is violated with the play start up above
+呃，与一般的隐秘路径相比
+Uh , compared to the generic stealth path
+我们紫罗兰也违反了第二条原则，排他性的观念
+We also violet violet violate principle number two , perception of exclusivity
+从二号入口开始
+Starting at entrance number two
+玩家不可避免地会看到第一入口在哪里
+Players will inevitably see where entrance number one
+基本上，如果他们没有使用的话，他们的技能检查就会开始
+Basically , if they hadn't used , their skill check would have started
+现在配备了我所学到的东西
+Now equipped with what i had learned
+我开始应用珠子和原理
+I set out to apply the beads and principles
+该封锁的第二次迭代
+the second iteration of this blockout
+看到右下角添加了一小部分
+Sees a small section added to the bottom right corner one
+以及通往下层的额外通道
+And additional passages down to the lower floor
+但让我们先一步一步地了解节拍细分
+But let's get through this step by step first the beat breakdown
+你现在可以看到，发现和探索之间的这种冲突
+You can see now that this ribution between discovery and exploration
+更加均匀
+is quite a bit more even
+我们有空间提供有意义的奖励
+and we have room to provide meaningful rewards
+我为玩家添加了前往下层的额外方法
+I added additional ways for the players down to the lower floor
+彼此没有直接视线
+With no direct line of sight to each other
+甚至通向通道本身
+Even leading up to the passages themselves
+当玩家到达任何一个通道时
+At the time the player reaches any of the passages a
+B 或 c 他们有
+B or c they have
+他们将在相当长一段时间内被锁定在更线性的探索节奏中
+They will have been locked into their more linear exploration beat for quite a while
+增强排他性认知
+Increasing the perception of exclusivity
+在添加新部分时
+In adding the new section
+我试图增强对选择距离的感知
+i tried to enhance the perception of distance of the choices
+玩家在发现节拍中
+The player has in the discovery beat
+将探索珠的入口移得尽可能远
+By moving the entrances to the exploration beads as far from each other as possible
+我还使用通用路径更改路径的设置
+I also change the setup of the paths with a generic path
+现在直接穿过该部分的中间
+Now leading straight through the middle of the section
+几乎无需额外费用
+At almost no additional cost
+我把从一到二的路变成了一个独特的地方
+I turned the path going from one to b into a place stle exclusive
+同时还提供一个地方stle专属分支进入通用隐形路径的下层通道c
+while also providing a place stle exclusive branch to enter lower floor access c of the generic stealth path
+从两个变成一个
+Going from two to a
+新的部分实际上看起来比这里更大
+The new section actually looks bigger than it is here
+它实际上是一个房间和两个走廊加上分支
+It's effectively one room and two corridors plus the branch
+所以它的成本又可以相对较低
+So it can so again relatively low cost
+现在让我们引入一些细微差别
+Now let's bring some nuance into this
+因为在收到一些关卡设计同事的反馈后，我与他们进行了讨论
+Since i had this discussion with some of my fellow level designs after getting feedback from them
+嗯，重要的是要确保愿景不会泄露路径的运作方式
+Well , it's important to make sure vision doesn't give away how paths work
+我们可以、我们可以而且应该仍然小心翼翼地、更无意识地与之合作
+We can , we can and should still carefully and more unconsciously work with it
+当然是为了帮助玩家构建心理地图并更好地导航空间
+To help the player of course build a mental map and navigate the space better
+在每个探索节拍中
+In each exploration beat
+玩家可以在该位置中心的房间取得峰值
+The player is able to take a peak at the room in the center of this location
+其中有一个特色地标可以帮助玩家理解一点
+Which features a characteristic landmark to help the player understand a bit
+他们如何在他们选择的路径上的位置移动
+How they're moving around the location on the path they've picked
+使用隐藏通道时您也有机会执行此操作
+You also have an opportunity to do this when using the hidden passage
+这里提供了C分区，但是，并没有放弃
+C division here provided , however , does not give away
+替代路径如何运作
+How the alternate paths may work
+最后我们再看看下层
+Finally , let's take a look at the lower floor to see the
+通道如何进入那个空间
+How the passages enter into that space
+这里的字母只是上层出口的延续
+here the letters are simply the continuation of the exits on the floor above
+请注意没有一条路径在瓶颈处结束
+Notice how none of the paths end in the bottleneck
+这是从没有进入该地区的入口处发现的
+That is the discoveries on here from none of the entrances into the area
+你真的能看到玩家可以采取的其他选择吗
+can you actually see any of the other options the player could have taken
+现在这些是应用第一原则和第二原则的节拍
+Now these were the beats an applying principle number one and principal number two
+第三条原则呢
+What about principle number three
+独特性的认知
+The perception of uniqueness
+好吧，随着新的路段的添加，最北边的小路也变成了地方风格的小路
+Well , with the new section added and the northern most path being turned into a place style path
+我现在有空间来增强独特性的感觉
+i now had the room to enhance the perception of uniqueness
+让我们简单浏览一下关卡看看
+and let's take a brief tour across the level to see
+地点本身如何尝试为玩家提供独特的体验和探索区域
+How the location itself tries to give the player unique experiences and zones to explore
+从基因隐秘路径开始，到达专属分支
+Starting with the genetic stealth path with the place to exclusive branch
+所以 x it c 的入口二
+so entrance two to x it c
+当玩家进入此关卡时
+As a player enter enters this level
+他们发现自己在这个空间里
+They find themselves in this space over here
+然后从右边的门偷偷溜过敌人
+And stealing past the enemies through the door on the right
+他们进入了我在第二次迭代中添加的这个新房间
+They entered this new room that i added in the second iteration
+现在这里很难看到了
+Now it's hard to see here
+我想尤其是在这种情况下
+Especially , i suppose , in this situation
+而且，但是这里有一个隐藏的通道，技术人员可以解锁它以到达隐藏的地下通道
+And , but there is a hidden passage here that techies can unlock to reach a hidden underground passage
+并在经历过程中发现这一点
+And finding that in going through it
+呃，让你陷入这样的境地
+Uh , puts you into this situation here
+一个独特的小，呃，布景
+A unique little , uh , set piece
+只有那些玩家才能找到
+which only those players would be able to find
+这提供了有关该空间的背景的更多信息
+That gives more information about the background of what this space could be
+现在我们来看看排他路径的其他地方进行比较
+And now let's take a look at the other place to exclusive path in comparison
+所以路径一退出b
+So path one to exit b
+当这些玩家进入该位置时
+As those players enter the location
+他们发现自己在这个区域
+They find themselves in this area over here
+嗯，他们实际上可以选择查看另一条路径刚刚秘密穿过的房间
+Um , where they actually have the option to look into the room that the other path just stealth through
+通过左侧的门
+Moving through a door on the left
+他们发现自己身处一个大房间，里面有我之前提到的地标
+They find themselves in the big room with the landmark i mentioned earlier in
+并成功盗取本节内容
+And successfully stealing for this section
+在左侧
+On the left side
+他们发现自己在这个房间里
+They find themselves in this room
+嗯，背景中还有一个小窗口
+Um , where in the background there's also a small little window that again
+回望标志性房间
+Looks back into the , the landmark room
+并通过这个偷窃
+And stealing through this
+你可以下楼到下层
+You can make your way down to the lower floor
+您在哪里看到此部分
+Where you see this section
+正如你所看到的
+And as you can see
+路径提供完全不同的体验
+The paths provide completely different experiences
+各自给予，呃，呃，自己的一点点
+Each giving , uh , uh , their own little
+呃，切片和给玩家的印象
+Uh , slice and impression on the player
+这是怎么回事
+What's going on here
+好的
+All right
+总结一下
+That summarize
+我为你们提供了三个增强非线性设计的原则
+I equip you guys with three principles to enhance your nonlinear designs
+原则一
+Principle number one
+距离建立选择，你可以通过确保传播来增强选择
+Distance builds choices and you can enhance it by making sure to spread
+入口和路径尽可能远离彼此
+Entrances and paths as far away from each other as possible
+第二条原则，排他性增强奇迹
+Principle number two , exclusivity heightens wonder
+您可以通过限制玩家在其他路径上的视野来增强这一点
+Which you can enhance by limiting the player's vision on other paths
+并让玩家做出自己的选择
+And committing the player to their choice
+使用单向通道
+Using one way passages
+原则三
+Principle number three
+满足愿望
+Fulfills desire
+您可以通过为玩家保留和提供精彩内容来增强这一点
+Which you can enhance by reserving and providing cool content for players
+并避免打破对路径的幻想
+and by avoiding to shatter the illusion for paths
+通过不让他们瓶颈进入同一个房间来导致相同的结果
+Leading to the same outcome by not having them bottle neck into the same room
+所有这三个原则并不限于
+All three of these principles are not restricted to
+但特别有效并增强了两种不同级别节拍的力量
+But particularly effective and enhancing the powers of two different level beats
+旨在最大化选择和奖励
+Designed to maximize choice and reward
+这就是发现和探索
+That is discovery and exploration
+一如既往，在我们的设计相关学科中
+As always in our design related disciplines
+索埃弗
+Soever
+没有什么总是百分百真实的
+Nothing is always hundred percent true
+所有这些概念在很大程度上取决于游戏的背景
+And all these concepts heavily depend on the context of your game
+希望这仍然有用
+Hopefully this is still useful
+值得您深思的食物
+Food for thought for you
+随着我的研究完成和原理测试
+With my research done and principles tested
+我看到我的任务已更新
+I see my quest is updated
+我很高兴看到
+And i'm happy to see
+呃，可以说获得的x pi 提供了值得的回报
+Uh , to say that the x pi gained provided a worthy payoff
+很棒的任务会再次播放
+Great quest would play again
+现在你知道错过的好处了
+And now you know about the benefits of missing out
+我花了很多心思和精力才给你带来这个
+I put a lot of heart and effort into bringing you this
+我希望你发现这很有价值和有趣
+And i hope you found this valuable and fun
+嗯，从心底里
+Um , from the bottom of my heart
+我想说谢谢
+I want to say thank you
+谢谢
+Thank you
+感谢您今天加入我的行列
+Thank you for joining me here today
+呃，做这样的事并不容易
+Uh , doing a thing like this isn't easy
+工作量很大
+It's a lot of work
+你知道，有很多冒充者综合症正在发生并试图这样做
+And you know , there's a lot of impostor syndrome going on and tried to do this
+哈哈
+Ha ha
+呃
+Uh
+然而，这是我的背景
+However , there's my context
+请随时与我联系
+Please feel free to reach out to me
+还要大声感谢 blae 让我参与其中并指导我
+Also a big shout to blae for getting me into this and coaching me
+太感谢了
+Thank you so much
+你太棒了。感谢 gdc
+You're awesome . and thank you to gdc
+还有邀请我的关卡设计暑期团队
+And the level design summer team for inviting me
+呃，我一会儿就到总结区
+Uh , i'll be over at the wrap up area in a moment
+准备好回答您的问题
+Ready to answer your questions
+是的
+And yeah
+在那里见
+See you there
+谢谢
+Thank you
+另外如果你喜欢这个演讲
+Also if you enjoyed this talk
+请去看看我出色的同事即将提供的那些
+please go check out the ones that my amazing colleagues are about to give
+我相信您也会发现它们很有洞察力
+I'm sure you find them insightful as well
+伙计们，我们整个星期都在这里
+We're here all week guys
+哈哈
+Ha ha

@@ -1,0 +1,393 @@
+classDiagram
+    %% ========== 数据资产层 ==========
+    class UPrimaryDataAsset {
+        <<UE Engine>>
+    }
+
+    class UWorkspotResource {
+        +UWorkspotTree* WorkspotTree
+        +TArray~TSoftObjectPtr~AnimSequence~~ AnimSet
+        +TArray~FWorkspotPropDefinition~ GlobalProps
+        +TArray~FWorkspotCharacterFilter~ SupportedTypes
+        +ValidateResource() bool
+        +GetAnimationByName(FName) UAnimSequence*
+    }
+
+    class UWorkspotTree {
+        +UWorkspotEntry* RootEntry
+        +FName TreeId
+        +TMap~FName,UWorkspotEntry*~ EntryCache
+        +FindEntryById(FName) UWorkspotEntry*
+        +ValidateAnimations() void
+        +BuildEntryCache() void
+    }
+
+    %% ========== 节点基类层 ==========
+    class UObject {
+        <<UE Engine>>
+    }
+
+    class UWorkspotEntry {
+        <<abstract>>
+        #FName EntryId
+        #uint32 Flags
+        #FLinearColor EditorColor
+        +CreateIterator(Context) UWorkspotEntryIterator*
+        +ContainsEntry(FName) bool
+        +GetFriendlyName() FString
+        +ForEachAnimation(Function) void
+        +SupportsRig(Skeleton) bool
+    }
+
+    class UWorkspotContainerEntry {
+        <<abstract>>
+        #TArray~UWorkspotEntry*~ Children
+        #FName IdleAnimName
+        +AddChild(UWorkspotEntry*) void
+        +RemoveChild(int32) void
+        +GetChildCount() int32
+        +ForEachChild(Function) void
+    }
+
+    %% ========== 叶子节点类 ==========
+    class UWorkspotAnimClip {
+        +FName AnimName
+        +float BlendInTime
+        +float BlendOutTime
+        +bool bLoopAnimation
+        +float PlayRate
+        +FName SlotName
+        +CreateIterator() UWorkspotAnimClipIterator*
+    }
+
+    class UWorkspotMotionAnimClip {
+        +FVector TargetOffset
+        +bool bUseRootMotion
+        +CreateIterator() UWorkspotMotionIterator*
+    }
+
+    class UWorkspotSyncAnimClip {
+        +FName SyncSlotName
+        +FTransform SyncOffset
+        +bool bIsMaster
+        +CreateIterator() UWorkspotSyncIterator*
+    }
+
+    class UWorkspotAnimClipWithItem {
+        +TArray~FWorkspotItemAction~ ItemActions
+        +CreateIterator() UWorkspotItemIterator*
+    }
+
+    class UWorkspotEntryAnim {
+        +FName AnimName
+        +FName IdleAnimName
+        +EWorkspotMovementType MovementType
+        +EWorkspotOrientationType OrientationType
+        +bool bIsSynchronized
+        +float MovementSpeed
+        +CreateIterator() UWorkspotEntryAnimIterator*
+    }
+
+    class UWorkspotExitAnim {
+        +FName AnimName
+        +EWorkspotMovementType MovementType
+        +bool bStayOnNavmesh
+        +bool bSnapZToNavmesh
+        +FVector ExitOffset
+        +CreateIterator() UWorkspotExitAnimIterator*
+    }
+
+    class UWorkspotFastExit {
+        +FName AnimName
+        +float ForcedBlendIn
+        +EWorkspotMovementType MovementType
+        +CreateIterator() UWorkspotFastExitIterator*
+    }
+
+    class UWorkspotPauseClip {
+        +float TimeMin
+        +float TimeMax
+        +float BlendOutTime
+        +CreateIterator() UWorkspotPauseIterator*
+    }
+
+    class UWorkspotTagNode {
+        +FName Tag
+        +CreateIterator() UWorkspotTagIterator*
+    }
+
+    %% ========== 容器节点类 ==========
+    class UWorkspotSequence {
+        +bool bLoopInfinitely
+        +int32 LoopCount
+        +EWorkspotCategory Category
+        +CreateIterator() UWorkspotSequenceIterator*
+    }
+
+    class UWorkspotRandomList {
+        +int32 MinClips
+        +int32 MaxClips
+        +int32 DontRepeatLastAnims
+        +TArray~float~ Weights
+        +bool bNormalizeWeights
+        +CreateIterator() UWorkspotRandomListIterator*
+        -NormalizeWeights() void
+    }
+
+    class UWorkspotSelector {
+        +EWorkspotSelectionMode SelectionMode
+        +CreateIterator() UWorkspotSelectorIterator*
+    }
+
+    class UWorkspotReactionSequence {
+        +TArray~FName~ ReactionTypes
+        +FName MainEmotionalState
+        +FName EmotionalExpression
+        +float FacialKeyWeight
+        +float ReactionRadius
+        +ContainsReaction(FName) bool
+        +CreateIterator() UWorkspotReactionIterator*
+    }
+
+    class UWorkspotConditionalSequence {
+        +ELogicalOperation MultipleConditionOperator
+        +TArray~UWorkspotCondition*~ ConditionList
+        +UWorkspotEntry* DefaultEntry
+        +CheckConditions(Context) bool
+        +CreateIterator() UWorkspotConditionalIterator*
+    }
+
+    %% ========== 迭代器层 ==========
+    class UWorkspotEntryIterator {
+        <<abstract>>
+        #UWorkspotEntry* PointedEntry
+        #FWorkspotContext Context
+        +IsReady(Context) bool
+        +IsValid(Context) bool
+        +Next(Context) void
+        +GoTo(FName, Context) bool
+        +GetData(OutData) void
+        +Reset() void
+    }
+
+    class UWorkspotAnimClipIterator {
+        -FName CurrentAnim
+        -float ElapsedTime
+        +Next(Context) void
+        +GetData(OutData) void
+    }
+
+    class UWorkspotSequenceIterator {
+        -int32 CurrentIndex
+        -int32 LoopCounter
+        -UWorkspotEntryIterator* CurrentChildIterator
+        +Next(Context) void
+        +IsReady(Context) bool
+    }
+
+    class UWorkspotRandomListIterator {
+        -int32 ClipsPlayed
+        -TArray~int32~ PlayHistory
+        -int32 CurrentSelection
+        +Next(Context) void
+        -SelectRandomChild() int32
+        -CalculateWeightedRandom() int32
+    }
+
+    class UWorkspotReactionIterator {
+        -FName ActiveReaction
+        -bool bInReaction
+        -UWorkspotEntryIterator* SavedIterator
+        +CheckReactionTrigger() bool
+        +Next(Context) void
+    }
+
+    class UWorkspotConditionalIterator {
+        -UWorkspotEntryIterator* SelectedBranch
+        +Next(Context) void
+        -EvaluateConditions() int32
+    }
+
+    %% ========== 运行时系统层 ==========
+    class UGameInstanceSubsystem {
+        <<UE Engine>>
+    }
+
+    class UWorkspotSubsystem {
+        -TArray~UWorkspotInstance*~ ActiveInstances
+        -TMap~FGuid,UWorkspotInstance*~ InstanceLookup
+        -TArray~FWorkspotCommandEntry~ CommandQueue
+        -UWorkspotSynchronizer* Synchronizer
+        -UWorkspotCallbackManager* CallbackManager
+        +SetupWorkspot(Actor, Resource, Transform) UWorkspotInstance*
+        +SendCommand(EntityId, Command, Data) bool
+        +Tick(DeltaTime) void
+        +IsActorInWorkspot(Actor) bool
+        +GetWorkspotInstance(Actor) UWorkspotInstance*
+        -ProcessCommandQueue() void
+        -UpdateInstances(DeltaTime) void
+        -PruneInvalidInstances() void
+    }
+
+    class UWorkspotInstance {
+        -UWorkspotResource* WorkspotResource
+        -UWorkspotEntryIterator* CurrentIterator
+        -AActor* OwnerActor
+        -EWorkspotState CurrentState
+        -FTransform WorkspotTransform
+        -float StateTimer
+        -TArray~FWorkspotStateSnapshot~ StateStack
+        +Update(DeltaTime) bool
+        +ProcessCommand(Command, Data) void
+        +GetCurrentEntryId() FName
+        +IsInState(State) bool
+        -TransitionToState(NewState) void
+        -PlayCurrentAnimation() void
+        -HandleMovement(DeltaTime) void
+    }
+
+    class UWorkspotSynchronizer {
+        -TMap~FName,FWorkspotSyncBinding~ ActiveBindings
+        -TArray~FWorkspotSyncSlot~ RegisteredSlots
+        +BindMasterSlave(Master, Slave, SlotName) bool
+        +UnbindSlot(EntityId, SlotName) void
+        +SyncUpdate(DeltaTime) void
+        +GetSyncTransform(Master, SlotName) FTransform
+        -UpdateSlaveTransform(Binding) void
+        -SynchronizeAnimTime(Binding) void
+    }
+
+    class UWorkspotCallbackManager {
+        -TArray~TScriptInterface~IWorkspotListener~~ Listeners
+        +RegisterListener(Listener) void
+        +UnregisterListener(Listener) void
+        +NotifyWorkspotStarted(EntityId, Resource) void
+        +NotifyWorkspotEnded(EntityId) void
+        +NotifyAnimationChanged(EntityId, EntryId) void
+        +NotifyReactionTriggered(EntityId, ReactionType) void
+    }
+
+    %% ========== 组件层 ==========
+    class USceneComponent {
+        <<UE Engine>>
+    }
+
+    class UWorkspotComponent {
+        +UWorkspotResource* WorkspotResource
+        +FName SyncSlotName
+        +bool bAutoActivate
+        +bool bShowDebugInfo
+        +FLinearColor DebugColor
+        +RequestUse(Actor) bool
+        +ReleaseWorkspot(Actor) void
+        +GetWorkspotTransform() FTransform
+        +OnComponentCreated() void
+        #DrawDebugInfo() void
+    }
+
+    %% ========== 条件系统 ==========
+    class UWorkspotCondition {
+        <<abstract>>
+        +EWorkspotConditionTest TestMode
+        +Evaluate(Context) bool
+    }
+
+    class UWorkspotRigCondition {
+        +TSoftObjectPtr~USkeleton~ RequiredSkeleton
+        +Evaluate(Context) bool
+    }
+
+    class UWorkspotGenderCondition {
+        +EWorkspotGender RequiredGender
+        +Evaluate(Context) bool
+    }
+
+    class UWorkspotBodyTypeCondition {
+        +EWorkspotBodyType RequiredBodyType
+        +Evaluate(Context) bool
+    }
+
+    class UWorkspotTagCondition {
+        +FGameplayTag RequiredTag
+        +Evaluate(Context) bool
+    }
+
+    %% ========== 继承关系 ==========
+    UPrimaryDataAsset <|-- UWorkspotResource
+    UObject <|-- UWorkspotTree
+    UObject <|-- UWorkspotEntry
+    UObject <|-- UWorkspotEntryIterator
+    UObject <|-- UWorkspotCondition
+    UGameInstanceSubsystem <|-- UWorkspotSubsystem
+    UObject <|-- UWorkspotInstance
+    UObject <|-- UWorkspotSynchronizer
+    UObject <|-- UWorkspotCallbackManager
+    USceneComponent <|-- UWorkspotComponent
+
+    UWorkspotEntry <|-- UWorkspotContainerEntry
+    UWorkspotEntry <|-- UWorkspotAnimClip
+    UWorkspotEntry <|-- UWorkspotEntryAnim
+    UWorkspotEntry <|-- UWorkspotExitAnim
+    UWorkspotEntry <|-- UWorkspotFastExit
+    UWorkspotEntry <|-- UWorkspotPauseClip
+    UWorkspotEntry <|-- UWorkspotTagNode
+
+    UWorkspotAnimClip <|-- UWorkspotMotionAnimClip
+    UWorkspotAnimClip <|-- UWorkspotSyncAnimClip
+    UWorkspotAnimClip <|-- UWorkspotAnimClipWithItem
+
+    UWorkspotContainerEntry <|-- UWorkspotSequence
+    UWorkspotContainerEntry <|-- UWorkspotRandomList
+    UWorkspotRandomList <|-- UWorkspotSelector
+    UWorkspotSequence <|-- UWorkspotReactionSequence
+    UWorkspotSequence <|-- UWorkspotConditionalSequence
+
+    UWorkspotEntryIterator <|-- UWorkspotAnimClipIterator
+    UWorkspotEntryIterator <|-- UWorkspotSequenceIterator
+    UWorkspotEntryIterator <|-- UWorkspotRandomListIterator
+    UWorkspotEntryIterator <|-- UWorkspotReactionIterator
+    UWorkspotEntryIterator <|-- UWorkspotConditionalIterator
+
+    UWorkspotCondition <|-- UWorkspotRigCondition
+    UWorkspotCondition <|-- UWorkspotGenderCondition
+    UWorkspotCondition <|-- UWorkspotBodyTypeCondition
+    UWorkspotCondition <|-- UWorkspotTagCondition
+
+    %% ========== 关联关系 ==========
+    UWorkspotResource "1" *-- "1" UWorkspotTree : contains
+    UWorkspotTree "1" *-- "1" UWorkspotEntry : root
+    UWorkspotContainerEntry "1" *-- "*" UWorkspotEntry : children
+    UWorkspotEntry "1" ..> "1" UWorkspotEntryIterator : creates
+    UWorkspotSubsystem "1" *-- "*" UWorkspotInstance : manages
+    UWorkspotSubsystem "1" *-- "1" UWorkspotSynchronizer : uses
+    UWorkspotSubsystem "1" *-- "1" UWorkspotCallbackManager : uses
+    UWorkspotInstance "1" *-- "1" UWorkspotEntryIterator : current
+    UWorkspotInstance "*" --> "1" UWorkspotResource : references
+    UWorkspotComponent "*" --> "1" UWorkspotResource : references
+    UWorkspotConditionalSequence "1" *-- "*" UWorkspotCondition : conditions
+```
+
+### 关键类说明
+
+#### 数据资产类
+- **UWorkspotResource**: 主数据资产，包含完整的Workspot定义
+- **UWorkspotTree**: 节点树结构，管理节点层次关系
+
+#### 节点类型
+- **UWorkspotEntry**: 所有节点的抽象基类
+- **UWorkspotContainerEntry**: 容器节点基类，可包含子节点
+- **UWorkspotAnimClip**: 基础动画片段节点
+- **UWorkspotSequence**: 顺序执行容器
+- **UWorkspotRandomList**: 随机选择容器
+- **UWorkspotReactionSequence**: 反应系统容器
+- **UWorkspotConditionalSequence**: 条件判断容器
+
+#### 迭代器类型
+- **UWorkspotEntryIterator**: 迭代器基类
+- 各节点类型都有对应的迭代器实现
+
+#### 运行时系统
+- **UWorkspotSubsystem**: 全局管理子系统
+- **UWorkspotInstance**: 单个Workspot实例
+- **UWorkspotSynchronizer**: 同步控制器
+- **UWorkspotCallbackManager**: 事件回调管理器
