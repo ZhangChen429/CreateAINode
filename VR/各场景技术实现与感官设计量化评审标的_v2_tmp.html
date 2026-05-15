@@ -1,0 +1,1761 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>各场景技术实现与感官设计量化评审标的_v2.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="vr-吊芯仿真系统--各场景技术实现与感官设计量化评审标的-v2">VR 吊芯仿真系统 — 各场景技术实现与感官设计量化评审标的 v2</h1>
+<blockquote>
+<p>版本：V1.0 MVP 评审专用</p>
+</blockquote>
+<hr>
+<h2 id="分级说明">分级说明</h2>
+<table>
+<thead>
+<tr>
+<th>级别</th>
+<th>含义</th>
+<th>未达后果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔴 <strong>P0 阻塞</strong></td>
+<td>核心体验/安全逻辑，缺失则系统根本无法使用</td>
+<td>必须修复后才能继续评审，一票否决</td>
+</tr>
+<tr>
+<td>🟠 <strong>P1 必达</strong></td>
+<td>MVP 验收标准，影响教学闭环完整性</td>
+<td>上线前必须全部达标</td>
+</tr>
+<tr>
+<td>🟡 <strong>P2 增强</strong></td>
+<td>提升沉浸感与评分精度，不影响主流程</td>
+<td>建议 V1.1 补齐</td>
+</tr>
+<tr>
+<td>🟢 <strong>P3 加分</strong></td>
+<td>考核模式专属或体验锦上添花</td>
+<td>有资源再做，无则不扣分</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>评审规则</strong>：P0 全部通过 → 进入 P1 逐项验收 → P2/P3 单独统计完成率，不作为上线阻断条件。</p>
+</blockquote>
+<hr>
+<h2 id="场景一现场作业准备">场景一：现场作业准备</h2>
+<h3 id="1-a-流程锁逻辑">1-A 流程锁逻辑</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>安全装备未完成 → 工具柜完全不可交互</td>
+<td>拦截覆盖率 100%，无任何可绕过路径</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>工前会未完成 → 现场大门不可进入</td>
+<td>同上，100% 拦截</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>流程锁触发响应时间</td>
+<td>≤ 1 帧（14ms @72fps），无感知延迟</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>本场景强制节点数量</td>
+<td>≥ 3 个独立锁定节点</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-b-工具模型与物理">1-B 工具模型与物理</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>工具模型可辨识度</td>
+<td>用户能够区分各类工具，不造成操作混淆</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>工具模型还原精度</td>
+<td>关键尺寸误差 ≤ 1mm（1:1 建模）</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>手柄抓取震动反馈延迟</td>
+<td>≤ 100ms</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>仪表校验标签可读性</td>
+<td>0.5m 内清晰可读</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-c-语音识别">1-C 语音识别</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>工前会有可用的交互方式（菜单或语音任一可用）</td>
+<td>用户能完成工前会步骤即可</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>语音识别准确率</td>
+<td>≥ 90%（标准普通话）</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>识别响应延迟</td>
+<td>语音结束 → 判定 ≤ 1.5 秒</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>识别失败兜底机制</td>
+<td>失败 ≥ 3 次自动切换菜单选项</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-d-评分记录">1-D 评分记录</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>操作事件写入评分数据库（时间戳+顺序+结果）</td>
+<td>覆盖本场景所有步骤，无漏记</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>跳过/错误操作捕获率</td>
+<td>100%</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景二修前检查与试验">场景二：修前检查与试验</h2>
+<h3 id="2-a-数据驱动试验系统">2-A 数据驱动试验系统</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>变比/直阻测试仪有交互界面可操作</td>
+<td>用户能完成接线和启动测试操作</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>测试仪数据逻辑自洽（不出现明显错误数值）</td>
+<td>所有档位数据符合物理规律</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>直阻故障模型可配置（正常/超标两种状态）</td>
+<td>考核模式可注入三相互差 &gt; 2% 的数据</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>修前数据自动写入报告</td>
+<td>测试完成 ≤ 3 秒入库，修后对比可调取</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-b-顺序锁">2-B 顺序锁</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>外观检查未完成 → 电气试验入口锁定</td>
+<td>100% 拦截</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>电气试验未完成 → 油样采集入口锁定</td>
+<td>100% 拦截</td>
+<td>🔴 P0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-c-油样采集物理反馈">2-C 油样采集物理反馈</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>冲洗次数严格计数（&lt; 3 次被拦截）</td>
+<td>系统计数，不足时语音提示并阻断继续取样</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>阀门开合有可感知阻力反馈</td>
+<td>拧动全程震动强度高于无操作基线</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>油流 Niagara 视觉效果</td>
+<td>透明管内油流可见，帧率影响 ≤ 3fps</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>瓶子重量随液面动态变化</td>
+<td>分 ≥ 3 个阻力等级，随液面线性增加</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-d-错误操作后果联动">2-D 错误操作后果联动</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未冲洗/未取满 → 最终报告对应指标红色超标</td>
+<td>微水/击穿电压与规范操作结果形成可见对比</td>
+<td>🟢 P3</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景三切换与选择开关配合检查">场景三：切换与选择开关配合检查</h2>
+<h3 id="3-a-物理与动画同步">3-A 物理与动画同步</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>手柄旋转能驱动内部机构动画（有视觉联动）</td>
+<td>旋转手柄时机构可见转动，不是静止模型</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>旋转角度与动画同步误差</td>
+<td>≤ 1°，视觉延迟 ≤ 1 帧</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>机构动画由物理旋转量实时驱动</td>
+<td>非预设动画片段播放</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-b-触觉反馈三层波形">3-B 触觉反馈三层波形</h3>
+<table>
+<thead>
+<tr>
+<th>反馈类型</th>
+<th>量化要求</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>全程有基础旋转阻力感（匀速阻尼）</td>
+<td>旋转期间手柄持续震动，强度恒定误差 ≤ 10%</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>每圈终点有明显到位叩击感</td>
+<td>单次叩击 ≤ 30ms，与&quot;咔嗒&quot;音效同步误差 ≤ 50ms</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>过死点顿挫感（与叩击感可区分）</td>
+<td>持续 50～100ms，强度介于阻尼感与叩击感之间</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-c-圈数判定逻辑">3-C 圈数判定逻辑</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>系统能判定操作是否为&quot;两圈&quot;</td>
+<td>有合格/不合格两种判定结果输出</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>合格容差范围</td>
+<td>1.9～2.1 圈（± 5%）内判合格</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>到位信号触发角度精度</td>
+<td>正确角度 ± 3° 内触发</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>圈数异常 → 联动场景六预设故障点</td>
+<td>异常记录传递至芯体检查环节</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景四有载开关放油操作">场景四：有载开关放油操作</h2>
+<h3 id="4-a-视觉反馈">4-A 视觉反馈</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>油位计液面随放油过程下降</td>
+<td>线性同步，用户可观察到液面变化</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>Niagara 油液流动效果</td>
+<td>透明管内油流清晰可见，帧率影响 ≤ 3fps</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>滤油机面板指示灯状态区分</td>
+<td>运行/停机状态视觉可辨</td>
+<td>🟡 P2</td>
+</tr>
+<tr>
+<td>压力表动画</td>
+<td>压力值随运行状态变化</td>
+<td>🟢 P3</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-b-听觉反馈">4-B 听觉反馈</h3>
+<table>
+<thead>
+<tr>
+<th>音效</th>
+<th>量化要求</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>滤油机运行有音效</td>
+<td>持续播放，音量高于环境音</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>正常抽油音与油尽空转音可区分</td>
+<td>音色/音调明显不同，切换延迟 ≤ 0.5 秒</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-c-触觉反馈">4-C 触觉反馈</h3>
+<table>
+<thead>
+<tr>
+<th>操作节点</th>
+<th>量化要求</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>拧动阀门有持续阻力感</td>
+<td>全程提供旋转阻尼震动</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>接地线连接到位震动</td>
+<td>短促单次震动 ≤ 50ms</td>
+<td>🟡 P2</td>
+</tr>
+<tr>
+<td>启动按钮确认震动</td>
+<td>单次震动与按钮视觉按下同步</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-d-顺序逻辑">4-D 顺序逻辑</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>放油未完成 → 拆除头盖步骤锁定</td>
+<td>100% 拦截</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>先停机后关阀（错误顺序）被捕获记录</td>
+<td>错误操作实时记录，计入评分扣减</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景五芯体吊出">场景五：芯体吊出</h2>
+<h3 id="5-a-物理引擎">5-A 物理引擎</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>芯体吊出操作可完成（物理不崩溃）</td>
+<td>全流程可顺利执行，无穿模/卡死</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>碰撞检测可触发任务失败</td>
+<td>碰撞发生 → 红色警报 + 任务中止逻辑正确执行</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>芯体重量感（持续阻力）</td>
+<td>手柄提供负重阻力，≥ 3 个等级</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>吊带柔体摆动</td>
+<td>基于 Chaos 约束，物理自然，无穿模</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>碰撞预警间隙精度</td>
+<td>间隙 &lt; 10mm 时触发摩擦声预警</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-b-音效三层递进">5-B 音效三层递进</h3>
+<table>
+<thead>
+<tr>
+<th>音效层级</th>
+<th>量化要求</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>正常吊装有运动音效</td>
+<td>全程播放机械声，用户有听觉参考</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>碰撞时刺耳金属刮擦声</td>
+<td>触发碰撞事件时播放，与视觉警报同步</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>预警摩擦声（碰前警告）</td>
+<td>间隙 &lt; 10mm 时音量渐强</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-c-触觉力反馈">5-C 触觉力反馈</h3>
+<table>
+<thead>
+<tr>
+<th>反馈类型</th>
+<th>量化要求</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>沉重感（芯体离地后全程）</td>
+<td>持续恒定负重阻力</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>碰撞震动（碰撞瞬间）</td>
+<td>强烈单次震动 &gt; 500ms，与闪光同步 ≤ 50ms</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>绷紧感（收紧吊链初期）</td>
+<td>阻力从 0 线性增加，持续 1～3 秒</td>
+<td>🟡 P2</td>
+</tr>
+<tr>
+<td>晃动感（操作偏移时）</td>
+<td>不规则震动，频率 8～15Hz</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-d-评分采集">5-D 评分采集</h3>
+<table>
+<thead>
+<tr>
+<th>评分维度</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>结果分（是否成功吊出无碰撞）</td>
+<td>碰撞发生直接得 0 分</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>安全意识分（起吊前 4 项确认执行率）</td>
+<td>每漏 1 项扣分</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>操作顺序分（对角拆螺栓/先紧后吊）</td>
+<td>每错一步扣分</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>稳定性分（平均速度 + 最大偏移量）</td>
+<td>偏移 ≤ 5mm 得满分</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景六芯体检查">场景六：芯体检查</h2>
+<h3 id="6-a-微观可视化">6-A 微观可视化</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>放大镜功能存在且可用</td>
+<td>用户可触发特写观察</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>放大倍率</td>
+<td>≥ 10×</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>最小可见缺陷尺寸</td>
+<td>放大后可识别 ≥ 0.5mm 的断股/烧蚀点</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="6-b-精密工具模拟">6-B 精密工具模拟</h3>
+<table>
+<thead>
+<tr>
+<th>工具</th>
+<th>量化要求</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>游标卡尺可完成测量操作（能输出读数）</td>
+<td>用户可操作并获得数值</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>游标卡尺读数精度</td>
+<td>精确到 0.02mm</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>力矩扳手到位&quot;咔哒&quot;音效与震动</td>
+<td>音效与震动同步误差 ≤ 30ms</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>游标卡尺副尺滑动手感（阻力连续无跳变）</td>
+<td>滑动平滑，到位有轻微顿感</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="6-c-预设故障库">6-C 预设故障库</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MVP 内置故障种类</td>
+<td>≥ 2 种可正常触发（软连接断股 + 任意 1 种）</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>故障种类扩展至 4 种</td>
+<td>爪卡磨损、软连接断股、触头烧蚀、电阻超标全部可用</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>故障视觉可识别性（放大镜下无提示即可发现）</td>
+<td>缺陷清晰可辨</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>教员配置界面（随机/指定投放，≤ 1 分钟完成）</td>
+<td>操作便捷，无需工程师介入</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="6-d-操作质量评分">6-D 操作质量评分</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>测量值精度影响评分（误差 ≤ 0.1mm 得满分，&gt; 0.3mm 扣分）</td>
+<td>评分逻辑与测量读数挂钩</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>测量尝试次数记录（一次 vs 多次影响精密操作分）</td>
+<td>记录并纳入评分维度</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景七芯体回装">场景七：芯体回装</h2>
+<h3 id="7-a-二次确认强制逻辑">7-A 二次确认强制逻辑</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>触头行程复测为强制步骤（未执行则锁定下一步）</td>
+<td>100% 拦截，提示语清晰</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>复测数据与首测自动比对</td>
+<td>偏差 &gt; 0.2mm 时弹出警告</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="7-b-手动切换测试">7-B 手动切换测试</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>手动切换测试步骤存在且可操作</td>
+<td>用户能执行切换动作</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>最小测试次数计数（&lt; 3 次提示继续）</td>
+<td>系统计数并提醒</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>正常装配时手柄有平滑感（无顿挫+音效流畅）</td>
+<td>可与异常状态形成对比</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>装配异常时有卡涩感与异响（考核模式）</td>
+<td>不规则阻力 + 异响，与正常明显可辨</td>
+<td>🟢 P3</td>
+</tr>
+</tbody>
+</table>
+<h3 id="7-c-动态污渍清洁系统">7-C 动态污渍清洁系统</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>芯体清洗前有可见污渍</td>
+<td>表面覆盖率 ≥ 60%</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>清洗过程污渍动态减少（非一次性消除）</td>
+<td>喷枪照射区域实时变化</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>清洗完成自动判定（残留 ≤ 5% 视为达标）</td>
+<td>系统自动确认，无需用户手动提交</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="7-d-装配评分">7-D 装配评分</h3>
+<table>
+<thead>
+<tr>
+<th>评分子项</th>
+<th>判定条件</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>严谨性分（关键参数复测执行情况）</td>
+<td>复测步骤执行 = 得分</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>测试分（手动切换 ≥ 3 次且判断正确）</td>
+<td>次数 + 判断双重校验</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>工艺分（对角紧固顺序正确）</td>
+<td>完全正确得满分</td>
+<td>🟡 P2</td>
+</tr>
+<tr>
+<td>质量分（清洁度达标）</td>
+<td>残留 ≤ 5%</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景八芯体复装">场景八：芯体复装</h2>
+<h3 id="8-a-内窥镜模拟系统">8-A 内窥镜模拟系统</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内窥镜视角切换功能可用</td>
+<td>触发后 ≤ 0.5 秒完成视角切换</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>探头转动范围</td>
+<td>支持 360° 自由转动</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>广角畸变效果</td>
+<td>边缘畸变真实，增强代入感</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="8-b-芯体对位物理反馈">8-B 芯体对位物理反馈</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>对位准确时有归位确认反馈</td>
+<td>&quot;哐当&quot;音效 + 震动，同步误差 ≤ 50ms</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>对位偏差时有阻挡感（偏差 &gt; 5mm 无法强行下降）</td>
+<td>物理阻挡逻辑生效</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>归位判定精度</td>
+<td>中心偏差 ≤ 3mm 时判为成功</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="8-c-密封件管理">8-C 密封件管理</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>密封件有新旧两种状态模型</td>
+<td>用户需做选择，选错有记录</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>损坏状态增加&quot;裂纹&quot;第三种模型</td>
+<td>三种状态：新品/老化/裂纹</td>
+<td>🟡 P2</td>
+</tr>
+<tr>
+<td>考核模式预设损坏密封件（选错计入扣分）</td>
+<td>错误使用有评分惩罚</td>
+<td>🟢 P3</td>
+</tr>
+</tbody>
+</table>
+<h3 id="8-d-档位联动调试">8-D 档位联动调试</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>档位不一致时传动轴安装被阻断</td>
+<td>100% 锁定，提示说明原因</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>档位比对自动执行（无需用户手动输入）</td>
+<td>系统读两处指示器状态并比对</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景九注油及排气">场景九：注油及排气</h2>
+<h3 id="9-a-多相流体模拟">9-A 多相流体模拟</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>纯气体阶段与纯油流阶段视觉可区分</td>
+<td>用户能判断当前处于哪个阶段</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>纯气体阶段（白色气泡喷出）</td>
+<td>无油迹，清晰可辨</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>纯油流阶段（透明连续金色油柱，零气泡）</td>
+<td>颜色/透明度符合绝缘油特征</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>气液混合阶段视觉过渡</td>
+<td>气泡逐渐减少，渐进过渡 3～8 秒</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="9-b-听觉反馈">9-B 听觉反馈</h3>
+<table>
+<thead>
+<tr>
+<th>音效</th>
+<th>量化要求</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>气流声与油流声可区分（用户无需看屏幕即可判断）</td>
+<td>音色明显不同</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>&quot;嘶嘶&quot;气流声（纯气阶段持续播放）</td>
+<td>清晰可辨</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>&quot;哗哗&quot;油流声（纯油阶段）</td>
+<td>与气流声音色不同</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>气液混合过渡音（两种音叠加，比例随进程变化）</td>
+<td>渐进混合</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="9-c-顺序与状态逻辑">9-C 顺序与状态逻辑</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>三个排气点均需操作才能完成任务</td>
+<td>任一跳过则任务不完整</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>内部气体含量隐藏参数（全部清零才判成功）</td>
+<td>参数逻辑正确，不可被绕过</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>排气顺序强制（低→高），跳序记录在报告</td>
+<td>错序不拦截但计入评分</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>单点排气未排净（过早关阀）报告提示绝缘风险</td>
+<td>状态判断精确，提示信息具体</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="9-d-评分">9-D 评分</h3>
+<table>
+<thead>
+<tr>
+<th>评分子项</th>
+<th>判定条件</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>质量判断分（每点坚持到纯油流才关阀）</td>
+<td>核心评分维度</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>操作顺序分（低→高顺序执行）</td>
+<td>影响规范性评分</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>现场文明分（最后清洁步骤执行）</td>
+<td>影响完整性评分</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景十电动机构检修与调试">场景十：电动机构检修与调试</h2>
+<h3 id="10-a-多层次交互反馈">10-A 多层次交互反馈</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>手动/电动互锁功能正常（摇把插入后电动按钮禁用）</td>
+<td>逻辑 100% 生效</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>极限保护功能可验证（机械卡死 + 电气按钮失效）</td>
+<td>两种保护均可触发</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>互锁响应延迟</td>
+<td>≤ 1 帧</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>UI 红色警告同步显示</td>
+<td>与按钮禁用同步</td>
+<td>🟠 P1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="10-b-差数平衡校验">10-B 差数平衡校验</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>系统能记录旋转总圈数并与标准值比对</td>
+<td>比对逻辑存在且结果输出到报告</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>圈数计算精度</td>
+<td>精确到 0.1 圈</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>偏差 &gt; ±1 圈时报告自动提示</td>
+<td>提示信息具体</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="10-c-信号系统模拟">10-C 信号系统模拟</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主控室后台 UI 存在且与机构箱档位联动</td>
+<td>档位变化可在后台看到</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>遥调功能可执行（下发指令 → 机构自动执行到位）</td>
+<td>功能链路完整</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>联动延迟</td>
+<td>档位变化 → 后台更新 ≤ 0.5 秒</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="10-d-考核故障预设">10-D 考核故障预设</h3>
+<table>
+<thead>
+<tr>
+<th>故障类型</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>手动插把后电动不闭锁（严重安全隐患）</td>
+<td>🟢 P3</td>
+</tr>
+<tr>
+<td>遥调指令不响应</td>
+<td>🟢 P3</td>
+</tr>
+<tr>
+<td>极限保护失效</td>
+<td>🟢 P3</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="场景十一修后试验">场景十一：修后试验</h2>
+<h3 id="11-a-数据动态报告">11-A 数据动态报告</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>修后试验数据可正常展示（四项试验均有结果）</td>
+<td>用户可看到试验结果</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>一票否决逻辑（任一关键试验不合格 → 任务失败）</td>
+<td>触发 4 种条件均正确判定</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>前序操作质量影响修后数据（至少覆盖 1 个联动点）</td>
+<td>操作有瑕疵 → 对应数据超标可见</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>联动覆盖范围扩展至 3 个前序节点</td>
+<td>因果关系清晰</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="11-b-修前修后对比-ui">11-B 修前/修后对比 UI</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>修前/修后数据可并排查看</td>
+<td>用户能做对比</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>数据加载时间</td>
+<td>点击对比后 ≤ 2 秒完成渲染</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>三种展示形式可切换（柱状图/波形图/数据列表）</td>
+<td>多维呈现</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="11-c-最终评估报告">11-C 最终评估报告</h3>
+<table>
+<thead>
+<tr>
+<th>评审项</th>
+<th>量化标准</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>评估报告自动生成</td>
+<td>全部试验完成后 ≤ 5 秒生成</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>修后试验评分权重</td>
+<td>建议 ≥ 30%，与文档定位匹配</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="汇总各级别条目数统计">汇总：各级别条目数统计</h2>
+<table>
+<thead>
+<tr>
+<th>级别</th>
+<th>条目数</th>
+<th>占比</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔴 P0 阻塞</td>
+<td>26</td>
+<td>22%</td>
+</tr>
+<tr>
+<td>🟠 P1 必达</td>
+<td>56</td>
+<td>47%</td>
+</tr>
+<tr>
+<td>🟡 P2 增强</td>
+<td>27</td>
+<td>23%</td>
+</tr>
+<tr>
+<td>🟢 P3 加分</td>
+<td>9</td>
+<td>8%</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td><strong>118</strong></td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>MVP 上线最低要求：P0 全部通过 + P1 通过率 ≥ 90%（允许 ≤ 6 项 P1 遗留至 V1.1）</p>
+</blockquote>
+<hr>
+<h2 id="关键量化数值速查">关键量化数值速查</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>数值</th>
+<th>级别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>帧率底线</td>
+<td>≥ 72fps</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>场景加载</td>
+<td>≤ 3 秒</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>流程锁拦截覆盖率</td>
+<td>100%</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>触觉同步误差（通用）</td>
+<td>≤ 50ms</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>力矩扳手咔哒同步误差</td>
+<td>≤ 30ms</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>语音识别准确率</td>
+<td>≥ 90%</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>卡尺读数精度</td>
+<td>0.02mm</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>触头行程合格值</td>
+<td>≥ 1.5mm</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>弧形板间隙标准</td>
+<td>5 ± 0.5mm</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>三相直阻互差上限</td>
+<td>≤ 2%</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>变比误差上限</td>
+<td>≤ ±0.5%</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>油击穿电压下限</td>
+<td>≥ 50kV</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>微水含量上限</td>
+<td>≤ 15ppm</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>旋转圈数容差</td>
+<td>2圈 ± 5%</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>芯体归位对位精度</td>
+<td>≤ 3mm</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>碰撞预警间隙</td>
+<td>&lt; 10mm</td>
+<td>🟡 P2</td>
+</tr>
+<tr>
+<td>故障库 MVP 最低种类</td>
+<td>≥ 2 种</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>故障库完整种类</td>
+<td>≥ 4 种</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>清洁度达标残留率</td>
+<td>≤ 5%</td>
+<td>🟡 P2</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>

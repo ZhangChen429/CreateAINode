@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VR的真空有载开关.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h3 id="目标用户画像">目标用户画像</h3>
+<ul>
+<li>主要用户: 入职1-3年的变电站检修新员工。需快速掌握标准化作业流程，缺乏实操机会。</li>
+<li>核心用户: 具备一定经验的检修工程师。用于技能巩固、考前强化及复杂故障诊断训练。</li>
+<li>次要用户: 培训中心教员。用于组织培训、监考及评估学员表现。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>功能模块</th>
+<th>功能描述</th>
+<th>优先级</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“三模渐进”训练系统</td>
+<td>包含教学模式（智能教练全程引导）、练习模式（有限提示/自主操作）、考核模式（无提示/故障注入/严格评估）。</td>
+<td>P0（必须）</td>
+</tr>
+<tr>
+<td>标准化流程仿真</td>
+<td>严格遵循SOP，完整模拟从作业准备→修前检查→吊芯→检查→回装→试验的11个核心场景。</td>
+<td>P0</td>
+</tr>
+<tr>
+<td>智能教练系统</td>
+<td>虚拟导师“周师傅”提供语音解说、动作示范、原理讲解、安全警告。</td>
+<td>P0</td>
+</tr>
+<tr>
+<td>多感官交互反馈</td>
+<td>实现视觉（高保真模型/粒子效果）、听觉（环境音/设备音效）、触觉（手柄震动反馈） 的深度融合，特别是对工具使用、机械操作的“手感”模拟。</td>
+<td>P0</td>
+</tr>
+<tr>
+<td>数据驱动评估系统</td>
+<td>基于五维能力模型（安全规范、流程熟练、精密操作、故障诊断、理论知识），自动生成详细的评估报告，并提供修前/修后数据对比。</td>
+<td>P1（重要）</td>
+</tr>
+<tr>
+<td>预设故障库</td>
+<td>在考核模式下，系统可随机或指定注入隐蔽故障（如：软连接断股、触头磨损、密封圈老化等），考验学员的诊断能力。</td>
+<td>P1</td>
+</tr>
+<tr>
+<td>工具与仪器管理系统</td>
+<td>虚拟工具需可交互、分类清晰、使用状态正确（如：力矩扳手到位感、仪器仪表读数仿真）。</td>
+<td>P0</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>在PICO 4设备上，帧率稳定不低于72fps</li>
+<li>场景加载时间控制在3秒以内。</li>
+<li>智能导师（周师傅）配音</li>
+<li>音频ai方案</li>
+<li></li>
+</ul>
+<ul>
+<li>智能导师（周师傅）全息影像</li>
+<li>绝缘油冲洗油样瓶  *</li>
+<li>吊带的柔软性 *</li>
+<li>放油管 特效*</li>
+</ul>
+<pre class="hljs"><code><div>@startuml VR_SHZV_吊芯仿真系统_SOP流程图
+
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 13
+skinparam ArrowColor #444444
+skinparam ArrowThickness 1.5
+
+skinparam activity {
+  BackgroundColor #F0F4FA
+  BorderColor #7F77DD
+  FontColor #26215C
+  DiamondBackgroundColor #FAEEDA
+  DiamondBorderColor #BA7517
+  DiamondFontColor #412402
+}
+
+skinparam note {
+  BackgroundColor #E1F5EE
+  BorderColor #0F6E56
+  FontColor #04342C
+}
+
+title SHZV型真空有载分接开关吊芯检查\nVR仿真训练系统 — 标准作业程序 (SOP)
+
+|#E6F1FB|系统主厅|
+start
+
+:【场景零】系统主厅 — 任务准备;
+note right
+  用户走向【教学模式】光门
+  确认任务简报（目标/设备/安全目标）
+end note
+
+|#EAF3DE|场景一：现场作业准备|
+:【场景一】现场作业准备;
+
+partition &quot;（一）个人安全装备自检&quot; {
+  :佩戴安全帽（&lt;color:red&gt;&lt;b&gt;手势识别&lt;/b&gt;&lt;/color&gt;）;
+  :穿纯棉工作服（&lt;color:red&gt;&lt;b&gt;袖口扎紧&lt;/b&gt;&lt;/color&gt;）;
+  :穿绝缘劳保鞋（&lt;color:red&gt;&lt;b&gt;低头检查&lt;/b&gt;&lt;/color&gt;）;
+  :系统确认 → 【个人安全装备】自检通过;
+}
+
+partition &quot;（二）工具与资料准备&quot; {
+  :根据清单清点工器具（吊装/拆装/测量/辅助）;
+  :确认备品备件与耗材（密封圈/O型圈/无毛纸等）;
+  :（&lt;color:gray&gt;&lt;b&gt;数据表格读取&lt;/b&gt;&lt;/color&gt;）;
+}
+
+partition &quot;（三）虚拟工前会&quot; {
+  :交代工作任务（SHZV吊芯检查）;
+  :交代危险点（临近高压带电设备）;
+  :语音复述关键安全措施（≥6米安全距离）;
+  :交代注意事项;
+  :系统确认 → 【工前会】安全交底完成;
+}
+
+|#EAF3DE|场景二：修前检查与试验|
+:【场景二】修前检查与试验;
+
+partition &quot;（一）外观检查&quot; {
+  :读取油位计读数并记录;
+  :检查渗漏油痕迹;(&lt;color:red&gt;&lt;b&gt;油料材质&lt;/b&gt;&lt;/color&gt;)
+  :记录当前运行档位;
+}
+
+partition &quot;（二）电气试验&quot; {
+  :变压器变比测试（1档～最大档）;
+  note right: 建立修前数据基准
+  :直流电阻测试（当前运行档位三相）;
+  note right: 三相互差 ≤ 平均值2%
+}
+
+partition &quot;（三）油样采集&quot; {
+  :选取棕色避光玻璃油样瓶;
+  :标准化冲洗（≥3遍，系统计数）;
+  :正式取样（满瓶、无气泡、迅速盖紧）;(&lt;color:red&gt;&lt;b&gt;油料液体上升&lt;/b&gt;&lt;/color&gt;)
+  :填写油样标签（设备/编号/日期/人员）;
+}
+
+|#FAEEDA|场景三：切换与选择开关配合检查|
+:【场景三】检查切换开关与选择开关配合;
+
+:确认选择开关处于&quot;合上&quot;工作位置;
+:插入手动操作摇把（咔哒到位反馈）;(&lt;color:red&gt;&lt;b&gt;轮廓高光&lt;/b&gt;&lt;/color&gt;)
+:匀速顺时针旋转 → 默数圈数;
+
+if (旋转圈数 = 2圈，且两声&quot;咔嗒&quot;清脆到位?) then (是)
+  :判断快速机构健康状态正常;
+  note right: 弹簧储能充分、爪卡间隙精准(&lt;color:red&gt;&lt;b&gt;特殊音效&lt;/b&gt;&lt;/color&gt;)
+else (否)
+  :记录异常，吊芯后重点检查快速机构;
+  note right: 可能存在卡涩/磨损/弹簧疲劳
+endif
+
+|#FAECE7|场景四：有载开关放油操作|
+:【场景四】有载开关放油;
+
+:将滤油机可靠接地;
+:识别并连接放油阀管路（黄色出油管）;
+:拆下吸湿器（平衡气压）;
+:逆时针缓慢打开放油阀;
+:启动滤油机，监控油位下降(&lt;color:red&gt;&lt;b&gt;油料升降&lt;/b&gt;&lt;/color&gt;);
+
+if (油位计归零 / 滤油机空转声?) then (是)
+  :先关闭放油阀门（防空气倒灌）;
+  :再关闭滤油机;
+  note right: 关阀→停机 顺序为教学重点
+else (否)
+  :继续等待放油完成;
+endif
+
+|#FBEAF0|场景五：芯体吊出|
+:【场景五】芯体吊出;
+
+partition &quot;（一）拆除连杆与头盖&quot; {
+  :拆除操作连杆（开口扳手，保管零件）;
+  :按对角顺序拧松头盖螺栓（系统高亮提示）;
+  :取下头盖放置到清洁垫上;
+}
+
+partition &quot;（二）安装吊具&quot; {
+  :取下档位指示牌，暴露吊点;
+  :检查吊带额定载荷及完好性;
+  :吊带穿过吊点并锁扣（咔哒确认）;
+  :倒链挂钩挂好（锁舌完全闭合）;
+  :系统显示 → 吊具连接自检通过;
+}
+
+partition &quot;（三）最终安全确认&quot; {
+  :确认吊车臂与带电设备距离 &gt; 6m(&lt;color:red&gt;&lt;b&gt;抬头姿态检查&lt;/b&gt;&lt;/color&gt;);
+  :确认所有连接螺栓已拆除;
+  :确认吊装区域下方人员已撤离;
+}
+
+partition &quot;（四）芯体起吊&quot; {
+  :缓慢收紧吊链（感受吊带绷紧阻力）;
+  :匀速提升，目视间隙，耳听异响;
+  if (芯体晃动或碰撞?) then (是)
+    :立即停止，等待稳定;
+    if (碰撞发生?) then (是)
+      :任务失败！红色警报+金属刮擦音;
+      stop
+    else (否)
+      :稳定后继续缓慢提升;
+    endif
+  else (否)
+    :继续平稳起吊;
+  endif
+  :芯体成功吊出;
+  :用塑料薄膜包裹芯体（防油滴）;
+  :将头盖临时盖回绝缘桶（防异物）;
+}
+
+|#E1F5EE|场景六：芯体检查|
+:【场景六】芯体检查;
+
+:将芯体移至油盘上方并下降放置;
+:取下塑料薄膜;
+
+partition &quot;（一）初步拆解与宏观检查&quot; {
+  :拆除支撑板与绝缘轴（检查表面/均压环）;
+  :拆卸弧形板;
+  :游标卡尺测量弧形板放电间隙（5±0.5mm）;
+  :观察表面有无金属熔滴/放电烧蚀;
+}
+
+partition &quot;（二）快速机构深度检查&quot; {
+  :检查爪卡工作面（磨损/变形）;
+  :检查主弹簧（变形/锈蚀/裂纹）;
+  :检查上下压板（变形/开裂）;
+  :游标卡尺测量导轨磨损量（≤0.5mm）;
+  :卡簧钳检查弹性销（松动/位移）;
+}
+
+partition &quot;（三）触头与真空泡系统检查&quot; {
+  :检查转换触头/主动触头（烧损/过热/坑洼）;
+  :仔细检查真空泡软连接线（有无断股起毛）;
+  note right: ⚠ 高频考核故障预设点
+  :检查真空泡连杆（变形）;
+  :拨动滚轮（滚动是否灵活，有无卡涩）;
+  :检查连杆销键（变形）;
+}
+
+partition &quot;（四）关键量测：触头行程&quot; {
+  :游标卡尺测量自然状态长度 L1;
+  :模拟压到底，测量长度 L2;
+  if (行程 L1-L2 ≥ 1.5mm?) then (是)
+    :行程合格，继续;
+  else (否)
+    :触头磨损严重，必须更换;
+    stop
+  endif
+}
+
+partition &quot;（五）力矩复紧与全面清洁&quot; {
+  :用力矩扳手复紧关键螺丝（&quot;咔哒&quot;到位）;
+  :高压喷枪用绝缘油冲洗芯体（清除积碳）;
+}
+
+partition &quot;（六）过渡电阻检查&quot; {
+  :拆解过渡电阻，检查陶瓷外绝缘/电阻丝;
+  :目视检查联结片（过热氧化/发黑）;
+  :螺丝刀检查联结片紧固螺丝（松动？）;
+  :双臂电桥测量电阻值;
+  if (实测值偏差 ≤ 铭牌值 ±10%?) then (是)
+    :电阻合格;
+  else (否)
+    :必须更换;
+    stop
+  endif
+}
+
+|#E1F5EE|场景七：芯体回装|
+:【场景七】芯体回装;
+
+:过渡电阻复装（联结片紧固可靠）;
+:目视确认动主触头无遗漏放电/过热痕迹;
+:【关键操作】复测定主触头行程（≥1.5mm）;
+note right: 二次确认，系统强制校验
+
+:检查弧形板放电间隙复核（5±0.5mm）;
+:按对角顺序回装弧形板;
+:检查过渡电阻连接线（完好性）;
+:回装绝缘轴与支撑板;
+:【核心测试】手动往复切换快速机构≥3次;
+
+if (切换平滑流畅，无异音卡涩?) then (是)
+  :机构状态正常;
+else (否)
+  :存在装配问题，重新检查内部;
+  stop
+endif
+
+:高压喷枪终极清洁（清除全部游离碳/手印）;
+:新塑料薄膜封装芯体（保持绝对清洁）;
+
+|#EEEDFE|场景八：芯体复装|
+:【场景八】芯体复装至开关本体;
+
+partition &quot;（一）油室清洁与内窥镜检查&quot; {
+  :高压喷枪清洗绝缘桶内部;
+  :内窥镜检查：静触头/内壁/底部焊缝;
+  note right: 考核模式可预设&quot;静触头过热发蓝&quot;缺陷
+}
+
+partition &quot;（二）芯体精准回装&quot; {
+  :缓慢吊至绝缘桶正上方，对准导向槽;
+  :毫米级精度缓慢下降（全程目视间隙）;
+  :感受&quot;哐当&quot;到位声 → 芯体归位;
+  :取下吊具，对角顺序紧固支撑板螺栓;
+  :回装档位指示牌;
+}
+
+partition &quot;（三）密封系统重建&quot; {
+  :检查头盖密封圈（老化/变形/裂纹 → 必须更换）;
+  :对角顺序均匀拧紧头盖螺栓;
+  :更换放油管O型圈及排气阀底座密封垫;
+}
+
+partition &quot;（四）机械联动恢复与调试&quot; {
+  if (切换开关本体档位 = 机构箱指示档位?) then (否)
+    :调整机构箱至正确档位后再继续;
+  else (是)
+    :安装有载调压机构传动轴（留活动间隙）;
+    :安装防雨罩;
+  endif
+}
+
+|#EEEDFE|场景九：注油及排气|
+:【场景九】注油及排气;
+
+:滤油机进油管连接注油阀门;
+:启动滤油机，监控油位升至额定液位线;
+
+partition &quot;系统性排气（从低到高，从远到近）&quot; {
+  :① 放油管排气阀（先气泡→后纯油流→关阀）;
+  :② 瓦斯继电器顶部排气塞（纯油流→关阀）;
+  :③ 开关顶盖最高点排气阀（纯油流→关阀）;
+  note right: 每点必须见纯油才可关闭
+}
+
+:用清洁布擦拭所有阀门及开关本体油迹;
+:最终确认油枕油位在正常范围内;
+
+|#F1EFE8|场景十：电动机构检修与调试|
+:【场景十】有载开关电动机构检查维修及调试;
+
+:更换机构箱门密封圈;
+:清扫内部灰尘，检查紧固件和接线端子;
+
+partition &quot;保护与联锁功能测试&quot; {
+  :插入手动摇把 → 尝试按电动按钮;
+  if (电动操作被闭锁?) then (是)
+    :手动/电动互锁保护正常;
+  else (否)
+    :记录缺陷！严重安全隐患;
+  endif
+  :拔出摇把，手动1→16档，记录总圈数;
+  note right: 总圈数符合厂家规定（示例：33圈）
+}
+
+partition &quot;电动与高级功能测试&quot; {
+  :测试升档/降档/急停按钮;
+  :测试级进功能;
+  :测试加热器自动启动;
+}
+
+partition &quot;上下极限保护测试&quot; {
+  :电动升至16档;
+  :手动继续升 → 应机械卡死;
+  :按电动升档 → 应无响应（电气极限）;
+  :同法测试1档下降极限;
+  note right: 机械+电气双重保护均需验证
+}
+
+partition &quot;信号与远程功能验证&quot; {
+  :确认远程后台档位 = 本地机构箱档位;
+  :下发遥调指令 → 确认机构自动执行到位;
+}
+
+|#F1EFE8|场景十一：修后试验|
+:【场景十一】修后试验;
+
+partition &quot;（一）有载分接开关特性试验&quot; {
+  :接线，启动完成切换循环;
+  :分析波形（切换时间/三相同期性）;
+  :与修前波形对比，确认改善效果;
+}
+
+partition &quot;（二）变压器变比测试&quot; {
+  :1档～16档全档位变比测试;
+  if (所有档位偏差 ≤ ±0.5%?) then (是)
+    :变比合格;
+  else (否)
+    :**一票否决** — 任务失败，强制复盘;
+    stop
+  endif
+}
+
+partition &quot;（三）直流电阻测试&quot; {
+  :各档位三相直流电阻测量;
+  if (三相互差≤2% 且与修前数据对比稳定?) then (是)
+    :直流电阻合格;
+  else (否)
+    :**一票否决** — 任务失败，强制复盘;
+    stop
+  endif
+}
+
+partition &quot;（四）油样试验&quot; {
+  :标准化采集油样（棕色瓶/冲洗3遍/满瓶/贴标签）;
+  :送虚拟油化实验室，获取试验报告;
+  if (击穿电压≥50kV，微水≤15ppm，介损合格?) then (是)
+    :油样全部合格;
+  else (否)
+    :**一票否决** — 任务失败，强制复盘;
+    stop
+  endif
+}
+
+|#E6F1FB|任务完成与评估|
+:【场景终】任务总结与五维能力评估;
+note right
+  五维能力雷达图：
+  ● 安全规范 (35%)
+  ● 流程熟练 (20%)
+  ● 精密操作 (20%)
+  ● 故障诊断 (15%)
+  ● 理论知识 (10%)
+  ---
+  输出详细评估报告
+  含修前/修后数据对比
+  给出针对性复训建议
+end note
+
+stop
+
+@enduml
+</div></code></pre>
+
+</body>
+</html>
